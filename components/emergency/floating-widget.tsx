@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { Phone, AlertCircle, X, ChevronUp, Flame, Heart, MapPin } from "lucide-react"
+import { Phone, AlertCircle, X, ChevronUp, Flame, Heart, MapPin, Building } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 
@@ -33,7 +33,7 @@ export function FloatingWidget() {
 
   return (
     <div
-      className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3 no-print"
+      className="fixed bottom-14 right-6 z-50 flex flex-col items-end gap-3 no-print"
       role="complementary"
       aria-label="Acceso rápido a emergencias"
     >
@@ -60,14 +60,7 @@ export function FloatingWidget() {
               <span className="font-medium text-foreground">Llamar 911</span>
             </a>
 
-            <Link
-              href="/procedimientos/incendio"
-              className="flex items-center gap-3 p-3 rounded-xl bg-warning/10 hover:bg-warning/20 transition-colors"
-              onClick={() => setIsExpanded(false)}
-            >
-              <Flame className="w-5 h-5 text-warning" aria-hidden="true" />
-              <span className="font-medium text-foreground">Incendio</span>
-            </Link>
+            
 
             <Link
               href="/procedimientos/medica"
@@ -76,6 +69,15 @@ export function FloatingWidget() {
             >
               <Heart className="w-5 h-5 text-success" aria-hidden="true" />
               <span className="font-medium text-foreground">Emergencia Médica</span>
+            </Link>
+
+            <Link
+              href="tel:4231473"
+              className="flex items-center gap-3 p-3 rounded-xl bg-primary/10 hover:bg-warning/20 transition-colors"
+              onClick={() => setIsExpanded(false)}
+            >
+              <Building className="w-5 h-5 text-primary" aria-hidden="true" />
+              <span className="font-medium text-foreground">Llamar a DAE</span>
             </Link>
 
             <Link
@@ -88,10 +90,7 @@ export function FloatingWidget() {
             </Link>
           </div>
 
-          <p className="text-xs text-muted-foreground mt-4 text-center">
-            Atajo: <kbd className="px-1.5 py-0.5 bg-muted rounded text-xs">⌘</kbd> +{" "}
-            <kbd className="px-1.5 py-0.5 bg-muted rounded text-xs">Q</kbd>
-          </p>
+        
         </div>
       )}
 

@@ -8,18 +8,13 @@ const inter = Inter({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Guía de Emergencias Escolar",
-  description: "Procedimientos de emergencia para la comunidad escolar - Acciones rápidas y protocolos de seguridad",
-  generator: "v0.app",
+  title: "Protocolo de actuación - DAE",
+  description:
+    "Procedimientos de emergencia para la comunidad escolar - Acciones rápidas y protocolos de seguridad",
   icons: {
-    icon: [
-      { url: "/icon-light-32x32.png", media: "(prefers-color-scheme: light)" },
-      { url: "/icon-dark-32x32.png", media: "(prefers-color-scheme: dark)" },
-      { url: "/icon.svg", type: "image/svg+xml" },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/dge_mendoza_logo.jpg",
   },
-}
+};
 
 export const viewport: Viewport = {
   themeColor: [

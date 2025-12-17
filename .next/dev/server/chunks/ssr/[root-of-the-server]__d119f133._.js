@@ -145,6 +145,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$flame$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Flame$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/flame.js [app-rsc] (ecmascript) <export default as Flame>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2d$2$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Building2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/building-2.js [app-rsc] (ecmascript) <export default as Building2>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/users.js [app-rsc] (ecmascript) <export default as Users>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$gavel$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Gavel$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/gavel.js [app-rsc] (ecmascript) <export default as Gavel>");
 ;
 ;
 ;
@@ -182,12 +183,12 @@ const emergencyServices = [
         description: "Envenenamientos"
     }
 ];
-const schoolContacts = [
+const asesoresMenores = [
     {
-        name: "María García López",
-        role: "Directora General",
-        phone: "(55) 1234-5678",
-        email: "direccion@escuela.edu.mx",
+        name: "Capital",
+        role: "Asesor menores",
+        phone: "2613878710",
+        email: "abusosCAPITAL@jus.mendoza.gov.ar",
         extension: "101",
         isCoordinator: true
     },
@@ -229,146 +230,107 @@ const schoolContacts = [
 ];
 const brigades = [
     {
-        id: "evacuacion",
-        name: "Brigada de Evacuación",
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2d$2$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Building2$3e$__["Building2"], {
-            className: "w-6 h-6",
-            "aria-hidden": "true"
+        id: "asesores-menores",
+        name: "Asesores de menores",
+        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$gavel$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Gavel$3e$__["Gavel"], {
+            className: "w-10 h-10 text-primary-foreground"
         }, void 0, false, {
             fileName: "[project]/app/contactos/page.tsx",
-            lineNumber: 65,
+            lineNumber: 98,
             columnNumber: 11
         }, ("TURBOPACK compile-time value", void 0)),
         color: "bg-primary text-primary-foreground",
-        description: "Responsable de guiar la evacuación segura del edificio",
+        description: "Intervienen ante maltrato, abuso o vulneración de derechos y promueven las medidas de protección necesarias .",
         members: [
             {
-                name: "Roberto Méndez",
-                role: "Líder de Brigada",
-                zone: "General"
+                name: "Capital",
+                mail: "abusosCAPITAL@jus.mendoza.gov.ar",
+                phone: "2613878710"
             },
             {
-                name: "Laura Vega",
-                role: "Coordinador",
-                zone: "Edificio A - Planta Baja"
+                name: "Lavalle",
+                mail: "abusosLAVALLE@jus.mendoza.gov.ar",
+                phone: "2613878710"
             },
             {
-                name: "Pedro García",
-                role: "Coordinador",
-                zone: "Edificio A - Planta Alta"
+                name: "Guaymallén",
+                mail: "abusosGUAYMALLEN@jus.mendoza.gov.ar",
+                phone: "2613878710"
             },
             {
-                name: "Sofía Ramírez",
-                role: "Coordinador",
-                zone: "Edificio B"
+                name: "Godoy Cruz",
+                mail: "abusosGODOYCRUZ@jus.mendoza.gov.ar",
+                phone: "2612098665"
             },
             {
-                name: "Miguel Torres",
-                role: "Apoyo",
-                zone: "Patios y áreas exteriores"
-            }
-        ]
-    },
-    {
-        id: "primeros-auxilios",
-        name: "Brigada de Primeros Auxilios",
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
-            className: "w-6 h-6",
-            "aria-hidden": "true"
-        }, void 0, false, {
-            fileName: "[project]/app/contactos/page.tsx",
-            lineNumber: 79,
-            columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0)),
-        color: "bg-warning text-warning-foreground",
-        description: "Atención médica inicial mientras llega ayuda profesional",
-        members: [
-            {
-                name: "Ana López",
-                role: "Líder de Brigada",
-                zone: "Enfermería"
+                name: "Las Heras",
+                mail: "abusosLASHERAS@jus.mendoza.gov.ar",
+                phone: "2615097845"
             },
             {
-                name: "Carmen Díaz",
-                role: "Auxiliar",
-                zone: "Edificio A"
+                name: "Maipú",
+                mail: "abusosMAIPU@jus.mendoza.gov.ar",
+                phone: "2616290733"
             },
             {
-                name: "José Morales",
-                role: "Auxiliar",
-                zone: "Edificio B"
+                name: "Luján",
+                mail: "abusosLUJAN@jus.mendoza.gov.ar",
+                phone: "2613878672"
             },
             {
-                name: "Patricia Ruiz",
-                role: "Apoyo",
-                zone: "Áreas deportivas"
-            }
-        ]
-    },
-    {
-        id: "incendios",
-        name: "Brigada Contra Incendios",
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$flame$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Flame$3e$__["Flame"], {
-            className: "w-6 h-6",
-            "aria-hidden": "true"
-        }, void 0, false, {
-            fileName: "[project]/app/contactos/page.tsx",
-            lineNumber: 92,
-            columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0)),
-        color: "bg-emergency text-emergency-foreground",
-        description: "Control inicial de fuego y uso de extintores",
-        members: [
-            {
-                name: "Carlos Hernández",
-                role: "Líder de Brigada",
-                zone: "General"
+                name: "San Martín",
+                mail: "abusosSANMARTIN@jus.mendoza.gov.ar",
+                phone: "2634688890 / 2634532293"
             },
             {
-                name: "Fernando López",
-                role: "Operador",
-                zone: "Edificio A"
+                name: "La Paz",
+                mail: "abusosLAPAZ@jus.mendoza.gov.ar",
+                phone: "2634688890 / 2634532293"
             },
             {
-                name: "Ricardo Soto",
-                role: "Operador",
-                zone: "Edificio B"
+                name: "Santa Rosa",
+                mail: "abusosSANTAROSA@jus.mendoza.gov.ar",
+                phone: "2634688890 / 2634532293"
             },
             {
-                name: "Manuel García",
-                role: "Operador",
-                zone: "Cocina y laboratorios"
-            }
-        ]
-    },
-    {
-        id: "comunicacion",
-        name: "Brigada de Comunicación",
-        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
-            className: "w-6 h-6",
-            "aria-hidden": "true"
-        }, void 0, false, {
-            fileName: "[project]/app/contactos/page.tsx",
-            lineNumber: 105,
-            columnNumber: 11
-        }, ("TURBOPACK compile-time value", void 0)),
-        color: "bg-success text-success-foreground",
-        description: "Coordinación de comunicaciones y notificaciones",
-        members: [
-            {
-                name: "María García",
-                role: "Líder de Brigada",
-                zone: "Dirección"
+                name: "Junín",
+                mail: "abusosJUNIN@jus.mendoza.gov.ar",
+                phone: "2614177171"
             },
             {
-                name: "Andrea Martínez",
-                role: "Comunicación Interna",
-                zone: "Administración"
+                name: "Rivadavia",
+                mail: "abusosRIVADAVIA@jus.mendoza.gov.ar",
+                phone: "2614177171"
             },
             {
-                name: "Luis Sánchez",
-                role: "Comunicación Externa",
-                zone: "Recepción"
+                name: "Tunuyán",
+                mail: "abusosTUNUYAN@jus.mendoza.gov.ar",
+                phone: "2616016212"
+            },
+            {
+                name: "San Carlos",
+                mail: "abusosSANCARLOS@jus.mendoza.gov.ar",
+                phone: "2616016212"
+            },
+            {
+                name: "Tupungato",
+                mail: "abusosTUPUNGATO@jus.mendoza.gov.ar",
+                phone: "2613860853"
+            },
+            {
+                name: "San Rafael",
+                mail: "abusosSANRAFAEL@jus.mendoza.gov.ar",
+                phone: "2604277658"
+            },
+            {
+                name: "Gral. Alvear",
+                mail: "abusosALVEAR@jus.mendoza.gov.ar",
+                phone: "2615566578"
+            },
+            {
+                name: "Malargüe",
+                mail: "abusosMALARGUE@jus.mendoza.gov.ar",
+                phone: "2604277654"
             }
         ]
     }
@@ -380,7 +342,7 @@ function ContactosPage() {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$emergency$2f$emergency$2d$header$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["EmergencyHeader"], {}, void 0, false, {
                     fileName: "[project]/app/contactos/page.tsx",
-                    lineNumber: 120,
+                    lineNumber: 256,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -397,7 +359,7 @@ function ContactosPage() {
                                         children: "Contactos y Roles de Emergencia"
                                     }, void 0, false, {
                                         fileName: "[project]/app/contactos/page.tsx",
-                                        lineNumber: 126,
+                                        lineNumber: 262,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -405,13 +367,13 @@ function ContactosPage() {
                                         children: "Directorio de contactos de emergencia, personal escolar clave y brigadas de respuesta. Guarde estos números en un lugar accesible."
                                     }, void 0, false, {
                                         fileName: "[project]/app/contactos/page.tsx",
-                                        lineNumber: 127,
+                                        lineNumber: 265,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/contactos/page.tsx",
-                                lineNumber: 125,
+                                lineNumber: 261,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -433,14 +395,14 @@ function ContactosPage() {
                                                                 "aria-hidden": "true"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                                lineNumber: 145,
+                                                                lineNumber: 284,
                                                                 columnNumber: 21
                                                             }, this),
                                                             "Servicios de Emergencia"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                        lineNumber: 141,
+                                                        lineNumber: 280,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -456,7 +418,7 @@ function ContactosPage() {
                                                                                 children: service.name
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                                                lineNumber: 157,
+                                                                                lineNumber: 299,
                                                                                 columnNumber: 27
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -464,13 +426,13 @@ function ContactosPage() {
                                                                                 children: service.description
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                                                lineNumber: 160,
+                                                                                lineNumber: 302,
                                                                                 columnNumber: 27
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                        lineNumber: 156,
+                                                                        lineNumber: 298,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -478,24 +440,24 @@ function ContactosPage() {
                                                                         children: service.number
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                        lineNumber: 162,
+                                                                        lineNumber: 306,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, index, true, {
                                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                                lineNumber: 151,
+                                                                lineNumber: 293,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                        lineNumber: 149,
+                                                        lineNumber: 291,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                lineNumber: 137,
+                                                lineNumber: 276,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -509,14 +471,14 @@ function ContactosPage() {
                                                                 "aria-hidden": "true"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                                lineNumber: 171,
+                                                                lineNumber: 317,
                                                                 columnNumber: 21
                                                             }, this),
                                                             "Hospitales Cercanos"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                        lineNumber: 170,
+                                                        lineNumber: 316,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -530,7 +492,7 @@ function ContactosPage() {
                                                                         children: "Hospital General"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                        lineNumber: 177,
+                                                                        lineNumber: 326,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -538,7 +500,7 @@ function ContactosPage() {
                                                                         children: "Av. Principal #123"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                        lineNumber: 178,
+                                                                        lineNumber: 329,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -546,7 +508,7 @@ function ContactosPage() {
                                                                         children: "5 min en auto"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                        lineNumber: 179,
+                                                                        lineNumber: 332,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -555,13 +517,13 @@ function ContactosPage() {
                                                                         children: "(55) 1234-5678"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                        lineNumber: 180,
+                                                                        lineNumber: 335,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                                lineNumber: 176,
+                                                                lineNumber: 325,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -572,7 +534,7 @@ function ContactosPage() {
                                                                         children: "Clínica Santa María"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                        lineNumber: 185,
+                                                                        lineNumber: 343,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -580,7 +542,7 @@ function ContactosPage() {
                                                                         children: "Calle Secundaria #456"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                        lineNumber: 186,
+                                                                        lineNumber: 346,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -588,7 +550,7 @@ function ContactosPage() {
                                                                         children: "8 min en auto"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                        lineNumber: 187,
+                                                                        lineNumber: 349,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -597,31 +559,31 @@ function ContactosPage() {
                                                                         children: "(55) 8765-4321"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                        lineNumber: 188,
+                                                                        lineNumber: 352,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                                lineNumber: 184,
+                                                                lineNumber: 342,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                        lineNumber: 175,
+                                                        lineNumber: 324,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                lineNumber: 169,
+                                                lineNumber: 315,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/contactos/page.tsx",
-                                        lineNumber: 135,
+                                        lineNumber: 274,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -640,20 +602,20 @@ function ContactosPage() {
                                                                 "aria-hidden": "true"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                                lineNumber: 207,
+                                                                lineNumber: 374,
                                                                 columnNumber: 21
                                                             }, this),
                                                             "Personal Escolar Clave"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                        lineNumber: 203,
+                                                        lineNumber: 370,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "grid sm:grid-cols-2 gap-4",
-                                                        children: schoolContacts.map((contact, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: `p-4 rounded-xl ${contact.isCoordinator ? "bg-primary/10 border border-primary/20" : "bg-muted/50"}`,
+                                                        children: asesoresMenores.map((asesor, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: `p-4 rounded-xl ${asesor.isCoordinator ? "bg-primary/10 border border-primary/20" : "bg-muted/50"}`,
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                         className: "flex items-start justify-between",
@@ -662,56 +624,56 @@ function ContactosPage() {
                                                                                 children: [
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                                         className: "font-semibold text-foreground",
-                                                                                        children: contact.name
+                                                                                        children: asesor.name
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                                        lineNumber: 221,
+                                                                                        lineNumber: 393,
                                                                                         columnNumber: 29
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                                         className: "text-sm text-muted-foreground",
-                                                                                        children: contact.role
+                                                                                        children: asesor.role
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                                        lineNumber: 222,
+                                                                                        lineNumber: 396,
                                                                                         columnNumber: 29
                                                                                     }, this),
-                                                                                    contact.extension && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                                    asesor.extension && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                                                         className: "text-xs text-muted-foreground mt-1",
                                                                                         children: [
                                                                                             "Ext. ",
-                                                                                            contact.extension
+                                                                                            asesor.extension
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                                        lineNumber: 224,
+                                                                                        lineNumber: 400,
                                                                                         columnNumber: 31
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                                                lineNumber: 220,
+                                                                                lineNumber: 392,
                                                                                 columnNumber: 27
                                                                             }, this),
-                                                                            contact.isCoordinator && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                            asesor.isCoordinator && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                                                 className: "text-xs px-2 py-1 bg-primary text-primary-foreground rounded-full",
                                                                                 children: "Coordinador"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                                                lineNumber: 228,
+                                                                                lineNumber: 406,
                                                                                 columnNumber: 29
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                        lineNumber: 219,
+                                                                        lineNumber: 391,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                         className: "flex items-center gap-3 mt-3",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                                                href: `tel:${contact.phone.replace(/[^\d+]/g, "")}`,
+                                                                                href: `tel:${asesor.phone.replace(/[^\d+]/g, "")}`,
                                                                                 className: "flex items-center gap-1 text-sm text-primary hover:underline",
                                                                                 children: [
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
@@ -719,18 +681,18 @@ function ContactosPage() {
                                                                                         "aria-hidden": "true"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                                        lineNumber: 239,
+                                                                                        lineNumber: 417,
                                                                                         columnNumber: 29
                                                                                     }, this),
-                                                                                    contact.phone
+                                                                                    asesor.phone
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                                                lineNumber: 235,
+                                                                                lineNumber: 413,
                                                                                 columnNumber: 27
                                                                             }, this),
-                                                                            contact.email && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                                                href: `mailto:${contact.email}`,
+                                                                            asesor.email && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                                href: `mailto:${asesor.email}`,
                                                                                 className: "flex items-center gap-1 text-sm text-primary hover:underline",
                                                                                 children: [
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"], {
@@ -738,37 +700,37 @@ function ContactosPage() {
                                                                                         "aria-hidden": "true"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                                        lineNumber: 247,
+                                                                                        lineNumber: 425,
                                                                                         columnNumber: 31
                                                                                     }, this),
                                                                                     "Email"
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                                                lineNumber: 243,
+                                                                                lineNumber: 421,
                                                                                 columnNumber: 29
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                        lineNumber: 234,
+                                                                        lineNumber: 412,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, index, true, {
                                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                                lineNumber: 213,
+                                                                lineNumber: 383,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                        lineNumber: 211,
+                                                        lineNumber: 381,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                lineNumber: 199,
+                                                lineNumber: 366,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -784,14 +746,14 @@ function ContactosPage() {
                                                                 "aria-hidden": "true"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                                lineNumber: 260,
+                                                                lineNumber: 441,
                                                                 columnNumber: 21
                                                             }, this),
                                                             "Brigadas de Emergencia"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                        lineNumber: 259,
+                                                        lineNumber: 437,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -810,7 +772,7 @@ function ContactosPage() {
                                                                                         children: brigade.name
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                                        lineNumber: 270,
+                                                                                        lineNumber: 459,
                                                                                         columnNumber: 29
                                                                                     }, this),
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -818,19 +780,19 @@ function ContactosPage() {
                                                                                         children: brigade.description
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                                        lineNumber: 271,
+                                                                                        lineNumber: 460,
                                                                                         columnNumber: 29
                                                                                     }, this)
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                                                lineNumber: 269,
+                                                                                lineNumber: 458,
                                                                                 columnNumber: 27
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                        lineNumber: 267,
+                                                                        lineNumber: 454,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -847,34 +809,33 @@ function ContactosPage() {
                                                                                                 children: "Nombre"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                                                                lineNumber: 279,
+                                                                                                lineNumber: 470,
                                                                                                 columnNumber: 33
                                                                                             }, this),
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                                                                                 className: "pb-2 font-medium",
-                                                                                                children: "Rol"
+                                                                                                children: "Contacto"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                                                                lineNumber: 280,
+                                                                                                lineNumber: 471,
                                                                                                 columnNumber: 33
                                                                                             }, this),
                                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
-                                                                                                className: "pb-2 font-medium",
-                                                                                                children: "Zona"
+                                                                                                className: "pb-2 font-medium"
                                                                                             }, void 0, false, {
                                                                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                                                                lineNumber: 281,
+                                                                                                lineNumber: 472,
                                                                                                 columnNumber: 33
                                                                                             }, this)
                                                                                         ]
                                                                                     }, void 0, true, {
                                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                                        lineNumber: 278,
+                                                                                        lineNumber: 469,
                                                                                         columnNumber: 31
                                                                                     }, this)
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/contactos/page.tsx",
-                                                                                    lineNumber: 277,
+                                                                                    lineNumber: 468,
                                                                                     columnNumber: 29
                                                                                 }, this),
                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -886,74 +847,100 @@ function ContactosPage() {
                                                                                                     children: member.name
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/app/contactos/page.tsx",
-                                                                                                    lineNumber: 287,
+                                                                                                    lineNumber: 478,
                                                                                                     columnNumber: 35
                                                                                                 }, this),
                                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
                                                                                                     className: "py-2 text-muted-foreground",
-                                                                                                    children: member.role
+                                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                                                        href: `mailto:${member.mail}`,
+                                                                                                        className: "flex items-center gap-1 text-sm text-primary hover:underline",
+                                                                                                        children: [
+                                                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"], {
+                                                                                                                className: "w-3 h-3",
+                                                                                                                "aria-hidden": "true"
+                                                                                                            }, void 0, false, {
+                                                                                                                fileName: "[project]/app/contactos/page.tsx",
+                                                                                                                lineNumber: 486,
+                                                                                                                columnNumber: 39
+                                                                                                            }, this),
+                                                                                                            "Email"
+                                                                                                        ]
+                                                                                                    }, void 0, true, {
+                                                                                                        fileName: "[project]/app/contactos/page.tsx",
+                                                                                                        lineNumber: 482,
+                                                                                                        columnNumber: 37
+                                                                                                    }, this)
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/app/contactos/page.tsx",
-                                                                                                    lineNumber: 288,
+                                                                                                    lineNumber: 481,
                                                                                                     columnNumber: 35
                                                                                                 }, this),
                                                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
                                                                                                     className: "py-2 text-muted-foreground",
-                                                                                                    children: member.zone
+                                                                                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                                                        className: "text-primary",
+                                                                                                        href: `tel:${member.phone}`,
+                                                                                                        children: member.phone
+                                                                                                    }, void 0, false, {
+                                                                                                        fileName: "[project]/app/contactos/page.tsx",
+                                                                                                        lineNumber: 494,
+                                                                                                        columnNumber: 37
+                                                                                                    }, this)
                                                                                                 }, void 0, false, {
                                                                                                     fileName: "[project]/app/contactos/page.tsx",
-                                                                                                    lineNumber: 289,
+                                                                                                    lineNumber: 493,
                                                                                                     columnNumber: 35
                                                                                                 }, this)
                                                                                             ]
                                                                                         }, index, true, {
                                                                                             fileName: "[project]/app/contactos/page.tsx",
-                                                                                            lineNumber: 286,
+                                                                                            lineNumber: 477,
                                                                                             columnNumber: 33
                                                                                         }, this))
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/app/contactos/page.tsx",
-                                                                                    lineNumber: 284,
+                                                                                    lineNumber: 475,
                                                                                     columnNumber: 29
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/app/contactos/page.tsx",
-                                                                            lineNumber: 276,
+                                                                            lineNumber: 467,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                                        lineNumber: 275,
+                                                                        lineNumber: 466,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, brigade.id, true, {
                                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                                lineNumber: 266,
+                                                                lineNumber: 450,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/contactos/page.tsx",
-                                                        lineNumber: 264,
+                                                        lineNumber: 448,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/contactos/page.tsx",
-                                                lineNumber: 258,
+                                                lineNumber: 436,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/contactos/page.tsx",
-                                        lineNumber: 197,
+                                        lineNumber: 364,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/contactos/page.tsx",
-                                lineNumber: 133,
+                                lineNumber: 272,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -964,7 +951,7 @@ function ContactosPage() {
                                         children: "Organigrama de Emergencias"
                                     }, void 0, false, {
                                         fileName: "[project]/app/contactos/page.tsx",
-                                        lineNumber: 304,
+                                        lineNumber: 512,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -980,7 +967,7 @@ function ContactosPage() {
                                                             children: "Coordinador General"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contactos/page.tsx",
-                                                            lineNumber: 310,
+                                                            lineNumber: 520,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -988,13 +975,13 @@ function ContactosPage() {
                                                             children: "Directora - María García"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contactos/page.tsx",
-                                                            lineNumber: 311,
+                                                            lineNumber: 521,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/contactos/page.tsx",
-                                                    lineNumber: 309,
+                                                    lineNumber: 519,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1002,7 +989,7 @@ function ContactosPage() {
                                                     "aria-hidden": "true"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/contactos/page.tsx",
-                                                    lineNumber: 314,
+                                                    lineNumber: 526,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1013,7 +1000,7 @@ function ContactosPage() {
                                                             children: "Coordinador de Seguridad"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contactos/page.tsx",
-                                                            lineNumber: 318,
+                                                            lineNumber: 530,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1021,13 +1008,13 @@ function ContactosPage() {
                                                             children: "Roberto Méndez"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/contactos/page.tsx",
-                                                            lineNumber: 319,
+                                                            lineNumber: 531,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/contactos/page.tsx",
-                                                    lineNumber: 317,
+                                                    lineNumber: 529,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1035,7 +1022,7 @@ function ContactosPage() {
                                                     "aria-hidden": "true"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/contactos/page.tsx",
-                                                    lineNumber: 322,
+                                                    lineNumber: 534,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1049,7 +1036,7 @@ function ContactosPage() {
                                                                     "aria-hidden": "true"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/contactos/page.tsx",
-                                                                    lineNumber: 327,
+                                                                    lineNumber: 539,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1057,13 +1044,13 @@ function ContactosPage() {
                                                                     children: "Evacuación"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/contactos/page.tsx",
-                                                                    lineNumber: 328,
+                                                                    lineNumber: 543,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/contactos/page.tsx",
-                                                            lineNumber: 326,
+                                                            lineNumber: 538,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1074,7 +1061,7 @@ function ContactosPage() {
                                                                     "aria-hidden": "true"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/contactos/page.tsx",
-                                                                    lineNumber: 331,
+                                                                    lineNumber: 546,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1082,13 +1069,13 @@ function ContactosPage() {
                                                                     children: "Primeros Auxilios"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/contactos/page.tsx",
-                                                                    lineNumber: 332,
+                                                                    lineNumber: 550,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/contactos/page.tsx",
-                                                            lineNumber: 330,
+                                                            lineNumber: 545,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1099,7 +1086,7 @@ function ContactosPage() {
                                                                     "aria-hidden": "true"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/contactos/page.tsx",
-                                                                    lineNumber: 335,
+                                                                    lineNumber: 553,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1107,13 +1094,13 @@ function ContactosPage() {
                                                                     children: "Contra Incendios"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/contactos/page.tsx",
-                                                                    lineNumber: 336,
+                                                                    lineNumber: 557,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/contactos/page.tsx",
-                                                            lineNumber: 334,
+                                                            lineNumber: 552,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1124,7 +1111,7 @@ function ContactosPage() {
                                                                     "aria-hidden": "true"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/contactos/page.tsx",
-                                                                    lineNumber: 339,
+                                                                    lineNumber: 560,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1132,36 +1119,36 @@ function ContactosPage() {
                                                                     children: "Comunicación"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/app/contactos/page.tsx",
-                                                                    lineNumber: 340,
+                                                                    lineNumber: 564,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/app/contactos/page.tsx",
-                                                            lineNumber: 338,
+                                                            lineNumber: 559,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/contactos/page.tsx",
-                                                    lineNumber: 325,
+                                                    lineNumber: 537,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/contactos/page.tsx",
-                                            lineNumber: 307,
+                                            lineNumber: 517,
                                             columnNumber: 17
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/contactos/page.tsx",
-                                        lineNumber: 306,
+                                        lineNumber: 516,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/contactos/page.tsx",
-                                lineNumber: 303,
+                                lineNumber: 511,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1173,46 +1160,46 @@ function ContactosPage() {
                                             children: "Nota:"
                                         }, void 0, false, {
                                             fileName: "[project]/app/contactos/page.tsx",
-                                            lineNumber: 350,
+                                            lineNumber: 574,
                                             columnNumber: 17
                                         }, this),
                                         " Este directorio se actualiza periódicamente. Los números de emergencia oficiales pueden variar según la localidad. Consulte siempre las disposiciones vigentes de Protección Civil de su municipio."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/contactos/page.tsx",
-                                    lineNumber: 349,
+                                    lineNumber: 573,
                                     columnNumber: 15
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/app/contactos/page.tsx",
-                                lineNumber: 348,
+                                lineNumber: 572,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/contactos/page.tsx",
-                        lineNumber: 123,
+                        lineNumber: 259,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/app/contactos/page.tsx",
-                    lineNumber: 122,
+                    lineNumber: 258,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$emergency$2f$floating$2d$widget$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["FloatingWidget"], {}, void 0, false, {
                     fileName: "[project]/app/contactos/page.tsx",
-                    lineNumber: 358,
+                    lineNumber: 583,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/contactos/page.tsx",
-            lineNumber: 119,
+            lineNumber: 255,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/contactos/page.tsx",
-        lineNumber: 118,
+        lineNumber: 254,
         columnNumber: 5
     }, this);
 }

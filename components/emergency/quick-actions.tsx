@@ -7,7 +7,7 @@ import Link from "next/link"
 import { Flame, AlertTriangle, Heart, Shield, ArrowRight, Siren, Users, Building2 } from "lucide-react"
 import { ConfirmationModal } from "./confirmation-modal"
 
-interface QuickAction {
+export interface QuickAction {
   id: string
   title: string
   description: string
@@ -25,7 +25,7 @@ export function QuickActions() {
     {
       id: "dae",
       title: "Llamar DAE Central",
-      description: "Despacho de Atención de Emergencias (8 a 17)",
+      description: "Direccion de acompañamiento escolar (8 a 17)",
       icon: <Phone className="w-8 h-8" aria-hidden="true" />,
       color: "emergency",
       phoneNumber: "4231473",
@@ -57,41 +57,7 @@ export function QuickActions() {
     },
   ]
 
-  const secondaryActions: QuickAction[] = [
-    {
-      id: "lockdown",
-      title: "Confinamiento",
-      description: "Protocolo de resguardo",
-      icon: <Shield className="w-6 h-6" aria-hidden="true" />,
-      color: "warning",
-      href: "/procedimientos/confinamiento",
-    },
-    {
-      id: "earthquake",
-      title: "Sismo",
-      description: "Protocolo ante temblores",
-      icon: <AlertTriangle className="w-6 h-6" aria-hidden="true" />,
-      color: "warning",
-      href: "/procedimientos/sismo",
-    },
-    {
-      id: "intruder",
-      title: "Intruso",
-      description: "Protocolo de seguridad",
-      icon: <Siren className="w-6 h-6" aria-hidden="true" />,
-      color: "emergency",
-      href: "/procedimientos/intruso",
-    },
-    {
-      id: "missing",
-      title: "Persona Perdida",
-      description: "Protocolo de búsqueda",
-      icon: <Users className="w-6 h-6" aria-hidden="true" />,
-      color: "primary",
-      href: "/procedimientos/persona-perdida",
-    },
-  ]
-
+ 
   const colorClasses = {
     emergency: "bg-emergency/10 border-emergency/30 hover:bg-emergency/20 text-emergency",
     warning: "bg-warning/10 border-warning/30 hover:bg-warning/20 text-warning",
@@ -126,7 +92,7 @@ export function QuickActions() {
                 <h3 className="text-lg font-bold text-foreground mb-1">{action.title}</h3>
                 <p className="text-sm text-muted-foreground mb-4">{action.description}</p>
                 <div className="flex items-center text-sm font-medium text-foreground gap-1">
-                  Ver protocolo
+                  {action.id === "dae" ? "Llamar" : "Ver protocolo"}
                   <ArrowRight className="w-4 h-4" aria-hidden="true" />
                 </div>
               </>
@@ -187,30 +153,6 @@ export function QuickActions() {
         </div>
       </div>
 
-      {/* Secondary Actions - Smaller Cards */}
-      <div>
-        <h2 className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2">
-          <span className="w-2 h-5 bg-warning rounded-full" aria-hidden="true"></span>
-          Otros Procedimientos
-        </h2>
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-3">
-          {secondaryActions.map((action) => (
-            <Link
-              key={action.id}
-              href={action.href || "#"}
-              className={`p-4 rounded-xl border transition-all duration-200 flex flex-col ${colorClasses[action.color]} focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2`}
-            >
-              <div
-                className={`w-10 h-10 rounded-lg flex items-center justify-center ${iconBgClasses[action.color]} mb-3`}
-              >
-                {action.icon}
-              </div>
-              <h3 className="font-semibold text-foreground text-sm mb-1">{action.title}</h3>
-              <p className="text-xs text-muted-foreground">{action.description}</p>
-            </Link>
-          ))}
-        </div>
-      </div>
 
       {/* Evacuation Confirmation Modal */}
       <ConfirmationModal

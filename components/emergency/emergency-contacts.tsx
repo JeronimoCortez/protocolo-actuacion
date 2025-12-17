@@ -12,11 +12,9 @@ interface Contact {
 }
 
 const emergencyContacts: Contact[] = [
-  { id: "0", name: "DAE Central", phone: "4231473", isEmergency: true },
+  { id: "0", name: "DAE Central (8:00 - 17:00)", phone: "4231473", isEmergency: true },
   { id: "1", name: "Emergencias", phone: "911", isEmergency: true },
-  { id: "2", name: "Bomberos", phone: "(55) 5768-3700", isEmergency: true },
-  { id: "3", name: "Cruz Roja", phone: "(55) 5557-5757", isEmergency: true },
-  { id: "4", name: "Protección Civil", phone: "(55) 5683-2222", isEmergency: true },
+  { id: "2", name: "148 - Marcar opcion 4", phone: "148", isEmergency: true },
 ]
 
 const schoolContacts: Contact[] = [
@@ -47,7 +45,7 @@ export function EmergencyContacts() {
         <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-3">
           Servicios de Emergencia
         </h3>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+        <div className="flex flex-col gap-3">
           {emergencyContacts.map((contact) => (
             <a
               key={contact.id}
@@ -61,7 +59,7 @@ export function EmergencyContacts() {
         </div>
       </div>
 
-      {/* School Contacts */}
+      {/* School Contacts
       <div>
         <h3 className="text-sm font-semibold text-muted-foreground uppercase tracking-wide mb-3">
           Contactos Escolares
@@ -99,7 +97,7 @@ export function EmergencyContacts() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
       <div className="mt-4 pt-4 border-t border-border">
         <a

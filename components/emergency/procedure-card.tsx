@@ -16,6 +16,7 @@ interface ProcedureCardProps {
   responsibleRole?: string
   href: string
   showProcedureButton?: boolean
+  actions?: string[]
 }
 
 export function ProcedureCard({
