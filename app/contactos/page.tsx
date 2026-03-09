@@ -311,53 +311,7 @@ export default function ContactosPage() {
                   </div>
                 </section>
 
-                {/* Nearby Hospitals */}
-                <section className="bg-card rounded-2xl border border-border p-6">
-                  <h2 className="text-lg font-bold text-foreground mb-4 flex items-center gap-2">
-                    <Heart
-                      className="w-5 h-5 text-warning"
-                      aria-hidden="true"
-                    />
-                    Hospitales Cercanos
-                  </h2>
-
-                  <div className="space-y-4">
-                    <div className="p-3 bg-muted/50 rounded-xl">
-                      <p className="font-medium text-foreground">
-                        Hospital General
-                      </p>
-                      <p className="text-sm text-muted-foreground">
-                        Av. Principal #123
-                      </p>
-                      <p className="text-sm text-muted-foreground">
-                        5 min en auto
-                      </p>
-                      <a
-                        href="tel:5512345678"
-                        className="text-sm text-primary hover:underline"
-                      >
-                        (55) 1234-5678
-                      </a>
-                    </div>
-                    <div className="p-3 bg-muted/50 rounded-xl">
-                      <p className="font-medium text-foreground">
-                        Clínica Santa María
-                      </p>
-                      <p className="text-sm text-muted-foreground">
-                        Calle Secundaria #456
-                      </p>
-                      <p className="text-sm text-muted-foreground">
-                        8 min en auto
-                      </p>
-                      <a
-                        href="tel:5587654321"
-                        className="text-sm text-primary hover:underline"
-                      >
-                        (55) 8765-4321
-                      </a>
-                    </div>
-                  </div>
-                </section>
+               
               </div>
 
               {/* Right Column - School Contacts & Brigades */}
@@ -434,16 +388,6 @@ export default function ContactosPage() {
 
                 {/* Brigades */}
                 <section id="roles" aria-labelledby="brigades-heading">
-                  <h2
-                    id="brigades-heading"
-                    className="text-xl font-bold text-foreground mb-6 flex items-center gap-2"
-                  >
-                    <Shield
-                      className="w-5 h-5 text-primary"
-                      aria-hidden="true"
-                    />
-                    Brigadas de Emergencia
-                  </h2>
 
                   <div className="space-y-6">
                     {brigades.map((brigade) => (
@@ -507,7 +451,7 @@ export default function ContactosPage() {
               </div>
             </div>
 
-            {/* Organizational Chart */}
+            {/* Organizational Chart
             <section className="mt-12 pt-8 border-t border-border">
               <h2 className="text-xl font-bold text-foreground mb-6">
                 Organigrama de Emergencias
@@ -515,7 +459,7 @@ export default function ContactosPage() {
 
               <div className="bg-card rounded-2xl border border-border p-8">
                 <div className="flex flex-col items-center">
-                  {/* Top Level */}
+                  {/* Top Level 
                   <div className="p-4 bg-primary text-primary-foreground rounded-xl text-center mb-4">
                     <p className="font-bold">Coordinador General</p>
                     <p className="text-sm opacity-90">
@@ -525,7 +469,7 @@ export default function ContactosPage() {
 
                   <div className="w-px h-8 bg-border" aria-hidden="true"></div>
 
-                  {/* Second Level */}
+                  {/* Second Level 
                   <div className="p-4 bg-secondary text-secondary-foreground rounded-xl text-center mb-4">
                     <p className="font-bold">Coordinador de Seguridad</p>
                     <p className="text-sm">Roberto Méndez</p>
@@ -533,7 +477,7 @@ export default function ContactosPage() {
 
                   <div className="w-px h-8 bg-border" aria-hidden="true"></div>
 
-                  {/* Brigades Level */}
+                  {/* Brigades Level 
                   <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 w-full max-w-4xl">
                     <div className="p-3 bg-primary/10 rounded-xl text-center">
                       <Building2
@@ -566,17 +510,8 @@ export default function ContactosPage() {
                   </div>
                 </div>
               </div>
-            </section>
+            </section> */}
 
-            {/* Legal Notice */}
-            <div className="mt-8 p-4 bg-muted/50 rounded-xl">
-              <p className="text-sm text-muted-foreground">
-                <strong>Nota:</strong> Este directorio se actualiza
-                periódicamente. Los números de emergencia oficiales pueden
-                variar según la localidad. Consulte siempre las disposiciones
-                vigentes de Protección Civil de su municipio.
-              </p>
-            </div>
           </div>
         </main>
 

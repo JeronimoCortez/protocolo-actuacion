@@ -58,11 +58,11 @@ export function ProcedureHeader({
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Back Navigation */}
         <Link
-          href="/procedimientos"
+          href="/protocolos"
           className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors mb-6"
         >
           <ArrowLeft className="w-4 h-4" aria-hidden="true" />
-          Volver a procedimientos
+          Volver a protocolos
         </Link>
 
         <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
@@ -118,3 +118,4 @@ export function ProcedureHeader({
     </header>
   )
 }
+
