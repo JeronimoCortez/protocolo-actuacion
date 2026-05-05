@@ -14,6 +14,7 @@ import {
   complementaryProtocolGroups,
   thematicAxisGroups,
 } from "@/lib/thematic-protocols";
+import { SituacionesEmergentes } from "@/components/emergency/situaciones-emergentes";
 
 const axisCardColorClasses = [
   "border-primary/30 bg-primary/5 hover:bg-primary/10",
@@ -54,6 +55,8 @@ export default function HomePage() {
                 </div>
               </div>
             </section>
+
+            <SituacionesEmergentes/>
 
             <section className="grid xl:grid-cols-3 gap-8">
               <div className="xl:col-span-2 space-y-10">

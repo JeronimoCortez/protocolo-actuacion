@@ -1,0 +1,274 @@
+{
+  "contactos": [
+    {
+      "institucion": "Dirección de Acompañamiento Escolar (DAE)",
+      "tipo": "institucional",
+      "telefono": ["4231473"],
+      "email": ["dge-dae@mendoza.edu.ar"]
+    },
+    {
+      "institucion": "Servicio Coordinado de Emergencias",
+      "tipo": "emergencia",
+      "telefono": ["911"]
+    },
+    {
+      "institucion": "Infraestructura de Datos Espaciales de Mendoza (IDEP)",
+      "tipo": "plataforma",
+      "url": "https://ide.mendoza.gov.ar/portal/home/"
+    },
+    {
+      "institucion": "Atención a Víctimas de Delitos",
+      "tipo": "asistencia_victimas",
+      "url": "https://informacionoficial.mendoza.gob.ar/seguridadyjusticia/atencion-a-victimas-de-delito/"
+    },
+    {
+      "institucion": "Unidad Fiscal Delitos contra la Integridad Sexual",
+      "tipo": "justicia",
+      "url": "https://mpfmza.jus.mendoza.gov.ar/guia-mpf/"
+    },
+    {
+      "institucion": "Programa Prevención Maltrato Intrafamiliar",
+      "tipo": "proteccion_infancia",
+      "telefono": ["102"]
+    },
+
+    {
+      "institucion": "Centros de Salud Mental Infanto Juvenil - Coordinación Central",
+      "tipo": "salud_mental",
+      "telefono": ["02614294017","4253964","4253144"],
+      "internos": ["107","117"],
+      "direccion": "Morón 332, Ciudad de Mendoza",
+      "horario": "Lunes a viernes 8 a 17"
+    },
+    {
+      "institucion": "Centro Infanto Juvenil 1",
+      "tipo": "salud_mental",
+      "departamento": "Godoy Cruz",
+      "telefono": ["4220836"],
+      "direccion": "Joaquín V. González 390"
+    },
+    {
+      "institucion": "Centro Infanto Juvenil 2",
+      "tipo": "salud_mental",
+      "departamento": "Capital",
+      "telefono": ["4307424"],
+      "direccion": "José Federico Moreno 2861"
+    },
+    {
+      "institucion": "Centro Infanto Juvenil 3",
+      "tipo": "salud_mental",
+      "departamento": "Rodeo del Medio",
+      "telefono": ["4952666"],
+      "direccion": "Ruta 50 786"
+    },
+    {
+      "institucion": "Centro Infanto Juvenil 4",
+      "tipo": "salud_mental",
+      "departamento": "Tunuyán",
+      "telefono": ["02622422935"],
+      "direccion": "Godoy Cruz 1290"
+    },
+    {
+      "institucion": "Centro Infanto Juvenil 5",
+      "tipo": "salud_mental",
+      "departamento": "San Martín",
+      "telefono": ["02634432957"],
+      "direccion": "Gutiérrez 42"
+    },
+    {
+      "institucion": "Centro Infanto Juvenil 6",
+      "tipo": "salud_mental",
+      "departamento": "Lavalle",
+      "telefono": ["02615452802"],
+      "direccion": "CIC Costa de Araujo"
+    },
+    {
+      "institucion": "Centro Infanto Juvenil 7",
+      "tipo": "salud_mental",
+      "departamento": "San Rafael",
+      "telefono": ["02604445947"],
+      "direccion": "Córdoba 110"
+    },
+    {
+      "institucion": "Centro Infanto Juvenil 8",
+      "tipo": "salud_mental",
+      "departamento": "Guaymallén",
+      "telefono": ["4265132"],
+      "direccion": "España 4635"
+    },
+    {
+      "institucion": "Centro Infanto Juvenil 9",
+      "tipo": "salud_mental",
+      "departamento": "Tupungato",
+      "telefono": ["02613898035"],
+      "direccion": "Hospital General Las Heras"
+    },
+
+    {
+      "institucion": "CPAA Capital Tejada Gómez",
+      "tipo": "adicciones",
+      "telefono": ["2614292081"],
+      "direccion": "Pasaje P Vargas 598"
+    },
+    {
+      "institucion": "CPAA Godoy Cruz",
+      "tipo": "adicciones",
+      "telefono": ["02614228633"],
+      "direccion": "Salvador Arias 1072"
+    },
+    {
+      "institucion": "CPAA Las Heras",
+      "tipo": "adicciones",
+      "telefono": ["2617508665"],
+      "direccion": "Dorrego 63"
+    },
+    {
+      "institucion": "CPAA Luján de Cuyo",
+      "tipo": "adicciones",
+      "telefono": ["2612473293"],
+      "direccion": "Quintana y Acceso Sur, Perdriel"
+    },
+    {
+      "institucion": "CPAA Zona Este",
+      "tipo": "adicciones",
+      "telefono": ["02634433783"],
+      "direccion": "Gutiérrez 42, San Martín"
+    },
+    {
+      "institucion": "CPAA Valle de Uco",
+      "tipo": "adicciones",
+      "telefono": ["26213830032"],
+      "direccion": "Reginato 1330, Tunuyán"
+    },
+    {
+      "institucion": "CPAA San Rafael",
+      "tipo": "adicciones",
+      "telefono": ["2614446152","7508667"],
+      "direccion": "Comandante Salas 567"
+    },
+    {
+      "institucion": "CPAA General Alvear",
+      "tipo": "adicciones",
+      "telefono": ["02625422165","2617508670"],
+      "direccion": "Hospital Enfermeros Argentinos"
+    },
+    {
+      "institucion": "CPAA Malargüe",
+      "tipo": "adicciones",
+      "telefono": ["2617508669"],
+      "direccion": "Pampa Palauco 827"
+    },
+
+    {
+      "institucion": "Ministerio Público Fiscal",
+      "tipo": "justicia",
+      "telefono": ["2614497748"]
+    },
+    {
+      "institucion": "Ministerio Público de la Defensa",
+      "tipo": "justicia",
+      "telefono": ["2614497788"],
+      "email": ["defgral@jus.mendoza.gov.ar"]
+    },
+
+    {
+      "institucion": "Dirección de la Mujer",
+      "tipo": "violencia_genero",
+      "telefono": ["02614498622","02614498656"],
+      "whatsapp": ["5492617545220","5492616842676"]
+    },
+
+    {
+      "institucion": "Oficina Asistencia a Víctimas y Testigos",
+      "tipo": "asistencia_victimas",
+      "telefono": ["4498650","2617486649"]
+    },
+
+    {
+      "institucion": "Subdirección Niñez Adolescencia y Familia",
+      "tipo": "proteccion_infancia",
+      "telefono": ["4498649","2614674926"]
+    },
+
+    {
+      "institucion": "COPRETI",
+      "tipo": "trabajo_infantil",
+      "telefono": ["02614413312"],
+      "email": ["copreti@mendoza.gov.ar"]
+    },
+
+    {
+      "institucion": "Dirección Derechos Humanos Mendoza",
+      "tipo": "derechos_humanos",
+      "telefono": ["4492164"],
+      "email": ["ddhh@mendoza.gov.ar"]
+    },
+
+    {
+      "institucion": "Dirección Atención Personas con Discapacidad",
+      "tipo": "discapacidad",
+      "telefono": ["02614253756"],
+      "email": ["discapacidad@mendoza.gov.ar"],
+      "direccion": "Pedro Molina 565"
+    },
+
+    {
+      "institucion": "Subsecretaría Derechos Humanos - Trata de Personas",
+      "tipo": "trata_personas",
+      "telefono": ["145"]
+    },
+
+    {
+      "institucion": "Dirección Salud Mental y Consumos Problemáticos",
+      "tipo": "salud_mental",
+      "telefono": ["02614253964","02614294017","02614299344"],
+      "email": ["mentalmza@mendoza.gov.ar"]
+    },
+
+    {
+      "institucion": "FONODROGA",
+      "tipo": "adicciones",
+      "telefono": ["08008003764"]
+    },
+
+    {
+      "institucion": "Dirección General Responsabilidad Penal Juvenil",
+      "tipo": "justicia_juvenil",
+      "telefono": ["4492165","4283444"],
+      "email": ["drpj@mendoza.gov.ar"]
+    },
+
+    {
+      "institucion": "Guardia ETI Diurna",
+      "tipo": "proteccion_infancia",
+      "telefono": ["2615592696"],
+      "horario": "8 a 18"
+    },
+    {
+      "institucion": "Guardia ETI Nocturna",
+      "tipo": "proteccion_infancia",
+      "telefono": ["2612066735"],
+      "horario": "18 a 4"
+    },
+    {
+      "institucion": "Guardia ETI Profesionales",
+      "tipo": "proteccion_infancia",
+      "telefono": ["2615595705"],
+      "horario": "4 a 8"
+    },
+
+    {
+      "institucion": "Salud Mental Mendoza",
+      "tipo": "salud_mental",
+      "telefono": ["148"],
+      "opcion": "0"
+    },
+
+    {
+      "institucion": "Denuncias Violencia y Bullying DGE",
+      "tipo": "educacion",
+      "telefono": ["148"],
+      "opcion": "4"
+    }
+  ]
+}

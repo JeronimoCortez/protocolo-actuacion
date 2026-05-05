@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from "next/link";
 
 export function SituacionesEmergentes() {
   return (
@@ -48,5 +48,5 @@ export function SituacionesEmergentes() {
         </div>
       </div>
     </Link>
-  )
+  );
 }
