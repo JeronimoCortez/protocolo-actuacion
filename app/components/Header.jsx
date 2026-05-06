@@ -1,14 +1,12 @@
 import Link from "next/link";
-import { SearchIcon, ShieldIcon } from "./icons";
+import { SearchIcon } from "./icons";
 
 export default function Header({ navItems }) {
   return (
     <header className="sticky top-0 z-50 border-b border-[var(--border)] bg-white/85 backdrop-blur-xl">
       <div className="mx-auto flex h-16 w-full max-w-[1200px] items-center gap-4 px-4 md:gap-8 md:px-6">
         <Link href="/" className="flex shrink-0 items-center gap-2 text-[1.1rem] font-serif text-[var(--primary)]">
-            <img className="" src="./logo-dae.png" />
-       
-          {/* Protocolo de Actuacion */}
+          <img className="" src="./logo-dae.png" alt="Protocolo de Actuación Escolar" />
         </Link>
 
         <nav className="hidden flex-1 gap-1 md:flex">

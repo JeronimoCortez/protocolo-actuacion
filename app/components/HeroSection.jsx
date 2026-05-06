@@ -1,14 +1,14 @@
-import { ClockIcon, PhoneIcon } from "./icons";
+﻿import { ClockIcon, PhoneIcon } from "./icons";
 
 export default function HeroSection() {
   return (
     <section
       className="mx-auto grid w-full max-w-[1200px] grid-cols-1 gap-6 px-4 pb-10 pt-8 md:gap-10 md:px-6 md:pb-8 md:pt-14 lg:grid-cols-[1fr_380px]"
-      aria-label="Presentacion"
+      aria-label="Presentación"
     >
       <div>
         <h1 className="mb-5 font-serif text-[clamp(2rem,4vw,2.75rem)] leading-[1.2] tracking-[-0.01em] text-[var(--foreground)]">
-          Protocolo de Actuacion Escolar ante situaciones emergentes.
+          Protocolo de Actuación Escolar ante situaciones emergentes
         </h1>
       </div>
 
@@ -22,7 +22,7 @@ export default function HeroSection() {
               DAE Central
             </h3>
             <p className="text-xs text-[var(--muted-foreground)]">
-              Direccion de acompanamiento escolar
+              Dirección de Acompañamiento Escolar
             </p>
           </div>
           <div className="flex items-center gap-2 whitespace-nowrap rounded-full bg-[oklch(0.92_0.025_250)] px-3 py-2">
@@ -62,8 +62,8 @@ export default function HeroSection() {
         </div>
 
         <p className="pt-3 text-xs leading-relaxed text-[var(--muted-foreground)]">
-          Centro de coordinacion para situaciones de emergencia. Reporte
-          inmediatamente cualquier situacion critica.
+          Centro de coordinación para situaciones de emergencia. Reporte
+          inmediatamente cualquier situación crítica.
         </p>
       </aside>
     </section>

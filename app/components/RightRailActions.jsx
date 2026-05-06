@@ -1,8 +1,8 @@
-export default function RightRailActions() {
+﻿export default function RightRailActions() {
   return (
     <section
       className="rounded-[1.25rem] border border-[var(--border)] bg-white p-4"
-      aria-label="Acciones de gestion"
+      aria-label="Acciones de gestión"
     >
       <div className="grid gap-4">
         <button

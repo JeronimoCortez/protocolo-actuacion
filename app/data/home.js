@@ -1,7 +1,7 @@
 export const navItems = [
   { label: "Inicio", active: true },
   { label: "Protocolos", active: false },
-  { label: "Marco Teorico", active: false },
+  { label: "Marco Teórico", active: false },
   { label: "Recursos y Contactos", active: false },
 ];
 
@@ -34,14 +34,14 @@ export const actionCards = [
 
 export const contacts = [
   {
-    name: "Policia / Emergencias",
+    name: "Policía / Emergencias",
     number: "911",
     icon: "phone",
     iconBg: "bg-[oklch(0.97_0.01_25)]",
     iconStroke: "oklch(0.55 0.22 25)",
   },
   {
-    name: "Emergencia Medica",
+    name: "Emergencia Médica",
     number: "911",
     icon: "medical",
     iconBg: "bg-[oklch(0.97_0.01_150)]",
@@ -65,7 +65,7 @@ export const quickAccess = [
     icon: "alert",
   },
   {
-    label: "Emergencia Medica",
+    label: "Emergencia Médica",
     href: "tel:911",
     colorClass: "bg-[oklch(0.18_0.06_150)] text-[oklch(0.7_0.18_150)]",
     iconBgClass: "bg-[oklch(0.45_0.18_150)]",

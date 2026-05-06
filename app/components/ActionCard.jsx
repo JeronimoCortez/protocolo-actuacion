@@ -31,13 +31,23 @@ export default function ActionCard({ card }) {
         card.disabled ? "cursor-not-allowed opacity-90" : "cursor-pointer"
       }`}
     >
-      <span className={`flex h-14 w-14 shrink-0 items-center justify-center rounded-xl ${styles.iconBg}`}>
+      <span
+        className={`flex h-14 w-14 shrink-0 items-center justify-center rounded-xl ${styles.iconBg}`}
+      >
         <ArrowRightIcon className="h-6 w-6 text-white" />
       </span>
       <span>
-        <span className={`mb-1 block text-xs font-semibold uppercase tracking-[0.06em] ${styles.label}`}>{card.label}</span>
-        <span className="mb-0.5 block text-[1.1rem] font-bold text-[var(--foreground)]">{card.title}</span>
-        <span className="block text-sm text-[var(--muted-foreground)]">{card.description}</span>
+        <span
+          className={`mb-1 block text-xs font-semibold uppercase tracking-[0.06em] ${styles.label}`}
+        >
+          {card.label}
+        </span>
+        <span className="mb-0.5 block text-[1.1rem] font-bold text-[var(--foreground)]">
+          {card.title}
+        </span>
+        <span className="block text-sm text-[var(--muted-foreground)]">
+          {card.description}
+        </span>
       </span>
       <ArrowRightIcon className="ml-auto h-5 w-5 opacity-40 transition group-hover:translate-x-1 group-hover:opacity-100" />
     </button>

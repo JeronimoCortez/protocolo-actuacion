@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { AlertCircleIcon, ChevronUpIcon, GlobeIcon, MedicalIcon, PhoneIcon, XIcon } from "./icons";
@@ -24,7 +24,7 @@ export default function FloatingEmergencyFab({ quickAccess }) {
           className="flex w-[260px] animate-slide-up flex-col gap-2 rounded-2xl border border-[oklch(0.25_0.02_250)] bg-[oklch(0.15_0.02_250)] p-5 shadow-[0_20px_60px_-10px_rgba(0,0,0,0.5)]"
         >
           <div className="mb-2 flex items-center justify-between">
-            <span className="text-[0.95rem] font-bold text-white">Acceso Rápido</span>
+            <span className="text-[0.95rem] font-bold text-white">Acceso rápido</span>
             <button
               className="flex h-6 w-6 items-center justify-center rounded bg-[oklch(0.25_0.02_250)] text-base font-light text-[oklch(0.7_0_0)] transition hover:bg-[oklch(0.3_0.02_250)] hover:text-white"
               aria-label="Cerrar"
