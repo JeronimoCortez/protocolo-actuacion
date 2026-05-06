@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: oklch(0.98 0.005 250);
+  --foreground: oklch(0.15 0.02 250);
+  --card: oklch(1 0 0);
+  --primary: oklch(0.35 0.08 250);
+  --secondary: oklch(0.94 0.005 250);
+  --muted-foreground: oklch(0.45 0.02 250);
+  --border: oklch(0.9 0.005 250);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 0;
+  z-index: 200;
+  padding: 8px 16px;
+  background: var(--primary);
+  color: white;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+svg {
+  display: block;
+}
