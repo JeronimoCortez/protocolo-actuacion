@@ -1,0 +1,64 @@
+{
+  "numero": "4",
+  "nombre": "Trabajo Infantil",
+  "pasos": [
+    {
+      "paso": "1",
+      "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+    },
+    {
+      "paso": "2",
+      "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS."
+    },
+    {
+      "paso": "3",
+      "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos, los equipos realizan el primer despeje."
+    },
+    {
+      "paso": "4",
+      "descripcion": "Generar una escucha atenta por parte de quien detecta la situación (por observación, relato del estudiante o de un tercero), cuidando el espacio y contexto del diálogo, respetando la privacidad, confidencialidad y contención."
+    },
+    {
+      "paso": "5",
+      "descripcion": "El profesional interviniente debe privilegiar el relato del estudiante, evitando juicios o confrontaciones y la reiteración del relato ante distintas personas. En casos de estudiantes con discapacidad, garantizar el acceso a la comunicación mediante ajustes razonables y sistemas de apoyo."
+    },
+    {
+      "paso": "6",
+      "descripcion": "Citar a la familia, referentes afectivos o responsables legales y realizar la entrevista correspondiente."
+    },
+    {
+      "paso": "7",
+      "descripcion": "Priorizar el interés superior del niño, niña o adolescente en todas las intervenciones."
+    },
+    {
+      "paso": "8",
+      "descripcion": "Articular con organismos competentes en caso de confirmarse situaciones de trabajo infantil (ETI, servicios locales de niñez, programas de prevención de trabajo infantil, salud)."
+    },
+    {
+      "paso": "9",
+      "descripcion": "Registrar en acta e informar por vía jerárquica."
+    }
+  ],
+  "acciones_preventivas": [
+    {
+      "accion": "1",
+      "descripcion": "Garantizar la implementación de acciones preventivas mediante la designación de responsables institucionales, fortaleciendo factores protectores."
+    },
+    {
+      "accion": "2",
+      "descripcion": "Ajustar la trayectoria escolar del NNA en función del emergente, evaluando las necesidades particulares del caso."
+    },
+    {
+      "accion": "3",
+      "descripcion": "Implementar estrategias que prioricen la inclusión del estudiante, brindando apoyo y acompañamiento permanente, facilitando su asistencia y continuidad en la trayectoria escolar."
+    },
+    {
+      "accion": "4",
+      "descripcion": "Los equipos intervinientes (DAE, SOE y equipos de Educación Especial y Jóvenes y Adultos), junto al equipo directivo, deben activar, sostener y fortalecer redes de apoyo interinstitucionales."
+    },
+    {
+      "accion": "5",
+      "descripcion": "Asegurar que el diálogo y el seguimiento sean sostenidos en el tiempo, integrándose como parte fundamental de la labor institucional, garantizando tanto la trayectoria escolar como el cuidado integral del NNA."
+    }
+  ]
+}

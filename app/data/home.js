@@ -1,8 +1,8 @@
 export const navItems = [
-  { label: "Inicio", active: true },
-  { label: "Protocolos", active: false },
-  { label: "Marco Teórico", active: false },
-  { label: "Recursos y Contactos", active: false },
+  { label: "Inicio", active: true, link: "/" },
+  { label: "Protocolos", active: true, link: "/protocolos" },
+  { label: "Marco Teórico", active: true, link: "/marco-teorico" },
+  { label: "Recursos y Contactos", active: true, link: "/recursos-contactos" },
 ];
 
 export const actionCards = [

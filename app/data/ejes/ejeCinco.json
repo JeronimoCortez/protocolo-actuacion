@@ -1,0 +1,47 @@
+{
+  "numero": "5",
+  "nombre": "Ausentismo, desconocimiento de paradero y retraso en el retiro de NNyA ",
+  "subejes": [
+    {
+      "numero": "5.1",
+      "numero": "Ausentismo",
+      "condicion": {
+        "condicion": "Cuando se hayan agotado todas las instancias que establecen las resoluciones vigentes para cada nivel",
+        "pasos": [
+          {
+            "paso": 1,
+            "descripcion": "Solicitar intervención de DAE por parte del equipo directivo. En todos los casos son los equipos los que realizan el primer despeje."
+          },
+          {
+            "paso": 2,
+            "descripcion": "Abrir un espacio de diálogo con la familia para conocer los motivos de la reiteración en las inasistencias."
+          },
+          {
+            "paso": 3,
+            "descripcion": "Acordar con la familia estrategias que prevengan nuevos incumplimientos en la asistencia."
+          },
+          {
+            "paso": 4,
+            "descripcion": "Dar intervención a instituciones competentes cuando el profesional advierta riesgo o amenaza de vulneración de derechos (según corresponda por municipio)."
+          },
+          {
+            "paso": 5,
+            "descripcion": "Dar intervención al Juez Contravencional en caso de no regularizar la asistencia."
+          },
+          {
+            "paso": 6,
+            "descripcion": "Dar intervención al ETI en caso de certeza de vulneración de derechos en competencia de este organismo."
+          },
+          {
+            "paso": 7,
+            "descripcion": "Informar la situación a la DAE Central por parte del profesional interviniente."
+          },
+          {
+            "paso": 8,
+            "descripcion": "Registrar en acta e informar por vía jerárquica."
+          }
+        ]
+      }
+    }
+  ]
+}

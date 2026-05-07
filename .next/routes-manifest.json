@@ -40,6 +40,24 @@
       "regex": "^/_not\\-found(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/marco-teorico",
+      "regex": "^/marco\\-teorico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/marco\\-teorico(?:/)?$"
+    },
+    {
+      "page": "/protocolos",
+      "regex": "^/protocolos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/protocolos(?:/)?$"
+    },
+    {
+      "page": "/recursos-contactos",
+      "regex": "^/recursos\\-contactos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/recursos\\-contactos(?:/)?$"
     }
   ],
   "dataRoutes": [],
