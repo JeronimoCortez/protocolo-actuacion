@@ -1,6 +1,7 @@
 {
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
+  "/api/descargas/route": "/api/descargas",
   "/marco-teorico/page": "/marco-teorico",
   "/page": "/",
   "/protocolos/page": "/protocolos",

@@ -42,6 +42,12 @@
       "namedRegex": "^/_not\\-found(?:/)?$"
     },
     {
+      "page": "/api/descargas",
+      "regex": "^/api/descargas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/descargas(?:/)?$"
+    },
+    {
       "page": "/marco-teorico",
       "regex": "^/marco\\-teorico(?:/)?$",
       "routeKeys": {},

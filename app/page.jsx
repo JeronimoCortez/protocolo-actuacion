@@ -7,9 +7,6 @@ import { actionCards, contacts, navItems, quickAccess } from "./data/home";
 export default function HomePage() {
   return (
     <>
-      <a className="skip-link" href="#main">
-        Ir al contenido principal
-      </a>
 
       <Header navItems={navItems} />
 

@@ -1,0 +1,75 @@
+{
+  "numero": "8",
+  "nombre": " Comunicación Institucional de situaciones emergentes.",
+  "subejes": [
+    {
+      "numero": "8.1",
+      "nombre": "Interacción con los medios de comunicación.",
+      "pasos": [
+        {
+          "paso": 1,
+          "descripcion": "El Equipo Directivo es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+        },
+        {
+          "paso": 2,
+          "descripcion": "Toda interacción con medios de comunicación debe ser autorizada y coordinada por el Área de Prensa de DGE, la Dirección de Acompañamiento Escolar (DAE) y Supervisión."
+        },
+        {
+          "paso": 3,
+          "descripcion": "Redactar un comunicado institucional oficial, breve y claro."
+        },
+        {
+          "paso": 4,
+          "descripcion": "Difundir el comunicado por los canales de comunicación validados en la escuela y dirigido a todo el personal docente, no docente y a la comunidad educativa en general."
+        },
+        {
+          "paso": 5,
+          "descripcion": "Designar un vocero institucional."
+        },
+        {
+          "paso": 6,
+          "descripcion": "Mantener un tono respetuoso y prudente en toda comunicación, evitando exponer datos sensibles y brindando únicamente la información necesaria para garantizar el derecho a estar informados y la tranquilidad de las familias."
+        },
+        {
+          "paso": 7,
+          "descripcion": "Resguardar la confidencialidad y la protección de los NNA. No deben difundirse imágenes de NNA por medios de comunicación o redes sociales, ya que pueden constituir un riesgo para su integridad física y psíquica."
+        },
+        {
+          "paso": 8,
+          "descripcion": "Evitar proporcionar datos sensibles o detalles que puedan identificar a NNA o a sus familias, respetando la confidencialidad y evitando la revictimización."
+        },
+        {
+          "paso": 9,
+          "descripcion": "Registrar en acta y comunicar por vía jerárquica."
+        },
+        {
+          "paso": 10,
+          "descripcion": "El acta debe incluir la identificación del medio y propósito de la visita, consignando el nombre del medio y del/la periodista, el objetivo de la visita (entrevista, reportaje o cobertura) y la duración estimada."
+        }
+      ]
+    },
+    {
+      "numero": "8.2",
+      "nombre": "Interacción con las familias",
+      "pasos": [
+        {
+          "paso": "1",
+          "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+        },
+      {
+        "paso": "2",
+        "descripcion": "Designar una persona del establecimiento para organizar y disponer el envío de la comunicación."
+      },
+      {
+        "paso": "3",
+        "descripcion": "La escuela debe contactar a los profesionales de la DAE o bien el referente departamental de DAE Central y al EOS para CEBJA/CENS, quienes brindarán orientación."
+      },
+      {
+        "paso": "4",
+        "descripcion": "Modelo de comunicación institucional sugerido",
+        "modelo_acta": "./modelos/modelo_comunicacion_institucional.pdf"
+      }
+      ]
+    }
+  ]
+}

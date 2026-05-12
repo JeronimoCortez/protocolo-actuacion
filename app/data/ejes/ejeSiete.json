@@ -1,0 +1,489 @@
+{
+  "numero": "7",
+  "nombre": "Armas, explosivos e incidente por conflicto externo ",
+  "informacion_importante": [
+    "El personal de la escuela NO debe manipular el arma sin presencia policial, salvo que sea estrictamente necesario por seguridad.",
+    "Evitar la difusión de imágenes, nombres o datos personales en medios de comunicación y redes sociales."
+  ],
+  "subejes": [
+    {
+      "numero": "7.1",
+      "nombre": "Amenazas de Intimidación Pública y Retos Virales en Instituciones Educativas",
+      "pasos": [
+        {
+          "paso": 1,
+          "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+        },
+        {
+          "paso": 2,
+          "descripcion": "Llamar al 911: Toda amenaza de atentado contra la integridad física debe ser reportada de inmediato al sistema de emergencias para dar intervención a las fuerzas de seguridad y, de ser necesario, a la División de Delitos Tecnológicos."
+        },
+        {
+          "paso": 3,
+          "descripcion": "Avisar al Superior Jerárquico. Establecer comunicación inmediata a la DAE o EOS en CEBJA/CENS, Supervisión y a la Dirección de Nivel."
+        },
+        {
+          "paso": 4,
+          "descripcion": "Preservar la evidencia: Registrar fotográficamente el mensaje para la denuncia judicial y, acto seguido, proceder a su eliminación física para evitar la viralización."
+        },
+        {
+          "paso": 5,
+          "descripcion": "Emitir una comunicación formal a familias:",
+          "archivo": "./comunicado_eje7_1.pdf"
+        },
+        {
+          "paso": 6,
+          "descripcion": "El personal de la institución no debe difundir en redes sociales privadas estas situaciones. La comunicación es estrictamente oficial para evitar la desinformación."
+        },
+        {
+          "paso": 7,
+          "descripcion": "En caso de reconocimiento de autoría del hecho se cita a los adultos responsables del o los estudiantes para informarles acerca de su responsabilidad civil/penal por la conducta de los menores a su cargo y acciones correspondientes según memo 15-2026-DGE."
+        },
+        {
+          "paso": 8,
+          "descripcion": "Registrar en acta e informar por vía jerárquica."
+        }
+      ]
+    },
+    {
+      "numero": "7.2",
+      "nombre": "Armas",
+      "categorias": [
+        {
+          "numero": "7.2.1",
+          "nombre": "Presencia de arma en la escuela",
+          "informacion": "Se encuentra un arma dentro del establecimiento pero NO está en posesión de ninguna persona.",
+          "clasificacion": [
+            {
+              "tipo": "Armas blancas"
+            },
+            {
+              "tipo": "Armas impropias"
+            },
+            {
+              "tipo": "Armas de fuego"
+            }
+          ],
+          "acciones": [
+            {
+              "condicion": "Arma blanca o impropia",
+              "pasos": [
+                {
+                  "paso": 1,
+                  "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+                },
+                {
+                  "paso": 2,
+                  "descripcion": "Llamar al 911 Sistema Seguridad Pública para que retire el arma y realice las pericias correspondientes."
+                },
+                {
+                  "paso": 3,
+                  "descripcion": "Comunicar el emergente a DAE Central o al EOS para CEBJA/CENS."
+                },
+                {
+                  "paso": 4,
+                  "descripcion": "Dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes."
+                },
+                {
+                  "paso": 5,
+                  "descripcion": "Separar el grupo de estudiantes del arma y retenerla con extremo cuidado."
+                },
+                {
+                  "paso": 6,
+                  "descripcion": "Registrar en acta e informar por vía jerárquica."
+                }
+              ]
+            },
+            {
+              "condicion": "Arma de fuego",
+              "pasos": [
+                {
+                  "paso": 1,
+                  "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+                },
+                {
+                  "paso": 2,
+                  "descripcion": "Llamar al 911 Sistema Seguridad Pública para que retire el arma y realice las pericias correspondientes."
+                },
+                {
+                  "paso": 3,
+                  "descripcion": "Separar al grupo de estudiantes del lugar donde se encuentra el arma. Considerar todas las armas de fuego como si estuvieran cargadas."
+                },
+                {
+                  "paso": 4,
+                  "descripcion": "Comunicar el emergente a DAE Central o al EOS para CEBJA/CENS."
+                },
+                {
+                  "paso": 5,
+                  "descripcion": "Dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes."
+                },
+                {
+                  "paso": 6,
+                  "descripcion": "Registrar en acta e informar por vía jerárquica."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "numero": "7.2.2",
+          "nombre": "Persona portando arma dentro de la institución",
+          "pasos": [
+            {
+              "paso": 1,
+              "descripcion": "Quien detecta a la persona armada en la escuela por observación directa debe intentar disuadir a la persona y pedirle que deponga el arma. Considerar todas las armas de fuego como si estuvieran cargadas."
+            },
+            {
+              "paso": 2,
+              "descripcion": "Llamar al 911 Sistema de Seguridad Pública, informar la situación y solicitar asesoramiento y presencia inmediata."
+            },
+            {
+              "paso": 3,
+              "descripcion": "Separar al grupo de estudiantes de la persona armada."
+            },
+            {
+              "paso": 4,
+              "descripcion": "Evaluar la situación y actuar de acuerdo a las siguientes opciones.",
+              "condiciones": [
+                {
+                  "tipo": "salir_rapidamente",
+                  "acciones": [
+                    "Dejar las pertenencias y elaborar de inmediato un plan de salida en dirección contraria a la persona armada.",
+                    "Si se está a cargo de un grupo de personas, evacuar el lugar rápidamente y sin dudar, procurando llegar a la zona segura designada o salir del edificio según corresponda.",
+                    "En caso de encontrarse con personal policial, mantener las manos visibles en todo momento para permitir que la policía identifique rápidamente a quien porta el arma."
+                  ]
+                },
+                {
+                  "tipo": "resguardarse",
+                  "acciones": [
+                    "En caso de no poder salir rápidamente, resguardarse en un área fuera del campo visual del agresor.",
+                    "Cerrar la puerta o bloquear el acceso; si se encuentra en un aula, utilizar pupitres, sillas u otros objetos para obstruir puertas y ventanas.",
+                    "Evitar ubicarse frente a puertas o ventanas.",
+                    "Silenciar el celular por completo —incluido el modo vibrador— y permanecer en absoluto silencio hasta que la agresión termine o llegue ayuda policial.",
+                    "En caso de encontrarse con personal policial, mantener las manos visibles en todo momento para permitir que la policía identifique rápidamente a quien porta el arma."
+                  ]
+                }
+              ]
+            },
+            {
+              "paso": 5,
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            },
+            {
+              "paso": 6,
+              "descripcion": "Comunicar el emergente a DAE Central o al EOS para CEBJA/CENS."
+            },
+            {
+              "paso": 7,
+              "descripcion": "En paralelo, dar aviso al equipo interdisciplinario seccional de DAE para nivel inicial y primario y SOE o equipos técnicos según corresponda, quienes realizarán la intervención correspondiente."
+            },
+            {
+              "paso": 8,
+              "descripcion": "Una vez resuelta la situación, registrar en acta e informar por vía jerárquica."
+            },
+            {
+              "paso": 9,
+              "descripcion": "Dar seguimiento si la persona involucrada es un estudiante. En caso de que el equipo interviniente detecte la existencia de riesgo, amenaza o vulneración de derechos, dar intervención a instituciones competentes según municipio, equipos de salud o ETI."
+            }
+          ]
+        },
+        {
+          "numero": "7.3",
+          "nombre": "Adulto que se presenta en la puerta de la escuela con actitud amenazante",
+          "pasos": [
+            {
+              "paso": "1",
+              "descripcion": "Impedir el acceso al establecimiento de cualquier adulto en actitud amenazante o que porte un arma (de fuego, arma blanca o cualquier elemento contundente) y comunicarse de inmediato con el 911 (Sistema de seguridad pública)."
+            },
+            {
+              "paso": "2",
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            }
+          ],
+          "informacion_911": {
+            "titulo": "Información que debe brindar al operador del 911",
+            "datos_a_informar": [
+              "Departamento o localidad de dónde llama.",
+              "Calle, altura municipal o intersección cercana.",
+              "Tipo de hecho y establecimiento educacional.",
+              "Ubicación del agresor armado.",
+              "Cantidad de agresores.",
+              "Descripción física de los sujetos activos.",
+              "Cantidad y tipo de armas que posean.",
+              "Cantidad de posibles víctimas en el lugar."
+            ],
+            "aspectos_importantes_cuando_llegue_policia": [
+              "Mantenga la calma y siga todas las instrucciones que le sean indicadas.",
+              "Suelte cualquier objeto que tenga en las manos (bolsos, carteras, abrigos, etc.).",
+              "Levante las manos y mantenerlas visibles en todo momento; el personal policial considerará a todos como sospechosos hasta confirmar lo contrario.",
+              "Evite realizar movimientos bruscos hacia los oficiales, como intentar sujetarse de ellos por seguridad.",
+              "No grite ni señale.",
+              "No formule preguntas durante la evacuación."
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "numero": "7.4",
+      "nombre": "Imágenes de NNA portando armas",
+      "pasos": [
+        {
+          "paso": 1,
+          "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+        },
+        {
+          "paso": 2,
+          "descripcion": "Comunicar el emergente a DAE Central o al EOS para CEBJA/CENS."
+        },
+        {
+          "paso": 3,
+          "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
+        },
+        {
+          "paso": 4,
+          "descripcion": "Llamar al 911 Sistema de Seguridad Pública, informar la situación y solicitar asesoramiento."
+        },
+        {
+          "paso": 5,
+          "descripcion": "Quien detecta la imagen del NNA portando un arma —a través del relato de terceros o visualización en redes sociales— tiene el deber de informar."
+        },
+        {
+          "paso": 6,
+          "descripcion": "Comunicar la situación a la familia, referentes afectivos o responsables legales y requerir su presencia inmediata en la institución."
+        },
+        {
+          "paso": 7,
+          "descripcion": "Si el equipo interviniente advierte un riesgo o amenaza, dar intervención a instituciones competentes según municipio, equipos de salud o ETI en caso de vulneración de derechos."
+        },
+        {
+          "paso": 8,
+          "descripcion": "Registrar en acta e informar por vía jerárquica."
+        }
+      ]
+    },
+    {
+      "numero": "7.5",
+      "nombre": "Incidentes con explosivos",
+      "categorias": [
+        {
+          "numero": "7.5.1",
+          "nombre": "Amenaza de bomba",
+          "pasos": [
+            {
+              "paso": 1,
+              "descripcion": "Llamar al 911 Sistema de Seguridad Pública, informar la situación y solicitar asesoramiento y presencia inmediata."
+            },
+            {
+              "paso": 2,
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            },
+            {
+              "paso": 3,
+              "descripcion": "Comunicar el emergente a DAE Central o al EOS para CEBJA/CENS."
+            },
+            {
+              "paso": 4,
+              "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes."
+            },
+            {
+              "paso": 5,
+              "descripcion": "Trasladar a los NNA, docentes y personal de la escuela al lugar seguro del establecimiento designado con anterioridad.",
+              "acciones": [
+                "Evitar la evacuación al exterior.",
+                "Llevar consigo todas las pertenencias.",
+                "Los docentes son responsables de sus estudiantes y deberán contar con un listado de todos los presentes en el día."
+              ]
+            },
+            {
+              "paso": 6,
+              "descripcion": "La persona que toma conocimiento de la amenaza —vía telefónica, escrita, relato de terceros o redes sociales— debe:",
+              "acciones": [
+                "Permanecer en calma.",
+                "Estar atenta a la palabra y el tono de voz.",
+                "Brindar información relevante para los especialistas de la Unidad de Explosivos.",
+                "Resguardar el elemento de prueba en caso de que se haya recibido de forma escrita y/o por redes sociales."
+              ]
+            },
+            {
+              "paso": 7,
+              "descripcion": "Seguir las indicaciones de los especialistas de la Unidad de Explosivos."
+            },
+            {
+              "paso": 8,
+              "descripcion": "Registrar en acta e informar por vía jerárquica."
+            }
+          ]
+        },
+        {
+          "numero": "7.5.2",
+          "nombre": "Hallazgo de artefactos explosivos o sospechosos de serlo.",
+          "pasos": [
+            {
+              "paso": 1,
+              "descripcion": "Llamar al 911 Sistema de Seguridad Pública, informar la situación y solicitar asesoramiento y presencia inmediata."
+            },
+            {
+              "paso": 2,
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            },
+            {
+              "paso": 3,
+              "descripcion": "Comunicar el emergente a DAE Central o al EOS para CEBJA/CENS."
+            },
+            {
+              "paso": 4,
+              "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes."
+            },
+            {
+              "paso": 5,
+              "descripcion": "No permitir que la persona que encontró el objeto se retire del lugar, evitar manipular el objeto y aislar la zona."
+            },
+            {
+              "paso": 6,
+              "descripcion": "Activar de inmediato el Plan de Evacuación según la ubicación del objeto.",
+              "condiciones": [
+                {
+                  "tipo": "objeto_dentro_del_establecimiento",
+                  "acciones": ["Activar de inmediato el Plan de Evacuación."]
+                },
+                {
+                  "tipo": "objeto_fuera_del_establecimiento",
+                  "acciones": [
+                    "Permanecer en el establecimiento educativo o en lugares internos previamente designados, por ser el lugar más seguro."
+                  ]
+                }
+              ]
+            },
+            {
+              "paso": 7,
+              "descripcion": "Esperar la llegada de los Técnicos Especialistas en desactivación de elementos explosivos y seguir sus recomendaciones."
+            },
+            {
+              "paso": 8,
+              "descripcion": "Registrar en acta e informar por vía jerárquica."
+            }
+          ]
+        },
+        {
+          "numero": "7.5.3",
+          "nombre": "Detonación de explosivos",
+          "pasos": [
+            {
+              "paso": 1,
+              "descripcion": "Activar de inmediato el Plan de Evacuación hacia una zona previamente establecida como segura, asegurando una distancia mínima de 100 metros, ya que podrían existir otros artefactos ocultos."
+            },
+            {
+              "paso": 2,
+              "descripcion": "Llamar al 911 Sistema de Seguridad Pública, informar la situación y solicitar asesoramiento y presencia inmediata."
+            },
+            {
+              "paso": 3,
+              "descripcion": "Comunicar el emergente a DAE Central por parte del profesional interviniente o al EOS para CEBJA/CENS."
+            },
+            {
+              "paso": 4,
+              "descripcion": "En paralelo, dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            },
+            {
+              "paso": 5,
+              "descripcion": "Dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes."
+            },
+            {
+              "paso": 6,
+              "descripcion": "Si no hay víctimas y no existe riesgo inminente para sus vidas, indicar que las personas se desplacen por sus propios medios hacia las zonas seguras."
+            },
+            {
+              "paso": 7,
+              "descripcion": "Esperar la llegada de los Técnicos Especialistas en Desactivación de Elementos Explosivos."
+            },
+            {
+              "paso": 8,
+              "descripcion": "Registrar en acta e informar por vía jerárquica."
+            },
+            {
+              "paso": 9,
+              "descripcion": "Procedimiento de evacuación.",
+              "acciones": [
+                "La escuela debe contar con un Plan de Evacuación estudiado y ensayado por todo el personal de la institución y los estudiantes.",
+                "En casos en que se requiera una evacuación inmediata, la misma será decisión de especialistas en explosivos.",
+                "Localizado el objeto o verificada su veracidad, se debe proceder a la evacuación.",
+                "No generar alarma generalizada.",
+                "Realizar la evacuación con orden, rapidez y disciplina.",
+                "Durante el proceso de evacuación no alterar puertas ni ventanas ni modificar los espacios. Al salir o pasar de un ambiente a otro, dejar las puertas abiertas.",
+                "Cada docente será responsable de sus estudiantes.",
+                "El personal no docente quedará a disposición de los especialistas.",
+                "De ser posible, todas las personas deben abandonar su área de actividad llevando consigo bultos y pertenencias para facilitar la rapidez y efectividad del trabajo de los técnicos en búsqueda y localización.",
+                "Si al evacuar se olvidaron pertenencias, no regresar por objetos personales y evitar exponerse a riesgos.",
+                "Seguir siempre las recomendaciones de los especialistas de la Unidad de Explosivos."
+              ]
+            }
+          ]
+        },
+        {
+          "numero": "7.6",
+          "nombre": "Incidente por Conflicto Social Externo",
+          "pasos": [
+            {
+              "paso": 1,
+              "descripcion": "Bloquear los accesos al establecimiento."
+            },
+            {
+              "paso": 2,
+              "descripcion": "Llamar al 911 Sistema de Seguridad Pública, informar la situación y solicitar asesoramiento y presencia inmediata."
+            },
+            {
+              "paso": 3,
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            },
+            {
+              "paso": 4,
+              "descripcion": "Comunicar el emergente a DAE Central por parte del profesional interviniente o al EOS para CEBJA/CENS."
+            },
+            {
+              "paso": 5,
+              "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes."
+            },
+            {
+              "paso": 6,
+              "descripcion": "El equipo directivo de la escuela comunicará la situación y el modo de proceder a padres, madres, responsables legales o referentes afectivos."
+            },
+            {
+              "paso": 7,
+              "descripcion": "Cada docente debe mantener a sus estudiantes dentro del aula o en los espacios seguros fijados por la institución y verificar que no haya ausencias respecto al inicio de la jornada."
+            },
+            {
+              "paso": 8,
+              "descripcion": "Esperar la llegada del personal policial de la jurisdicción para confirmar que el entorno sea seguro y recibir indicaciones para la evacuación."
+            },
+            {
+              "paso": 9,
+              "descripcion": "Registrar en acta e informar por vía jerárquica."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "acciones_preventivas": {
+    "factores_protectores": "Generar acciones  sostenidas en el tiempo para el seguimiento y acompañamiento de la institución escolar.",
+    "acciones": [
+      {
+        "accion": 1,
+        "descripcion": "Los profesionales de los equipos intervinientes —DAE para Inicial y Primaria, SOE para Secundaria o equipos de Educación Especial y Jóvenes y Adultos— junto con el equipo directivo de la institución, deberán activar, sostener y fortalecer las redes de apoyo interinstitucionales."
+      },
+      {
+        "accion": 2,
+        "descripcion": "La Dirección de Acompañamiento Escolar (DAE) diseñará e implementará acciones destinadas a contener emocionalmente y detectar posibles situaciones de miedo, ansiedad o trauma en estudiantes, docentes y personal no docente."
+      },
+      {
+        "accion": 3,
+        "descripcion": "Promover junto a estudiantes, docentes, directivos, familias y otros actores u organizaciones de la comunidad un diálogo abierto que permita reflexionar sobre lo ocurrido, la violencia social y su repercusión en el ámbito educativo, reforzando el rol de la escuela como espacio seguro."
+      },
+      {
+        "accion": 4,
+        "descripcion": "En la modalidad EPJA se sugiere convocar al Consejo Escolar Comunitario para identificar factores protectores con los que cuenta el centro educativo y establecer acuerdos y talleres relacionados con los emergentes."
+      }
+    ]
+  }
+}

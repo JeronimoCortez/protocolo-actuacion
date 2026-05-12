@@ -1,0 +1,248 @@
+{
+  "numero": "6",
+  "nombre": "Crisis emocional y Fallecimiento de NNA o Personal de la Institución",
+  "subejes": [
+    {
+      "numero": "6.1",
+      "nombre": "Expresiones de crisis emocionales- malestar subjetivo",
+      "pasos": [
+        {
+          "paso": 1,
+          "descripcion": "No dejar solo al estudiante en ningún momento."
+        },
+        {
+          "paso": 2,
+          "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+        },
+        {
+          "paso": 3,
+          "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS."
+        },
+        {
+          "paso": 4,
+          "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo Interdisciplinario Seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
+        },
+        {
+          "paso": 5,
+          "descripcion": "Brindar atención de primeros auxilios si existen lesiones. Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado con el que cuenta la escuela, si hay riesgo potencial de agravamiento o riesgo inmediato de vida o de una función vital."
+        },
+        {
+          "paso": 6,
+          "descripcion": "La primera persona que identifica la situación del NNA debe generar un espacio de escucha atenta, cuidando el espacio y contexto en el que se desarrolla el diálogo, respetando la privacidad y contención del estudiante. Es importante lograr un clima de confianza para que el NNA pueda expresarse sin inducir el relato, invalidarlo o cuestionarlo."
+        },
+        {
+          "paso": 7,
+          "descripcion": "El profesional debe procurar que no intervengan actores innecesarios y evitar la reiteración del relato, respetando los derechos del estudiante a la intimidad y a la salud. En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes necesarios y sistemas de apoyo."
+        },
+        {
+          "paso": 8,
+          "descripcion": "Comunicarse con la familia, referente afectivo o responsable legal para informar la situación."
+        },
+        {
+          "paso": 9,
+          "descripcion": "Si se detecta vulneración de derechos del NNA asociada al emergente que involucre a alguno de los responsables legales, no contactarlo. El profesional interviniente deberá derivar la situación a la institución correspondiente."
+        },
+        {
+          "paso": 10,
+          "descripcion": "Orientar y asesorar a la familia, referente afectivo o representante legal del NNA sobre la importancia de dar intervención a efectores de salud mental."
+        },
+        {
+          "paso": 11,
+          "descripcion": "Registrar en acta e informar según línea jerárquica."
+        }
+      ],
+      "acciones_preventivas": {
+        "factores_protectores": "La escuela debe garantizar el cumplimiento de las siguientes acciones designando a los responsables.",
+        "acciones": [
+          {
+            "accion": 1,
+            "descripcion": "Implementar diferentes estrategias de acción que tengan como prioridad la inclusión, apoyo y acompañamiento del estudiante, garantizando las condiciones necesarias para que complete su trayectoria escolar y, en caso de requerirlo, su tratamiento de salud mental."
+          },
+          {
+            "accion": 2,
+            "descripcion": "Ofrecer contención y acompañamiento al NNA y a la familia, promoviendo espacios de escucha y fortalecimiento de vínculos."
+          },
+          {
+            "accion": 3,
+            "descripcion": "Los profesionales de los equipos intervinientes —DAE para Nivel Inicial y Primario, SOE para Nivel Secundario y equipos de Educación Especial y Jóvenes y Adultos— junto con el equipo directivo, deberán activar, sostener y fortalecer redes de apoyo interinstitucionales."
+          },
+          {
+            "accion": 4,
+            "descripcion": "Articular acciones con efectores y dispositivos de salud y salud mental, tales como centros de salud, asesorías de salud integral para adolescentes, efectores de salud mental y dispositivos municipales, entre otros."
+          },
+          {
+            "accion": 5,
+            "descripcion": "Diseñar e implementar dispositivos y espacios de escucha activa, incluyendo grupos de conversación, contención emocional, promoción de la salud mental y acciones preventivas orientadas a desnaturalizar representaciones sociales estigmatizantes."
+          },
+          {
+            "accion": 6,
+            "descripcion": "Garantizar que el diálogo, el acompañamiento y el seguimiento sean sostenidos en el tiempo, integrándose como parte fundamental de la labor institucional."
+          },
+          {
+            "accion": 7,
+            "descripcion": "Asegurar el cuidado integral de la salud mental del estudiante y el sostenimiento de su trayectoria escolar mediante acciones institucionales coordinadas."
+          }
+        ]
+      }
+    },
+    {
+      "numero": "6.2",
+      "nombre": "Fallecimiento de un NNA  o Personal de la institución educativa",
+      "categorias": [
+        {
+          "numero": "6.2.1",
+          "nombre": "Dentro de la institución",
+          "pasos": [
+            {
+              "paso": 1,
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            },
+            {
+              "paso": 2,
+              "descripcion": "Contactar al Servicio de Emergencias Coordinado (911) o al Servicio de Emergencia privado con el que cuenta la escuela. Si se observan signos vitales, brindar primeros auxilios. No movilizar a la persona."
+            },
+            {
+              "paso": 3,
+              "descripcion": "Aislar el área, impedir el acceso de personas y evitar la toma de fotografías o videos."
+            },
+            {
+              "paso": 4,
+              "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS."
+            },
+            {
+              "paso": 5,
+              "descripcion": "En paralelo, dar aviso al Equipo Interdisciplinario Seccional de DAE para Nivel Inicial y Primario y SOE. En las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes."
+            },
+            {
+              "paso": 6,
+              "descripcion": "Contactar a la familia o referentes con sensibilidad y respeto, realizando la comunicación de forma directa y empática, brindando acompañamiento y contención."
+            },
+            {
+              "paso": 7,
+              "descripcion": "Resguardar la dignidad de la persona fallecida, actuando con respeto, prudencia y cuidado en todo momento."
+            },
+            {
+              "paso": 8,
+              "descripcion": "Gestionar la comunicación oficial centralizando la información en la Dirección de la escuela, evitando la difusión de datos no confirmados o inapropiados."
+            },
+            {
+              "paso": 9,
+              "descripcion": "Redactar una comunicación oficial institucional clara, breve y respetuosa, sin revelar detalles sensibles ni personales sin autorización de la familia."
+            },
+            {
+              "paso": 10,
+              "descripcion": "Establecer un único canal oficial de comunicación para medios de comunicación y comunidad educativa, evitando que estudiantes o docentes brinden declaraciones públicas no autorizadas."
+            },
+            {
+              "paso": 11,
+              "descripcion": "Planificar una instancia de posvención articulada con DAE y la Dirección de Salud Mental dentro de las 48 a 72 horas posteriores al evento."
+            },
+            {
+              "paso": 12,
+              "descripcion": "Informar la situación a la DAE Central por parte del profesional interviniente o al EOS en CEBJA."
+            },
+            {
+              "paso": 13,
+              "descripcion": "Registrar en acta e informar por vía jerárquica."
+            }
+          ]
+        },
+        {
+          "numero": "6.2.2",
+          "nombre": "En ámbitos distintos al educativo",
+          "pasos": [
+            {
+              "paso": 1,
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            },
+            {
+              "paso": 2,
+              "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS."
+            },
+            {
+              "paso": 3,
+              "descripcion": "Dar aviso al Equipo Interdisciplinario Seccional de DAE para Nivel Inicial y Primario y SOE. En las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes."
+            },
+            {
+              "paso": 4,
+              "descripcion": "Contactar a la familia con sensibilidad y respeto, realizando la comunicación de forma directa y empática, brindando acompañamiento y contención."
+            },
+            {
+              "paso": 5,
+              "descripcion": "Resguardar la dignidad de la persona fallecida, actuando con respeto, prudencia y cuidado en todo momento."
+            },
+            {
+              "paso": 6,
+              "descripcion": "Gestionar la comunicación oficial centralizando la información en la Dirección de la escuela, evitando la difusión de datos no confirmados o inapropiados."
+            },
+            {
+              "paso": 7,
+              "descripcion": "Redactar una comunicación oficial institucional clara, breve y respetuosa, sin revelar detalles sensibles ni personales sin autorización de la familia."
+            },
+            {
+              "paso": 8,
+              "descripcion": "Establecer un único canal oficial de comunicación para medios de comunicación y comunidad educativa, evitando que estudiantes o docentes brinden declaraciones públicas no autorizadas."
+            },
+            {
+              "paso": 9,
+              "descripcion": "Planificar una instancia de posvención articulada con DAE y la Dirección de Salud Mental dentro de las 48 a 72 horas posteriores al evento."
+            },
+            {
+              "paso": 10,
+              "descripcion": "Informar la situación a la DAE Central por parte del profesional interviniente o al EOS en CEBJA."
+            },
+            {
+              "paso": 11,
+              "descripcion": "Registrar en acta e informar por vía jerárquica."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "acciones_preventivas": {
+    "factores_protectores": "Se activan acciones de POSVENCION: Durante la posvención, las prácticas de cuidado y acciones que ponga en marcha la escuela resultan fundamentales para la tramitación psicosocial de lo acontecido, para favorecer el desarrollo de otro tipo de respuestas ante eventos traumáticos y/o padecimientos psicosociales agudos y prevenir otras situaciones ligadas a este emergente. Será necesario que se desplieguen en la comunidad educativa, acciones que posibiliten hablar sobre lo sucedido con los estudiantes.",
+    "acciones": [
+      {
+        "accion": 1,
+        "descripcion": "Intervenir entre las 48 y 72 horas posteriores al evento, sosteniendo acciones de acompañamiento durante un plazo de hasta dos meses y realizando seguimiento entre uno y dos años."
+      },
+      {
+        "accion": 2,
+        "descripcion": "Habilitar espacios donde las y los estudiantes puedan hablar sobre lo sucedido mediante el diálogo, la escritura o la expresión artística, respetando los tiempos individuales y la necesidad de silencio como forma legítima de elaboración."
+      },
+      {
+        "accion": 3,
+        "descripcion": "Brindar acompañamiento y contención a docentes y adultos referentes, ofreciendo espacios coordinados por el equipo técnico o DAE, reconociendo su rol como primeros intervinientes."
+      },
+      {
+        "accion": 4,
+        "descripcion": "Definir las personas adultas responsables de articular los dispositivos de acompañamiento y garantizar la coherencia de las intervenciones entre los distintos actores institucionales."
+      },
+      {
+        "accion": 5,
+        "descripcion": "Relevar la presencia de hermanos, hermanas u otros familiares en la misma institución u otras instituciones para coordinar abordajes interinstitucionales y asegurar un acompañamiento integral."
+      },
+      {
+        "accion": 6,
+        "descripcion": "Habilitar espacios de escucha diferenciados, priorizando la atención del grupo más cercano por edad, vínculo o lazo con la persona fallecida."
+      },
+      {
+        "accion": 7,
+        "descripcion": "Evitar juicios, idealizaciones o discursos moralizantes respecto de la persona que se quitó la vida o lo intentó, evitando también mensajes simplificadores o vitalistas que puedan resultar contraproducentes."
+      },
+      {
+        "accion": 8,
+        "descripcion": "Acompañar los homenajes o gestos de memoria favoreciendo su carácter transitorio, contribuyendo a la elaboración del duelo sin cristalizar la pérdida."
+      },
+      {
+        "accion": 9,
+        "descripcion": "Trabajar junto a los servicios locales de salud y salud mental para fortalecer la red de apoyo y garantizar un acompañamiento integral a las familias."
+      },
+      {
+        "accion": 10,
+        "descripcion": "Promover una comunicación responsable, asignando referentes institucionales para la comunicación con familiares y observando especialmente la circulación de mensajes en redes sociales y medios de comunicación para evitar la exposición o estigmatización."
+      }
+    ]
+  }
+}

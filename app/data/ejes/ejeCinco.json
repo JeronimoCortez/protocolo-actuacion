@@ -4,7 +4,7 @@
   "subejes": [
     {
       "numero": "5.1",
-      "numero": "Ausentismo",
+      "nombre": "Ausentismo",
       "condicion": {
         "condicion": "Cuando se hayan agotado todas las instancias que establecen las resoluciones vigentes para cada nivel",
         "pasos": [
@@ -42,6 +42,183 @@
           }
         ]
       }
+    },
+    {
+      "numero": "5.2",
+      "nombre": "Desconocimiento del paradero de un NNA",
+      "informacion": {
+        "descripcion": "Cualquier persona puede denunciar, tenga o no un parentesco o vínculo próximo con el  desaparecido, y la denuncia puede realizarse en la jurisdicción en donde se produjo la desaparición o en la que resida el  denunciante. Realizar la denuncia de forma inmediata. Se realiza en la comisaría, fiscalía o juzgado más cercano.  Se puede llamar de forma gratuita al 134.",
+        "requisitos_para_realizar_denuncia": [
+          "Los datos personales básicos de la persona desaparecida (nombre/s y apellido/s, edad, DNI, domicilio, teléfono)",
+          "Foto más actualizada que se tenga.",
+          "Descripción física y de vestimenta.",
+          "Ubicación y horario de la última vez que fue visto."
+        ]
+      },
+      "categorias": [
+        {
+          "numero": "5.2.1",
+          "nombre": "Si el desconocimiento del paradero del NNA ocurre fuera del horario escolar",
+          "pasos": [
+            {
+              "paso": 1,
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            },
+            {
+              "paso": 2,
+              "descripcion": "Informar la situación a la DAE Central o EOS en CEBJA."
+            },
+            {
+              "paso": 3,
+              "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo Interdisciplinario Seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
+            },
+            {
+              "paso": 4,
+              "descripcion": "Orientar a la familia o responsable legal para que realice la denuncia de forma inmediata en la Fiscalía más cercana por “Averiguación de Paradero”."
+            },
+            {
+              "paso": 5,
+              "descripcion": "Solicitar una copia de la denuncia de forma inmediata."
+            },
+            {
+              "paso": 6,
+              "descripcion": "En caso de que los adultos no denuncien o no remitan la copia de la denuncia, la misma debe ser realizada por el equipo directivo, el Equipo Interdisciplinario Seccional de DAE para Nivel Inicial y Primario, SOE o equipos técnicos según corresponda."
+            },
+            {
+              "paso": 7,
+              "descripcion": "Registrar en acta e informar según vía jerárquica."
+            }
+          ]
+        },
+        {
+          "numero": "5.2.2",
+          "nombre": "Si el desconocimiento del paradero del NNA ocurre dentro del horario escolar.",
+          "pasos": [
+            {
+              "paso": 1,
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            },
+            {
+              "paso": 2,
+              "descripcion": "Informar la situación a la DAE Central o EOS en CEBJA."
+            },
+            {
+              "paso": 3,
+              "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo Interdisciplinario Seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
+            },
+            {
+              "paso": 4,
+              "descripcion": "Verificar con el personal de la institución si el estudiante se encuentra en otra actividad escolar autorizada."
+            },
+            {
+              "paso": 5,
+              "descripcion": "Revisar los distintos espacios de la escuela."
+            },
+            {
+              "paso": 6,
+              "descripcion": "Consultar con compañeros si han tenido contacto reciente con el estudiante o si conocen su paradero."
+            },
+            {
+              "paso": 7,
+              "descripcion": "Contactar inmediatamente a la familia, referente afectivo o representante legal y consultar si poseen información sobre el paradero o si establecieron comunicación con el NNA."
+            },
+            {
+              "paso": 8,
+              "descripcion": "Comunicarse con la Policía (911) y notificar el hecho brindando información detallada: hora en que se detecta la situación, acciones realizadas, personas informadas y conversaciones mantenidas con tutores y autoridades."
+            },
+            {
+              "paso": 9,
+              "descripcion": "Realizar la denuncia en la fiscalía más cercana por “Averiguación de Paradero”."
+            },
+            {
+              "paso": 10,
+              "descripcion": "Registrar la información para brindarla a las autoridades que la soliciten."
+            },
+            {
+              "paso": 11,
+              "descripcion": "Registrar en acta e informar por vía jerárquica."
+            }
+          ]
+        },
+        {
+          "numero": "5.2.3",
+          "nombre": "No retiran a los NN  en el horario previsto por la institución escolar. (ÚNICAMENTE NIVEL INICIAL Y PRIMARIO)",
+          "pasos": {
+            "restriccion": "Tener en cuenta estos pasos tanto cuando la situación se presenta por primera vez o es reiterada",
+            "pasos": [
+              {
+                "paso": 1,
+                "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+              },
+              {
+                "paso": 2,
+                "descripcion": "Llamar inmediatamente, producida la tardanza para retirar al NNA, a los teléfonos de contacto brindados por la familia y registrados en la escuela."
+              },
+              {
+                "paso": 3,
+                "descripcion": "El NNA debe permanecer en un espacio seguro de la escuela bajo responsabilidad del equipo directivo o de personal autorizado."
+              },
+              {
+                "paso": 4,
+                "descripcion": "No entregar al estudiante sin autorización expresa de los responsables legales o de la autoridad competente."
+              },
+              {
+                "paso": 5,
+                "descripcion": "Contemplar situaciones excepcionales o causas de fuerza mayor que impidan a responsables legales o personas autorizadas llegar al establecimiento (por ejemplo, escuelas rurales, lluvias intensas o problemas de transporte). En estos casos, la dirección debe comunicar de inmediato a supervisión para evaluar alternativas seguras."
+              },
+              {
+                "paso": 6,
+                "descripcion": "Informar al Juez Contravencional en turno que corresponda por circunscripción, para que arbitre las medidas pertinentes, cuando haya transcurrido más de una hora sin respuesta de responsables legales o personas autorizadas."
+              },
+              {
+                "paso": 7,
+                "descripcion": "Informar la situación a la DAE Central o EOS en CEBJA."
+              },
+              {
+                "paso": 8,
+                "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo Interdisciplinario Seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes."
+              },
+              {
+                "paso": 9,
+                "descripcion": "El equipo interviniente debe abrir un espacio de diálogo con la familia para conocer los motivos de la reiteración y acordar estrategias que prevengan nuevos incumplimientos."
+              },
+              {
+                "paso": 10,
+                "descripcion": "Si el equipo interviniente advierte un riesgo o amenaza, dar intervención a instituciones competentes según corresponda por municipio."
+              },
+              {
+                "paso": 11,
+                "descripcion": "En presencia de vulneración de derechos, dar intervención al ETI por negligencia grave y ausencia de responsable legal."
+              },
+              {
+                "paso": 12,
+                "descripcion": "Registrar en acta e informar según vía jerárquica."
+              }
+            ]
+          }
+        }
+      ]
     }
-  ]
+  ],
+  "acciones_preventivas": {
+    "factores_protectores": "La escuela debe garantizar el cumplimiento de las siguientes acciones designando a los responsables.",
+    "acciones": [
+      {
+        "accion": 1,
+        "descripcion": "Ofrecer contención al NNA y a la familia, generando espacios de diálogo y sensibilización que promuevan el compromiso y la participación."
+      },
+      {
+        "accion": 2,
+        "descripcion": "Implementar diferentes estrategias de acción que tengan como prioridad la inclusión del estudiante, brindando apoyo y acompañamiento permanente para facilitar su concurrencia a la escuela y favorecer la continuidad de su trayectoria escolar."
+      },
+      {
+        "accion": 3,
+        "descripcion": "Los profesionales de los equipos intervinientes —DAE para Inicial y Primaria, SOE para Secundaria o equipos de Educación Especial y Jóvenes y Adultos— junto con el equipo directivo de la institución, deberán activar, sostener y fortalecer las redes de apoyo interinstitucionales."
+      },
+      {
+        "accion": 4,
+        "descripcion": "Trabajar articuladamente con otras instituciones para garantizar el seguimiento y acompañamiento del estudiante en caso de detectarse riesgo, amenaza o vulneración de derechos del NNA."
+      }
+    ]
+  }
 }

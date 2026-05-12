@@ -25,7 +25,8 @@ export default function ActionCard({ card }) {
   const styles = cardStyles[card.color];
 
   return (
-    <button
+    <a
+      href={card.link}
       type="button"
       className={`group relative flex items-center gap-5 overflow-hidden rounded-2xl border-2 p-6 text-left transition ${styles.container} ${
         card.disabled ? "cursor-not-allowed opacity-90" : "cursor-pointer"
@@ -50,6 +51,6 @@ export default function ActionCard({ card }) {
         </span>
       </span>
       <ArrowRightIcon className="ml-auto h-5 w-5 opacity-40 transition group-hover:translate-x-1 group-hover:opacity-100" />
-    </button>
+    </a>
   );
 }

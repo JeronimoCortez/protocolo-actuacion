@@ -24,7 +24,7 @@ export default function Header({ navItems }) {
             className="flex shrink-0 items-center gap-2 text-[1.1rem] font-serif text-[var(--primary)]"
           >
             <img
-              className="h-10 w-auto"
+              className="h-10 md:h-15 w-auto"
               src="/logo-dae.png"
               alt="Protocolo de Actuacion Escolar"
             />

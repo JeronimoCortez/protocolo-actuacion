@@ -12,6 +12,7 @@ export const actionCards = [
     title: "Actuar",
     description: "Procedimiento ante emergentes",
     color: "red",
+    link: "/protocolos",
     disabled: false,
   },
   {
@@ -20,7 +21,8 @@ export const actionCards = [
     title: "Comprender",
     description: "Marcos conceptuales",
     color: "blue",
-    disabled: true,
+    link: "/marco-teorico",
+    disabled: false,
   },
   {
     id: "resources",
@@ -28,7 +30,8 @@ export const actionCards = [
     title: "Recursos",
     description: "Contactos y redes",
     color: "green",
-    disabled: true,
+    link: "/recursos-contactos",
+    disabled: false,
   },
 ];
 
