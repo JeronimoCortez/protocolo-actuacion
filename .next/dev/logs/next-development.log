@@ -1,9 +1,25 @@
-{"timestamp":"00:00:02.207","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:08.591","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
-{"timestamp":"00:06:03.674","source":"Server","level":"LOG","message":"✓ Compiled in 1511ms"}
-{"timestamp":"00:09:05.733","source":"Server","level":"LOG","message":"✓ Compiled in 132ms"}
-{"timestamp":"00:12:26.557","source":"Server","level":"LOG","message":"✓ Compiled in 125ms"}
-{"timestamp":"00:15:58.405","source":"Server","level":"LOG","message":"✓ Compiled in 85ms"}
-{"timestamp":"00:22:34.925","source":"Server","level":"LOG","message":"✓ Compiled in 196ms"}
-{"timestamp":"00:23:09.041","source":"Server","level":"LOG","message":"✓ Compiled in 96ms"}
-{"timestamp":"00:23:37.102","source":"Server","level":"LOG","message":"✓ Compiled in 89ms"}
+{"timestamp":"00:00:04.303","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:03:57.119","source":"Server","level":"LOG","message":"✓ Compiled in 226ms"}
+{"timestamp":"00:06:30.490","source":"Server","level":"LOG","message":"✓ Compiled in 213ms"}
+{"timestamp":"00:06:30.686","source":"Browser","level":"ERROR","message":"unhandledRejection: Error: No link element found for chunk /_next/static/chunks/%5Broot-of-the-server%5D__134w1eb._.css"}
+{"timestamp":"00:06:30.761","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31m⨯ unhandledRejection: Error: No link element found for chunk /_next/static/chunks/%5Broot-of-the-server%5D__134w1eb._.css\\u001b[39m\\n\\u001b[31m    at new Promise (<anonymous>)\\u001b[39m\""}
+{"timestamp":"00:06:30.761","source":"Browser","level":"ERROR","message":"\u001b[31m⨯ unhandledRejection: Error: No link element found for chunk /_next/static/chunks/%5Broot-of-the-server%5D__134w1eb._.css\u001b[39m\n\u001b[31m    at new Promise (<anonymous>)\u001b[39m"}
+{"timestamp":"00:06:30.806","source":"Browser","level":"ERROR","message":"uncaughtError: TypeError: Cannot read properties of null (reading 'removeChild')"}
+{"timestamp":"00:06:30.830","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31mUncaught TypeError: Cannot read properties of null (reading 'removeChild')\\u001b[39m\""}
+{"timestamp":"00:06:30.831","source":"Browser","level":"ERROR","message":"\u001b[31mUncaught TypeError: Cannot read properties of null (reading 'removeChild')\u001b[39m"}
+{"timestamp":"00:09:35.948","source":"Server","level":"LOG","message":"✓ Compiled in 308ms"}
+{"timestamp":"00:11:13.702","source":"Server","level":"LOG","message":"✓ Compiled in 147ms"}
+{"timestamp":"00:22:26.609","source":"Server","level":"LOG","message":"✓ Compiled in 73ms"}
+{"timestamp":"00:41:50.146","source":"Server","level":"LOG","message":"✓ Compiled in 568ms"}
+{"timestamp":"00:47:11.537","source":"Server","level":"LOG","message":"✓ Compiled in 203ms"}
+{"timestamp":"00:49:20.644","source":"Server","level":"LOG","message":"✓ Compiled in 158ms"}
+{"timestamp":"00:50:25.715","source":"Server","level":"LOG","message":"✓ Compiled in 219ms"}
+{"timestamp":"00:52:02.414","source":"Server","level":"LOG","message":"✓ Compiled in 150ms"}
+{"timestamp":"00:54:03.172","source":"Server","level":"LOG","message":"✓ Compiled in 217ms"}
+{"timestamp":"00:57:34.427","source":"Server","level":"LOG","message":"✓ Compiled in 178ms"}
+{"timestamp":"00:59:12.110","source":"Server","level":"LOG","message":"✓ Compiled in 162ms"}
+{"timestamp":"01:01:00.401","source":"Server","level":"LOG","message":"✓ Compiled in 144ms"}
+{"timestamp":"01:03:25.593","source":"Server","level":"LOG","message":"✓ Compiled in 175ms"}
+{"timestamp":"01:03:42.181","source":"Server","level":"LOG","message":"✓ Compiled in 153ms"}
+{"timestamp":"01:03:49.376","source":"Server","level":"LOG","message":"✓ Compiled in 178ms"}
+{"timestamp":"01:04:34.587","source":"Server","level":"LOG","message":"✓ Compiled in 227ms"}

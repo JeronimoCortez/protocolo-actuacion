@@ -1,0 +1,154 @@
+{
+  "nombre": "Organismos y servicios de interés - Luján de Cuyo",
+  "categorias": [
+    {
+      "nombre": "Centros de Salud",
+      "organismos": [
+        {
+          "nombre": "Centro de Salud Nº34",
+          "direccion": "Ruta 7 km 60, Luján de Cuyo, Mendoza",
+          "telefonos": [
+            "02624482019"
+          ],
+          "correos": [
+            "caps-34@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)",
+      "organismos": [
+        {
+          "nombre": "Centro de Salud Nº31",
+          "direccion": "Federico Serpa s/n, Luján de Cuyo, Mendoza",
+          "telefonos": [
+            "02614985928"
+          ],
+          "correos": [
+            "caps-31@mendoza.gov.ar"
+          ]
+        },
+        {
+          "nombre": "Centro de Salud Nº35",
+          "direccion": "San Martín 8995, Agrelo, Mendoza",
+          "telefonos": [
+            "02614900377"
+          ],
+          "correos": [
+            "caps-35@mendoza.gov.ar"
+          ]
+        },
+        {
+          "nombre": "Centro de Salud Nº39",
+          "direccion": "Ruta 15 km 47, Mendoza",
+          "telefonos": [
+            "2614614252"
+          ],
+          "correos": [
+            "caps-39@mendoza.gov.ar"
+          ]
+        },
+        {
+          "nombre": "Centro de Salud Nº217",
+          "direccion": "Manuel A. Saenz 8253, Los Olivos",
+          "telefonos": [
+            "2614363923"
+          ],
+          "correos": [
+            "caps-217@mendoza.gov.ar"
+          ]
+        },
+        {
+          "nombre": "Centro de Salud Nº218",
+          "direccion": "Isla de los Estados 1875, Los Alerces",
+          "telefonos": [
+            "02614363915"
+          ],
+          "correos": [
+            "caps-218@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Dirección de Protección y Promoción de Derechos",
+      "organismos": [
+        {
+          "nombre": "ETI",
+          "direccion": "Tralev 882, Mendoza",
+          "telefonos": [
+            "4984145"
+          ],
+          "correos": [
+            "spdlujan@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Área Género",
+      "organismos": [
+        {
+          "nombre": "Área de la Mujer",
+          "direccion": "Vargas y Tahuado, Luján de Cuyo, Mendoza",
+          "telefonos": [
+            "4987460",
+            "4985915"
+          ],
+          "correos": [
+            "areamujerlujan@hotmail.com"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Área Departamental de Niñez, Adolescencia y Familia",
+      "organismos": [
+        {
+          "nombre": "Municipalidad de Luján",
+          "direccion": "Av. San Martín 250, Mendoza",
+          "telefonos": [
+            "4986212"
+          ],
+          "correos": [
+            "www.lujandecuyo.gob.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Ministerio de Justicia y Seguridad",
+      "organismos": [
+        {
+          "nombre": "Fiscalía Nº11 Seccional 11",
+          "direccion": "Guiñazú 340, Mendoza",
+          "telefonos": [
+            "3487647"
+          ]
+        },
+        {
+          "nombre": "Fiscalía Nº15 Seccional 47",
+          "direccion": "San Martín 7686, Mendoza",
+          "telefonos": [
+            "3487584"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Asesor de Menores",
+      "organismos": [
+        {
+          "nombre": "Asesor de Menores",
+          "telefonos": [
+            "2613878672"
+          ],
+          "correos": [
+            "abusosLUJAN@jus.mendoza.gov.ar"
+          ]
+        }
+      ]
+    }
+  ]
+}

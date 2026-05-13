@@ -1,0 +1,89 @@
+{
+  "nombre": "Organismos y servicios de interés - Rivadavia",
+  "categorias": [
+    {
+      "nombre": "Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)",
+      "organismos": [
+        {
+          "nombre": "Hospital Saporiti",
+          "direccion": "Lamadrid 629, Rivadavia, Mendoza",
+          "telefonos": [
+            "02623442150",
+            "02623442253"
+          ],
+          "admisiones": [
+            "153898015"
+          ],
+          "correos": [
+            "hosp-saporiti@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Hospitales",
+      "organismos": [
+        {
+          "nombre": "Hospital Carlos Saporiti",
+          "direccion": "Independencia e Italia, Rivadavia, Mendoza",
+          "telefonos": [
+            "0263442253",
+            "0263442150"
+          ],
+          "correos": [
+            "hosp-saporiti@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Dirección de Protección y Promoción de Derechos",
+      "organismos": [
+        {
+          "nombre": "ETI",
+          "direccion": "España 69, Rivadavia, Mendoza",
+          "telefonos": [
+            "02634443200"
+          ],
+          "correos": [
+            "oalrivadavia@gmail.com"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Área Departamental de Niñez, Adolescencia y Familia",
+      "organismos": [
+        {
+          "nombre": "Municipalidad de Rivadavia",
+          "direccion": "Lavalle y Aristóbulo del Valle, Rivadavia, Mendoza",
+          "telefonos": [
+            "02634444546",
+            "2634451027",
+            "0263154341378"
+          ],
+          "internos": [
+            "222"
+          ],
+          "correos": [
+            "rcanciani@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Asesor de Menores",
+      "organismos": [
+        {
+          "nombre": "Asesor de Menores",
+          "telefonos": [
+            "2614177171"
+          ],
+          "correos": [
+            "abusosRIVADAVIA@jus.mendoza.gov.ar"
+          ]
+        }
+      ]
+    }
+  ]
+}

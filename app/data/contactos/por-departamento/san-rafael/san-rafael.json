@@ -1,0 +1,86 @@
+{
+  "nombre": "Organismos y servicios de interés - San Rafael",
+  "categorias": [
+    {
+      "nombre": "Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)",
+      "organismos": [
+        {
+          "nombre": "Hospital Schestakow",
+          "direccion": "Comandante Tórrez 17, San Rafael, Mendoza",
+          "telefonos": [
+            "02627422580",
+            "02627424291"
+          ],
+          "fax": [
+            "02627421404"
+          ],
+          "correos": [
+            "hosp-schestakov@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Hospitales",
+      "organismos": [
+        {
+          "nombre": "Hospital Schestakow",
+          "direccion": "Cmte. Torres 150, San Rafael, Mendoza",
+          "telefonos": [
+            "02604424290"
+          ],
+          "correos": [
+            "hosp-schestakov@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Dirección de Protección y Promoción de Derechos",
+      "organismos": [
+        {
+          "nombre": "ETI",
+          "direccion": "Libertador 245, San Rafael, Mendoza",
+          "telefonos": [
+            "02604422243"
+          ],
+          "correos": [
+            "spdsanrafael@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Área Departamental de Niñez, Adolescencia y Familia",
+      "organismos": [
+        {
+          "nombre": "Municipalidad de San Rafael",
+          "direccion": "Comandante Salas y Belgrano, San Rafael, Mendoza",
+          "telefonos": [
+            "02604422121"
+          ],
+          "internos": [
+            "144"
+          ],
+          "correos": [
+            "www.sanrafael.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Asesor de Menores",
+      "organismos": [
+        {
+          "nombre": "Asesor de Menores",
+          "telefonos": [
+            "2604277658"
+          ],
+          "correos": [
+            "abusosSANRAFAEL@jus.mendoza.gov.ar"
+          ]
+        }
+      ]
+    }
+  ]
+}

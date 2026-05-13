@@ -1,0 +1,159 @@
+{
+  "nombre": "Organismos y servicios de interés - Guaymallén",
+  "categorias": [
+    {
+      "nombre": "Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)",
+      "organismos": [
+        {
+          "nombre": "Dr. Humberto Notti",
+          "direccion": "Bandera de los Andes 2603, Guaymallén",
+          "telefonos": [
+            "4132713"
+          ],
+          "correos": [
+            "saludmentalnotti@gmail.com"
+          ]
+        },
+        {
+          "nombre": "Centro de Salud Nº16",
+          "direccion": "Alpatacal y Chile, Guaymallén",
+          "telefonos": [
+            "4261018"
+          ]
+        },
+        {
+          "nombre": "Centro de Salud Nº5",
+          "direccion": "Bandera de los Andes 6280, Rodeo de la Cruz, Guaymallén",
+          "telefonos": [
+            "4910322"
+          ]
+        },
+        {
+          "nombre": "Micro Hospital Puente de Hierro",
+          "direccion": "Severo del Castillo 8372, Guaymallén",
+          "telefonos": [
+            "4820015"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Hospitales",
+      "organismos": [
+        {
+          "nombre": "Dr. Humberto Notti",
+          "direccion": "Bandera de los Andes 2600, Guaymallén",
+          "telefonos": [
+            "4132500"
+          ]
+        },
+        {
+          "nombre": "El Sauce",
+          "direccion": "Alfonso XIII s/n, Guaymallén",
+          "telefonos": [
+            "4138700"
+          ],
+          "correos": [
+            "hosp-elsauce@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Dirección de Protección y Promoción de Derechos",
+      "organismos": [
+        {
+          "nombre": "ETI",
+          "direccion": "Bolivia 414, Guaymallén",
+          "telefonos": [
+            "4212948"
+          ],
+          "correos": [
+            "spdguaymallen@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Área Género",
+      "organismos": [
+        {
+          "nombre": "Desarrollo Social",
+          "direccion": "Godoy Cruz 1227, 1º piso, San José, Guaymallén",
+          "telefonos": [
+            "4451223"
+          ],
+          "correos": [
+            "politicadeequidadgllen@gmail.com"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Área Departamental de Niñez, Adolescencia y Familia",
+      "organismos": [
+        {
+          "nombre": "Municipalidad Guaymallén",
+          "direccion": "Libertad 720, Guaymallén",
+          "telefonos": [
+            "4453566"
+          ],
+          "correos": [
+            "www.guaymallen.mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Ministerio de Justicia y Seguridad",
+      "organismos": [
+        {
+          "nombre": "Fiscalía N° 8 Seccional 25",
+          "direccion": "Francisco de la Reta 505, Guaymallén",
+          "telefonos": [
+            "3487424"
+          ],
+          "correos": [
+            "of8s25@jus.mendoza.gov.ar"
+          ]
+        },
+        {
+          "nombre": "Fiscalía N° 9 Seccional 9",
+          "direccion": "Libertad y Quintana, Guaymallén",
+          "telefonos": [
+            "3487409"
+          ],
+          "correos": [
+            "of9s9@jus.mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Asesor de Menores",
+      "organismos": [
+        {
+          "nombre": "Asesor de Menores",
+          "telefonos": [
+            "2613878710"
+          ],
+          "correos": [
+            "abusosGUAYMALLEN@jus.mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Centro Integral Provincial de Atención de Urgencias del Adolescente (CIPAU)",
+      "organismos": [
+        {
+          "nombre": "CIPAU",
+          "direccion": "9 de Julio y Pedro Goyena s/n, Guaymallén",
+          "telefonos": [
+            "2613627786"
+          ]
+        }
+      ]
+    }
+  ]
+}

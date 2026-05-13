@@ -1,0 +1,155 @@
+{
+  "nombre": "Organismos y servicios de interés - Maipú",
+  "categorias": [
+    {
+      "nombre": "Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)",
+      "organismos": [
+        {
+          "nombre": "Hospital Dr. Diego Paroissien",
+          "direccion": "Godoy Cruz 975, Maipú, Mendoza",
+          "telefonos": [
+            "4972288"
+          ],
+          "correos": [
+            "hsp-paroissien@mendoza.gov.ar"
+          ]
+        },
+        {
+          "nombre": "Hospital Alfredo Metraux",
+          "direccion": "Fray Luis Beltrán, Mendoza",
+          "telefonos": [
+            "02614921000"
+          ]
+        },
+        {
+          "nombre": "Centre Infanto-Juvenil",
+          "direccion": "Perón 70, Maipú, Mendoza",
+          "telefonos": [
+            "4952666"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Centros de Salud",
+      "organismos": [
+        {
+          "nombre": "Centro de Salud Mental Nº27",
+          "direccion": "Perón 70, Parque Metropolitano, Maipú, Mendoza",
+          "telefonos": [
+            "02614973449"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Hospitales",
+      "organismos": [
+        {
+          "nombre": "Diego Paroissien",
+          "direccion": "Godoy Cruz 551, Maipú, Mendoza",
+          "telefonos": [
+            "4972833",
+            "4972288",
+            "4972459"
+          ],
+          "correos": [
+            "hsp-paroissien@mendoza.gov.ar"
+          ]
+        },
+        {
+          "nombre": "Alfredo Metraux",
+          "direccion": "España 162, Fray Luis Beltrán, Maipú, Mendoza",
+          "telefonos": [
+            "4921000",
+            "492177704"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Dirección de Protección y Promoción de Derechos",
+      "organismos": [
+        {
+          "nombre": "ETI",
+          "direccion": "Maza 131, Maipú, Mendoza",
+          "telefonos": [
+            "4810896"
+          ],
+          "correos": [
+            "spdmaipu@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Área Género",
+      "organismos": [
+        {
+          "nombre": "Municipalidad de Maipú",
+          "direccion": "Padre Vásquez 586, Maipú, Mendoza",
+          "telefonos": [
+            "4974285"
+          ],
+          "correos": [
+            "areamujermaipu@gmail.com"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Área Departamental de Niñez, Adolescencia y Familia",
+      "organismos": [
+        {
+          "nombre": "Municipalidad de Maipú",
+          "direccion": "Maza 131, Maipú, Mendoza",
+          "telefonos": [
+            "4976558"
+          ],
+          "correos": [
+            "spdmaipu@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Ministerio de Justicia y Seguridad",
+      "organismos": [
+        {
+          "nombre": "Fiscalía Nº10 Seccional 10",
+          "direccion": "Pedro Vásquez 110, Maipú, Mendoza",
+          "telefonos": [
+            "3487821"
+          ],
+          "correos": [
+            "of10s10@jus.mendoza.gov.ar"
+          ]
+        },
+        {
+          "nombre": "Fiscalía Nº16 Seccional 49",
+          "direccion": "Ruta Provincial 50 s/n, Maipú, Mendoza",
+          "telefonos": [
+            "3487404"
+          ],
+          "correos": [
+            "of16s49@jus.mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Asesor de Menores",
+      "organismos": [
+        {
+          "nombre": "Asesor de Menores",
+          "telefonos": [
+            "2616290733"
+          ],
+          "correos": [
+            "abusosMAIPU@jus.mendoza.gov.ar"
+          ]
+        }
+      ]
+    }
+  ]
+}

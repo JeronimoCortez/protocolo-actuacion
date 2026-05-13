@@ -1,0 +1,396 @@
+{
+  "nombre": "Datos de interés",
+  "datos": [
+    {
+      "nombre": "Centros de Salud Mental Infanto-Juvenil",
+      "centros": [
+        {
+          "nombre": "Coordinación Central",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["4294017", "4253964", "4253144"],
+          "internos": ["107", "117"],
+          "direccion": "Morón 332 (Ciudad de Mendoza)"
+        },
+        {
+          "nombre": "Centro Infanto Juvenil 1 — Godoy Cruz",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["4220836"],
+          "direccion": "Joaquín V. González 390 (Godoy Cruz)"
+        },
+        {
+          "nombre": "Centro Infanto Juvenil 2 — Capital",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["4307424"],
+          "direccion": "José Federico Moreno 2861 (Ciudad)"
+        },
+        {
+          "nombre": "Centro Infanto Juvenil 3 — Rodeo del Medio",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["4952666"],
+          "direccion": "Ruta 50 786 (Rodeo del Medio)"
+        },
+        {
+          "nombre": "Centro Infanto Juvenil 4 — Tunuyán",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["02622422935"],
+          "direccion": "Godoy Cruz 1290 (Tunuyán)"
+        },
+        {
+          "nombre": "Centro Infanto Juvenil 5 — San Martín",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["02634432957"],
+          "direccion": "Gutiérrez 42"
+        },
+        {
+          "nombre": "Centro Infanto Juvenil 6 — Lavalle",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["02615452802"],
+          "direccion": "CIC Costa de Araujo (Lavalle)"
+        },
+        {
+          "nombre": "Centro Infanto Juvenil 7 — San Rafael",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["02604445947"],
+          "direccion": "Córdoba 110 (San Rafael)"
+        },
+        {
+          "nombre": "Centro Infanto Juvenil 8 — Guaymallén",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["4265132"],
+          "direccion": "España 4635 (Guaymallén)"
+        },
+        {
+          "nombre": "Centro Infanto Juvenil 9 — Tupungato",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["02613898035"],
+          "direccion": "Las Heras y Monseñor Fernández – Hospital General Las Heras (Tupungato)"
+        }
+      ],
+      "fuente": "https://informacionoficial.mendoza.gob.ar"
+    },
+    {
+      "nombre": "Programa Provincial de Salud Integral en Adolescencia",
+      "telefono": "4201890",
+      "coreo": "adolescencia@mendoza.gov.ar",
+      "direccion": "Coronel Rodríguez 1209, Mendoza – CP 5500"
+    },
+    {
+      "nombre": "Centros Provinciales de Atención en Adicciones (CPAA)",
+      "centros": [
+        {
+          "nombre": "Coordinación Central",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["4294017", "4253964", "4253144"],
+          "internos": ["107", "117"],
+          "direccion": "Morón 332 (Ciudad de Mendoza)"
+        },
+        {
+          "nombre": "CPAA Capital Tejada Gómez",
+          "georreferencia": "Capital y Guaymallén",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["2614292081"],
+          "direccion": "Pasaje P. Vargas 598, Ciudad"
+        },
+        {
+          "nombre": "CPAA Godoy Cruz",
+          "georreferencia": "Godoy Cruz y sectores más accesibles desde Maipú",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["02614228633"],
+          "direccion": "Salvador Arias 1072, Godoy Cruz"
+        },
+        {
+          "nombre": "CPAA Las Heras",
+          "georreferencia": "Las Heras y Lavalle",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["2617508665"],
+          "direccion": "Dorrego 63, Las Heras"
+        },
+        {
+          "nombre": "CPAA Luján de Cuyo",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["2612473293"],
+          "direccion": "Calle Quintana y Acceso Sur – Perdriel. Consultorios Externos del Hospital, Luján de Cuyo"
+        },
+        {
+          "nombre": "CPAA Zona Este",
+          "georreferencia": "San Martín, Junín, Rivadavia, Santa Rosa, La Paz y sectores accesibles de Maipú",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["02634433783"],
+          "direccion": "Gutiérrez 42, San Martín"
+        },
+        {
+          "nombre": "CPAA Valle de Uco",
+          "georreferencia": "Tunuyán, Tupungato y San Carlos",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["26213830032"],
+          "direccion": "Reginato 1330 – Barrio Los Cóndores, Tunuyán"
+        },
+        {
+          "nombre": "CPAA San Rafael",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["2614446152", "7508667"],
+          "direccion": "Comandante Salas 567, San Rafael"
+        },
+        {
+          "nombre": "CPAA General Alvear",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["02625422165", "2617508670"],
+          "internos": ["848"],
+          "direccion": "Emilio Civit. Área de Salud Mental, consultorio 7. Hospital Enfermeros Argentinos, General Alvear"
+        },
+        {
+          "nombre": "CPAA Malargüe",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefonos": ["2617508669"],
+          "direccion": "Pampa Palauco 827. Barrio El Payén, Malargüe"
+        }
+      ]
+    },
+    {
+      "nombre": "Ministerio Público Fiscal",
+      "telefono": "2614497748",
+      "enlace": "https://mpfmza.jus.mendoza.gov.ar/guia-mpf/"
+    },
+    {
+      "nombre": "Ministerio Público de la Defensa y Pupilar: ASESORES DE MENORES E INCAPACES",
+      "telefono": "2614497788",
+      "enlace": "https://defensamendoza.gob.ar/informacion/"
+    },
+    {
+      "nombre": "Poder Judicial en el Fuero de Familias",
+      "enlace": "https://jusmendoza.gob.ar/fuero-familia-%C2%B7-inicio/"
+    },
+    {
+      "nombre": "Direccion de la Mujer",
+      "descripcion": "1° Circunscripción Juduicial",
+      "numero": "2614498622",
+      "whatsapp": [
+        {
+          "atencion": "Lunes a Viernes de 7:30 a 13:30",
+          "numero": "2617545220"
+        },
+        {
+          "atencion": "Lunes a Viernes de 13:30 a 19:30",
+          "numero": "2616842676"
+        }
+      ],
+      "enlace": "https://jusmendoza.gob.ar/oficinas-administrativas-scjm/"
+    },
+    {
+      "nombre": "Direccion de Derechos Humanos y Acceso a la Justicia",
+      "numeros": [
+        {
+          "nombre": "Oficina de ASistencia a Víctimas y Testigos de Delitos",
+          "telefonos": ["4498650", "2617486649"]
+        },
+        {
+          "nombre": "Sudireccion de Niñez, adolescencia y familia",
+          "telefonos": ["4498649", "2614674926"]
+        }
+      ]
+    },
+    {
+      "nombre": "Comisión Provincial para la Erradicación del Trabajo Infantil",
+      "telefono": "4413312",
+      "correo": "copreti@mendoza.gov.ar"
+    },
+    {
+      "nombre": "Direccion de Derecho Humanos (Mendoza)",
+      "telefono": "4492164",
+      "correo": "ddhh@mendoza.gov.ar"
+    },
+    {
+      "nombre": "Dirección de Atención a las Personas con Discapacidad",
+      "telefono": "4253756",
+      "direccion": "Pedro Molina 565 - Capital",
+      "correo": "discapacidad@mendoza.gov.ar"
+    },
+    {
+      "nombre": "Defensoría del Personal Docente (DePE)",
+      "direccion": "Av Peltier 351 - Ciudad Mendoza",
+      "correo": "depedge@gmail.com"
+    },
+    {
+      "nombre": "Subcretería de Derechos Humnanos: trata de personas",
+      "telefono": "145"
+    },
+    {
+      "nombre": "Dirección de Salud Mental y Consumos Problemáticos",
+      "telefonos": ["4253964", "4294017", "4299344"]
+    },
+    {
+      "nombre": "Programa Provincial para el Abordaje de Problemática del Suicidio (Dirección de Salud Mental y Consumo Problemáticos)",
+      "telefono": ["4253964", "4294017", "4299344"],
+      "correo": "mentalmza@mendoza.gov.ar"
+    },
+    {
+      "nombre": "Fonodroga",
+      "telefono": "0800-800-3764"
+    },
+    {
+      "nombre": "Dirección General de Responsabilidad Penal Juvenil (DGRPJ)"
+    },
+    {
+      "nombre": "Equipos Técnicos Interdisciplinarios (ETI)",
+      "descripcion_guardia": "La Guardia Provincial trabaja las 24 horas, los 365 días del año y actúa durante el horario en que las oficinas de ETI permanecen cerradas, fines de semana y feriados.",
+      "guardias": [
+        {
+          "nombre": "Guardia Diurna",
+          "horario": "8 a 18",
+          "telefono": "2615592696"
+        },
+        {
+          "nombre": "Guardia Nocturna",
+          "horario": "18 a 4",
+          "telefono": "2612066735"
+        },
+        {
+          "nombre": "Guardia Profesionales",
+          "horario": "4 a 8",
+          "telefono": "2615595705"
+        }
+      ],
+      "equipos": [
+        {
+          "nombre": "ETI de Capital",
+          "direccion": "Pasaje Lemos 535 – Ciudad de Mendoza",
+          "telefonos": ["4236994"],
+          "correos": ["spdcapital@mendoza.gov.ar", "gmaragna@mendoza.gov.ar"]
+        },
+        {
+          "nombre": "ETI de Godoy Cruz",
+          "direccion": "Las Heras 52 – Godoy Cruz",
+          "telefonos": ["4229306", "2615594517"],
+          "correos": ["spdgodoycruz@mendoza.gov.ar", "vavidela@mendoza.gov.ar"]
+        },
+        {
+          "nombre": "ETI de Maipú",
+          "direccion": "Maza 131 – Maipú",
+          "telefonos": ["4810896"],
+          "correos": [
+            "spdmaipu@mendoza.gov.ar",
+            "msanchezcuello@mendoza.gov.ar"
+          ]
+        },
+        {
+          "nombre": "ETI de Guaymallén",
+          "direccion": "Bolivia 414 – Guaymallén",
+          "telefonos": ["4212948"],
+          "correos": ["spdguaymallen@mendoza.gov.ar", "maxperez@mendoza.gov.ar"]
+        },
+        {
+          "nombre": "ETI de Luján de Cuyo",
+          "direccion": "Carlos María Alvear 73 – Luján de Cuyo",
+          "telefonos": ["4984145", "2616661088"],
+          "correos": ["spdlujan@mendoza.gov.ar", "sscavarda@mendoza.gov.ar"]
+        },
+        {
+          "nombre": "ETI de Las Heras",
+          "direccion": "Barrio Jardín Los Andes M9 C5, Luis Pasteur 2000 – Las Heras",
+          "telefonos": ["4122592"],
+          "correos": ["spdlasheras@mendoza.gov.ar"]
+        },
+        {
+          "nombre": "ETI de Lavalle",
+          "direccion": "Calle Abraham Toum 48, Villa Tulumaya – Lavalle",
+          "telefonos": ["2616655974"],
+          "correos": ["spdlavalle@mendoza.gov.ar", "dsuans@mendoza.gov.ar"]
+        },
+        {
+          "nombre": "ETI de Tunuyán",
+          "direccion": "Yrigoyen 950 – Tunuyán",
+          "telefonos": ["2622423978", "2612069913"],
+          "correos": ["spdtunuyan@mendoza.gov.ar", "apmiranda@mendoza.gov.ar"]
+        },
+        {
+          "nombre": "ETI de San Carlos",
+          "direccion": "Bernardo Quiroga 425 – Eugenio Bustos, San Carlos",
+          "telefonos": ["0262721476"],
+          "correos": ["spdsancarlos@mendoza.gov.ar", "cordivini@mendoza.gov.ar"]
+        },
+        {
+          "nombre": "ETI de Tupungato",
+          "direccion": "Laprida 55 – Tupungato",
+          "telefonos": ["2622488669"],
+          "correos": ["spdtupungato@mendoza.gov.ar", "mmcardoso@mendoza.gov.ar"]
+        },
+        {
+          "nombre": "ETI de San Martín",
+          "direccion": "9 de Julio 421 – San Martín",
+          "telefonos": ["2634424821"],
+          "correos": [
+            "spdsanmartin@mendoza.gov.ar",
+            "casandrarossi@mendoza.gov.ar"
+          ]
+        },
+        {
+          "nombre": "ETI de La Paz",
+          "direccion": "Av. San Martín 645 – La Paz",
+          "telefonos": ["2613679698"],
+          "correos": ["spdlapaz@mendoza.gov.ar", "ssquiroga@mendoza.gov.ar"]
+        },
+        {
+          "nombre": "ETI de Rivadavia",
+          "direccion": "Lavalle 664 – Rivadavia",
+          "telefonos": ["2634443200"],
+          "correos": ["spdrivadavia@mendoza.gov.ar", "vpantone@mendoza.gov.ar"]
+        },
+        {
+          "nombre": "ETI de Junín",
+          "telefonos": ["2634492288"],
+          "correos": ["spdjunin@mendoza.gov.ar", "jgizzi@mendoza.gov.ar"]
+        },
+        {
+          "nombre": "ETI de Santa Rosa",
+          "direccion": "Julio A. Roca 368 – Santa Rosa",
+          "telefonos": ["2634497053", "2615181494"],
+          "correos": ["spdsantarosa@mendoza.gov.ar", "gscaccia@mendoza.gov.ar"]
+        },
+        {
+          "nombre": "ETI de San Rafael",
+          "direccion": "Libertador 245 – San Rafael",
+          "telefonos": ["2604422243"],
+          "correos": ["spdsanrafael@mendoza.gov.ar", "mcamacho@mendoza.gov.ar"]
+        },
+        {
+          "nombre": "ETI de Malargüe",
+          "direccion": "Uriburu 117 – Malargüe",
+          "telefonos": ["2604470056"],
+          "correos": ["spdmalargue@mendoza.gov.ar", "alvergara@mendoza.gov.ar"]
+        },
+        {
+          "nombre": "ETI de General Alvear",
+          "direccion": "Belgrano 192 – General Alvear",
+          "telefonos": ["2625425521"],
+          "correos": [
+            "spdgeneralalvear@mendoza.gov.ar",
+            "jpparola@mendoza.gov.ar"
+          ]
+        }
+      ],
+      "fuente": "https://informacionoficial.mendoza.gob.ar/educacion-cultura-infancias-dge/educacion-cultura-infancias-y-dge-mendoza/infancias-adolescencias-y-juventudes-mendoza/etis-mendoza/"
+    },
+    {
+        "nombre": "Dirección de Salud Mental y Adicciones de la Provincia de Mendoza",
+        "telefono": [
+            {
+                "numero": "148",
+                "opcion": "0"
+            }
+        ]
+    },
+    {
+        "nombre": "Denuncia de Violencias y Bullying",
+        "telefono": [
+            {
+                "numero": "148",
+                "opcion": "4"
+            }
+        ]
+    },
+    {
+        "nombre": "Mapeo integral de escuelas y efectores de salud. Dirección de Planificación Territorial del Ministerio de Gobierno",
+        "enlace": "https://ide.mendoza.gov.ar/portal/home/"
+    }
+  ]
+}

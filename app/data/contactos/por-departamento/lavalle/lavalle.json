@@ -1,0 +1,98 @@
+{
+  "nombre": "Organismos y servicios de interés - Lavalle",
+  "categorias": [
+    {
+      "nombre": "Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)",
+      "organismos": [
+        {
+          "nombre": "Domingo Sicoli",
+          "direccion": "Belgrano 415, Lavalle, Mendoza",
+          "telefonos": [
+            "4921200"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Hospitales",
+      "organismos": [
+        {
+          "nombre": "Hospital Domingo Sicoli",
+          "direccion": "Belgrano 415, Lavalle, Mendoza",
+          "telefonos": [
+            "4941049"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Dirección de Protección y Promoción de Derechos",
+      "organismos": [
+        {
+          "nombre": "ETI",
+          "direccion": "Uruguay 47, Lavalle, Mendoza",
+          "telefonos": [
+            "156655974"
+          ],
+          "correos": [
+            "spdlavalle@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Área Género",
+      "organismos": [
+        {
+          "nombre": "Área de la Mujer",
+          "direccion": "Barrio Toum, Manzana B, Casa 9, Lavalle, Mendoza",
+          "telefonos": [
+            "4491775"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Área Departamental de Niñez, Adolescencia y Familia",
+      "organismos": [
+        {
+          "nombre": "Municipalidad de Lavalle",
+          "direccion": "José Andrés Díaz 175, Toum, Lavalle, Mendoza",
+          "telefonos": [
+            "02614941775"
+          ],
+          "correos": [
+            "educacionyfamilia10@lavalle.mendoza.gob.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Ministerio de Justicia y Seguridad",
+      "organismos": [
+        {
+          "nombre": "Oficina Fiscal Nº7 Seccional 17",
+          "direccion": "San Martín 101 esquina Belgrano, Lavalle",
+          "telefonos": [
+            "4416985",
+            "4416986"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Asesor de Menores",
+      "organismos": [
+        {
+          "nombre": "Asesor de Menores",
+          "telefonos": [
+            "2613878710"
+          ],
+          "correos": [
+            "abusosLAVALLE@jus.mendoza.gov.ar"
+          ]
+        }
+      ]
+    }
+  ]
+}

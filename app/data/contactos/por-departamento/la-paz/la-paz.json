@@ -1,0 +1,81 @@
+{
+  "nombre": "Organismos y servicios de interés - La Paz",
+  "categorias": [
+    {
+      "nombre": "Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)",
+      "organismos": [
+        {
+          "nombre": "Hospital Illia",
+          "direccion": "Gral. Paz 2371, La Paz, Mendoza",
+          "telefonos": [
+            "02626421022"
+          ],
+          "correos": [
+            "bioillia@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Hospitales",
+      "organismos": [
+        {
+          "nombre": "Hospital Illia",
+          "direccion": "Gral. Paz 2371, La Paz, Mendoza",
+          "telefonos": [
+            "02626421022"
+          ],
+          "correos": [
+            "bioillia@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Dirección de Protección y Promoción de Derechos",
+      "organismos": [
+        {
+          "nombre": "ETI",
+          "direccion": "Av. 25 de Mayo s/n - CIC Las Colonias, La Paz, Mendoza",
+          "telefonos": [
+            "02626421701"
+          ],
+          "correos": [
+            "spdlapaz@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Área Departamental de Niñez, Adolescencia y Familia",
+      "organismos": [
+        {
+          "nombre": "Municipalidad de La Paz",
+          "direccion": "Galigriara y Belgrano, La Paz, Mendoza",
+          "telefonos": [
+            "02626421100",
+            "02626421200"
+          ],
+          "correos": [
+            "paflapaz@yahoo.com.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Asesor de Menores",
+      "organismos": [
+        {
+          "nombre": "Asesor de Menores",
+          "telefonos": [
+            "2634688890",
+            "2634532293"
+          ],
+          "correos": [
+            "abusosLAPAZ@jus.mendoza.gov.ar"
+          ]
+        }
+      ]
+    }
+  ]
+}

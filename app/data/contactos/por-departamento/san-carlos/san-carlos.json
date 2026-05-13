@@ -1,0 +1,109 @@
+{
+  "nombre": "Organismos y servicios de interés - San Carlos",
+  "categorias": [
+    {
+      "nombre": "Ministerio de Salud",
+      "organismos": [
+        {
+          "nombre": "Dirección General de Salud Mental",
+          "direccion": "Morón 332, Ciudad, Mendoza",
+          "telefonos": [
+            "2614290164"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)",
+      "organismos": [
+        {
+          "nombre": "Hospital Tagarelli",
+          "direccion": "Bernardo Quiroga 109, Eugenio Bustos",
+          "telefonos": [
+            "02622451111"
+          ],
+          "correos": [
+            "hosp-tagarelli@mendoza.gov.ar"
+          ]
+        },
+        {
+          "nombre": "Centro de Salud Nº103",
+          "direccion": "San Martín s/n, Chilecito",
+          "telefonos": [
+            "02622493054"
+          ],
+          "correos": [
+            "caps-103@mendoza.gov.ar"
+          ]
+        },
+        {
+          "nombre": "Centro de Salud Nº147",
+          "direccion": "Calle El Retiro s/n, El Cepillo",
+          "correos": [
+            "caps-147@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Hospitales",
+      "organismos": [
+        {
+          "nombre": "Hospital Victorino Tagarelli",
+          "direccion": "Bernardo Quiroga 109, Eugenio Bustos",
+          "telefonos": [
+            "02614614260"
+          ],
+          "correos": [
+            "hosp-tagarelli@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Dirección de Protección y Promoción de Derechos",
+      "organismos": [
+        {
+          "nombre": "ETI",
+          "direccion": "Bernardo Quiroga 109, San Carlos",
+          "telefonos": [
+            "02622451655",
+            "2613846326"
+          ],
+          "correos": [
+            "spdsancarlos@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Área Departamental de Niñez, Adolescencia y Familia",
+      "organismos": [
+        {
+          "nombre": "Municipalidad de San Carlos",
+          "direccion": "Lencinas 508, San Carlos",
+          "telefonos": [
+            "02622451002"
+          ],
+          "internos": [
+            "227"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Asesor de Menores",
+      "organismos": [
+        {
+          "nombre": "Asesor de Menores",
+          "telefonos": [
+            "2616016212"
+          ],
+          "correos": [
+            "abusosSANCARLOS@jus.mendoza.gov.ar"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "nombre": "Organismos y servicios de interés - Godoy Cruz",
+  "categorias": [
+    {
+      "nombre": "Centros de Salud",
+      "organismos": [
+        {
+          "nombre": "Centro de Salud Nº30",
+          "direccion": "Colón 339, Godoy Cruz",
+          "telefonos": [
+            "4220001"
+          ],
+          "correos": [
+            "cap30@mendoza.gov.ar"
+          ]
+        },
+        {
+          "nombre": "Centro de Salud Nº149",
+          "direccion": "Montes de Oca y Plumerillo 242, Godoy Cruz",
+          "telefonos": [
+            "4272294"
+          ],
+          "correos": [
+            "cap149@mendoza.gov.ar"
+          ]
+        },
+        {
+          "nombre": "Centro de Salud Nº168",
+          "direccion": "B° Dolores Prats de Huisi M-12, Godoy Cruz",
+          "telefonos": [
+            "4399862"
+          ],
+          "correos": [
+            "cap168@mendoza.gov.ar"
+          ]
+        },
+        {
+          "nombre": "Centro de Salud Nº4",
+          "direccion": "Curitiba 750, Godoy Cruz, Mendoza",
+          "telefonos": [
+            "02614271064"
+          ],
+          "correos": [
+            "cap149@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Salud Mental",
+      "organismos": [
+        {
+          "nombre": "Centro de Salud Mental Godoy Cruz",
+          "direccion": "Mármol y Derquí, Godoy Cruz",
+          "telefonos": [
+            "4313239"
+          ]
+        },
+        {
+          "nombre": "Centro Infanto Juvenil Nº1",
+          "direccion": "Joaquín V. González 390, Godoy Cruz",
+          "telefonos": [
+            "4220836"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Hospitales",
+      "organismos": [
+        {
+          "nombre": "José Néstor Lencina",
+          "direccion": "Talcahuano s/n, Godoy Cruz",
+          "telefonos": [
+            "4272600"
+          ]
+        },
+        {
+          "nombre": "Hospital Lencina",
+          "direccion": "Talcahuano s/n, Godoy Cruz",
+          "telefonos": [
+            "4272773"
+          ],
+          "internos": [
+            "108"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Plan Provincial de Adicciones",
+      "organismos": [
+        {
+          "nombre": "CPAA Godoy Cruz",
+          "direccion": "Salvador Arias 1072, Godoy Cruz",
+          "telefonos": [
+            "4228633"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Dirección de Protección y Promoción de Derechos",
+      "organismos": [
+        {
+          "nombre": "ETI",
+          "direccion": "Sargento Cabral 580, Godoy Cruz",
+          "telefonos": [
+            "4229306"
+          ],
+          "correos": [
+            "spdgodoycruz@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Áreas Municipales",
+      "organismos": [
+        {
+          "nombre": "Hiperlibertad - Mujer y Equidad",
+          "direccion": "Joaquín V. González 450, Godoy Cruz",
+          "telefonos": [
+            "4429349"
+          ],
+          "correos": [
+            "mujeryequidadgodoycruz@gmail.com"
+          ]
+        },
+        {
+          "nombre": "Hiperlibertad - Desarrollo Social",
+          "direccion": "Joaquín V. González 450, Godoy Cruz",
+          "telefonos": [
+            "4429374"
+          ],
+          "correos": [
+            "dsocialgc@gmail.com"
+          ]
+        },
+        {
+          "nombre": "D.I.N.A.F",
+          "direccion": "Armani 1800, Godoy Cruz",
+          "telefonos": [
+            "4439231"
+          ],
+          "correos": [
+            "dinaf@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Ministerio de Justicia y Seguridad",
+      "organismos": [
+        {
+          "nombre": "Fiscalía N° 3 Seccional 7",
+          "direccion": "Lavalle 80, Godoy Cruz",
+          "telefonos": [
+            "4416985"
+          ]
+        },
+        {
+          "nombre": "Fiscalía N° 4 Seccional 27",
+          "direccion": "General Alvear 1515, Godoy Cruz",
+          "telefonos": [
+            "3487833"
+          ],
+          "correos": [
+            "of4s27@jus.mendoza.gov.ar"
+          ]
+        },
+        {
+          "nombre": "Fiscalía N° 17 Seccional 40",
+          "direccion": "B° Estanzuela, Godoy Cruz",
+          "telefonos": [
+            "4416829"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Asesor de Menores",
+      "organismos": [
+        {
+          "nombre": "Asesor de Menores",
+          "telefonos": [
+            "2612098665"
+          ],
+          "correos": [
+            "abusosGODOYCRUZ@jus.mendoza.gov.ar"
+          ]
+        }
+      ]
+    }
+  ]
+}

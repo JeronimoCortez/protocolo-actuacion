@@ -1,0 +1,80 @@
+{
+  "nombre": "Organismos y servicios de interés - Junín",
+  "categorias": [
+    {
+      "nombre": "Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)",
+      "organismos": [
+        {
+          "nombre": "Centro de Salud Nº62 Oscar de Lellis",
+          "direccion": "Salvador González 192, Junín, Mendoza",
+          "telefonos": [
+            "02634492244"
+          ],
+          "correos": [
+            "caps-62@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Hospitales",
+      "organismos": [
+        {
+          "nombre": "Centro de Salud Nº162",
+          "direccion": "Salvador González 192, Junín, Mendoza",
+          "telefonos": [
+            "02634492244"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Dirección de Protección y Promoción de Derechos",
+      "organismos": [
+        {
+          "nombre": "ETI",
+          "direccion": "Nicolás Videla 36, Junín, Mendoza",
+          "telefonos": [
+            "02634492288"
+          ],
+          "correos": [
+            "spdjunin@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Área Departamental de Niñez, Adolescencia y Familia",
+      "organismos": [
+        {
+          "nombre": "Municipalidad de Junín",
+          "direccion": "Sarmiento y Don Bosco, Junín, Mendoza",
+          "telefonos": [
+            "4492672",
+            "4492050"
+          ],
+          "internos": [
+            "148"
+          ],
+          "correos": [
+            "intendencia@juninmendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Asesor de Menores",
+      "organismos": [
+        {
+          "nombre": "Asesor de Menores",
+          "telefonos": [
+            "2614177171"
+          ],
+          "correos": [
+            "abusosJUNIN@jus.mendoza.gov.ar"
+          ]
+        }
+      ]
+    }
+  ]
+}

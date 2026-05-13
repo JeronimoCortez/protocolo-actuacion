@@ -1,0 +1,94 @@
+{
+  "nombre": "Organismos y servicios de interés - Tupungato",
+  "categorias": [
+    {
+      "nombre": "Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)",
+      "organismos": [
+        {
+          "nombre": "Hospital Las Heras",
+          "direccion": "Las Heras y Monseñor Fernández, Tupungato, Mendoza",
+          "telefonos": [
+            "02622488293"
+          ],
+          "fax": [
+            "02622488537"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Hospitales",
+      "organismos": [
+        {
+          "nombre": "Hospital General Las Heras",
+          "direccion": "Las Heras y Monseñor Fernández, Tupungato, Mendoza",
+          "telefonos": [
+            "02622488293"
+          ],
+          "fax": [
+            "486537"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Dirección de Protección y Promoción de Derechos",
+      "organismos": [
+        {
+          "nombre": "ETI",
+          "direccion": "Monseñor Fernández 125, Tupungato, Mendoza",
+          "telefonos": [
+            "02622488669"
+          ],
+          "correos": [
+            "spdtupungato@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Área Género",
+      "organismos": [
+        {
+          "nombre": "Dirección de Desarrollo Social",
+          "direccion": "25 de Mayo y Mosconi, Tupungato, Mendoza",
+          "telefonos": [
+            "02622521059"
+          ],
+          "correos": [
+            "generoydiversidad@tupungato.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Área Departamental de Niñez, Adolescencia y Familia",
+      "organismos": [
+        {
+          "nombre": "Municipalidad de Tupungato",
+          "direccion": "Av. Belgrano 348, Tupungato, Mendoza",
+          "telefonos": [
+            "02622468597"
+          ],
+          "correos": [
+            "desarrollosocial@tupungato.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Asesor de Menores",
+      "organismos": [
+        {
+          "nombre": "Asesor de Menores",
+          "telefonos": [
+            "2613860853"
+          ],
+          "correos": [
+            "abusosTUPUNGATO@jus.mendoza.gov.ar"
+          ]
+        }
+      ]
+    }
+  ]
+}

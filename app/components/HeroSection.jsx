@@ -8,7 +8,7 @@ export default function HeroSection() {
     >
       <div>
         <h1 className="mb-5 font-serif text-[clamp(2rem,4vw,2.75rem)] leading-[1.2] tracking-[-0.01em] text-[var(--foreground)]">
-          Protocolo de Actuación Escolar ante situaciones emergentes
+          Protocolo de Actuación ante situaciones emergentes en el ámbito escolar
         </h1>
       </div>
 

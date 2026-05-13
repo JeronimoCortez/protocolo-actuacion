@@ -68,7 +68,6 @@ function normalizeEjes(data) {
             nombre: "Protocolo general",
             pasos: eje.pasos,
             categorias: eje.categorias,
-            acciones_preventivas: eje.acciones_preventivas,
             informacion: eje.informacion,
             condicion: eje.condicion,
             _virtual: true,
@@ -78,6 +77,7 @@ function normalizeEjes(data) {
     return {
       ...eje,
       id: `eje-${ejeIndex}-${String(eje.numero ?? ejeIndex)}`,
+      hasRealSubejes: subejes.length > 0,
       subejes: resolvedSubejes.map((subeje, subejeIndex) => ({
         ...subeje,
         id: `subeje-${ejeIndex}-${subejeIndex}-${String(subeje?.numero ?? subejeIndex)}`,
@@ -201,6 +201,14 @@ function buildCategoryTitle(category) {
   return String(code);
 }
 
+function buildNodeTitle(node) {
+  if (!isObject(node)) return "S/N";
+  const code = node.numero ?? node.letra ?? "S/N";
+  const name = node.nombre ?? "";
+  if (name) return code !== "S/N" ? `${code} - ${name}` : name;
+  return String(code);
+}
+
 function getConditionTitle(condition, index) {
   return (
     condition.descripcion ??
@@ -208,6 +216,56 @@ function getConditionTitle(condition, index) {
     condition.tipo ??
     condition.numero ??
     `Condicion ${index + 1}`
+  );
+}
+
+function PreventiveActionsPanel({ title, intro, items, defaultOpen = false, wrapperClassName = "" }) {
+  if (!intro && !items?.length) return null;
+  const [isOpen, setIsOpen] = useState(defaultOpen);
+
+  const handleTogglePanel = (event) => {
+    const interactiveTarget = event.target.closest("a, button, input, select, textarea");
+    if (interactiveTarget) return;
+    setIsOpen((previous) => !previous);
+  };
+
+  return (
+    <div
+      role="button"
+      tabIndex={0}
+      onClick={handleTogglePanel}
+      onKeyDown={(event) => {
+        if (event.key !== "Enter" && event.key !== " ") return;
+        event.preventDefault();
+        setIsOpen((previous) => !previous);
+      }}
+      className={`group cursor-pointer rounded-xl border border-emerald-200 bg-emerald-50 p-3 shadow-sm ${wrapperClassName}`.trim()}
+    >
+      <div className="flex items-center justify-between gap-3 text-sm font-semibold text-emerald-900">
+        <span>{title}</span>
+        <span className={`inline-flex h-6 w-6 items-center justify-center rounded-full border border-emerald-300 bg-white text-emerald-700 transition ${isOpen ? "rotate-180" : ""}`}>
+          <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4">
+            <path
+              fillRule="evenodd"
+              d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.51a.75.75 0 01-1.08 0l-4.25-4.51a.75.75 0 01.02-1.06z"
+              clipRule="evenodd"
+            />
+          </svg>
+        </span>
+      </div>
+      {isOpen ? (
+        <div className="mt-3 space-y-2">
+          {intro ? <p className="text-sm text-emerald-800">{intro}</p> : null}
+          {items?.length ? (
+            <ul className="list-disc space-y-2 pl-5 text-sm text-emerald-900">
+              {items.map((item, index) => (
+                <li key={index}>{item?.descripcion ?? String(item)}</li>
+              ))}
+            </ul>
+          ) : null}
+        </div>
+      ) : null}
+    </div>
   );
 }
 
@@ -219,7 +277,7 @@ function StyledSelect({ id, value, onChange, children, disabled = false }) {
         value={value}
         onChange={onChange}
         disabled={disabled}
-        className="w-full appearance-none rounded-xl border border-slate-300 bg-gradient-to-b from-white to-slate-50 px-3 py-2.5 pr-10 text-sm text-slate-800 shadow-sm outline-none transition focus:border-slate-500 focus:ring-2 focus:ring-slate-200 disabled:cursor-not-allowed disabled:bg-slate-100"
+        className="w-full appearance-none rounded-xl border border-slate-300 bg-gradient-to-b from-white to-slate-50 px-3 py-2.5 pr-10 text-sm font-medium text-slate-800 shadow-sm outline-none transition focus:border-slate-500 focus:ring-2 focus:ring-slate-200 disabled:cursor-not-allowed disabled:bg-slate-100 [&>option]:bg-white [&>option]:py-2 [&>option]:text-sm [&>option]:font-medium [&>option]:text-slate-800 [&>option:checked]:bg-slate-900 [&>option:checked]:text-white"
       >
         {children}
       </select>
@@ -273,19 +331,11 @@ function ProtocolNode({
         </header>
       ) : null}
 
-      {actions?.intro || actions?.items?.length ? (
-        <div className="space-y-3 rounded-xl border border-emerald-200 bg-emerald-50 p-3">
-          <p className="text-sm font-semibold text-emerald-900">Acciones preventivas</p>
-          {actions.intro ? <p className="text-sm text-emerald-800">{actions.intro}</p> : null}
-          {actions.items?.length ? (
-            <ul className="list-disc space-y-2 pl-5 text-sm text-emerald-900">
-              {actions.items.map((item, index) => (
-                <li key={index}>{item?.descripcion ?? String(item)}</li>
-              ))}
-            </ul>
-          ) : null}
-        </div>
-      ) : null}
+      <PreventiveActionsPanel
+        title="Acciones preventivas"
+        intro={actions?.intro}
+        items={actions?.items}
+      />
 
       {stepGroups.map((group, groupIndex) => {
         const stepIds = stepIdsByGroup[group.id] ?? [];
@@ -304,7 +354,12 @@ function ProtocolNode({
                 return (
                   <div
                     key={stepId ?? `${group.id}-fallback-${stepIndex}`}
-                    className={`rounded-xl border p-3 ${isEnabled ? "border-slate-200 bg-white" : "border-slate-200 bg-slate-50 opacity-75"}`}
+                    onClick={(event) => {
+                      const interactiveTarget = event.target.closest("a, button, input, select, textarea, label");
+                      if (interactiveTarget || !isEnabled || !stepId) return;
+                      onToggleStep(stepId);
+                    }}
+                    className={`rounded-xl border p-3 ${isEnabled ? "cursor-pointer border-slate-200 bg-white hover:border-slate-300" : "border-slate-200 bg-slate-50 opacity-75"}`}
                   >
                     <div className="flex items-start gap-3">
                       <button
@@ -482,6 +537,7 @@ function ProtocolNode({
 
 export default function ProtocolosPage() {
   const ejes = useMemo(() => normalizeEjes(RAW_EJES), []);
+  const [searchQuery, setSearchQuery] = useState("");
   const [selectedEjeId, setSelectedEjeId] = useState("");
   const [selectedSubejeId, setSelectedSubejeId] = useState("");
   const [selectedCategoryBySubeje, setSelectedCategoryBySubeje] = useState({});
@@ -491,6 +547,7 @@ export default function ProtocolosPage() {
 
   const selectedEje = useMemo(() => ejes.find((eje) => eje.id === selectedEjeId) ?? null, [ejes, selectedEjeId]);
   const subejes = selectedEje?.subejes ?? [];
+  const showSubejeSelector = Boolean(selectedEje?.hasRealSubejes && subejes.length);
   const selectedSubeje = useMemo(() => (selectedEje ? subejes.find((subeje) => subeje.id === selectedSubejeId) ?? subejes[0] ?? null : null), [selectedEje, subejes, selectedSubejeId]);
 
   const categoryOptions = useMemo(() => (selectedSubeje ? extractChildren(selectedSubeje) : []), [selectedSubeje]);
@@ -600,6 +657,100 @@ export default function ProtocolosPage() {
   };
 
   const ejeActions = normalizePreventiveActions(selectedEje?.acciones_preventivas);
+  const searchIndex = useMemo(() => {
+    const entries = [];
+    ejes.forEach((eje) => {
+      const ejeTitle = `Eje ${eje.numero}: ${eje.nombre}`;
+      entries.push({
+        id: `search-${eje.id}`,
+        type: "eje",
+        title: ejeTitle,
+        subtitle: "Ir al eje",
+        ejeId: eje.id,
+        subejeId: eje.subejes?.[0]?.id ?? "",
+        categoryKey: null,
+        subcategoryKey: null,
+        searchText: `${ejeTitle} ${eje.nombre ?? ""}`.toLowerCase(),
+      });
+
+      (eje.subejes ?? []).forEach((subeje) => {
+        const subejeTitle = buildNodeTitle(subeje);
+        entries.push({
+          id: `search-${eje.id}-${subeje.id}`,
+          type: "subeje",
+          title: subejeTitle,
+          subtitle: ejeTitle,
+          ejeId: eje.id,
+          subejeId: subeje.id,
+          categoryKey: null,
+          subcategoryKey: null,
+          searchText: `${subejeTitle} ${subeje.nombre ?? ""} ${ejeTitle}`.toLowerCase(),
+        });
+
+        const categories = extractChildren(subeje);
+        categories.forEach((category) => {
+          const categoryTitle = buildCategoryTitle(category);
+          entries.push({
+            id: `search-${subeje.id}-${category.key}`,
+            type: "categoria",
+            title: categoryTitle,
+            subtitle: `${ejeTitle} · ${subejeTitle}`,
+            ejeId: eje.id,
+            subejeId: subeje.id,
+            categoryKey: category.key,
+            subcategoryKey: null,
+            searchText: `${categoryTitle} ${category.value?.nombre ?? ""} ${subejeTitle} ${ejeTitle}`.toLowerCase(),
+          });
+
+          const subcategories = extractChildren(category.value);
+          subcategories.forEach((subcategory) => {
+            const subcategoryTitle = buildCategoryTitle(subcategory);
+            entries.push({
+              id: `search-${subeje.id}-${category.key}-${subcategory.key}`,
+              type: "subcategoria",
+              title: subcategoryTitle,
+              subtitle: `${ejeTitle} · ${subejeTitle} · ${categoryTitle}`,
+              ejeId: eje.id,
+              subejeId: subeje.id,
+              categoryKey: category.key,
+              subcategoryKey: subcategory.key,
+              searchText: `${subcategoryTitle} ${subcategory.value?.nombre ?? ""} ${categoryTitle} ${subejeTitle} ${ejeTitle}`.toLowerCase(),
+            });
+          });
+        });
+      });
+    });
+    return entries;
+  }, [ejes]);
+
+  const filteredSearchResults = useMemo(() => {
+    const query = searchQuery.trim().toLowerCase();
+    if (!query) return [];
+    const terms = query.split(/\s+/).filter(Boolean);
+    return searchIndex
+      .filter((entry) => terms.every((term) => entry.searchText.includes(term)))
+      .slice(0, 12);
+  }, [searchIndex, searchQuery]);
+
+  const handleSearchSelection = (entry) => {
+    const nextEje = ejes.find((item) => item.id === entry.ejeId);
+    const resolvedSubejeId = entry.subejeId || nextEje?.subejes?.[0]?.id || "";
+
+    setSelectedEjeId(entry.ejeId);
+    setSelectedSubejeId(resolvedSubejeId);
+    setConditionSelections({});
+
+    if (entry.categoryKey) {
+      setSelectedCategoryBySubeje((previous) => ({ ...previous, [resolvedSubejeId]: entry.categoryKey }));
+    }
+
+    if (entry.categoryKey && entry.subcategoryKey) {
+      const subcategoryScope = `${resolvedSubejeId}::${entry.categoryKey}`;
+      setSelectedSubcategoryByCategoryScope((previous) => ({ ...previous, [subcategoryScope]: entry.subcategoryKey }));
+    }
+
+    setSearchQuery(entry.title);
+  };
 
   return (
     <>
@@ -616,6 +767,41 @@ export default function ProtocolosPage() {
 
         <section className="space-y-4">
           <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm w-full">
+            <div className="mb-4 rounded-xl border border-slate-200 bg-slate-50 p-3">
+              <label htmlFor="eje-search" className="text-sm font-semibold uppercase tracking-wide text-slate-600">
+                Buscador de ejes
+              </label>
+              <input
+                id="eje-search"
+                type="text"
+                value={searchQuery}
+                onChange={(event) => setSearchQuery(event.target.value)}
+                placeholder="Busca por eje, subeje, categoria o subcategoria"
+                className="mt-2 w-full rounded-xl border border-slate-300 bg-white px-3 py-2.5 text-sm text-slate-800 shadow-sm outline-none transition focus:border-slate-500 focus:ring-2 focus:ring-slate-200"
+              />
+              {searchQuery.trim() ? (
+                <div className="mt-2 max-h-64 overflow-auto rounded-xl border border-slate-200 bg-white">
+                  {filteredSearchResults.length ? (
+                    filteredSearchResults.map((result) => (
+                      <button
+                        key={result.id}
+                        type="button"
+                        onClick={() => handleSearchSelection(result)}
+                        className="flex w-full items-start justify-between gap-2 border-b border-slate-100 px-3 py-2 text-left transition last:border-b-0 hover:bg-slate-50"
+                      >
+                        <span className="text-sm font-medium text-slate-800">{result.title}</span>
+                        <span className="text-xs text-slate-500">{result.subtitle}</span>
+                      </button>
+                    ))
+                  ) : (
+                    <p className="px-3 py-2 text-sm text-slate-600">No hay coincidencias para esa busqueda.</p>
+                  )}
+                </div>
+              ) : (
+                <p className="mt-2 text-xs text-slate-500">Escribe para buscar un eje.</p>
+              )}
+            </div>
+
             <label htmlFor="eje-selector" className="text-sm font-semibold uppercase tracking-wide text-slate-600">
               Eje principal
             </label>
@@ -628,7 +814,7 @@ export default function ProtocolosPage() {
               ))}
             </StyledSelect>
 
-            {selectedEje ? (
+            {selectedEje && showSubejeSelector ? (
               <div className="mt-2 w-full">
                 <StyledSelect id="subeje-selector" value={selectedSubeje?.id ?? ""} onChange={(event) => handleSelectSubeje(event.target.value)}>
                   {subejes.map((subeje) => (
@@ -638,9 +824,9 @@ export default function ProtocolosPage() {
                   ))}
                 </StyledSelect>
               </div>
-            ) : (
+            ) : !selectedEje ? (
               <p className="mt-3 text-sm font-medium text-slate-600">Debes seleccionar un eje para ver los titulos y pasos del protocolo.</p>
-            )}
+            ) : null}
           </div>
 
           {selectedEje && selectedSubeje ? (
@@ -717,19 +903,12 @@ export default function ProtocolosPage() {
                 ) : null}
               </div>
 
-              {ejeActions?.intro || ejeActions?.items?.length ? (
-                <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 shadow-sm">
-                  <p className="text-sm font-semibold text-emerald-900">Acciones preventivas del eje</p>
-                  {ejeActions.intro ? <p className="mt-2 text-sm text-emerald-800">{ejeActions.intro}</p> : null}
-                  {ejeActions.items?.length ? (
-                    <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-emerald-900">
-                      {ejeActions.items.map((item, index) => (
-                        <li key={index}>{item?.descripcion ?? String(item)}</li>
-                      ))}
-                    </ul>
-                  ) : null}
-                </div>
-              ) : null}
+              <PreventiveActionsPanel
+                title="Acciones preventivas del eje"
+                intro={ejeActions?.intro}
+                items={ejeActions?.items}
+                wrapperClassName="rounded-2xl p-4"
+              />
 
               <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
                 <p className="text-sm font-semibold text-slate-800">Avance de pasos</p>

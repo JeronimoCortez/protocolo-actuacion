@@ -1,0 +1,82 @@
+{
+  "nombre": "Organismos y servicios de interés - Malargüe",
+  "categorias": [
+    {
+      "nombre": "Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)",
+      "organismos": [
+        {
+          "nombre": "Hospital Regional",
+          "direccion": "Av. Gral. Roca y Aldao, Malargüe, Mendoza",
+          "telefonos": [
+            "02604471858"
+          ],
+          "correos": [
+            "hosp-malargue@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Hospitales",
+      "organismos": [
+        {
+          "nombre": "Hospital Regional",
+          "direccion": "Av. Gral. Roca y Aldao, Malargüe, Mendoza",
+          "telefonos": [
+            "02604471048"
+          ],
+          "correos": [
+            "hosp-malargue@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Dirección de Protección y Promoción de Derechos",
+      "organismos": [
+        {
+          "nombre": "ETI",
+          "direccion": "Emilio Civit 791, Malargüe, Mendoza",
+          "telefonos": [
+            "02604470056"
+          ],
+          "correos": [
+            "spdmalargue@mendoza.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Área Departamental de Niñez, Adolescencia y Familia",
+      "organismos": [
+        {
+          "nombre": "Municipalidad de Malargüe",
+          "direccion": "Inalicán y Uriburu, Malargüe, Mendoza",
+          "telefonos": [
+            "02604470505"
+          ],
+          "internos": [
+            "110"
+          ],
+          "correos": [
+            "desarrollosocial@malargue.gov.ar"
+          ]
+        }
+      ]
+    },
+    {
+      "nombre": "Asesor de Menores",
+      "organismos": [
+        {
+          "nombre": "Asesor de Menores",
+          "telefonos": [
+            "2604277654"
+          ],
+          "correos": [
+            "abusosMALARGUE@jus.mendoza.gov.ar"
+          ]
+        }
+      ]
+    }
+  ]
+}

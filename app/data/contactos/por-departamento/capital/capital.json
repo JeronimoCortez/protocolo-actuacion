@@ -1,0 +1,122 @@
+{
+  "nombre": "Contactos de Interes Departamento Capital",
+  "categorias": [
+    {
+      "nombre": "Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)",
+      "organismos": [
+        {
+          "nombre": "Centro Integrador Comunitario",
+          "direccion": "9 de Julio 3565, Mendoza",
+          "telefonos": ["4300441"],
+          "correos": ["cic1@ciudaddemendoza.gov.ar"]
+        },
+        {
+          "nombre": "Centro de Salud Nº300",
+          "direccion": "Cordón del Plata s/n B° San Martín",
+          "telefonos": ["4444792"]
+        },
+        {
+          "nombre": "Centro de Salud Nº1",
+          "direccion": "Camino Acceso a Papagallos y calle de la escuela B° La Favorita",
+          "telefonos": ["4447129"]
+        }
+      ]
+    },
+    {
+      "nombre": "Hospitales",
+      "organismos": [
+        {
+          "nombre": "Lagomaggiore",
+          "direccion": "Timoteo Gordillo s/n, Ciudad, Mendoza",
+          "telefonos": ["4134600"]
+        },
+        {
+          "nombre": "Central",
+          "direccion": "L. N. Alem y Salta, Ciudad, Mendoza",
+          "telefonos": ["2613855684"]
+        },
+        {
+          "nombre": "Carlos Pereyra",
+          "direccion": "Ituzaingó 2831/35, Ciudad, Mendoza",
+          "telefonos": ["3859100"],
+          "correos": ["hosp-pereyra@mendoza.gov.ar"]
+        }
+      ]
+    },
+    {
+      "nombre": "Defensoría de la Persona con Discapacidad",
+      "organismos": [
+        {
+          "nombre": "Defensoría de la Persona con Discapacidad",
+          "direccion": "Espejo 65 PB dpto. 7, Ciudad, Mendoza",
+          "telefonos": ["4204494"]
+        }
+      ]
+    },
+    {
+      "nombre": "Casa Discapacitado",
+      "organismos": [
+        {
+          "nombre": "Dirección de Salud y Acción Social",
+          "direccion": "Perú 762, Ciudad, Mendoza",
+          "telefonos": ["4236451"]
+        }
+      ]
+    },
+    {
+      "nombre": "Áreas Género",
+      "organismos": [
+        {
+          "nombre": "Secretaría de Gobierno",
+          "direccion": "9 de Julio 500, Ciudad, Mendoza",
+          "telefonos": ["4495304", "4495302", "155092210"],
+          "correos": ["politicasdegenero@ciudaddemendoza.gov.ar"]
+        }
+      ]
+    },
+    {
+      "nombre": "Áreas Municipales",
+      "organismos": [
+        {
+          "nombre": "Área Departamental de la Niñez y Adolescencia y Familia",
+          "direccion": "Montevideo 578, Ciudad, Mendoza",
+          "telefonos": ["02614236994"],
+          "correos": ["familia@ciudaddemendoza.gov.ar"]
+        }
+      ]
+    },
+    {
+      "nombre": "Ministerio de Justicia y Seguridad",
+      "organismos": [
+        {
+          "nombre": "Fiscalía Nº1 Seccional 3ª",
+          "direccion": "Rioja 1252, Ciudad, Mendoza",
+          "telefonos": ["3487490"],
+          "correos": ["of1s3@jus.mendoza.gov.ar"]
+        },
+        {
+          "nombre": "Fiscalía Nº2 Seccional 6ª",
+          "direccion": "Los Virgilios y Las Magnolias B° Cano, Ciudad, Mendoza",
+          "telefonos": ["3487564"],
+          "correos": ["of2s6@jus.mendoza.gov.ar"]
+        },
+        {
+          "nombre": "Fiscalía Nº13 Seccional 4ª",
+          "direccion": "Av. San Martín 2556, Mendoza",
+          "telefonos": ["3487520"],
+          "correos": ["of13s4@jus.mendoza.gov.ar"]
+        }
+      ]
+    },
+    {
+      "nombre": "Asesor de Menores",
+      "organismos": [
+        {
+          "nombre": "Asesor de Menores",
+          "telefonos": ["2613878710"],
+          "correos": ["abusosCAPITAL@jus.mendoza.gov.ar"]
+        }
+      ]
+    }
+  ]
+}
