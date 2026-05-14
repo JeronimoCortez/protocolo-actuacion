@@ -1,6 +1,7 @@
 ﻿import { readFile } from "node:fs/promises";
 import path from "node:path";
 import Header from "../components/Header";
+import DownloadMarcoTeoricoPdfButton from "../components/DownloadMarcoTeoricoPdfButton";
 import PrintSectionButton from "../components/PrintSectionButton";
 import { navItems } from "../data/home";
 
@@ -277,7 +278,12 @@ export default async function MarcoTeoricoPage() {
           id="marco-teorico-general"
           className="space-y-4 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm"
         >
-          <div className="flex justify-end">
+          <div className="flex flex-wrap justify-end gap-2">
+            <DownloadMarcoTeoricoPdfButton
+              blocks={blocks}
+              title={metadata.title ?? "Marco Teórico General"}
+              filename="marco-teorico-general.pdf"
+            />
             <PrintSectionButton
               sectionId="marco-teorico-general-content"
               title={metadata.title ?? "Marco Teórico General"}
