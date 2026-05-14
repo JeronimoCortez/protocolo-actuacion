@@ -164,88 +164,113 @@
           "numero": "3.2.2",
           "nombre": "Intento de suicidio o crisis suicida",
           "pasos": {
-            "dentro_escuela": [
+            "condicion": [
               {
-                "paso": "1",
-                "descripcion": "Dar aviso al Equipo Directivo, responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+                "condicion": "Estudiante dentro de la escuela",
+                "pasos": [
+                  {
+                    "paso": "1",
+                    "descripcion": "Dar aviso al Equipo Directivo, responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+                  },
+                  {
+                    "paso": "2",
+                    "descripcion": "Contactar al 911 (Sistema de Seguridad Pública) para el envío de Fuerzas Operacionales Especiales. En caso de requerir primeros auxilios, el Servicio de Emergencias Coordinado brindará las indicaciones."
+                  },
+                  {
+                    "paso": "3",
+                    "descripcion": "No dejar sola a la persona en ningún momento. Reducir el caos, la agitación o los gritos y retirar a observadores."
+                  },
+                  {
+                    "paso": "4",
+                    "descripcion": "Brindar calma y mantener el contacto con la persona en crisis hasta la llegada de las Fuerzas Operacionales Especiales."
+                  },
+                  {
+                    "paso": "5",
+                    "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS."
+                  },
+                  {
+                    "paso": "6",
+                    "descripcion": "En paralelo, dar aviso al profesional DAE asignado o al equipo interdisciplinario correspondiente según nivel y modalidad."
+                  },
+                  {
+                    "paso": "7",
+                    "descripcion": "Brindar contención psicoemocional y resguardar al estudiante en un espacio privado y seguro."
+                  },
+                  {
+                    "paso": "8",
+                    "descripcion": "Contactar de inmediato al responsable legal. En mayores de 18 años, contactar al referente afectivo indicado por la persona."
+                  },
+                  {
+                    "paso": "9",
+                    "descripcion": "Si existe vulneración de derechos que involucre a responsables legales, no contactarlos y dar intervención al ETI."
+                  }
+                ]
               },
               {
-                "paso": "2",
-                "descripcion": "Contactar al 911 (Sistema de Seguridad Pública) para el envío de Fuerzas Operacionales Especiales. En caso de requerir primeros auxilios, el Servicio de Emergencias Coordinado brindará las indicaciones."
+                "condicion": "Personal dentro de la escuela",
+                "pasos": [
+                  {
+                    "paso": "1",
+                    "descripcion": "Dar aviso al Equipo Directivo, responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+                  },
+                  {
+                    "paso": "2",
+                    "descripcion": "Contactar al 911 (Sistema de Seguridad Pública) para el envío de Fuerzas Operacionales Especiales. En caso de requerir primeros auxilios, el Servicio de Emergencias Coordinado brindará las indicaciones."
+                  },
+                  {
+                    "paso": "3",
+                    "descripcion": "No dejar sola a la persona en ningún momento. Reducir el caos, la agitación o los gritos y retirar a observadores."
+                  },
+                  {
+                    "paso": "4",
+                    "descripcion": "Brindar calma y mantener el contacto con la persona en crisis hasta la llegada de las Fuerzas Operacionales Especiales."
+                  },
+                  {
+                    "paso": "5",
+                    "descripcion": "Brindar contención psicoemocional y resguardar a la persona en un espacio privado y seguro."
+                  },
+                  {
+                    "paso": "6",
+                    "descripcion": "Contactar al referente afectivo indicado por la persona."
+                  }
+                ]
               },
               {
-                "paso": "3",
-                "descripcion": "No dejar sola a la persona en ningún momento. Reducir el caos, la agitación o los gritos y retirar a observadores."
-              },
-              {
-                "paso": "4",
-                "descripcion": "Brindar calma y mantener el contacto con la persona en crisis hasta la llegada de las Fuerzas Operacionales Especiales."
-              }
-            ],
-            "dentro_escuela_estudiante": [
-              {
-                "paso": "5",
-                "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS."
-              },
-              {
-                "paso": "6",
-                "descripcion": "En paralelo, dar aviso al profesional DAE asignado o al equipo interdisciplinario correspondiente según nivel y modalidad."
-              },
-              {
-                "paso": "7",
-                "descripcion": "Brindar contención psicoemocional y resguardar al estudiante en un espacio privado y seguro."
-              },
-              {
-                "paso": "8",
-                "descripcion": "Contactar de inmediato al responsable legal. En mayores de 18 años, contactar al referente afectivo indicado por la persona."
-              },
-              {
-                "paso": "9",
-                "descripcion": "Si existe vulneración de derechos que involucre a responsables legales, no contactarlos y dar intervención al ETI."
-              }
-            ],
-            "dentro_escuela_personal": [
-              {
-                "paso": "5",
-                "descripcion": "Brindar contención psicoemocional y resguardar a la persona en un espacio privado y seguro."
-              },
-              {
-                "paso": "6",
-                "descripcion": "Contactar al referente afectivo indicado por la persona."
-              }
-            ],
-            "fuera_escuela": [
-              {
-                "paso": "1",
-                "descripcion": "Dar aviso al Equipo Directivo, responsable de arbitrar los medios necesarios en la aplicación del protocolo."
-              },
-              {
-                "paso": "2",
-                "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS."
-              },
-              {
-                "paso": "3",
-                "descripcion": "En paralelo, dar aviso al profesional DAE asignado o al equipo interdisciplinario correspondiente según nivel y modalidad."
-              },
-              {
-                "paso": "4",
-                "descripcion": "Entrevistar a la familia o responsables legales para indagar las acciones realizadas."
-              },
-              {
-                "paso": "5",
-                "descripcion": "Orientar sobre la importancia de la intervención de efectores de salud mental."
-              },
-              {
-                "paso": "6",
-                "descripcion": "Coordinar el acompañamiento institucional resguardando la intimidad del estudiante."
-              },
-              {
-                "paso": "7",
-                "descripcion": "Dar intervención al ETI u organismo competente en caso de vulneración de derechos."
-              },
-              {
-                "paso": "8",
-                "descripcion": "Registrar en acta e informar por vía jerárquica."
+                "condicion": "Fuera de la escuela",
+                "pasos": [
+                  {
+                    "paso": "1",
+                    "descripcion": "Dar aviso al Equipo Directivo, responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+                  },
+                  {
+                    "paso": "2",
+                    "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS."
+                  },
+                  {
+                    "paso": "3",
+                    "descripcion": "En paralelo, dar aviso al profesional DAE asignado o al equipo interdisciplinario correspondiente según nivel y modalidad."
+                  },
+                  {
+                    "paso": "4",
+                    "descripcion": "Entrevistar a la familia o responsables legales para indagar las acciones realizadas."
+                  },
+                  {
+                    "paso": "5",
+                    "descripcion": "Orientar sobre la importancia de la intervención de efectores de salud mental."
+                  },
+                  {
+                    "paso": "6",
+                    "descripcion": "Coordinar el acompañamiento institucional resguardando la intimidad del estudiante."
+                  },
+                  {
+                    "paso": "7",
+                    "descripcion": "Dar intervención al ETI u organismo competente en caso de vulneración de derechos."
+                  },
+                  {
+                    "paso": "8",
+                    "descripcion": "Registrar en acta e informar por vía jerárquica."
+                  }
+                ]
               }
             ],
             "cierre": [
