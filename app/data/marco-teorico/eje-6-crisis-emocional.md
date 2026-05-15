@@ -1,7 +1,5 @@
 # 5.6. Fundamentos conceptuales del Eje 6: Crisis emocional y Fallecimiento de estudiante o Personal de la Institución
 
----
-
 ## 5.6.1. Crisis Emocionales
 
 Las crisis emocionales refieren a diferentes tipos de afectaciones emocionales ante una situación determinada que implican estados de **descompensación o desorganización emocional**. Pueden constituirse en respuesta a:
@@ -10,8 +8,6 @@ Las crisis emocionales refieren a diferentes tipos de afectaciones emocionales a
 - Circunstancias vitales subjetivamente significadas o percibidas como críticas.
 
 Se precipitan como una ruptura aguda del equilibrio en el que se sostenía la vida de una persona en sus relaciones con otros, con el propio cuerpo y con el mundo en general, pudiendo conducir a modalidades de respuesta que podrían poner en riesgo su vida o la de otros.
-
----
 
 ## 5.6.2. Acciones preventivas
 
@@ -44,8 +40,6 @@ En **CEBJA, CENS y CEPAS**, establecer contacto además con la DEPJA (Dirección
   - **Línea 148 – opción 0:** Servicio gratuito provincial de Salud Mental para orientación, contención y acompañamiento profesional.
   - **Línea 102:** Servicio gratuito y confidencial de atención a niños/as y adolescentes.
   - **ChatBot TINA** por WhatsApp al +54 9 11 3910-1010.
-
----
 
 ## 5.6.3. Fallecimiento de estudiante o Personal de la institución educativa
 

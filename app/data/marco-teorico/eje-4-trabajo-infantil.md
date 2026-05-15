@@ -12,11 +12,9 @@ Más allá de esta prohibición, existen algunas actividades contempladas legalm
 
 En el ámbito escolar, las situaciones de trabajo infantil no siempre se presentan de forma explícita; con frecuencia, solo se observan ciertos indicadores que permiten presumir su existencia.
 
----
-
 ## 5.4.1. Señales de alerta
 
-> Las siguientes señales son orientativas. Su presencia, de forma aislada o combinada, no es exclusiva ni determinante de la existencia de trabajo infantil. Cada caso requiere ser analizado en particular.
+Las siguientes señales son orientativas. Su presencia, de forma aislada o combinada, no es exclusiva ni determinante de la existencia de trabajo infantil. Cada caso requiere ser analizado en particular.
 
 - Ausentismo frecuente o llegadas tarde sin justificación.
 - Cansancio frecuente, somnolencia o dificultad para concentrarse en clase.
@@ -28,8 +26,6 @@ En el ámbito escolar, las situaciones de trabajo infantil no siempre se present
 - Falta de tiempo libre para jugar o descansar.
 - Relato de terceros y/o circulación de imágenes en redes sociales.
 - Gran cantidad de dinero sin justificación de su procedencia.
-
----
 
 ## 5.4.2. Acciones preventivas
 

@@ -8,13 +8,13 @@ export default function ActionsSection({ actionCards, contacts }) {
       className="mx-auto grid w-full max-w-[1200px] grid-cols-1 items-start gap-6 px-4 pb-12 md:gap-10 md:px-6 lg:grid-cols-[1fr_380px]"
       aria-label="Acciones principales"
     >
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 md:gap-5">
         {actionCards.map((card) => (
           <ActionCard key={card.id} card={card} />
         ))}
       </div>
 
-      <div className="flex flex-col gap-4">
+      <div className="flex flex-col gap-4 md:gap-5">
         <RightRailActions />
         <ContactsCard contacts={contacts} />
       </div>

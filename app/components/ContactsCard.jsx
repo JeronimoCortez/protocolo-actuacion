@@ -11,8 +11,8 @@ function ContactIcon({ icon, stroke }) {
 
 export default function ContactsCard({ contacts }) {
   return (
-    <section className="rounded-[1.25rem] border border-[var(--border)] bg-[var(--card)] p-6" aria-labelledby="contacts-heading">
-      <h2 id="contacts-heading" className="mb-4 flex items-center gap-2 text-base font-bold text-[var(--foreground)]">
+    <section className="surface-card rounded-[1.25rem] border border-[var(--border)] bg-[var(--card)] p-6" aria-labelledby="contacts-heading">
+      <h2 id="contacts-heading" className="card-title mb-4 flex items-center gap-2">
         <PhoneIcon className="h-4 w-4 text-[oklch(0.55_0.22_25)]" />
         Contactos de Emergencia
       </h2>
@@ -24,8 +24,8 @@ export default function ContactsCard({ contacts }) {
               <ContactIcon icon={contact.icon} stroke={contact.iconStroke} />
             </span>
             <span>
-              <span className="block text-sm font-semibold">{contact.name}</span>
-              <span className="block text-xs text-[var(--muted-foreground)]">{contact.number}</span>
+              <span className="block text-sm font-semibold text-[var(--heading)]">{contact.name}</span>
+              <span className="block text-xs text-[var(--text-soft)]">{contact.number}</span>
             </span>
             <ArrowRightIcon className="ml-auto h-4 w-4 text-[var(--muted-foreground)]" />
           </a>

@@ -4,8 +4,21 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-dm-sans)", "sans-serif"],
-        serif: ["var(--font-dm-serif-display)", "serif"],
+        sans: ["var(--font-plus-jakarta-sans)", "sans-serif"],
+        serif: ["var(--font-plus-jakarta-sans)", "sans-serif"],
+      },
+      fontSize: {
+        xs: ["0.78rem", { lineHeight: "1.45" }],
+        sm: ["0.9rem", { lineHeight: "1.55" }],
+        base: ["1rem", { lineHeight: "1.65" }],
+        lg: ["1.1rem", { lineHeight: "1.6" }],
+        xl: ["1.25rem", { lineHeight: "1.45" }],
+        "2xl": ["1.52rem", { lineHeight: "1.3" }],
+        "3xl": ["1.95rem", { lineHeight: "1.2" }],
+      },
+      letterSpacing: {
+        tighter: "-0.02em",
+        tight: "-0.012em",
       },
       keyframes: {
         emergencyPulse: {

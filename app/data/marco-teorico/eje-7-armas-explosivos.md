@@ -1,7 +1,5 @@
 # 5.7. Fundamentos conceptuales del Eje 7: Armas, explosivos e incidente por conflicto externo
 
----
-
 ## 5.7.1. Amenazas de Intimidación Pública y Retos Virales en Instituciones Educativas
 
 Las amenazas identificadas en entornos físicos como baños y aulas, bajo la forma de "retos virales", pueden responder al **mimetismo conductual o efecto imitador**: la inclinación de ciertos individuos a reproducir comportamientos transgresores o violentos previamente difundidos a través de medios de comunicación o redes sociales. Estas conductas buscan alterar el funcionamiento normal de las instituciones y ganar visibilidad mediante la provocación del miedo colectivo.
@@ -13,8 +11,6 @@ Las amenazas identificadas en entornos físicos como baños y aulas, bajo la for
 - **Gestión de entornos de cuidado:** Se establece una estrategia de acompañamiento preventivo y supervisión de espacios comunes. El personal institucional asignado velará por el uso adecuado de las instalaciones, garantizando la presencia adulta con el objetivo de fortalecer la prevención de situaciones de riesgo y resguardar la integridad física e intimidad de los estudiantes.
 
 - **Gestión de pertenencias:** De manera excepcional y preventiva, se dispone que los estudiantes asistan únicamente con carpeta y cartuchera (sin mochila), con el propósito de circunscribir el ingreso de elementos a los estrictamente necesarios para la actividad pedagógica.
-
----
 
 ## 5.7.2. Armas
 
@@ -39,8 +35,6 @@ Situaciones en las que **se identifica al portador**. Puede tratarse de:
 - Personas que no forman parte de la institución educativa.
 - Relato de terceros y/o circulación de imágenes en redes sociales.
 
----
-
 ## 5.7.3. Incidentes con explosivos
 
 Situación que provoca un estado de alarma dentro de un entorno social o institución, generando la reacción inmediata de las Fuerzas de Seguridad, siendo el elemento amenazante una sustancia explosiva.
@@ -54,13 +48,9 @@ Todo artefacto explosivo reglamentario (granada, proyectiles, etc.) o bulto con 
 ### c. Detonación de explosivos
 Situación de emergencia producto de la detonación intencional o no de un elemento explosivo.
 
----
-
 ## 5.7.4. Incidente por Conflicto Social Externo
 
 Toda situación de alteración del orden público que se produzca **fuera del establecimiento educativo** en el horario escolar.
-
----
 
 ## 5.7.5. Acciones preventivas
 

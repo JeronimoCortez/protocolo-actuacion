@@ -73,7 +73,7 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$d
 ;
 ;
 const metadata = {
-    title: "Protocolo de Actuación Escolar",
+    title: "Protocolo de Actuación Escolar - DAE",
     description: "Sistema integral de actuación ante situaciones emergentes en el ámbito escolar."
 };
 function RootLayout({ children }) {

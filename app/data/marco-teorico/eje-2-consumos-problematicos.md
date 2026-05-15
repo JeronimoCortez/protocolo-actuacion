@@ -10,13 +10,11 @@ Es importante que los abordajes revistan un carácter integral y se encuadren en
 
 Las situaciones de consumo problemático suelen estar enmarcadas en un contexto en el que podemos distinguir circunstancias que configuran procesos de desafiliación social, vulnerabilidad vincular y fragilidad emocional. No existe un NNA problema, o una escuela problema por fuera de lo que pasa en una familia o en una comunidad. No se debe leer a un NNA que padezca una situación de consumo problemático por fuera de su historia personal, familiar y comunitaria compleja y conflictiva.
 
-> **La pregunta principal no es ¿qué consume esa persona?, sino ¿qué le pasa en su vida?**
+**La pregunta principal no es ¿qué consume esa persona?, sino ¿qué le pasa en su vida?**
 
 No se espera que los docentes asuman el rol de "expertas y expertos en adicciones" capaces de "diagnosticar" situaciones y resolverlas por sí mismas. Para incidir desde una práctica preventiva, es más importante saber acerca de las personas, grupos y comunidades con las cuales se interactúa. Se trata de encontrar en la institución adultos disponibles, capaces de escuchar las preguntas, dudas y necesidades de NNA, articular con otros y acompañar las trayectorias escolares.
 
 La **escuela** es un ámbito privilegiado como lugar de reflexión, contención, escucha e inclusión, y un espacio esencial para desarrollar acciones preventivas.
-
----
 
 ## Niveles de consumo
 
@@ -28,8 +26,6 @@ La diferencia clave para distinguir entre uso, abuso y dependencia es más **cua
 | **Abuso** | Se realiza en forma recurrente. Hay aumento significativo del tiempo dedicado al consumo. Aparecen consecuencias negativas en la escuela, el trabajo y demás ámbitos cotidianos. La persona deja de disfrutar actividades con amistades y familiares. |
 | **Dependencia** | Impulso incontrolable por consumir. La vida de una persona gira exclusivamente en torno al consumo. No es posible vivir sin la sustancia/objeto y se hace todo lo posible para conseguirla, incluso más allá de la propia intención de no volver a hacerlo. También se denomina **adicción**. |
 
----
-
 ## Tipos de consumos
 
 - **Experimentales:** Primeros contactos, sin que suponga la continuidad del consumo. La persona explora o prueba para saber de qué se trata.
@@ -38,9 +34,7 @@ La diferencia clave para distinguir entre uso, abuso y dependencia es más **cua
 - **Habituales:** El consumo es regular y frecuente, pero la persona puede continuar con sus actividades cotidianas.
 - **Dependientes:** Las actividades de la vida diaria se organizan alrededor del consumo, siendo este una motivación central. Pueden generar conflictos a nivel vincular y efectos en las trayectorias educativas, laborales, etc.
 
-> Aunque el Consumo Episódico Excesivo puede ser de una única vez, conlleva riesgos. Es indispensable acompañar con prácticas de cuidado en **todos** los niveles de consumo.
-
----
+Aunque el Consumo Episódico Excesivo puede ser de una única vez, conlleva riesgos. Es indispensable acompañar con prácticas de cuidado en **todos** los niveles de consumo.
 
 ## Consumos digitales y apuestas en línea
 
@@ -55,8 +49,6 @@ La línea que separa un **uso responsable** de un **consumo problemático** se b
 
 Se identifica especialmente la problemática de la participación de NNA en **apuestas en línea y juegos electrónicos con dinámicas de monetización**. Los límites que funcionan en el mundo analógico no tienen los mismos efectos en el mundo virtual (por ejemplo, la prohibición de los 18 años se diluye en apps ilegales).
 
----
-
 ## 5.2.1. Caracterización de los emergentes en consumos
 
 - **Situación de consumo problemático:** el NNA tiene una relación de abuso, dependencia y/o adicción, o un consumo episódico excesivo de sustancias, objetos y/o prácticas.
@@ -67,11 +59,9 @@ Se identifica especialmente la problemática de la participación de NNA en **ap
   - *Ilegales:* cocaína, marihuana, medicación psicotrópica, vaper, apuestas en línea o juegos monetizados, etc.
 - **Venta de sustancias ilegales dentro de la institución:** cuando se detecta una situación de comercialización de sustancias ilegales por parte de NNA.
 
----
-
 ## 5.2.2. Señales de alerta
 
-> Las señales de malestar o alerta deben **mantenerse en el tiempo** y no basta con que aparezca solo una. Son orientativas y no determinan por sí mismas si una situación constituye un consumo problemático.
+Las señales de malestar o alerta deben **mantenerse en el tiempo** y no basta con que aparezca solo una. Son orientativas y no determinan por sí mismas si una situación constituye un consumo problemático.
 
 ### En el ámbito escolar y familiar:
 
@@ -84,8 +74,6 @@ Se identifica especialmente la problemática de la participación de NNA en **ap
 - **Solicitud de dinero:** piden más dinero de lo habitual a familiares y en ocasiones mienten sobre el uso que le darán.
 - **Amenazas y deudas:** pueden ser víctimas de amenazas cuando deben dinero por apuestas y/o consumo de sustancias.
 - **Hábitos sedentarios:** estilo de vida que puede derivar en problemas de salud física.
-
----
 
 ## 5.2.3. Acciones preventivas
 
@@ -111,7 +99,5 @@ En **CEBJA, CENS y CEPAS**, establecer contacto además con la DEPJA (Dirección
 
 - **Generar espacios de reflexión** con los diferentes actores institucionales que permitan repensar y/o desnaturalizar situaciones de consumo, y trabajar sobre ideas y creencias que refuerzan estigmas.
 - **Propiciar el trabajo en red:** la escuela debe contar con un mapa de relaciones con instituciones y actores que facilite la acción estratégica ante situaciones de consumo problemático, agilizando los tiempos e impulsando intervenciones más efectivas y eficientes.
-
----
 
 *Este enfoque ubica a los consumos problemáticos en el campo de la **salud pública** en general y de la **salud mental** en particular, alejándose de miradas criminalísticas o estrictamente jurídicas, y proponiendo un abordaje multidimensional en el que confluyen diversas disciplinas e instituciones encargadas de garantizar derechos.*

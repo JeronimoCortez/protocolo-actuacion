@@ -1,109 +1,40 @@
 {
   "numero": "3",
   "nombre": "Suicidio, autolesiones e ideación",
-  "criterios-generales": [
+  "criterios_generales": [
     "No alarmarse al recibir esta información y actuar de manera calmada.",
     "En todo momento se preservará a la persona de la mirada u observación de otros estudiantes y del personal del establecimiento que no estén a cargo de su cuidado. El espacio físico donde se le brindará atención al NNA debe estar en un ambiente contenido y protegido."
   ],
   "confidencialidad": [
-    {
-      "pauta": "1",
-      "descripcion": "Comunicar la situación únicamente a los adultos referentes que participen activamente en el cuidado y acompañamiento del estudiante."
-    },
-    {
-      "pauta": "2",
-      "descripcion": "No confundir confidencialidad con omisión de comunicación. Se deben informar a las autoridades y equipos correspondientes los relatos del estudiante para su adecuado abordaje."
-    },
-    {
-      "pauta": "3",
-      "descripcion": "Informar al estudiante que, ante ideas de muerte, ideación o planificación suicida, se levantará la confidencialidad para comunicar a referentes afectivos, responsables legales y profesionales de salud, ya que implica un riesgo para sí. Esto no implica vulnerar la privacidad de otros aspectos de la conversación."
-    },
-    {
-      "pauta": "4",
-      "descripcion": "Preservar la confidencialidad y privacidad del estudiante, incorporando a otros agentes institucionales solo cuando sea necesario para su cuidado, acompañamiento y contención."
-    },
-    {
-      "pauta": "5",
-      "descripcion": "Evitar prácticas de revictimización, como solicitar reiteradamente el relato o realizar interrogatorios excesivos."
-    },
-    {
-      "pauta": "6",
-      "descripcion": "No realizar comparaciones con experiencias pasadas del estudiante ni con otros estudiantes, ni emitir juicios de valor."
-    },
-    {
-      "pauta": "7",
-      "descripcion": "Escuchar activamente sin inducir el relato, sin invalidar ni cuestionar, garantizando condiciones adecuadas de privacidad y confidencialidad."
-    },
-    {
-      "pauta": "8",
-      "descripcion": "Favorecer el diálogo, priorizando la voz del estudiante y permitiendo el desarrollo de su relato."
-    },
-    {
-      "pauta": "9",
-      "descripcion": "Evitar ponerse como ejemplo personal o utilizar ejemplos de terceros."
-    },
-    {
-      "pauta": "10",
-      "descripcion": "Contener al estudiante hasta definir el curso de acción, valorando el soporte familiar y consultando si desea estar acompañado por alguien de confianza."
-    },
-    {
-      "pauta": "11",
-      "descripcion": "Acompañar al estudiante hasta que la situación de riesgo haya disminuido, evidenciando tranquilidad, cooperación y ausencia de indicadores de reiteración del riesgo."
-    }
+    { "pauta": "1", "descripcion": "Comunicar la situación únicamente a los adultos referentes que participen activamente en el cuidado y acompañamiento del estudiante." },
+    { "pauta": "2", "descripcion": "No confundir confidencialidad con omisión de comunicación. Se deben informar a las autoridades y equipos correspondientes los relatos del estudiante para su adecuado abordaje." },
+    { "pauta": "3", "descripcion": "Informar al estudiante que, ante ideas de muerte, ideación o planificación suicida, se levantará la confidencialidad para comunicar a referentes afectivos, responsables legales y profesionales de salud, ya que implica un riesgo para sí. Esto no implica vulnerar la privacidad de otros aspectos de la conversación." },
+    { "pauta": "4", "descripcion": "Preservar la confidencialidad y privacidad del estudiante, incorporando a otros agentes institucionales solo cuando sea necesario para su cuidado, acompañamiento y contención." },
+    { "pauta": "5", "descripcion": "Evitar prácticas de revictimización, como solicitar reiteradamente el relato o realizar interrogatorios excesivos." },
+    { "pauta": "6", "descripcion": "No realizar comparaciones con experiencias pasadas del estudiante ni con otros estudiantes, ni emitir juicios de valor." },
+    { "pauta": "7", "descripcion": "Escuchar activamente sin inducir el relato, sin invalidar ni cuestionar, garantizando condiciones adecuadas de privacidad y confidencialidad." },
+    { "pauta": "8", "descripcion": "Favorecer el diálogo, priorizando la voz del estudiante y permitiendo el desarrollo de su relato." },
+    { "pauta": "9", "descripcion": "Evitar ponerse como ejemplo personal o utilizar ejemplos de terceros." },
+    { "pauta": "10", "descripcion": "Contener al estudiante hasta definir el curso de acción, valorando el soporte familiar y consultando si desea estar acompañado por alguien de confianza." },
+    { "pauta": "11", "descripcion": "Acompañar al estudiante hasta que la situación de riesgo haya disminuido, evidenciando tranquilidad, cooperación y ausencia de indicadores de reiteración del riesgo." }
   ],
   "subejes": [
     {
       "numero": "3.1",
-      "nombre": "Autolesión o  autoagresión - Conducta autolesiva dentro y fuera del establecimiento educativo",
+      "nombre": "Autolesión o autoagresión - Conducta autolesiva dentro y fuera del establecimiento educativo",
       "pasos": [
-        {
-          "paso": "1",
-          "descripcion": "La persona que detecta la situación debe brindar atención de primeros auxilios si se observa lesión reciente. En caso de riesgo potencial de agravamiento o riesgo inmediato de vida o de una función vital, llamar al 911."
-        },
-        {
-          "paso": "2",
-          "descripcion": "No dejar solo al estudiante en ningún momento. Consultar sobre el elemento con el que se ha provocado las heridas y, si lo tiene consigo, solicitar que lo entregue. Se recomienda trabajar en duplas: una persona acompaña al estudiante mientras la otra continúa con el protocolo."
-        },
-        {
-          "paso": "3",
-          "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
-        },
-        {
-          "paso": "4",
-          "descripcion": "Consultar al estudiante si su familia tiene conocimiento de la situación. Informarle que es necesario contactar a la familia, referente afectivo o representante legal, priorizando a quien el estudiante prefiera."
-        },
-        {
-          "paso": "5",
-          "descripcion": "Si la indicación médica es trasladar al estudiante a un efector de salud, deberá ser acompañado por un familiar, referente afectivo o representante legal. En caso de no presentarse, deberá acompañarlo un miembro del equipo directivo o docente a cargo."
-        },
-        {
-          "paso": "6",
-          "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS."
-        },
-        {
-          "paso": "7",
-          "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En modalidades de Educación Especial y Jóvenes y Adultos, dar aviso a los equipos correspondientes. En todos los casos, los equipos realizan el primer despeje."
-        },
-        {
-          "paso": "8",
-          "descripcion": "El profesional interviniente debe privilegiar el relato del estudiante, garantizar una escucha atenta que respete su privacidad y evitar la reiteración del relato. En casos de estudiantes con discapacidad, garantizar el acceso a la comunicación mediante ajustes razonables y sistemas de apoyo."
-        },
-        {
-          "paso": "9",
-          "descripcion": "Derivar al efector de salud correspondiente según la edad del estudiante: menores de 14 años al Hospital Notti u hospital con guardia de salud mental infanto-juvenil; de 14 a 17 años al CIPAU; de 18 años en adelante a hospitales con guardia de salud mental."
-        },
-        {
-          "paso": "10",
-          "descripcion": "Si se detecta una situación de vulneración de derechos en estudiantes menores de 18 años asociada al emergente, dar intervención al ETI."
-        },
-        {
-          "paso": "11",
-          "descripcion": "Registrar en acta e informar por vía jerárquica."
-        },
-        {
-          "paso": "12",
-          "descripcion": "Dar seguimiento al caso."
-        }
+        { "paso": "1", "descripcion": "La persona que detecta la situación debe brindar atención de primeros auxilios si se observa lesión reciente. En caso de riesgo potencial de agravamiento o riesgo inmediato de vida o de una función vital, llamar al 911." },
+        { "paso": "2", "descripcion": "No dejar solo al estudiante en ningún momento. Consultar sobre el elemento con el que se ha provocado las heridas y, si lo tiene consigo, solicitar que lo entregue. Se recomienda trabajar en duplas: una persona acompaña al estudiante mientras la otra continúa con el protocolo." },
+        { "paso": "3", "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo." },
+        { "paso": "4", "descripcion": "Consultar al estudiante si su familia tiene conocimiento de la situación. Informarle que es necesario contactar a la familia, referente afectivo o representante legal, priorizando a quien el estudiante prefiera." },
+        { "paso": "5", "descripcion": "Si la indicación médica es trasladar al estudiante a un efector de salud, deberá ser acompañado por un familiar, referente afectivo o representante legal. En caso de no presentarse, deberá acompañarlo un miembro del equipo directivo o docente a cargo." },
+        { "paso": "6", "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS." },
+        { "paso": "7", "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En modalidades de Educación Especial y Jóvenes y Adultos, dar aviso a los equipos correspondientes. En todos los casos, los equipos realizan el primer despeje." },
+        { "paso": "8", "descripcion": "El profesional interviniente debe privilegiar el relato del estudiante, garantizar una escucha atenta que respete su privacidad y evitar la reiteración del relato. En casos de estudiantes con discapacidad, garantizar el acceso a la comunicación mediante ajustes razonables y sistemas de apoyo." },
+        { "paso": "9", "descripcion": "Derivar al efector de salud correspondiente según la edad del estudiante: menores de 14 años al Hospital Notti u hospital con guardia de salud mental infanto-juvenil; de 14 a 17 años al CIPAU; de 18 años en adelante a hospitales con guardia de salud mental." },
+        { "paso": "10", "descripcion": "Si se detecta una situación de vulneración de derechos en estudiantes menores de 18 años asociada al emergente, dar intervención al ETI." },
+        { "paso": "11", "descripcion": "Registrar en acta e informar por vía jerárquica." },
+        { "paso": "12", "descripcion": "Dar seguimiento al caso." }
       ]
     },
     {
@@ -112,317 +43,123 @@
       "categorias": [
         {
           "numero": "3.2.1",
-          "nombre": "Ideación de muerte/ ideas suicidas /planificación suicida.",
+          "nombre": "Ideación de muerte / ideas suicidas / planificación suicida",
           "pasos": [
-            {
-              "paso": "1",
-              "descripcion": "No dejar solo al estudiante en ningún momento. Se recomienda trabajar en duplas: una persona acompaña al estudiante mientras la otra continúa con los pasos del protocolo."
-            },
-            {
-              "paso": "2",
-              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
-            },
-            {
-              "paso": "3",
-              "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS."
-            },
-            {
-              "paso": "4",
-              "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En modalidades de Educación Especial y Jóvenes y Adultos, dar aviso a los equipos correspondientes. En todos los casos, los equipos realizan el primer despeje."
-            },
-            {
-              "paso": "5",
-              "descripcion": "El profesional interviniente debe generar un espacio de escucha atenta, resguardando el contexto, la confidencialidad, la privacidad y la contención del estudiante. Favorecer un clima de confianza sin inducir el relato, ni invalidar ni cuestionar, limitando la intervención de terceros. En casos de estudiantes con discapacidad, garantizar el acceso a la comunicación mediante ajustes razonables y sistemas de apoyo."
-            },
-            {
-              "paso": "6",
-              "descripcion": "En caso de que el equipo interviniente determine un riesgo cierto e inminente, contactar al 911 (Servicio de Emergencias Coordinado) para el traslado a un efector de salud o salud mental."
-            },
-            {
-              "paso": "7",
-              "descripcion": "Derivar al efector de salud correspondiente según la edad del estudiante: menores de 14 años al Hospital Notti u hospital con guardia de salud mental infanto-juvenil; de 14 a 17 años al CIPAU; de 18 años en adelante a hospitales con guardia de salud mental."
-            },
-            {
-              "paso": "8",
-              "descripcion": "Establecer comunicación con la familia, referente afectivo o responsable legal para informar las acciones institucionales realizadas. Orientar sobre la importancia de la intervención de efectores de salud mental. En Educación Permanente de Jóvenes y Adultos, la orientación se realiza en primer lugar con el estudiante."
-            },
-            {
-              "paso": "9",
-              "descripcion": "Si se detecta una situación de vulneración de derechos en estudiantes menores de 18 años asociada al emergente, dar intervención al ETI."
-            },
-            {
-              "paso": "10",
-              "descripcion": "Registrar en acta e informar por vía jerárquica."
-            },
-            {
-              "paso": "11",
-              "descripcion": "Dar seguimiento al caso."
-            }
+            { "paso": "1", "descripcion": "No dejar solo al estudiante en ningún momento. Se recomienda trabajar en duplas: una persona acompaña al estudiante mientras la otra continúa con los pasos del protocolo." },
+            { "paso": "2", "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo." },
+            { "paso": "3", "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS." },
+            { "paso": "4", "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En modalidades de Educación Especial y Jóvenes y Adultos, dar aviso a los equipos correspondientes. En todos los casos, los equipos realizan el primer despeje." },
+            { "paso": "5", "descripcion": "El profesional interviniente debe generar un espacio de escucha atenta, resguardando el contexto, la confidencialidad, la privacidad y la contención del estudiante. Favorecer un clima de confianza sin inducir el relato, ni invalidar ni cuestionar, limitando la intervención de terceros. En casos de estudiantes con discapacidad, garantizar el acceso a la comunicación mediante ajustes razonables y sistemas de apoyo." },
+            { "paso": "6", "descripcion": "En caso de que el equipo interviniente determine un riesgo cierto e inminente, contactar al 911 (Servicio de Emergencias Coordinado) para el traslado a un efector de salud o salud mental." },
+            { "paso": "7", "descripcion": "Derivar al efector de salud correspondiente según la edad del estudiante: menores de 14 años al Hospital Notti u hospital con guardia de salud mental infanto-juvenil; de 14 a 17 años al CIPAU; de 18 años en adelante a hospitales con guardia de salud mental." },
+            { "paso": "8", "descripcion": "Establecer comunicación con la familia, referente afectivo o responsable legal para informar las acciones institucionales realizadas. Orientar sobre la importancia de la intervención de efectores de salud mental. En Educación Permanente de Jóvenes y Adultos, la orientación se realiza en primer lugar con el estudiante." },
+            { "paso": "9", "descripcion": "Si se detecta una situación de vulneración de derechos en estudiantes menores de 18 años asociada al emergente, dar intervención al ETI." },
+            { "paso": "10", "descripcion": "Registrar en acta e informar por vía jerárquica." },
+            { "paso": "11", "descripcion": "Dar seguimiento al caso." }
           ]
         },
         {
           "numero": "3.2.2",
           "nombre": "Intento de suicidio o crisis suicida",
-          "pasos": {
-            "condicion": [
-              {
-                "condicion": "Estudiante dentro de la escuela",
-                "pasos": [
-                  {
-                    "paso": "1",
-                    "descripcion": "Dar aviso al Equipo Directivo, responsable de arbitrar los medios necesarios en la aplicación del protocolo."
-                  },
-                  {
-                    "paso": "2",
-                    "descripcion": "Contactar al 911 (Sistema de Seguridad Pública) para el envío de Fuerzas Operacionales Especiales. En caso de requerir primeros auxilios, el Servicio de Emergencias Coordinado brindará las indicaciones."
-                  },
-                  {
-                    "paso": "3",
-                    "descripcion": "No dejar sola a la persona en ningún momento. Reducir el caos, la agitación o los gritos y retirar a observadores."
-                  },
-                  {
-                    "paso": "4",
-                    "descripcion": "Brindar calma y mantener el contacto con la persona en crisis hasta la llegada de las Fuerzas Operacionales Especiales."
-                  },
-                  {
-                    "paso": "5",
-                    "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS."
-                  },
-                  {
-                    "paso": "6",
-                    "descripcion": "En paralelo, dar aviso al profesional DAE asignado o al equipo interdisciplinario correspondiente según nivel y modalidad."
-                  },
-                  {
-                    "paso": "7",
-                    "descripcion": "Brindar contención psicoemocional y resguardar al estudiante en un espacio privado y seguro."
-                  },
-                  {
-                    "paso": "8",
-                    "descripcion": "Contactar de inmediato al responsable legal. En mayores de 18 años, contactar al referente afectivo indicado por la persona."
-                  },
-                  {
-                    "paso": "9",
-                    "descripcion": "Si existe vulneración de derechos que involucre a responsables legales, no contactarlos y dar intervención al ETI."
-                  }
-                ]
-              },
-              {
-                "condicion": "Personal dentro de la escuela",
-                "pasos": [
-                  {
-                    "paso": "1",
-                    "descripcion": "Dar aviso al Equipo Directivo, responsable de arbitrar los medios necesarios en la aplicación del protocolo."
-                  },
-                  {
-                    "paso": "2",
-                    "descripcion": "Contactar al 911 (Sistema de Seguridad Pública) para el envío de Fuerzas Operacionales Especiales. En caso de requerir primeros auxilios, el Servicio de Emergencias Coordinado brindará las indicaciones."
-                  },
-                  {
-                    "paso": "3",
-                    "descripcion": "No dejar sola a la persona en ningún momento. Reducir el caos, la agitación o los gritos y retirar a observadores."
-                  },
-                  {
-                    "paso": "4",
-                    "descripcion": "Brindar calma y mantener el contacto con la persona en crisis hasta la llegada de las Fuerzas Operacionales Especiales."
-                  },
-                  {
-                    "paso": "5",
-                    "descripcion": "Brindar contención psicoemocional y resguardar a la persona en un espacio privado y seguro."
-                  },
-                  {
-                    "paso": "6",
-                    "descripcion": "Contactar al referente afectivo indicado por la persona."
-                  }
-                ]
-              },
-              {
-                "condicion": "Fuera de la escuela",
-                "pasos": [
-                  {
-                    "paso": "1",
-                    "descripcion": "Dar aviso al Equipo Directivo, responsable de arbitrar los medios necesarios en la aplicación del protocolo."
-                  },
-                  {
-                    "paso": "2",
-                    "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS."
-                  },
-                  {
-                    "paso": "3",
-                    "descripcion": "En paralelo, dar aviso al profesional DAE asignado o al equipo interdisciplinario correspondiente según nivel y modalidad."
-                  },
-                  {
-                    "paso": "4",
-                    "descripcion": "Entrevistar a la familia o responsables legales para indagar las acciones realizadas."
-                  },
-                  {
-                    "paso": "5",
-                    "descripcion": "Orientar sobre la importancia de la intervención de efectores de salud mental."
-                  },
-                  {
-                    "paso": "6",
-                    "descripcion": "Coordinar el acompañamiento institucional resguardando la intimidad del estudiante."
-                  },
-                  {
-                    "paso": "7",
-                    "descripcion": "Dar intervención al ETI u organismo competente en caso de vulneración de derechos."
-                  },
-                  {
-                    "paso": "8",
-                    "descripcion": "Registrar en acta e informar por vía jerárquica."
-                  }
-                ]
-              }
-            ],
-            "cierre": [
-              {
-                "paso": "final",
-                "descripcion": "Dar seguimiento al caso en coordinación con profesionales externos."
-              }
-            ]
-          },
-          "acciones_preventivas": [
+          "pasos": [
             {
-              "accion": "1",
-              "descripcion": "Garantizar la implementación de acciones preventivas mediante la designación de responsables institucionales, fortaleciendo factores protectores."
+              "condicion": "Estudiante dentro de la escuela",
+              "pasos": [
+                { "paso": "1", "descripcion": "Dar aviso al Equipo Directivo, responsable de arbitrar los medios necesarios en la aplicación del protocolo." },
+                { "paso": "2", "descripcion": "Contactar al 911 (Sistema de Seguridad Pública) para el envío de Fuerzas Operacionales Especiales. En caso de requerir primeros auxilios, el Servicio de Emergencias Coordinado brindará las indicaciones." },
+                { "paso": "3", "descripcion": "No dejar sola a la persona en ningún momento. Reducir el caos, la agitación o los gritos y retirar a observadores." },
+                { "paso": "4", "descripcion": "Brindar calma y mantener el contacto con la persona en crisis hasta la llegada de las Fuerzas Operacionales Especiales." },
+                { "paso": "5", "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS." },
+                { "paso": "6", "descripcion": "En paralelo, dar aviso al profesional DAE asignado o al equipo interdisciplinario correspondiente según nivel y modalidad." },
+                { "paso": "7", "descripcion": "Brindar contención psicoemocional y resguardar al estudiante en un espacio privado y seguro." },
+                { "paso": "8", "descripcion": "Contactar de inmediato al responsable legal. En mayores de 18 años, contactar al referente afectivo indicado por la persona." },
+                { "paso": "9", "descripcion": "Si existe vulneración de derechos que involucre a responsables legales, no contactarlos y dar intervención al ETI." },
+                { "paso": "10", "descripcion": "Dar seguimiento al caso en coordinación con profesionales externos." }
+              ]
             },
             {
-              "accion": "2",
-              "descripcion": "Implementar estrategias que prioricen la inclusión del estudiante, brindando apoyo y acompañamiento permanente, facilitando su asistencia escolar y la continuidad de su tratamiento de salud en caso de corresponder."
+              "condicion": "Personal dentro de la escuela",
+              "pasos": [
+                { "paso": "1", "descripcion": "Dar aviso al Equipo Directivo, responsable de arbitrar los medios necesarios en la aplicación del protocolo." },
+                { "paso": "2", "descripcion": "Contactar al 911 (Sistema de Seguridad Pública) para el envío de Fuerzas Operacionales Especiales. En caso de requerir primeros auxilios, el Servicio de Emergencias Coordinado brindará las indicaciones." },
+                { "paso": "3", "descripcion": "No dejar sola a la persona en ningún momento. Reducir el caos, la agitación o los gritos y retirar a observadores." },
+                { "paso": "4", "descripcion": "Brindar calma y mantener el contacto con la persona en crisis hasta la llegada de las Fuerzas Operacionales Especiales." },
+                { "paso": "5", "descripcion": "Brindar contención psicoemocional y resguardar a la persona en un espacio privado y seguro." },
+                { "paso": "6", "descripcion": "Contactar al referente afectivo indicado por la persona." },
+                { "paso": "7", "descripcion": "Dar seguimiento al caso en coordinación con profesionales externos." }
+              ]
             },
             {
-              "accion": "3",
-              "descripcion": "Acompañar al entorno familiar del estudiante y a la comunidad educativa, promoviendo redes de contención."
-            },
-            {
-              "accion": "4",
-              "descripcion": "Los equipos intervinientes (DAE, SOE, Educación Especial y equipos de orientación en CEBJA/CENS), junto al equipo directivo, deben activar, sostener y fortalecer redes de apoyo interinstitucionales, incluyendo espacios de escucha activa, grupos de conversación y contención emocional."
-            },
-            {
-              "accion": "5",
-              "descripcion": "Asegurar que el diálogo y el seguimiento sean sostenidos en el tiempo, integrándose como parte fundamental de la labor institucional."
-            },
-            {
-              "accion": "6",
-              "descripcion": "Promover espacios de diálogo con los estudiantes sobre lo ocurrido, abordando el suicidio, las autolesiones y la ideación suicida desde una perspectiva de salud mental integral, considerando dimensiones biopsicosociales y trabajando para deconstruir mitos y estigmas."
-            },
-            {
-              "accion": "7",
-              "descripcion": "Generar acciones articuladas con efectores de salud y salud mental, centros de salud, asesorías de salud integral y programas provinciales para el abordaje de la problemática del suicidio."
+              "condicion": "Fuera de la escuela",
+              "pasos": [
+                { "paso": "1", "descripcion": "Dar aviso al Equipo Directivo, responsable de arbitrar los medios necesarios en la aplicación del protocolo." },
+                { "paso": "2", "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS." },
+                { "paso": "3", "descripcion": "En paralelo, dar aviso al profesional DAE asignado o al equipo interdisciplinario correspondiente según nivel y modalidad." },
+                { "paso": "4", "descripcion": "Entrevistar a la familia o responsables legales para indagar las acciones realizadas." },
+                { "paso": "5", "descripcion": "Orientar sobre la importancia de la intervención de efectores de salud mental." },
+                { "paso": "6", "descripcion": "Coordinar el acompañamiento institucional resguardando la intimidad del estudiante." },
+                { "paso": "7", "descripcion": "Dar intervención al ETI u organismo competente en caso de vulneración de derechos." },
+                { "paso": "8", "descripcion": "Registrar en acta e informar por vía jerárquica." },
+                { "paso": "9", "descripcion": "Dar seguimiento al caso en coordinación con profesionales externos." }
+              ]
             }
+          ],
+          "acciones_preventivas": [
+            { "accion": "1", "descripcion": "Garantizar la implementación de acciones preventivas mediante la designación de responsables institucionales, fortaleciendo factores protectores." },
+            { "accion": "2", "descripcion": "Implementar estrategias que prioricen la inclusión del estudiante, brindando apoyo y acompañamiento permanente, facilitando su asistencia escolar y la continuidad de su tratamiento de salud en caso de corresponder." },
+            { "accion": "3", "descripcion": "Acompañar al entorno familiar del estudiante y a la comunidad educativa, promoviendo redes de contención." },
+            { "accion": "4", "descripcion": "Los equipos intervinientes (DAE, SOE, Educación Especial y equipos de orientación en CEBJA/CENS), junto al equipo directivo, deben activar, sostener y fortalecer redes de apoyo interinstitucionales, incluyendo espacios de escucha activa, grupos de conversación y contención emocional." },
+            { "accion": "5", "descripcion": "Asegurar que el diálogo y el seguimiento sean sostenidos en el tiempo, integrándose como parte fundamental de la labor institucional." },
+            { "accion": "6", "descripcion": "Promover espacios de diálogo con los estudiantes sobre lo ocurrido, abordando el suicidio, las autolesiones y la ideación suicida desde una perspectiva de salud mental integral, considerando dimensiones biopsicosociales y trabajando para deconstruir mitos y estigmas." },
+            { "accion": "7", "descripcion": "Generar acciones articuladas con efectores de salud y salud mental, centros de salud, asesorías de salud integral y programas provinciales para el abordaje de la problemática del suicidio." }
           ]
         },
         {
           "numero": "3.2.3",
           "nombre": "Suicidio",
-          "pasos": {
-            "dentro_escuela": [
-              {
-                "paso": "1",
-                "descripcion": "Dar aviso al Equipo Directivo, responsable de arbitrar los medios necesarios en la aplicación del protocolo."
-              },
-              {
-                "paso": "2",
-                "descripcion": "Contactar al Servicio de Emergencias Coordinado 911 o al servicio médico privado para la constatación de signos vitales."
-              },
-              {
-                "paso": "3",
-                "descripcion": "Llamar inmediatamente al responsable legal del estudiante y/o referente afectivo en caso de estudiantes mayores de 18 años o personal de la institución."
-              },
-              {
-                "paso": "4",
-                "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS."
-              },
-              {
-                "paso": "5",
-                "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al equipo interdisciplinario correspondiente según nivel y modalidad."
-              },
-              {
-                "paso": "6",
-                "descripcion": "Registrar en acta e informar por vía jerárquica."
-              },
-              {
-                "paso": "7",
-                "descripcion": "Comunicar a la comunidad educativa preservando la confidencialidad, sin brindar detalles del hecho ni de sus motivos, adecuando la comunicación a las características de los distintos grupos y edades."
-              },
-              {
-                "paso": "8",
-                "descripcion": "Realizar la posvención articulada con DAE y la Dirección de Salud Mental. En caso de fallecimiento por suicidio de un adolescente, intervenir dentro de las 24 horas; en niños, jóvenes o adultos, entre las 48 y 72 horas posteriores."
-              }
-            ],
-            "fuera_escuela": [
-              {
-                "paso": "1",
-                "descripcion": "Dar aviso al Equipo Directivo, responsable de arbitrar los medios necesarios en la aplicación del protocolo."
-              },
-              {
-                "paso": "2",
-                "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS."
-              },
-              {
-                "paso": "3",
-                "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al equipo interdisciplinario correspondiente según nivel y modalidad."
-              },
-              {
-                "paso": "4",
-                "descripcion": "Realizar la posvención articulada con DAE y la Dirección de Salud Mental. En caso de fallecimiento por suicidio de un adolescente, intervenir dentro de las 24 horas; en niños, jóvenes o adultos, entre las 48 y 72 horas posteriores."
-              }
-            ]
-          },
-          "acciones_preventivas": [
+          "pasos": [
             {
-              "acccion": "1",
-              "descripcion": "La escuela debe garantizar el cumplimiento de las siguientes acciones designando a los responsables."
+              "condicion": "Dentro de la escuela",
+              "pasos": [
+                { "paso": "1", "descripcion": "Dar aviso al Equipo Directivo, responsable de arbitrar los medios necesarios en la aplicación del protocolo." },
+                { "paso": "2", "descripcion": "Contactar al Servicio de Emergencias Coordinado 911 o al servicio médico privado para la constatación de signos vitales." },
+                { "paso": "3", "descripcion": "Llamar inmediatamente al responsable legal del estudiante y/o referente afectivo en caso de estudiantes mayores de 18 años o personal de la institución." },
+                { "paso": "4", "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS." },
+                { "paso": "5", "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al equipo interdisciplinario correspondiente según nivel y modalidad." },
+                { "paso": "6", "descripcion": "Registrar en acta e informar por vía jerárquica." },
+                { "paso": "7", "descripcion": "Comunicar a la comunidad educativa preservando la confidencialidad, sin brindar detalles del hecho ni de sus motivos, adecuando la comunicación a las características de los distintos grupos y edades." },
+                { "paso": "8", "descripcion": "Realizar la posvención articulada con DAE y la Dirección de Salud Mental. En caso de fallecimiento por suicidio de un adolescente, intervenir dentro de las 24 horas; en niños, jóvenes o adultos, entre las 48 y 72 horas posteriores." }
+              ]
+            },
+            {
+              "condicion": "Fuera de la escuela",
+              "pasos": [
+                { "paso": "1", "descripcion": "Dar aviso al Equipo Directivo, responsable de arbitrar los medios necesarios en la aplicación del protocolo." },
+                { "paso": "2", "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS." },
+                { "paso": "3", "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al equipo interdisciplinario correspondiente según nivel y modalidad." },
+                { "paso": "4", "descripcion": "Realizar la posvención articulada con DAE y la Dirección de Salud Mental. En caso de fallecimiento por suicidio de un adolescente, intervenir dentro de las 24 horas; en niños, jóvenes o adultos, entre las 48 y 72 horas posteriores." }
+              ]
             }
+          ],
+          "acciones_preventivas": [
+            { "accion": "1", "descripcion": "La escuela debe garantizar el cumplimiento de las siguientes acciones designando a los responsables." }
           ]
         },
         {
           "numero": "3.2.4",
           "nombre": "Posvención",
           "pasos": [
-            {
-              "paso": "1",
-              "descripcion": "Implementar acciones de posvención que permitan la tramitación psicosocial de lo acontecido, favoreciendo respuestas saludables ante eventos traumáticos y previniendo nuevas situaciones asociadas."
-            },
-            {
-              "paso": "2",
-              "descripcion": "Iniciar la intervención en los plazos establecidos: dentro de las 24 horas en caso de fallecimiento por suicidio de adolescentes, y entre las 48 y 72 horas en niños, jóvenes o adultos. Sostener acciones hasta dos meses con seguimiento de uno a dos años."
-            },
-            {
-              "paso": "3",
-              "descripcion": "Habilitar espacios de expresión (diálogo, escritura, expresión artística), respetando los tiempos individuales y el silencio como forma legítima de elaboración."
-            },
-            {
-              "paso": "4",
-              "descripcion": "Brindar acompañamiento a docentes y adultos referentes, generando espacios de contención coordinados por DAE, SOE o equipos correspondientes, reconociendo su rol como primeros intervinientes."
-            },
-            {
-              "paso": "5",
-              "descripcion": "Definir responsables institucionales para coordinar los dispositivos de acompañamiento y asegurar coherencia en las intervenciones."
-            },
-            {
-              "paso": "6",
-              "descripcion": "Relevar redes familiares y educativas, identificando familiares dentro de la institución u otras, para articular abordajes interinstitucionales y garantizar acompañamiento integral."
-            },
-            {
-              "paso": "7",
-              "descripcion": "Habilitar espacios de escucha diferenciados, priorizando a los grupos más cercanos por edad o vínculo con la persona afectada."
-            },
-            {
-              "paso": "8",
-              "descripcion": "Evitar juicios, moralizaciones o idealizaciones sobre la conducta de la persona involucrada, así como mensajes simplificadores que puedan resultar contraproducentes."
-            },
-            {
-              "paso": "9",
-              "descripcion": "Acompañar los gestos de memoria (homenajes), promoviendo su carácter transitorio para favorecer la elaboración del duelo sin cristalizar la pérdida."
-            },
-            {
-              "paso": "10",
-              "descripcion": "Trabajar con las familias en corresponsabilidad, articulando con servicios de salud y salud mental para garantizar un abordaje integral."
-            },
-            {
-              "paso": "11",
-              "descripcion": "Promover una comunicación responsable, designando un referente institucional y supervisando la circulación de información en redes y medios, evitando la exposición o estigmatización."
-            }
+            { "paso": "1", "descripcion": "Implementar acciones de posvención que permitan la tramitación psicosocial de lo acontecido, favoreciendo respuestas saludables ante eventos traumáticos y previniendo nuevas situaciones asociadas." },
+            { "paso": "2", "descripcion": "Iniciar la intervención en los plazos establecidos: dentro de las 24 horas en caso de fallecimiento por suicidio de adolescentes, y entre las 48 y 72 horas en niños, jóvenes o adultos. Sostener acciones hasta dos meses con seguimiento de uno a dos años." },
+            { "paso": "3", "descripcion": "Habilitar espacios de expresión (diálogo, escritura, expresión artística), respetando los tiempos individuales y el silencio como forma legítima de elaboración." },
+            { "paso": "4", "descripcion": "Brindar acompañamiento a docentes y adultos referentes, generando espacios de contención coordinados por DAE, SOE o equipos correspondientes, reconociendo su rol como primeros intervinientes." },
+            { "paso": "5", "descripcion": "Definir responsables institucionales para coordinar los dispositivos de acompañamiento y asegurar coherencia en las intervenciones." },
+            { "paso": "6", "descripcion": "Relevar redes familiares y educativas, identificando familiares dentro de la institución u otras, para articular abordajes interinstitucionales y garantizar acompañamiento integral." },
+            { "paso": "7", "descripcion": "Habilitar espacios de escucha diferenciados, priorizando a los grupos más cercanos por edad o vínculo con la persona afectada." },
+            { "paso": "8", "descripcion": "Evitar juicios, moralizaciones o idealizaciones sobre la conducta de la persona involucrada, así como mensajes simplificadores que puedan resultar contraproducentes." },
+            { "paso": "9", "descripcion": "Acompañar los gestos de memoria (homenajes), promoviendo su carácter transitorio para favorecer la elaboración del duelo sin cristalizar la pérdida." },
+            { "paso": "10", "descripcion": "Trabajar con las familias en corresponsabilidad, articulando con servicios de salud y salud mental para garantizar un abordaje integral." },
+            { "paso": "11", "descripcion": "Promover una comunicación responsable, designando un referente institucional y supervisando la circulación de información en redes y medios, evitando la exposición o estigmatización." }
           ]
         }
       ]

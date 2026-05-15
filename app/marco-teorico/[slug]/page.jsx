@@ -1,9 +1,13 @@
-﻿import { readFile } from "node:fs/promises";
+import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
-import Header from "../components/Header";
-import DownloadMarcoTeoricoPdfButton from "../components/DownloadMarcoTeoricoPdfButton";
-import PrintSectionButton from "../components/PrintSectionButton";
-import { navItems } from "../data/home";
+import Link from "next/link";
+import { notFound } from "next/navigation";
+import Header from "../../components/Header";
+import DownloadMarcoTeoricoPdfButton from "../../components/DownloadMarcoTeoricoPdfButton";
+import PrintSectionButton from "../../components/PrintSectionButton";
+import { navItems } from "../../data/home";
+
+const MARCO_TEORICO_DIR = path.join(process.cwd(), "app/data/marco-teorico");
 
 function parseFrontmatter(markdown) {
   const frontmatterMatch = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
@@ -22,7 +26,6 @@ function parseFrontmatter(markdown) {
     const key = line.slice(0, separatorIndex).trim();
     const rawValue = line.slice(separatorIndex + 1).trim();
     const value = rawValue.replace(/^"(.*)"$/, "$1");
-
     metadata[key] = value;
   });
 
@@ -54,8 +57,8 @@ function parseMarkdownBlocks(markdown) {
       continue;
     }
 
-    if (/^#{1,3}\s+/.test(line)) {
-      const headingMatch = line.match(/^(#{1,3})\s+(.*)$/);
+    if (/^#{1,6}\s+/.test(line)) {
+      const headingMatch = line.match(/^(#{1,6})\s+(.*)$/);
       blocks.push({
         type: "heading",
         level: headingMatch[1].length,
@@ -85,11 +88,11 @@ function parseMarkdownBlocks(markdown) {
       continue;
     }
 
-    if (line.startsWith("- ")) {
+    if (/^[-*]\s+/.test(line)) {
       const items = [];
 
-      while (index < lines.length && lines[index].trim().startsWith("- ")) {
-        items.push(lines[index].trim().slice(2).trim());
+      while (index < lines.length && /^[-*]\s+/.test(lines[index].trim())) {
+        items.push(lines[index].trim().replace(/^[-*]\s+/, "").trim());
         index += 1;
       }
 
@@ -102,7 +105,7 @@ function parseMarkdownBlocks(markdown) {
     while (index < lines.length) {
       const current = lines[index].trim();
       if (!current) break;
-      if (/^#{1,3}\s+/.test(current) || current.startsWith("- ") || current.startsWith("|")) break;
+      if (/^#{1,6}\s+/.test(current) || /^[-*]\s+/.test(current) || current.startsWith("|")) break;
       paragraphLines.push(current);
       index += 1;
     }
@@ -251,47 +254,84 @@ function renderMarkdownBlocks(blocks) {
   });
 }
 
-export default async function MarcoTeoricoPage() {
-  const markdownPath = path.join(process.cwd(), "app/data/marco-teorico/index.md");
+async function getMarcoSlugList() {
+  const files = await readdir(MARCO_TEORICO_DIR);
+  return files
+    .filter((fileName) => fileName.endsWith(".md") && fileName !== "index.md")
+    .map((fileName) => fileName.replace(/\.md$/i, ""));
+}
+
+function sanitizeSlug(rawSlug) {
+  return String(rawSlug ?? "")
+    .trim()
+    .toLowerCase()
+    .replace(/[^a-z0-9-]/g, "");
+}
+
+function buildDisplayTitle(slug) {
+  return slug
+    .split("-")
+    .filter(Boolean)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join(" ");
+}
+
+export async function generateStaticParams() {
+  const slugs = await getMarcoSlugList();
+  return slugs.map((slug) => ({ slug }));
+}
+
+export default async function MarcoTeoricoEjePage({ params }) {
+  const resolvedParams = await params;
+  const slug = sanitizeSlug(resolvedParams?.slug);
+  if (!slug) notFound();
+
+  const availableSlugs = await getMarcoSlugList();
+  if (!availableSlugs.includes(slug)) notFound();
+
+  const markdownPath = path.join(MARCO_TEORICO_DIR, `${slug}.md`);
   const markdownRaw = await readFile(markdownPath, "utf8");
   const { metadata, content } = parseFrontmatter(markdownRaw);
   const blocks = parseMarkdownBlocks(content);
+  const pageTitle = metadata.title ?? buildDisplayTitle(slug);
 
   return (
     <>
       <Header navItems={navItems} />
-      <main
-        id="marco-teorico-main"
-        className="mx-auto w-full max-w-[1200px] space-y-6 px-4 pb-12 pt-8 md:px-6 md:pt-10"
-      >
+      <main className="mx-auto w-full max-w-[1200px] space-y-6 px-4 pb-12 pt-8 md:px-6 md:pt-10">
         <section className="surface-card rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-          <h1 className="page-title">
-            Marco Teórico
+          <p className="kicker">
+            Marco Teórico por Eje
+          </p>
+          <h1 className="page-title mt-2">
+            {pageTitle}
           </h1>
           <p className="supporting-copy mt-3">
-            {metadata.description ??
-              "Muestra cada uno de los marcos teóricos y conceptuales utilizados para el desarrollo del protocolo."}
+            {metadata.description ?? "Desarrollo conceptual del eje seleccionado."}
           </p>
         </section>
 
-        <section
-          id="marco-teorico-general"
-          className="surface-card space-y-4 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-5"
-        >
+        <section className="surface-card space-y-4 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-5">
           <div className="flex flex-wrap justify-end gap-2 [&>*]:w-full sm:[&>*]:w-auto">
+            <Link
+              href="/marco-teorico"
+              className="rounded-lg bg-white px-3 py-2 text-center text-sm font-semibold text-slate-700 transition hover:bg-slate-50 hover:underline"
+            >
+              Volver a Marco Teórico General
+            </Link>
             <DownloadMarcoTeoricoPdfButton
               blocks={blocks}
-              title={metadata.title ?? "Marco Teórico General"}
-              filename="marco-teorico-general.pdf"
+              title={pageTitle}
+              filename={`marco-teorico-${slug}.pdf`}
             />
             <PrintSectionButton
-              sectionId="marco-teorico-general-content"
-              title={metadata.title ?? "Marco Teórico General"}
-              label="Imprimir Marco Teórico General"
+              sectionId="marco-teorico-eje-content"
+              title={pageTitle}
+              label="Imprimir Marco Teórico"
             />
           </div>
 
-          <article id="marco-teorico-general-content" className="space-y-4 md:space-y-5">
+          <article id="marco-teorico-eje-content" className="space-y-4 md:space-y-5">
             {renderMarkdownBlocks(blocks)}
           </article>
         </section>

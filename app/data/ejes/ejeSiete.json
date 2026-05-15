@@ -186,43 +186,43 @@
               "descripcion": "Dar seguimiento si la persona involucrada es un estudiante. En caso de que el equipo interviniente detecte la existencia de riesgo, amenaza o vulneración de derechos, dar intervención a instituciones competentes según municipio, equipos de salud o ETI."
             }
           ]
-        },
-        {
-          "numero": "7.3",
-          "nombre": "Adulto que se presenta en la puerta de la escuela con actitud amenazante",
-          "pasos": [
-            {
-              "paso": "1",
-              "descripcion": "Impedir el acceso al establecimiento de cualquier adulto en actitud amenazante o que porte un arma (de fuego, arma blanca o cualquier elemento contundente) y comunicarse de inmediato con el 911 (Sistema de seguridad pública)."
-            },
-            {
-              "paso": "2",
-              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
-            }
-          ],
-          "informacion_911": {
-            "titulo": "Información que debe brindar al operador del 911",
-            "datos_a_informar": [
-              "Departamento o localidad de dónde llama.",
-              "Calle, altura municipal o intersección cercana.",
-              "Tipo de hecho y establecimiento educacional.",
-              "Ubicación del agresor armado.",
-              "Cantidad de agresores.",
-              "Descripción física de los sujetos activos.",
-              "Cantidad y tipo de armas que posean.",
-              "Cantidad de posibles víctimas en el lugar."
-            ],
-            "aspectos_importantes_cuando_llegue_policia": [
-              "Mantenga la calma y siga todas las instrucciones que le sean indicadas.",
-              "Suelte cualquier objeto que tenga en las manos (bolsos, carteras, abrigos, etc.).",
-              "Levante las manos y mantenerlas visibles en todo momento; el personal policial considerará a todos como sospechosos hasta confirmar lo contrario.",
-              "Evite realizar movimientos bruscos hacia los oficiales, como intentar sujetarse de ellos por seguridad.",
-              "No grite ni señale.",
-              "No formule preguntas durante la evacuación."
-            ]
-          }
         }
       ]
+    },
+    {
+      "numero": "7.3",
+      "nombre": "Adulto que se presenta en la puerta de la escuela con actitud amenazante",
+      "pasos": [
+        {
+          "paso": "1",
+          "descripcion": "Impedir el acceso al establecimiento de cualquier adulto en actitud amenazante o que porte un arma (de fuego, arma blanca o cualquier elemento contundente) y comunicarse de inmediato con el 911 (Sistema de seguridad pública)."
+        },
+        {
+          "paso": "2",
+          "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+        }
+      ],
+      "informacion_911": {
+        "titulo": "Información que debe brindar al operador del 911",
+        "datos_a_informar": [
+          "Departamento o localidad de dónde llama.",
+          "Calle, altura municipal o intersección cercana.",
+          "Tipo de hecho y establecimiento educacional.",
+          "Ubicación del agresor armado.",
+          "Cantidad de agresores.",
+          "Descripción física de los sujetos activos.",
+          "Cantidad y tipo de armas que posean.",
+          "Cantidad de posibles víctimas en el lugar."
+        ],
+        "aspectos_importantes_cuando_llegue_policia": [
+          "Mantenga la calma y siga todas las instrucciones que le sean indicadas.",
+          "Suelte cualquier objeto que tenga en las manos (bolsos, carteras, abrigos, etc.).",
+          "Levante las manos y mantenerlas visibles en todo momento; el personal policial considerará a todos como sospechosos hasta confirmar lo contrario.",
+          "Evite realizar movimientos bruscos hacia los oficiales, como intentar sujetarse de ellos por seguridad.",
+          "No grite ni señale.",
+          "No formule preguntas durante la evacuación."
+        ]
+      }
     },
     {
       "numero": "7.4",

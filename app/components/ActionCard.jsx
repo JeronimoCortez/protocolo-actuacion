@@ -28,7 +28,7 @@ export default function ActionCard({ card }) {
     <a
       href={card.link}
       type="button"
-      className={`group relative flex items-center gap-5 overflow-hidden rounded-2xl border-2 p-6 text-left transition ${styles.container} ${
+      className={`group relative flex items-center gap-5 overflow-hidden rounded-2xl border-2 p-6 text-left transition duration-200 ${styles.container} ${
         card.disabled ? "cursor-not-allowed opacity-90" : "cursor-pointer"
       }`}
     >
@@ -39,14 +39,14 @@ export default function ActionCard({ card }) {
       </span>
       <span>
         <span
-          className={`mb-1 block text-xs font-semibold uppercase tracking-[0.06em] ${styles.label}`}
+          className={`label-text mb-1 block ${styles.label}`}
         >
           {card.label}
         </span>
-        <span className="mb-0.5 block text-[1.1rem] font-bold text-[var(--foreground)]">
+        <span className="card-title mb-0.5 block">
           {card.title}
         </span>
-        <span className="block text-sm text-[var(--muted-foreground)]">
+        <span className="supporting-copy block">
           {card.description}
         </span>
       </span>

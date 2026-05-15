@@ -48,8 +48,6 @@ La **violencia**, por el contrario, se basa en la asimetría de poder, la cual s
 
 Comprender el conflicto en los contextos escolares requiere considerar los factores vinculados al desarrollo integral de los estudiantes. La educación, al fomentar entornos seguros y respetuosos, desempeña un papel fundamental, favoreciendo el bienestar emocional, la construcción de una identidad sólida y la elaboración de un proyecto de vida.
 
----
-
 ## 5.1.1. Caracterización de los emergentes en violencias
 
 A continuación se mencionan distintas formas de violencia que pueden manifestarse en el escenario escolar. El objetivo es facilitar la identificación y visibilización de prácticas que a menudo se encuentran naturalizadas. La correcta denominación es el primer paso, indispensable para determinar el protocolo de actuación específico que corresponde aplicar.
@@ -178,14 +176,10 @@ La discriminación por razones culturales, la xenofobia y el racismo dentro de l
 - No utilizar discursos racistas o xenófobos al referirse a la conducta de los NNA.
 - Fomentar el diálogo y concientizar a toda la comunidad educativa sobre el respeto a la diversidad cultural, trabajando en articulación con el Consejo Escolar y los centros de estudiantes.
 
----
-
 ## 5.1.2. Indicadores de certeza de violencia sexual o maltrato
 
 - El relato del estudiante.
 - Lesiones recurrentes: existencia de lesiones físicas visibles —moretones, magulladuras, quemaduras— que aparecen de forma repetida o en distintas etapas de curación.
-
----
 
 ## 5.1.3. Señales de alerta
 
@@ -210,8 +204,6 @@ Las siguientes señales son signos de alerta orientativos. Su presencia, de form
 - Persistente deseo de mantenerse aislado.
 - Uso excesivo o actitudes evasivas frente a dispositivos digitales.
 - Alteración significativa en la rutina diaria: sueño, alimentación, recreación o vínculos.
-
----
 
 ## 5.1.4. Acciones preventivas
 

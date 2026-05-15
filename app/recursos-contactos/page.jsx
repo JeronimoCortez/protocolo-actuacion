@@ -362,10 +362,10 @@ function DetailValue({ value, fieldKey = "" }) {
 
 function ContactCard({ contact, isOpen, onToggle }) {
   return (
-    <article className="rounded-xl border border-slate-200 bg-white p-3 shadow-sm">
+    <article className="surface-card rounded-xl border border-slate-200 bg-white p-3 shadow-sm">
       <button type="button" onClick={onToggle} className="flex w-full items-center justify-between gap-3 text-left" aria-expanded={isOpen}>
         <div>
-          <p className="text-sm font-semibold text-slate-900">{contact.name}</p>
+          <p className="card-title text-sm">{contact.name}</p>
           <p className="text-xs text-slate-500">{contact.subtitle}</p>
         </div>
         <div className="flex items-center gap-2">
@@ -497,15 +497,15 @@ export default function RecursosContactosPage() {
     <>
       <Header navItems={navItems} />
 
-      <main id="recursos-contactos-main" className="mx-auto w-full max-w-[1200px] space-y-6 px-4 pb-12 pt-8 md:px-6">
-        <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-          <h1 className="font-serif text-[clamp(1.8rem,3.5vw,2.5rem)] text-slate-900">Recursos y contactos</h1>
-          <p className="mt-2 text-sm text-slate-600">
+      <main id="recursos-contactos-main" className="mx-auto w-full max-w-[1200px] space-y-6 px-4 pb-12 pt-8 md:px-6 md:pt-10">
+        <section className="surface-card rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+          <h1 className="page-title">Recursos y contactos</h1>
+          <p className="supporting-copy mt-3">
             Filtra por datos de interes o por departamento. Cada tarjeta muestra un numero o enlace principal y el resto de la informacion en desplegable.
           </p>
         </section>
 
-        <section className="space-y-4 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
+        <section className="surface-card space-y-4 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-5">
           <div className="grid gap-3 sm:grid-cols-2">
             <button
               type="button"
@@ -519,7 +519,9 @@ export default function RecursosContactosPage() {
                   : "border-slate-300 bg-white text-slate-800 hover:border-slate-500 hover:bg-slate-50"
               }`}
             >
-              <p className="text-base font-semibold">Datos de interes</p>
+              <p className={`text-base font-semibold leading-6 tracking-tight ${activeFilter === "interes" ? "text-white" : "text-[var(--heading)]"}`}>
+                Datos de interes
+              </p>
               <p className={`mt-1 text-sm ${activeFilter === "interes" ? "text-slate-200" : "text-slate-500"}`}>
                 Ver todos los contactos de referencia general.
               </p>
@@ -537,7 +539,9 @@ export default function RecursosContactosPage() {
                   : "border-slate-300 bg-white text-slate-800 hover:border-slate-500 hover:bg-slate-50"
               }`}
             >
-              <p className="text-base font-semibold">Por departamento</p>
+              <p className={`text-base font-semibold leading-6 tracking-tight ${activeFilter === "departamento" ? "text-white" : "text-[var(--heading)]"}`}>
+                Por departamento
+              </p>
               <p className={`mt-1 text-sm ${activeFilter === "departamento" ? "text-emerald-100" : "text-slate-500"}`}>
                 Buscar organismos segun el departamento.
               </p>
@@ -546,7 +550,7 @@ export default function RecursosContactosPage() {
 
           <div className="grid w-full gap-3 md:grid-cols-2 md:items-start">
             <div className="w-full">
-              <label htmlFor="contact-search" className="text-xs font-semibold uppercase tracking-wide text-slate-600">
+              <label htmlFor="contact-search" className="label-text">
                 Buscar contactos
               </label>
               <div className="relative mt-2">
@@ -574,7 +578,7 @@ export default function RecursosContactosPage() {
                     applyGlobalSearch();
                   }}
                   placeholder="Nombre, telefono, correo o direccion"
-                  className="w-full rounded-xl border border-slate-300 bg-white px-3 py-2.5 pr-10 text-sm text-slate-800 shadow-sm outline-none transition focus:border-slate-500 focus:ring-2 focus:ring-slate-200"
+                  className="control-text w-full rounded-xl border border-slate-300 bg-white px-3 py-2.5 pr-10 shadow-sm outline-none transition focus:border-slate-500 focus:ring-2 focus:ring-slate-200"
                 />
                 <button
                   type="button"
@@ -601,7 +605,7 @@ export default function RecursosContactosPage() {
                           onClick={() => handleSelectPreviewContact(contact)}
                           className="w-full border-b border-slate-100 px-3 py-2 text-left transition last:border-b-0 hover:bg-slate-50"
                         >
-                          <p className="text-sm font-semibold text-slate-800">{contact.name}</p>
+                          <p className="card-title text-sm">{contact.name}</p>
                           <p className="text-xs text-slate-500">{contact.subtitle}</p>
                         </button>
                       ))
@@ -621,7 +625,7 @@ export default function RecursosContactosPage() {
             <div className="w-full">
               {activeFilter === "departamento" ? (
                 <>
-                  <label htmlFor="department-select" className="text-xs font-semibold uppercase tracking-wide text-slate-600">
+                  <label htmlFor="department-select" className="label-text">
                     Selecciona un departamento
                   </label>
                   <div className="relative mt-2">
@@ -657,7 +661,7 @@ export default function RecursosContactosPage() {
         </section>
 
         <section className="space-y-3">
-          <p className="text-sm font-semibold text-slate-700">
+          <p className="card-title text-sm text-slate-700">
             {visibleContacts.length} contacto{visibleContacts.length === 1 ? "" : "s"} encontrados
           </p>
 
@@ -685,7 +689,7 @@ export default function RecursosContactosPage() {
               </div>
             </div>
           ) : (
-            <div className="rounded-xl border border-slate-200 bg-white p-4 text-sm text-slate-600 shadow-sm">
+            <div className="surface-card rounded-xl border border-slate-200 bg-white p-4 text-sm text-slate-600 shadow-sm">
               No hay contactos para el filtro seleccionado.
             </div>
           )}

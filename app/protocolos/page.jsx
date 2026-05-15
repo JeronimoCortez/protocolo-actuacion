@@ -44,9 +44,25 @@ function isStepItem(item) {
   return isObject(item) && hasOwn(item, "paso");
 }
 
+function isStepBranch(item) {
+  return isObject(item) && Array.isArray(item.pasos) && !isStepItem(item);
+}
+
 function formatKeyLabel(key) {
   const clean = String(key).replaceAll("_", " ").replaceAll("-", " ").trim();
   return clean.charAt(0).toUpperCase() + clean.slice(1);
+}
+
+function formatIdentifierLabel(value) {
+  const clean = String(value ?? "")
+    .replaceAll("_", " ")
+    .replaceAll("-", " ")
+    .trim();
+  if (!clean) return "";
+  return clean
+    .split(/\s+/)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
 }
 
 function sortByNumero(items) {
@@ -126,7 +142,58 @@ function extractStepGroups(pasosValue, pathPrefix) {
   return groups;
 }
 
-function collectStepEntries(node, basePath) {
+function extractConditionBranchesFromPasos(pasosValue) {
+  if (!Array.isArray(pasosValue)) return [];
+  return pasosValue.filter(isStepBranch);
+}
+
+function getConditionEntries(node, path, selections = null) {
+  if (!isObject(node)) return [];
+  const rawConditionArray = toArray(node.condiciones).filter(isObject);
+  const stepBranchConditions = extractConditionBranchesFromPasos(node.pasos);
+  const allConditionBlocks = [...rawConditionArray, ...stepBranchConditions];
+
+  if (!allConditionBlocks.length) return [];
+
+  if (!selections || allConditionBlocks.length === 1) {
+    return allConditionBlocks.map((condition, index) => ({ condition, index }));
+  }
+
+  const selectedKey = selections[path] ?? "0";
+  const selectedIndex = Number.parseInt(selectedKey, 10);
+  const resolvedIndex = Number.isNaN(selectedIndex) ? 0 : selectedIndex;
+  const selectedCondition = allConditionBlocks[resolvedIndex];
+  return selectedCondition ? [{ condition: selectedCondition, index: resolvedIndex }] : [];
+}
+
+function getActionBranches(node) {
+  return toArray(node?.acciones).filter((item) => isObject(item) && (item.pasos || item.condiciones || item.condicion));
+}
+
+function shouldUseWeaponTypeSelector(node, actionBranches) {
+  return String(node?.numero ?? "") === "7.2.1" && actionBranches.length > 1;
+}
+
+function getActionEntries(node, path, selections = null) {
+  const actionBranches = getActionBranches(node);
+  if (!actionBranches.length) return [];
+
+  if (!shouldUseWeaponTypeSelector(node, actionBranches)) {
+    return actionBranches.map((action, index) => ({ action, index }));
+  }
+
+  if (!selections) return [];
+
+  const selectedKey = selections[`${path}/acciones-selector`] ?? "";
+  if (selectedKey === "") return [];
+
+  const selectedIndex = Number.parseInt(selectedKey, 10);
+  const resolvedIndex = Number.isNaN(selectedIndex) ? -1 : selectedIndex;
+  const selectedAction = actionBranches[resolvedIndex];
+  return selectedAction ? [{ action: selectedAction, index: resolvedIndex }] : [];
+}
+
+function collectStepEntries(node, basePath, conditionSelections = null) {
   if (!isObject(node)) return [];
   const entries = [];
 
@@ -135,20 +202,20 @@ function collectStepEntries(node, basePath) {
   });
 
   if (isObject(node.condicion)) {
-    entries.push(...collectStepEntries(node.condicion, `${basePath}/condicion`));
+    entries.push(...collectStepEntries(node.condicion, `${basePath}/condicion`, conditionSelections));
   }
 
-  toArray(node.condiciones).forEach((condition, index) => {
-    entries.push(...collectStepEntries(condition, `${basePath}/condiciones/${index}`));
+  getConditionEntries(node, basePath, conditionSelections).forEach(({ condition, index }) => {
+    entries.push(...collectStepEntries(condition, `${basePath}/condiciones/${index}`, conditionSelections));
   });
 
-  toArray(node.acciones).forEach((action, index) => {
-    entries.push(...collectStepEntries(action, `${basePath}/acciones/${index}`));
+  getActionEntries(node, basePath, conditionSelections).forEach(({ action, index }) => {
+    entries.push(...collectStepEntries(action, `${basePath}/acciones/${index}`, conditionSelections));
   });
 
   CATEGORY_KEYS.forEach((key) => {
     toArray(node[key]).forEach((child, index) => {
-      entries.push(...collectStepEntries(child, `${basePath}/${key}/${index}`));
+      entries.push(...collectStepEntries(child, `${basePath}/${key}/${index}`, conditionSelections));
     });
   });
 
@@ -210,18 +277,62 @@ function buildNodeTitle(node) {
 }
 
 function getConditionTitle(condition, index) {
-  return (
+  const rawTitle =
     condition.descripcion ??
     condition.condicion ??
+    condition.restriccion ??
+    condition.titulo ??
     condition.tipo ??
     condition.numero ??
-    `Condicion ${index + 1}`
-  );
+    `Condicion ${index + 1}`;
+
+  if (rawTitle === condition.tipo) {
+    return formatIdentifierLabel(rawTitle);
+  }
+
+  return rawTitle;
 }
 
-function PreventiveActionsPanel({ title, intro, items, defaultOpen = false, wrapperClassName = "" }) {
+function normalizeSimpleItems(source) {
+  if (!source) return [];
+  return toArray(source).map((item) => {
+    if (typeof item === "string") return { descripcion: item };
+    if (isObject(item)) return item;
+    return { descripcion: String(item) };
+  });
+}
+
+function getPanelThemeClasses(theme = "emerald") {
+  if (theme === "rose") {
+    return {
+      container: "border-rose-300 bg-rose-50",
+      title: "text-rose-900",
+      indicator: "border-rose-300 bg-white text-rose-700",
+      bodyText: "text-rose-900",
+    };
+  }
+
+  if (theme === "sky") {
+    return {
+      container: "border-sky-200 bg-sky-50",
+      title: "text-sky-900",
+      indicator: "border-sky-300 bg-white text-sky-700",
+      bodyText: "text-sky-900",
+    };
+  }
+
+  return {
+    container: "border-emerald-200 bg-emerald-50",
+    title: "text-emerald-900",
+    indicator: "border-emerald-300 bg-white text-emerald-700",
+    bodyText: "text-emerald-900",
+  };
+}
+
+function PreventiveActionsPanel({ title, intro, items, defaultOpen = false, wrapperClassName = "", theme = "emerald" }) {
   if (!intro && !items?.length) return null;
   const [isOpen, setIsOpen] = useState(defaultOpen);
+  const themeClasses = getPanelThemeClasses(theme);
 
   const handleTogglePanel = (event) => {
     const interactiveTarget = event.target.closest("a, button, input, select, textarea");
@@ -239,11 +350,11 @@ function PreventiveActionsPanel({ title, intro, items, defaultOpen = false, wrap
         event.preventDefault();
         setIsOpen((previous) => !previous);
       }}
-      className={`group cursor-pointer rounded-xl border border-emerald-200 bg-emerald-50 p-3 shadow-sm ${wrapperClassName}`.trim()}
+      className={`group cursor-pointer rounded-xl border p-3 shadow-sm ${themeClasses.container} ${wrapperClassName}`.trim()}
     >
-      <div className="flex items-center justify-between gap-3 text-sm font-semibold text-emerald-900">
+      <div className={`flex items-center justify-between gap-3 text-sm font-semibold tracking-tight ${themeClasses.title}`}>
         <span>{title}</span>
-        <span className={`inline-flex h-6 w-6 items-center justify-center rounded-full border border-emerald-300 bg-white text-emerald-700 transition ${isOpen ? "rotate-180" : ""}`}>
+        <span className={`inline-flex h-6 w-6 items-center justify-center rounded-full border transition ${themeClasses.indicator} ${isOpen ? "rotate-180" : ""}`}>
           <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4">
             <path
               fillRule="evenodd"
@@ -255,9 +366,9 @@ function PreventiveActionsPanel({ title, intro, items, defaultOpen = false, wrap
       </div>
       {isOpen ? (
         <div className="mt-3 space-y-2">
-          {intro ? <p className="text-sm text-emerald-800">{intro}</p> : null}
+          {intro ? <p className={`control-text ${themeClasses.bodyText}`}>{intro}</p> : null}
           {items?.length ? (
-            <ul className="list-disc space-y-2 pl-5 text-sm text-emerald-900">
+            <ul className={`control-text list-disc space-y-2 pl-5 ${themeClasses.bodyText}`}>
               {items.map((item, index) => (
                 <li key={index}>{item?.descripcion ?? String(item)}</li>
               ))}
@@ -277,7 +388,7 @@ function StyledSelect({ id, value, onChange, children, disabled = false }) {
         value={value}
         onChange={onChange}
         disabled={disabled}
-        className="w-full appearance-none rounded-xl border border-slate-300 bg-gradient-to-b from-white to-slate-50 px-3 py-2.5 pr-10 text-sm font-medium text-slate-800 shadow-sm outline-none transition focus:border-slate-500 focus:ring-2 focus:ring-slate-200 disabled:cursor-not-allowed disabled:bg-slate-100 [&>option]:bg-white [&>option]:py-2 [&>option]:text-sm [&>option]:font-medium [&>option]:text-slate-800 [&>option:checked]:bg-slate-900 [&>option:checked]:text-white"
+        className="w-full appearance-none rounded-xl border border-slate-300 bg-gradient-to-b from-white to-slate-50 px-3 py-2.5 pr-10 text-sm font-medium tracking-tight text-slate-800 shadow-sm outline-none transition focus:border-slate-500 focus:ring-2 focus:ring-slate-200 disabled:cursor-not-allowed disabled:bg-slate-100 [&>option]:bg-white [&>option]:py-2 [&>option]:text-sm [&>option]:font-medium [&>option]:text-slate-800 [&>option:checked]:bg-slate-900 [&>option:checked]:text-white"
       >
         {children}
       </select>
@@ -311,23 +422,24 @@ function ProtocolNode({
   const stepGroups = extractStepGroups(node.pasos, `${path}/pasos`);
 
   const conditionObject = isObject(node.condicion) ? node.condicion : null;
-  const rawConditionArray = toArray(node.condiciones).filter(isObject);
-  const hasConditionSelector = rawConditionArray.length > 1;
-  const selectedConditionKey = conditionSelections[path] ?? (rawConditionArray.length ? "0" : "");
-  const selectedConditionIndex = Number.parseInt(selectedConditionKey, 10);
-  const conditionArray = hasConditionSelector
-    ? [rawConditionArray[Number.isNaN(selectedConditionIndex) ? 0 : selectedConditionIndex]].filter(Boolean)
-    : rawConditionArray;
+  const allConditionEntries = getConditionEntries(node, path, null);
+  const allConditionBlocks = allConditionEntries.map((entry) => entry.condition);
+  const hasConditionSelector = allConditionBlocks.length > 1;
+  const selectedConditionKey = conditionSelections[path] ?? (allConditionBlocks.length ? "0" : "");
+  const conditionEntries = getConditionEntries(node, path, conditionSelections);
 
-  const actionBranches = toArray(node.acciones).filter((item) => isObject(item) && (item.pasos || item.condiciones || item.condicion));
+  const actionBranches = getActionBranches(node);
+  const hasWeaponTypeSelector = shouldUseWeaponTypeSelector(node, actionBranches);
+  const selectedWeaponTypeKey = conditionSelections[`${path}/acciones-selector`] ?? "";
+  const actionEntries = getActionEntries(node, path, conditionSelections);
   const children = extractChildren(node);
 
   return (
-    <section className="space-y-4 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-5">
+    <section className="surface-card space-y-4 rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-5">
       {title ? (
         <header>
-          <h3 className="text-lg font-semibold text-slate-900">{title}</h3>
-          {node.nombre && title !== node.nombre ? <p className="mt-1 text-sm text-slate-600">{node.nombre}</p> : null}
+          <h3 className="section-title text-lg">{title}</h3>
+          {node.nombre && title !== node.nombre ? <p className="supporting-copy mt-1">{node.nombre}</p> : null}
         </header>
       ) : null}
 
@@ -341,7 +453,7 @@ function ProtocolNode({
         const stepIds = stepIdsByGroup[group.id] ?? [];
         return (
           <article key={`${group.id}-${groupIndex}`} className="space-y-3 rounded-xl border border-slate-200 p-3">
-            {group.title ? <p className="text-sm font-semibold text-slate-800">{group.title}</p> : null}
+            {group.title ? <p className="card-title text-sm">{group.title}</p> : null}
             <div className="space-y-3">
               {group.steps.map((step, stepIndex) => {
                 const stepId = stepIds[stepIndex];
@@ -350,6 +462,15 @@ function ProtocolNode({
                 const isChecked = Boolean(completedSteps?.[stepId]);
                 const isEnabled = order === 0 || (previousId ? completedSteps?.[previousId] : false);
                 const files = getFileRefsFromStep(step);
+                const stepConditions = Array.isArray(step.condiciones) ? step.condiciones.filter(isObject) : [];
+                const hasStepConditions = stepConditions.length > 0;
+                const stepConditionPath = `${stepId ?? `${group.id}/fallback-${stepIndex}`}/condiciones`;
+                const stepSelectedConditionKey = conditionSelections[stepConditionPath] ?? "0";
+                const stepSelectedConditionIndex = Number.parseInt(stepSelectedConditionKey, 10);
+                const resolvedStepConditionIndex = Number.isNaN(stepSelectedConditionIndex) ? 0 : stepSelectedConditionIndex;
+                const selectedStepCondition = hasStepConditions
+                  ? stepConditions[resolvedStepConditionIndex] ?? stepConditions[0]
+                  : null;
 
                 return (
                   <div
@@ -380,7 +501,7 @@ function ProtocolNode({
                       </button>
                       <div className="flex-1 space-y-2">
                         <p className="font-semibold text-slate-900">Paso {step.paso}</p>
-                        <p className="text-sm leading-relaxed text-slate-700">{step.descripcion}</p>
+                        <p className="control-text">{step.descripcion}</p>
 
                         {step.nota ? (
                           <p className="rounded-md border border-amber-200 bg-amber-50 p-2 text-sm text-amber-900">Nota: {step.nota}</p>
@@ -388,7 +509,7 @@ function ProtocolNode({
 
                         {Array.isArray(step.acciones) && step.acciones.length ? (
                           <div>
-                            <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Acciones</p>
+                            <p className="label-text text-slate-500">Acciones</p>
                             <ul className="mt-1 list-disc space-y-1 pl-5 text-sm text-slate-700">
                               {step.acciones.map((action, actionIndex) => (
                                 <li key={actionIndex}>{String(action)}</li>
@@ -397,33 +518,60 @@ function ProtocolNode({
                           </div>
                         ) : null}
 
-                        {Array.isArray(step.condiciones) && step.condiciones.length ? (
+                        {hasStepConditions ? (
                           <div className="space-y-2">
-                            <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Condiciones</p>
-                            {step.condiciones.map((condition, conditionIndex) => (
-                              <div key={conditionIndex} className="rounded-md border border-slate-200 bg-slate-50 p-2">
-                                <p className="text-sm font-semibold text-slate-800">
-                                  {condition.tipo ?? condition.condicion ?? condition.descripcion ?? `Condicion ${conditionIndex + 1}`}
+                            <p className="label-text text-slate-500">Condiciones</p>
+                            {stepConditions.length > 1 ? (
+                              <div className="flex flex-wrap gap-2">
+                                {stepConditions.map((condition, conditionIndex) => {
+                                  const isActive =
+                                    (stepConditions[resolvedStepConditionIndex] ? resolvedStepConditionIndex : 0) ===
+                                    conditionIndex;
+                                  return (
+                                    <button
+                                      key={`${stepConditionPath}-option-${conditionIndex}`}
+                                      type="button"
+                                      aria-pressed={isActive}
+                                      onClick={() => onConditionSelection(stepConditionPath, String(conditionIndex))}
+                                      className={`rounded-full border px-3 py-1.5 text-xs font-semibold transition ${
+                                        isActive
+                                          ? "border-slate-900 bg-slate-900 text-white"
+                                          : "border-slate-300 bg-white text-slate-700 hover:border-slate-500 hover:bg-slate-50"
+                                      }`}
+                                    >
+                                      {getConditionTitle(condition, conditionIndex)}
+                                    </button>
+                                  );
+                                })}
+                              </div>
+                            ) : null}
+                            {selectedStepCondition ? (
+                              <div className="rounded-md border border-slate-200 bg-slate-50 p-2">
+                                <p className="card-title text-sm">
+                                  {getConditionTitle(
+                                    selectedStepCondition,
+                                    stepConditions[resolvedStepConditionIndex] ? resolvedStepConditionIndex : 0
+                                  )}
                                 </p>
-                                {Array.isArray(condition.acciones) ? (
+                                {Array.isArray(selectedStepCondition.acciones) ? (
                                   <ul className="mt-1 list-disc space-y-1 pl-5 text-sm text-slate-700">
-                                    {condition.acciones.map((action, index) => (
+                                    {selectedStepCondition.acciones.map((action, index) => (
                                       <li key={index}>{String(action)}</li>
                                     ))}
                                   </ul>
                                 ) : null}
                               </div>
-                            ))}
+                            ) : null}
                           </div>
                         ) : null}
 
                         {Array.isArray(step.criterios) && step.criterios.length ? (
                           <div className="space-y-2">
-                            <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Criterios especiales</p>
+                            <p className="label-text text-slate-500">Criterios especiales</p>
                             {step.criterios.map((criterion, criterionIndex) => (
                               <div key={criterionIndex} className="rounded-md border border-slate-200 bg-slate-50 p-2">
-                                <p className="text-sm font-semibold text-slate-800">{criterion.tipo ?? `Criterio ${criterionIndex + 1}`}</p>
-                                <p className="text-sm text-slate-700">{criterion.descripcion}</p>
+                                <p className="card-title text-sm">{criterion.tipo ?? `Criterio ${criterionIndex + 1}`}</p>
+                                <p className="control-text">{criterion.descripcion}</p>
                               </div>
                             ))}
                           </div>
@@ -431,7 +579,7 @@ function ProtocolNode({
 
                         {files.length ? (
                           <div className="space-y-1">
-                            <p className="text-xs font-semibold uppercase tracking-wide text-slate-500">Archivos descargables</p>
+                            <p className="label-text text-slate-500">Archivos descargables</p>
                             <div className="flex flex-wrap gap-2">
                               {files.map((fileRef, fileIndex) => {
                                 const fileName = String(fileRef).split("/").filter(Boolean).pop();
@@ -478,7 +626,7 @@ function ProtocolNode({
         <div className="rounded-xl border border-indigo-200 bg-indigo-50 p-3">
           <p className="text-xs font-semibold uppercase tracking-wide text-indigo-700">Elegi una condicion</p>
           <StyledSelect id={`${path}-condiciones`} value={selectedConditionKey} onChange={(event) => onConditionSelection(path, event.target.value)}>
-            {rawConditionArray.map((condition, index) => (
+            {allConditionBlocks.map((condition, index) => (
               <option key={`${path}-cond-${index}`} value={String(index)}>
                 {getConditionTitle(condition, index)}
               </option>
@@ -487,7 +635,7 @@ function ProtocolNode({
         </div>
       ) : null}
 
-      {conditionArray.map((condition, index) => (
+      {conditionEntries.map(({ condition, index }) => (
         <ProtocolNode
           key={`${path}/condiciones/${index}`}
           node={condition}
@@ -502,7 +650,25 @@ function ProtocolNode({
         />
       ))}
 
-      {actionBranches.map((action, index) => (
+      {hasWeaponTypeSelector ? (
+        <div className="rounded-xl border border-indigo-200 bg-indigo-50 p-3">
+          <p className="text-xs font-semibold uppercase tracking-wide text-indigo-700">Tipo de arma</p>
+          <StyledSelect
+            id={`${path}-tipo-arma`}
+            value={selectedWeaponTypeKey}
+            onChange={(event) => onConditionSelection(`${path}/acciones-selector`, event.target.value)}
+          >
+            <option value="">Selecciona un arma</option>
+            {actionBranches.map((action, index) => (
+              <option key={`${path}-arma-${index}`} value={String(index)}>
+                {action.condicion ?? action.descripcion ?? action.titulo ?? `Opcion ${index + 1}`}
+              </option>
+            ))}
+          </StyledSelect>
+        </div>
+      ) : null}
+
+      {actionEntries.map(({ action, index }) => (
         <ProtocolNode
           key={`${path}/acciones/${index}`}
           node={action}
@@ -582,7 +748,10 @@ export default function ProtocolosPage() {
   }, [activeCategory, activeSubcategory, selectedSubeje]);
 
   const scopeKey = `${selectedEje?.id ?? "sin-eje"}::${selectedSubeje?.id ?? "sin-subeje"}::${activeCategory?.key ?? "all"}::${activeSubcategory?.key ?? "all"}`;
-  const allSteps = useMemo(() => (protocolNode ? collectStepEntries(protocolNode, `${scopeKey}/root`) : []), [protocolNode, scopeKey]);
+  const allSteps = useMemo(
+    () => (protocolNode ? collectStepEntries(protocolNode, `${scopeKey}/root`, conditionSelections) : []),
+    [protocolNode, scopeKey, conditionSelections]
+  );
 
   const stepIdsByGroup = useMemo(() => {
     if (!protocolNode) return {};
@@ -594,14 +763,18 @@ export default function ProtocolosPage() {
         map[group.id] = group.steps.map((_, index) => `${group.id}/step-${index}`);
       });
       if (isObject(node.condicion)) fillMap(node.condicion, `${path}/condicion`);
-      toArray(node.condiciones).forEach((item, index) => fillMap(item, `${path}/condiciones/${index}`));
-      toArray(node.acciones).forEach((item, index) => fillMap(item, `${path}/acciones/${index}`));
+      getConditionEntries(node, path, conditionSelections).forEach(({ condition, index }) => {
+        fillMap(condition, `${path}/condiciones/${index}`);
+      });
+      getActionEntries(node, path, conditionSelections).forEach(({ action, index }) => {
+        fillMap(action, `${path}/acciones/${index}`);
+      });
       CATEGORY_KEYS.forEach((key) => toArray(node[key]).forEach((item, index) => fillMap(item, `${path}/${key}/${index}`)));
     };
 
     fillMap(protocolNode, `${scopeKey}/root`);
     return map;
-  }, [protocolNode, scopeKey]);
+  }, [protocolNode, scopeKey, conditionSelections]);
 
   const completedSteps = completedByScope[scopeKey] ?? {};
 
@@ -657,6 +830,8 @@ export default function ProtocolosPage() {
   };
 
   const ejeActions = normalizePreventiveActions(selectedEje?.acciones_preventivas);
+  const ejeGeneralCriteria = normalizeSimpleItems(selectedEje?.criterios_generales);
+  const ejeConfidentiality = normalizeSimpleItems(selectedEje?.confidencialidad);
   const searchIndex = useMemo(() => {
     const entries = [];
     ejes.forEach((eje) => {
@@ -757,18 +932,18 @@ export default function ProtocolosPage() {
 
       <Header navItems={navItems} />
 
-      <main id="protocolos-main" className="mx-auto w-full max-w-[1200px] space-y-6 px-4 pb-12 pt-8 md:px-6">
-        <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-          <h1 className="font-serif text-[clamp(1.8rem,3.5vw,2.5rem)] text-slate-900">Protocolos</h1>
-          <p className="mt-2 text-sm text-slate-600">
+      <main id="protocolos-main" className="mx-auto w-full max-w-[1200px] space-y-6 px-4 pb-12 pt-8 md:px-6 md:pt-10">
+        <section className="surface-card rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+          <h1 className="page-title">Protocolos</h1>
+          <p className="supporting-copy mt-3">
             Selecciona un eje para navegar titulos y pasos. El avance es secuencial: cada paso desbloquea el siguiente.
           </p>
         </section>
 
         <section className="space-y-4">
-          <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm w-full">
+          <div className="surface-card w-full rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-5">
             <div className="mb-4 rounded-xl border border-slate-200 bg-slate-50 p-3">
-              <label htmlFor="eje-search" className="text-sm font-semibold uppercase tracking-wide text-slate-600">
+              <label htmlFor="eje-search" className="label-text">
                 Buscador de ejes
               </label>
               <input
@@ -777,7 +952,7 @@ export default function ProtocolosPage() {
                 value={searchQuery}
                 onChange={(event) => setSearchQuery(event.target.value)}
                 placeholder="Busca por eje, titulo, subtitulo o palabras clave..."
-                className="mt-2 w-full rounded-xl border border-slate-300 bg-white px-3 py-2.5 text-sm text-slate-800 shadow-sm outline-none transition focus:border-slate-500 focus:ring-2 focus:ring-slate-200"
+                className="control-text mt-2 w-full rounded-xl border border-slate-300 bg-white px-3 py-2.5 shadow-sm outline-none transition focus:border-slate-500 focus:ring-2 focus:ring-slate-200"
               />
               {searchQuery.trim() ? (
                 <div className="mt-2 max-h-64 overflow-auto rounded-xl border border-slate-200 bg-white">
@@ -789,12 +964,12 @@ export default function ProtocolosPage() {
                         onClick={() => handleSearchSelection(result)}
                         className="flex w-full items-start justify-between gap-2 border-b border-slate-100 px-3 py-2 text-left transition last:border-b-0 hover:bg-slate-50"
                       >
-                        <span className="text-sm font-medium text-slate-800">{result.title}</span>
+                        <span className="control-text font-medium text-slate-800">{result.title}</span>
                         <span className="text-xs text-slate-500">{result.subtitle}</span>
                       </button>
                     ))
                   ) : (
-                    <p className="px-3 py-2 text-sm text-slate-600">No hay coincidencias para esa busqueda.</p>
+                    <p className="supporting-copy px-3 py-2">No hay coincidencias para esa busqueda.</p>
                   )}
                 </div>
               ) : (
@@ -802,7 +977,7 @@ export default function ProtocolosPage() {
               )}
             </div>
 
-            <label htmlFor="eje-selector" className="text-sm font-semibold uppercase tracking-wide text-slate-600">
+            <label htmlFor="eje-selector" className="label-text">
               Eje principal
             </label>
             <StyledSelect id="eje-selector" value={selectedEjeId} onChange={(event) => handleSelectEje(event.target.value)}>
@@ -825,24 +1000,24 @@ export default function ProtocolosPage() {
                 </StyledSelect>
               </div>
             ) : !selectedEje ? (
-              <p className="mt-3 text-sm font-medium text-slate-600">Debes seleccionar un eje para ver los titulos y pasos del protocolo.</p>
+              <p className="supporting-copy mt-3">Debes seleccionar un eje para ver los titulos y pasos del protocolo.</p>
             ) : null}
           </div>
 
           {selectedEje && selectedSubeje ? (
             <section className="space-y-4">
-              <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-                <p className="text-sm text-slate-600">
+              <div className="surface-card rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-5">
+                <p className="supporting-copy">
                   Eje {selectedEje.numero}: {selectedEje.nombre}
                 </p>
-                <h2 className="mt-1 text-xl font-semibold text-slate-900">
+                <h2 className="section-title mt-1 text-xl">
                   {selectedSubeje.numero ?? "General"} - {selectedSubeje.nombre}
                 </h2>
 
                 {categoryOptions.length ? (
                   <div className="mt-4 space-y-3">
                     <div>
-                      <p className="text-xs font-semibold uppercase tracking-wide text-slate-600">Titulos</p>
+                      <p className="label-text">Titulos</p>
                       <div className="mt-2 flex flex-wrap gap-2">
                         {categoryOptions.map((category) => {
                           const isActive = activeCategory?.key === category.key;
@@ -870,7 +1045,7 @@ export default function ProtocolosPage() {
 
                     {subcategoryOptions.length ? (
                       <div>
-                        <p className="text-xs font-semibold uppercase tracking-wide text-slate-600">Titulos relacionados</p>
+                        <p className="label-text">Titulos relacionados</p>
                         <div className="mt-2 flex flex-wrap gap-2">
                           {subcategoryOptions.map((subcategory) => {
                             const isActive = activeSubcategory?.key === subcategory.key;
@@ -910,10 +1085,25 @@ export default function ProtocolosPage() {
                 wrapperClassName="rounded-2xl p-4"
               />
 
-              <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm">
-                <p className="text-sm font-semibold text-slate-800">Avance de pasos</p>
+              <PreventiveActionsPanel
+                title="Criterios generales"
+                items={ejeGeneralCriteria}
+                wrapperClassName="rounded-2xl p-4"
+                theme="sky"
+              />
+
+              <PreventiveActionsPanel
+                title="Confidencialidad (lineamientos clave)"
+                items={ejeConfidentiality}
+                wrapperClassName="rounded-2xl p-4"
+                theme="rose"
+                defaultOpen
+              />
+
+              <div className="surface-card rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-5">
+                <p className="card-title text-sm">Avance de pasos</p>
                 <div className="mt-2 space-y-2">
-                  <div className="flex items-center justify-between text-sm text-slate-700">
+                  <div className="control-text flex items-center justify-between">
                     <span>
                       {completedCount} / {allSteps.length} pasos completados
                     </span>

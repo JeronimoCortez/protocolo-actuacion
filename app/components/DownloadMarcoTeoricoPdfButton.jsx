@@ -54,7 +54,7 @@ export default function DownloadMarcoTeoricoPdfButton({
         return;
       }
 
-      doc.setFont("times", fontStyle);
+      doc.setFont("helvetica", fontStyle);
       doc.setFontSize(fontSize);
 
       const maxWidth = Math.max(80, contentWidth - indent);
@@ -92,7 +92,7 @@ export default function DownloadMarcoTeoricoPdfButton({
 
       if (block.type === "list") {
         for (const item of block.items || []) {
-          drawTextBlock(`• ${item}`, { fontSize: 11, lineHeight: 1.45, spaceAfter: 6, indent: 10 });
+          drawTextBlock(`- ${item}`, { fontSize: 11, lineHeight: 1.45, spaceAfter: 6, indent: 10 });
         }
         y += 4;
         continue;
@@ -112,7 +112,7 @@ export default function DownloadMarcoTeoricoPdfButton({
           theme: "grid",
           margin: { left: PAGE_MARGIN, right: PAGE_MARGIN },
           styles: {
-            font: "times",
+            font: "helvetica",
             fontSize: 9,
             cellPadding: 4,
             overflow: "linebreak",
@@ -140,9 +140,11 @@ export default function DownloadMarcoTeoricoPdfButton({
     <button
       type="button"
       onClick={handleDownload}
-      className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm font-semibold text-slate-700 transition hover:bg-slate-50"
+      className="rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm font-semibold tracking-tight text-slate-700 transition hover:bg-slate-50"
     >
       Descargar Marco Teórico
     </button>
   );
 }
+
+

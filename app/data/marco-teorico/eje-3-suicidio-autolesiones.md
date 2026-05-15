@@ -8,7 +8,7 @@ La **Ley Nacional de Salud Mental N° 26.657/10** y su reglamentación (Decreto 
 
 La misma ley define la salud mental como:
 
-> un proceso determinado por componentes históricos, socioeconómicos, culturales, biológicos y psicológicos, cuya preservación y mejoramiento implica una dinámica de construcción social vinculada a la concreción de los derechos humanos y sociales de toda persona. (LNSM 26657/10: art. 3)
+un proceso determinado por componentes históricos, socioeconómicos, culturales, biológicos y psicológicos, cuya preservación y mejoramiento implica una dinámica de construcción social vinculada a la concreción de los derechos humanos y sociales de toda persona. (LNSM 26657/10: art. 3)
 
 La presencia de sufrimiento psíquico en el contexto escolar se manifiesta como parte de una trama mayor en la que se reconocen situaciones de vulnerabilidad que atraviesan la vida de NNA, resultantes tanto del debilitamiento de la red de relaciones familiares, comunitarias y sociales como de la fragilidad institucional y las condiciones de vida.
 
@@ -19,8 +19,6 @@ Luego de la pandemia de COVID-19, se ha observado un preocupante incremento de l
 - La promoción de factores protectores en NNA.
 - La detección y atención temprana de posibles comportamientos con riesgo suicida.
 - El abordaje de situaciones que puedan intensificar dichos riesgos (violencia, abuso sexual, escasa comunicación o aislamiento, entre otros).
-
----
 
 ## 5.3.1. Caracterización de los emergentes
 
@@ -36,11 +34,9 @@ Luego de la pandemia de COVID-19, se ha observado un preocupante incremento de l
 
 - **Posvención:** Acciones e intervenciones posteriores a un evento de autoeliminación, destinadas a trabajar con personas, familias o instituciones vinculadas a quien se quitó la vida. La muerte por suicidio es especialmente traumática e implica un acto violento y disruptivo para los referentes afectivos. Es fundamental intervenir con familias, amigos, compañeros y allegados que requieren atención y apoyo.
 
----
-
 ## 5.3.2. Señales de alerta
 
-> Estas señales son orientadoras. Cuando se detectan, es necesario realizar acciones inmediatas ya que implican situaciones que pueden poner en riesgo la vida de NNA.
+Estas señales son orientadoras. Cuando se detectan, es necesario realizar acciones inmediatas ya que implican situaciones que pueden poner en riesgo la vida de NNA.
 
 ### En el ámbito escolar:
 
@@ -57,8 +53,6 @@ Luego de la pandemia de COVID-19, se ha observado un preocupante incremento de l
 - Desgano y resistencia habitual a asistir a la escuela.
 - No desea asistir a encuentros, reuniones y/o festejos familiares de forma continua.
 - Cambios de humor, irritabilidad y tristeza al interior del grupo familiar y círculo vincular cercano.
-
----
 
 ## 5.3.3. Acciones preventivas
 
