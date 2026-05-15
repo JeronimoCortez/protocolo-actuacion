@@ -425,6 +425,10 @@ p, li, td, th, label, input, select, button, textarea {
   top: 0;
 }
 
+.top-\[calc\(100\%\+8px\)\] {
+  top: calc(100% + 8px);
+}
+
 .z-20 {
   z-index: 20;
 }
@@ -591,6 +595,10 @@ p, li, td, th, label, input, select, button, textarea {
   max-height: 500px;
 }
 
+.max-h-72 {
+  max-height: 18rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -657,6 +665,14 @@ p, li, td, th, label, input, select, button, textarea {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[280px\] {
+  width: 280px;
+}
+
+.w-\[360px\] {
+  width: 360px;
 }
 
 .min-w-full {
@@ -1422,6 +1438,10 @@ p, li, td, th, label, input, select, button, textarea {
   text-transform: uppercase;
 }
 
+.leading-6 {
+  line-height: 1.5rem;
+}
+
 .leading-7 {
   line-height: 1.75rem;
 }
@@ -1432,10 +1452,6 @@ p, li, td, th, label, input, select, button, textarea {
 
 .leading-none {
   line-height: 1;
-}
-
-.leading-6 {
-  line-height: 1.5rem;
 }
 
 .tracking-tight {
@@ -1542,9 +1558,19 @@ p, li, td, th, label, input, select, button, textarea {
   color: rgb(3 105 161 / var(--tw-text-opacity, 1));
 }
 
+.text-sky-800 {
+  --tw-text-opacity: 1;
+  color: rgb(7 89 133 / var(--tw-text-opacity, 1));
+}
+
 .text-sky-900 {
   --tw-text-opacity: 1;
   color: rgb(12 74 110 / var(--tw-text-opacity, 1));
+}
+
+.text-sky-950 {
+  --tw-text-opacity: 1;
+  color: rgb(8 47 73 / var(--tw-text-opacity, 1));
 }
 
 .text-slate-200 {
@@ -1655,6 +1681,12 @@ p, li, td, th, label, input, select, button, textarea {
 .shadow-sm {
   --tw-shadow: 0 1px 2px 0 #0000000d;
   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px #0000001a, 0 8px 10px -6px #0000001a;
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
@@ -1976,6 +2008,10 @@ svg {
 }
 
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
   .md\:flex {
     display: flex;
   }

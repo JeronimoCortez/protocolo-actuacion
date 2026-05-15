@@ -105,13 +105,13 @@ La ley incluye en el marco de la explotación situaciones donde se reduce o mant
 
 **Indicadores orientativos para detectar situaciones de trata:**
 
-*Personales y emocionales:* miedo constante, dificultad para confiar en adultos, signos de maltrato físico o psicológico, relato confuso sobre su lugar de residencia, pérdida de contacto con familiares o vínculos afectivos previos.
+**Personales y emocionales:** miedo constante, dificultad para confiar en adultos, signos de maltrato físico o psicológico, relato confuso sobre su lugar de residencia, pérdida de contacto con familiares o vínculos afectivos previos.
 
-*Sociales y educativos:* abandono escolar repentino o ausentismo reiterado, falta de documentación o documentos retenidos por terceros, presencia de un adulto que ejerce control sobre lo que dice o hace el NNA, cambios frecuentes de domicilio sin explicación clara.
+**Sociales y educativos:** abandono escolar repentino o ausentismo reiterado, falta de documentación o documentos retenidos por terceros, presencia de un adulto que ejerce control sobre lo que dice o hace el NNA, cambios frecuentes de domicilio sin explicación clara.
 
-*Laborales o de explotación:* trabajo en condiciones peligrosas, actividades económicas inapropiadas para su edad, explotación sexual, entrega de dinero o bienes sin control propio sobre lo obtenido.
+**Laborales o de explotación:** trabajo en condiciones peligrosas, actividades económicas inapropiadas para su edad, explotación sexual, entrega de dinero o bienes sin control propio sobre lo obtenido.
 
-*Contextuales y familiares:* situaciones de extrema vulnerabilidad económica, familias que impiden el contacto del NNA con otras personas, desaparición o ausencia prolongada sin justificación, presencia de infecciones o enfermedades de transmisión sexual.
+**Contextuales y familiares:** situaciones de extrema vulnerabilidad económica, familias que impiden el contacto del NNA con otras personas, desaparición o ausencia prolongada sin justificación, presencia de infecciones o enfermedades de transmisión sexual.
 
 ### Violencias por motivos de género
 
@@ -125,7 +125,7 @@ En el ámbito educativo, la violencia por motivos de género requiere una mirada
 
 **Acoso y hostigamiento por razones de género:** Incluye las acciones de hostigar, perseguir o molestar a través de insultos, comentarios o tocamientos basados en el género. Puede presentarse de una persona adulta a un NNA, entre personas adultas, o entre estudiantes.
 
-> **Nota aclaratoria:** Aunque la Ley N.º 26.485 define específicamente la violencia contra las mujeres, en el ámbito educativo se recomienda adoptar una definición ampliada que contemple también otras identidades y orientaciones afectadas por dinámicas de poder relacionadas con el género, garantizando la protección de todos los estudiantes sin discriminación ni exclusión.
+**Nota aclaratoria:** Aunque la Ley N.º 26.485 define específicamente la violencia contra las mujeres, en el ámbito educativo se recomienda adoptar una definición ampliada que contemple también otras identidades y orientaciones afectadas por dinámicas de poder relacionadas con el género, garantizando la protección de todos los estudiantes sin discriminación ni exclusión.
 
 ### Violencias en vínculos sexo-afectivos de adolescentes y jóvenes
 

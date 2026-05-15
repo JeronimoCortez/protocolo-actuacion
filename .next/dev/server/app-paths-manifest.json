@@ -1,4 +1,6 @@
 {
+  "/marco-teorico/[slug]/page": "app/marco-teorico/[slug]/page.js",
+  "/marco-teorico/page": "app/marco-teorico/page.js",
   "/page": "app/page.js",
   "/protocolos/page": "app/protocolos/page.js",
   "/recursos-contactos/page": "app/recursos-contactos/page.js"

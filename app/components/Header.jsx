@@ -1,11 +1,20 @@
-"use client";
+﻿"use client";
 
 import Link from "next/link";
-import { useState } from "react";
+import { useRouter } from "next/navigation";
+import { useMemo, useState } from "react";
+import { matchHeaderSearchEntries } from "../data/headerSearchIndex";
 import { MenuIcon, SearchIcon, XIcon } from "./icons";
 
 export default function Header({ navItems }) {
+  const router = useRouter();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
+
+  const searchResults = useMemo(() => {
+    if (!searchQuery.trim()) return [];
+    return matchHeaderSearchEntries(searchQuery).slice(0, 8);
+  }, [searchQuery]);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prevOpen) => !prevOpen);
@@ -13,6 +22,18 @@ export default function Header({ navItems }) {
 
   const closeMobileMenu = () => {
     setIsMobileMenuOpen(false);
+  };
+
+  const goToResult = (entry) => {
+    if (!entry?.href) return;
+    router.push(entry.href);
+    setSearchQuery("");
+    closeMobileMenu();
+  };
+
+  const handleSearchSubmit = () => {
+    if (!searchResults.length) return;
+    goToResult(searchResults[0]);
   };
 
   return (
@@ -42,15 +63,44 @@ export default function Header({ navItems }) {
             ))}
           </nav>
 
-          <label className="hidden w-[230px] items-center gap-2 rounded-lg border border-[var(--border)] bg-[var(--secondary)] px-3 py-1.5 md:flex">
-            <SearchIcon className="h-3.5 w-3.5 shrink-0 text-[var(--muted-foreground)]" />
-            <input
-              type="text"
-              placeholder="Buscar..."
-              aria-label="Buscar"
-              className="control-text w-full border-none bg-transparent outline-none placeholder:text-[var(--muted-foreground)]"
-            />
-          </label>
+          <div className="relative hidden md:block">
+            <label className="flex w-[280px] items-center gap-2 rounded-lg border border-[var(--border)] bg-[var(--secondary)] px-3 py-1.5">
+              <SearchIcon className="h-3.5 w-3.5 shrink-0 text-[var(--muted-foreground)]" />
+              <input
+                type="text"
+                placeholder="Buscar títulos..."
+                aria-label="Buscar"
+                value={searchQuery}
+                onChange={(event) => setSearchQuery(event.target.value)}
+                onKeyDown={(event) => {
+                  if (event.key !== "Enter") return;
+                  event.preventDefault();
+                  handleSearchSubmit();
+                }}
+                className="control-text w-full border-none bg-transparent outline-none placeholder:text-[var(--muted-foreground)]"
+              />
+            </label>
+
+            {searchQuery.trim() ? (
+              <div className="absolute right-0 top-[calc(100%+8px)] z-50 max-h-72 w-[360px] overflow-auto rounded-xl border border-slate-200 bg-white shadow-xl">
+                {searchResults.length ? (
+                  searchResults.map((result) => (
+                    <button
+                      key={result.id}
+                      type="button"
+                      onClick={() => goToResult(result)}
+                      className="flex w-full items-start justify-between gap-2 border-b border-slate-100 px-3 py-2 text-left transition last:border-b-0 hover:bg-slate-50"
+                    >
+                      <span className="control-text font-medium text-slate-900">{result.title}</span>
+                      <span className="text-xs text-slate-500">{result.subtitle}</span>
+                    </button>
+                  ))
+                ) : (
+                  <p className="supporting-copy px-3 py-2">Sin resultados por título.</p>
+                )}
+              </div>
+            ) : null}
+          </div>
 
           <button
             type="button"
@@ -78,11 +128,38 @@ export default function Header({ navItems }) {
             <SearchIcon className="h-3.5 w-3.5 shrink-0 text-[var(--muted-foreground)]" />
             <input
               type="text"
-              placeholder="Buscar..."
+              placeholder="Buscar títulos..."
               aria-label="Buscar"
+              value={searchQuery}
+              onChange={(event) => setSearchQuery(event.target.value)}
+              onKeyDown={(event) => {
+                if (event.key !== "Enter") return;
+                event.preventDefault();
+                handleSearchSubmit();
+              }}
               className="control-text w-full border-none bg-transparent outline-none placeholder:text-[var(--muted-foreground)]"
             />
           </label>
+
+          {searchQuery.trim() ? (
+            <div className="mt-2 max-h-64 overflow-auto rounded-xl border border-slate-200 bg-white">
+              {searchResults.length ? (
+                searchResults.map((result) => (
+                  <button
+                    key={`mobile-${result.id}`}
+                    type="button"
+                    onClick={() => goToResult(result)}
+                    className="flex w-full items-start justify-between gap-2 border-b border-slate-100 px-3 py-2 text-left transition last:border-b-0 hover:bg-slate-50"
+                  >
+                    <span className="control-text font-medium text-slate-900">{result.title}</span>
+                    <span className="text-xs text-slate-500">{result.subtitle}</span>
+                  </button>
+                ))
+              ) : (
+                <p className="supporting-copy px-3 py-2">Sin resultados por título.</p>
+              )}
+            </div>
+          ) : null}
 
           <nav className="mt-3 flex flex-col gap-1">
             {navItems.map((item) => (

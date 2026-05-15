@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Header from "../components/Header";
 import { navItems } from "../data/home";
 import ejeCinco from "../data/ejes/ejeCinco.json";
@@ -789,6 +789,32 @@ export default function ProtocolosPage() {
   const completedCount = allSteps.reduce((acc, entry) => acc + (completedSteps[entry.id] ? 1 : 0), 0);
   const progressPercent = allSteps.length ? Math.round((completedCount / allSteps.length) * 100) : 0;
 
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const params = new URLSearchParams(window.location.search);
+    const ejeParam = String(params.get("eje") ?? "").trim();
+    if (!ejeParam) return;
+
+    const matchedEje = ejes.find((item) => String(item?.numero ?? "").trim() === ejeParam);
+    if (!matchedEje) return;
+
+    const subejeParam = String(params.get("subeje") ?? "").trim();
+    const matchedSubeje = subejeParam
+      ? matchedEje.subejes?.find((item) => String(item?.numero ?? "").trim() === subejeParam) ?? null
+      : matchedEje.subejes?.[0] ?? null;
+
+    const nextEjeId = matchedEje.id;
+    const nextSubejeId = matchedSubeje?.id ?? matchedEje.subejes?.[0]?.id ?? "";
+
+    if (selectedEjeId !== nextEjeId) {
+      setSelectedEjeId(nextEjeId);
+    }
+
+    if (selectedSubejeId !== nextSubejeId) {
+      setSelectedSubejeId(nextSubejeId);
+    }
+  }, [ejes, selectedEjeId, selectedSubejeId]);
+
   const handleSelectEje = (ejeId) => {
     const nextEje = ejes.find((item) => item.id === ejeId);
     setSelectedEjeId(ejeId);
@@ -832,6 +858,9 @@ export default function ProtocolosPage() {
   const ejeActions = normalizePreventiveActions(selectedEje?.acciones_preventivas);
   const ejeGeneralCriteria = normalizeSimpleItems(selectedEje?.criterios_generales);
   const ejeConfidentiality = normalizeSimpleItems(selectedEje?.confidencialidad);
+  const selectedSubeje911Info = isObject(selectedSubeje?.informacion_911) ? selectedSubeje.informacion_911 : null;
+  const info911DataToReport = normalizeSimpleItems(selectedSubeje911Info?.datos_a_informar);
+  const info911ArrivalGuidelines = normalizeSimpleItems(selectedSubeje911Info?.aspectos_importantes_cuando_llegue_policia);
   const searchIndex = useMemo(() => {
     const entries = [];
     ejes.forEach((eje) => {
@@ -1077,6 +1106,36 @@ export default function ProtocolosPage() {
                   </div>
                 ) : null}
               </div>
+
+              {selectedSubeje911Info ? (
+                <section className="surface-card space-y-4 rounded-2xl border border-sky-200 bg-sky-50 p-4 shadow-sm md:p-5">
+                  <h3 className="section-title text-xl text-sky-950">
+                    {selectedSubeje911Info.titulo ?? "Información para llamada al 911"}
+                  </h3>
+
+                  {info911DataToReport.length ? (
+                    <div className="space-y-2">
+                      <p className="label-text text-sky-800">Datos a informar</p>
+                      <ul className="control-text list-disc space-y-1.5 pl-5 text-sky-950">
+                        {info911DataToReport.map((item, index) => (
+                          <li key={`info911-datos-${index}`}>{item?.descripcion ?? String(item)}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ) : null}
+
+                  {info911ArrivalGuidelines.length ? (
+                    <div className="space-y-2">
+                      <p className="label-text text-sky-800">Aspectos importantes al llegar la policía</p>
+                      <ul className="control-text list-disc space-y-1.5 pl-5 text-sky-950">
+                        {info911ArrivalGuidelines.map((item, index) => (
+                          <li key={`info911-llegada-${index}`}>{item?.descripcion ?? String(item)}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  ) : null}
+                </section>
+              ) : null}
 
               <PreventiveActionsPanel
                 title="Acciones preventivas del eje"

@@ -26,7 +26,7 @@ Luego de la pandemia de COVID-19, se ha observado un preocupante incremento de l
 
 - **Suicidio:** Acto deliberado de quitarse la vida voluntariamente (OMS, 2010).
 
-- **Ideación de muerte / ideas suicidas:** La persona se cuestiona significativamente su existencia, de manera excepcional o sistemática, pero no necesariamente existe al momento la idea de quitarse la vida. No hay planificación. Algunas frases orientadoras: *"me gustaría ya no existir"*, *"todo estaría mejor si estuviera muerto"*, *"qué ganas de morirme"*, *"estoy cansado de vivir"*.
+- **Ideación de muerte / ideas suicidas:** La persona se cuestiona significativamente su existencia, de manera excepcional o sistemática, pero no necesariamente existe al momento la idea de quitarse la vida. No hay planificación. Algunas frases orientadoras: **"me gustaría ya no existir"**, **"todo estaría mejor si estuviera muerto"**, **"qué ganas de morirme"**, **"estoy cansado de vivir"**.
 
 - **Planificación suicida:** El NNA ha elegido un método habitualmente mortal, un lugar y un momento para no ser descubierto, con el propósito de quitarse la vida.
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import Header from "../components/Header";
 import { navItems } from "../data/home";
 import datosInteresRaw from "../data/contactos/datos_interes.json";
@@ -468,6 +468,19 @@ export default function RecursosContactosPage() {
 
     return { left, right };
   }, [visibleContacts]);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const params = new URLSearchParams(window.location.search);
+    const headerSearch = String(params.get("search") ?? "").trim();
+    if (!headerSearch) return;
+
+    setSearchInput(headerSearch);
+    setAppliedSearchQuery(headerSearch);
+    setSelectedSearchContactId("");
+    setOpenContactId("");
+    setIsSearchPreviewOpen(false);
+  }, []);
 
   const applyGlobalSearch = () => {
     const query = searchInput.trim();

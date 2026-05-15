@@ -55,8 +55,8 @@ Se identifica especialmente la problemática de la participación de NNA en **ap
 - **Aparente estado de intoxicación:** el NNA presenta síntomas físicos y neurológicos como irritabilidad, dificultad para hablar o caminar, pérdida de la orientación témporo-espacial, náuseas, vómitos, etc.
 - **Consumo dentro de la escuela:** situación donde el NNA o grupo de NNA tiene una relación de uso, abuso y/o dependencia dentro del ámbito escolar.
 - **Presencia de sustancias en la escuela:**
-  - *Legales:* alcohol, tabaco, bebidas energizantes (segunda sustancia de mayor consumo entre adolescentes según el 7mo. Estudio Nacional 2025), juegos en línea, tecnologías, alimentación, compras, etc.
-  - *Ilegales:* cocaína, marihuana, medicación psicotrópica, vaper, apuestas en línea o juegos monetizados, etc.
+  - **Legales:** alcohol, tabaco, bebidas energizantes (segunda sustancia de mayor consumo entre adolescentes según el 7mo. Estudio Nacional 2025), juegos en línea, tecnologías, alimentación, compras, etc.
+  - **Ilegales:** cocaína, marihuana, medicación psicotrópica, vaper, apuestas en línea o juegos monetizados, etc.
 - **Venta de sustancias ilegales dentro de la institución:** cuando se detecta una situación de comercialización de sustancias ilegales por parte de NNA.
 
 ## 5.2.2. Señales de alerta
@@ -100,4 +100,4 @@ En **CEBJA, CENS y CEPAS**, establecer contacto además con la DEPJA (Dirección
 - **Generar espacios de reflexión** con los diferentes actores institucionales que permitan repensar y/o desnaturalizar situaciones de consumo, y trabajar sobre ideas y creencias que refuerzan estigmas.
 - **Propiciar el trabajo en red:** la escuela debe contar con un mapa de relaciones con instituciones y actores que facilite la acción estratégica ante situaciones de consumo problemático, agilizando los tiempos e impulsando intervenciones más efectivas y eficientes.
 
-*Este enfoque ubica a los consumos problemáticos en el campo de la **salud pública** en general y de la **salud mental** en particular, alejándose de miradas criminalísticas o estrictamente jurídicas, y proponiendo un abordaje multidimensional en el que confluyen diversas disciplinas e instituciones encargadas de garantizar derechos.*
+Este enfoque ubica a los consumos problemáticos en el campo de la **salud pública** en general y de la **salud mental** en particular, alejándose de miradas criminalísticas o estrictamente jurídicas, y proponiendo un abordaje multidimensional en el que confluyen diversas disciplinas e instituciones encargadas de garantizar derechos.
