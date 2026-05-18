@@ -83,10 +83,10 @@ export const quickAccess = [
   },
   {
     label: "Ver Recursos",
-    href: "#",
+    href: "/recursos-contactos",
     colorClass: "bg-[oklch(0.2_0.02_250)] text-[oklch(0.7_0.06_250)]",
     iconBgClass: "bg-[oklch(0.3_0.03_250)]",
     icon: "globe",
-    disabled: true,
+    disabled: false,
   },
 ];

@@ -2,10 +2,40 @@
   "nombre": "Datos de interés",
   "datos": [
     {
+      "nombre": "Dirección de Acompañamiento Escolar (DAE)",
+      "telefono": "4231473",
+      "correo": "dge-dae@mendoza.edu.ar"
+    },
+    {
+      "nombre": "Servicios Coordinados de Emergencias",
+      "telefono": "911"
+    },
+    {
+      "nombre": "Subdirección de Género",
+      "telefonos": ["3853127", "2617687994"],
+      "correo": "genero-dge@mendoza.gov.ar"
+    },
+    {
+      "nombre": "Infraestructura de datos especiales de la provincia de Mendoza (IDEP Mendoza)",
+      "descripcion": "La Dirección de Planificación Territorial del Ministerio de Gobierno cuenta con un sistema consolidado de Datos Espaciales de la Provincia (IDEP Mendoza). Este sistema constituye una plataforma oficial de integración de datos geoespaciales con acceso público sobre: efectores de salud, seguridad, escuelas, catastro, servicios públicos, usos del suelo, usos del agua, zonificación y también geolocaliza áreas especiales, como el piedemonte, los perilagos, parques y subregiones.",
+      "enlace": "https://ide.mendoza.gov.ar/portal/home/",
+      "enlace_explicacion_interactiva": "https://view.genially.com/68079af85701385cb5bb99e3/presentation-geovisor-ide-para-dae",
+      "enlace_explicacion_plataforma": "https://drive.google.com/file/d/1WY3a397wQ9kYM1IqsLuAQs6vCJm2D-3w/view?usp=sharing"
+    },
+    {
+      "nombre": "Víctimas de Delitos",
+      "enlace": "https://informacionoficial.mendoza.gob.ar/seguridadyjusticia/atencion-a-victimas-de-delito/"
+    },
+    {
+      "nombre": "Programa Provincial de Prevención y Atención Integral del Maltrato a la Niñez y Adolescencia (PPMI)",
+      "descripcion": "Línea 102 recibe llamadas sólo para uso de la comunidad. Ante emergentes de situaciones de violencia a nivel institucional se debe articular con los organismos competentes.",
+      "telefono": "102"
+    },
+    {
       "nombre": "Centros de Salud Mental Infanto-Juvenil",
       "centros": [
         {
-          "nombre": "Coordinación Central",
+          "nombre": "Coordinación Central - Centros de Salud Mental Infanto-Juvenil",
           "atencion": "Lunes a viernes, de 8 a 17",
           "telefonos": ["4294017", "4253964", "4253144"],
           "internos": ["107", "117"],
@@ -78,7 +108,7 @@
       "nombre": "Centros Provinciales de Atención en Adicciones (CPAA)",
       "centros": [
         {
-          "nombre": "Coordinación Central",
+          "nombre": "Coordinación Central - CPAA",
           "atencion": "Lunes a viernes, de 8 a 17",
           "telefonos": ["4294017", "4253964", "4253144"],
           "internos": ["107", "117"],
@@ -119,11 +149,40 @@
           "direccion": "Gutiérrez 42, San Martín"
         },
         {
+          "nombre": "CPAA Lavalle",
+          "georreferencia": "Lavalle",
+          "atencion":"Lunes a viernes, de 8 a 17",
+          "telefono": "2617532087",
+          "direccion": "Doctor Moreno s/n, Costa de Araujo",
+          "correo": "cconsumoproblematicocostalv@gmail.com"
+        },
+        {
+          "nombre": "CPAA Tunuyán",
+          "georreferencia": "Tunuyán",
+          "atencion": "Lunes a viernes, de 8 a 17",
+          "telefono": "26213830032",
+          "direccion": "Reginato 1330 – Barrio los Cóndores, Tunuyán"
+        },
+        {
+          "nombre": "CPAA  Tupungato",
+          "georreferencia": "Tupungato",
+          "telefono": "026175532086",
+          "direccion": "Almirante Brown 172",
+          "correo": "cpatupungato@gmail.com"
+        },
+        {
           "nombre": "CPAA Valle de Uco",
           "georreferencia": "Tunuyán, Tupungato y San Carlos",
           "atencion": "Lunes a viernes, de 8 a 17",
           "telefonos": ["26213830032"],
           "direccion": "Reginato 1330 – Barrio Los Cóndores, Tunuyán"
+        },
+        {
+          "nombre": "CPAA San Carlos",
+          "georreferencia": "San Carlos",
+          "telefonos": ["02617532088"],
+          "direccion": "Bernardo Quiroga y Constitución Eugenio Bustos",
+          "correo": "cpaa.eugenio.sancarlos@gmail.com"
         },
         {
           "nombre": "CPAA San Rafael",
@@ -162,7 +221,7 @@
     },
     {
       "nombre": "Direccion de la Mujer",
-      "descripcion": "1° Circunscripción Juduicial",
+      "descripcion": "1° Circunscripción Judicial",
       "numero": "2614498622",
       "whatsapp": [
         {
@@ -206,6 +265,12 @@
       "correo": "discapacidad@mendoza.gov.ar"
     },
     {
+      "nombre": "Defensoría de las persionas con discapacidad",
+      "telefono": "4493882",
+      "whatsapp": "263862360",
+      "correo": "defensoriadediscapacidad@gmail.com"
+    },
+    {
       "nombre": "Defensoría del Personal Docente (DePE)",
       "direccion": "Av Peltier 351 - Ciudad Mendoza",
       "correo": "depedge@gmail.com"
@@ -216,6 +281,11 @@
     },
     {
       "nombre": "Dirección de Salud Mental y Consumos Problemáticos",
+      "telefonos": ["4253964", "4294017", "4299344"],
+      "correo": "mentalmza@mendoza.gov.ar"
+    },
+    {
+      "nombre": "Plan provincial de adicciones",
       "telefonos": ["4253964", "4294017", "4299344"]
     },
     {
@@ -228,7 +298,14 @@
       "telefono": "0800-800-3764"
     },
     {
-      "nombre": "Dirección General de Responsabilidad Penal Juvenil (DGRPJ)"
+      "nombre": "Dirección General de Responsabilidad Penal Juvenil (DGRPJ)",
+      "telefonos": ["4492165", "4283444"],
+      "correo": "drpj@mendoza.gov.ar"
+    },
+    {
+      "nombre": "Equipos Técnicos Interdisciplinarios (ETI)",
+      "descripcion": "La Guardia Provincial trabaja las 24 horas, los 365 días del año y actuae durante el horario en que las oficinas de ETI permanecen cerradas, fines de semana y feriados.",
+      "informacion": "https://informacionoficial.mendoza.gob.ar/educacion-cultura-infancias-dge/educacion-cultura-infancias-y-dge-mendoza/infancias-adolescencias-y-juventudes-mendoza/etis-mendoza/"
     },
     {
       "nombre": "Equipos Técnicos Interdisciplinarios (ETI)",
@@ -371,7 +448,7 @@
       "fuente": "https://informacionoficial.mendoza.gob.ar/educacion-cultura-infancias-dge/educacion-cultura-infancias-y-dge-mendoza/infancias-adolescencias-y-juventudes-mendoza/etis-mendoza/"
     },
     {
-        "nombre": "Dirección de Salud Mental y Adicciones de la Provincia de Mendoza",
+        "nombre": "Dirección de Salud Mental y Consumos Problemáticos de la provincia de Mendoza",
         "telefono": [
             {
                 "numero": "148",

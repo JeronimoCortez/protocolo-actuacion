@@ -1009,10 +1009,10 @@ export default function ProtocolosPage() {
             <label htmlFor="eje-selector" className="label-text">
               Eje principal
             </label>
-            <StyledSelect id="eje-selector" value={selectedEjeId} onChange={(event) => handleSelectEje(event.target.value)}>
+            <StyledSelect id="eje-selector" value={selectedEjeId} onChange={(event) => handleSelectEje(event.target.value)} >
               <option value="">Debes seleccionar un eje</option>
               {ejes.map((eje) => (
-                <option key={eje.id} value={eje.id}>
+                <option key={eje.id} value={eje.id} >
                   Eje {eje.numero}: {eje.nombre}
                 </option>
               ))}
