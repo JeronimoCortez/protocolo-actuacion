@@ -11,6 +11,7 @@ import ejeSeis from "../data/ejes/ejeSeis.json";
 import ejeSiete from "../data/ejes/ejeSiete.json";
 import ejeTres from "../data/ejes/ejeTres.json";
 import ejeUno from "../data/ejes/ejeUno.json";
+import FloatingEmergencyFab from "../components/FloatingEmergencyFab";
 
 const RAW_EJES = [
   ejeUno,
@@ -1190,6 +1191,7 @@ export default function ProtocolosPage() {
             </section>
           ) : null}
         </section>
+        <FloatingEmergencyFab/>
       </main>
     </>
   );

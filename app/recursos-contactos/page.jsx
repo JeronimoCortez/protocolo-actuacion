@@ -21,6 +21,8 @@ import sanRafaelData from "../data/contactos/por-departamento/san-rafael/san-raf
 import santaRosaData from "../data/contactos/por-departamento/santa-rosa/santa-rosa.json";
 import tunuyanData from "../data/contactos/por-departamento/tunuyan/tunuyan.json";
 import tupungatoData from "../data/contactos/por-departamento/tupungato/tupungato.json";
+import generalAlvearData from "../data/contactos/por-departamento/general-alvear/general-alvear.json";
+import FloatingEmergencyFab from "../components/FloatingEmergencyFab";
 
 const DEPARTMENT_SOURCES = [
   { id: "capital", label: "Capital", data: capitalData },
@@ -40,6 +42,7 @@ const DEPARTMENT_SOURCES = [
   { id: "santa-rosa", label: "Santa Rosa", data: santaRosaData },
   { id: "tunuyan", label: "Tunuyan", data: tunuyanData },
   { id: "tupungato", label: "Tupungato", data: tupungatoData },
+  {id: "general-alvear", label: "General Alvear", data: generalAlvearData},
 ];
 
 const PHONE_KEYS = new Set(["telefono", "telefonos", "numero", "numeros", "whatsapp", "fax"]);
@@ -707,6 +710,7 @@ export default function RecursosContactosPage() {
             </div>
           )}
         </section>
+        <FloatingEmergencyFab/>
       </main>
     </>
   );

@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import DownloadMarcoTeoricoPdfButton from "../components/DownloadMarcoTeoricoPdfButton";
 import PrintSectionButton from "../components/PrintSectionButton";
 import { navItems } from "../data/home";
+import FloatingEmergencyFab from "../components/FloatingEmergencyFab";
 
 function parseFrontmatter(markdown) {
   const frontmatterMatch = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
@@ -295,6 +296,7 @@ export default async function MarcoTeoricoPage() {
             {renderMarkdownBlocks(blocks)}
           </article>
         </section>
+        <FloatingEmergencyFab/>
       </main>
     </>
   );

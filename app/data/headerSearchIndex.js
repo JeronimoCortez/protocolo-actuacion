@@ -25,6 +25,7 @@ import sanRafaelData from "./contactos/por-departamento/san-rafael/san-rafael.js
 import santaRosaData from "./contactos/por-departamento/santa-rosa/santa-rosa.json";
 import tunuyanData from "./contactos/por-departamento/tunuyan/tunuyan.json";
 import tupungatoData from "./contactos/por-departamento/tupungato/tupungato.json";
+import generalAlvearData from "./contactos/por-departamento/general-alvear/general-alvear.json";
 
 const EJE_DATASETS = [ejeUno, ejeDos, ejeTres, ejeCuatro, ejeCinco, ejeSeis, ejeSiete, ejeOcho];
 
@@ -46,6 +47,7 @@ const DEPARTMENT_SOURCES = [
   { label: "Santa Rosa", data: santaRosaData },
   { label: "Tunuyan", data: tunuyanData },
   { label: "Tupungato", data: tupungatoData },
+  { label: "General Alvear", data: generalAlvearData },
 ];
 
 function normalizeText(value) {

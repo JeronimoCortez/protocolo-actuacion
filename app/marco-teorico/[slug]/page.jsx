@@ -6,6 +6,7 @@ import Header from "../../components/Header";
 import DownloadMarcoTeoricoPdfButton from "../../components/DownloadMarcoTeoricoPdfButton";
 import PrintSectionButton from "../../components/PrintSectionButton";
 import { navItems } from "../../data/home";
+import FloatingEmergencyFab from "../../components/FloatingEmergencyFab";
 
 const MARCO_TEORICO_DIR = path.join(process.cwd(), "app/data/marco-teorico");
 
@@ -335,6 +336,7 @@ export default async function MarcoTeoricoEjePage({ params }) {
             {renderMarkdownBlocks(blocks)}
           </article>
         </section>
+        <FloatingEmergencyFab/>
       </main>
     </>
   );

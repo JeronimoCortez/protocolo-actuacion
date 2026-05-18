@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { AlertCircleIcon, ChevronUpIcon, GlobeIcon, MedicalIcon, PhoneIcon, XIcon } from "./icons";
+import { quickAccess as defaultQuickAccess } from "../data/home";
 
 function QuickAccessIcon({ icon }) {
   if (icon === "medical") return <MedicalIcon className="h-4 w-4 text-white" />;
@@ -10,8 +11,9 @@ function QuickAccessIcon({ icon }) {
   return <AlertCircleIcon className="h-4 w-4 text-white" />;
 }
 
-export default function FloatingEmergencyFab({ quickAccess }) {
+export default function FloatingEmergencyFab({ quickAccess = defaultQuickAccess }) {
   const [isFabOpen, setIsFabOpen] = useState(false);
+  const quickAccessItems = Array.isArray(quickAccess) ? quickAccess : defaultQuickAccess;
 
   return (
     <div className="fixed bottom-6 right-6 z-[100] flex flex-col items-end gap-3">
@@ -35,7 +37,7 @@ export default function FloatingEmergencyFab({ quickAccess }) {
             </button>
           </div>
 
-          {quickAccess.map((item) => {
+          {quickAccessItems.map((item) => {
             if (item.disabled) {
               return (
                 <button
