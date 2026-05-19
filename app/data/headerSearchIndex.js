@@ -6,6 +6,11 @@ import ejeSeis from "./ejes/ejeSeis.json";
 import ejeSiete from "./ejes/ejeSiete.json";
 import ejeTres from "./ejes/ejeTres.json";
 import ejeUno from "./ejes/ejeUno.json";
+import {
+  normalizeSearchText,
+  prepareFlexibleSearchIndex,
+  searchFlexibleIndex,
+} from "../lib/flexibleSearch";
 
 import datosInteresRaw from "./contactos/datos_interes.json";
 import capitalData from "./contactos/por-departamento/capital/capital.json";
@@ -49,14 +54,6 @@ const DEPARTMENT_SOURCES = [
   { label: "Tupungato", data: tupungatoData },
   { label: "General Alvear", data: generalAlvearData },
 ];
-
-function normalizeText(value) {
-  return String(value ?? "")
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase()
-    .trim();
-}
 
 function toArray(value) {
   if (Array.isArray(value)) return value;
@@ -126,7 +123,7 @@ function buildContactoEntries() {
     if (!cleanTitle) return;
 
     entries.push({
-      id: `contacto-${entries.length}-${normalizeText(cleanTitle).replace(/\s+/g, "-")}`,
+      id: `contacto-${entries.length}-${normalizeSearchText(cleanTitle).replace(/\s+/g, "-")}`,
       type: "contacto",
       title: cleanTitle,
       subtitle,
@@ -154,7 +151,7 @@ function buildContactoEntries() {
 function dedupeEntries(entries) {
   const seen = new Set();
   return entries.filter((entry) => {
-    const key = `${entry.type}::${normalizeText(entry.title)}`;
+    const key = `${entry.type}::${normalizeSearchText(entry.title)}`;
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
@@ -166,12 +163,12 @@ export const HEADER_SEARCH_INDEX = dedupeEntries([
   ...buildContactoEntries(),
 ]);
 
-export function matchHeaderSearchEntries(query) {
-  const terms = normalizeText(query).split(/\s+/).filter(Boolean);
-  if (!terms.length) return [];
+const HEADER_FLEX_SEARCH_INDEX = prepareFlexibleSearchIndex(HEADER_SEARCH_INDEX, (entry) => ({
+  primary: entry.title,
+  secondary: entry.subtitle,
+  keywords: `${entry.type} ${entry.subtitle}`,
+}));
 
-  return HEADER_SEARCH_INDEX.filter((entry) => {
-    const normalizedTitle = normalizeText(entry.title);
-    return terms.every((term) => normalizedTitle.includes(term));
-  });
+export function matchHeaderSearchEntries(query) {
+  return searchFlexibleIndex(HEADER_FLEX_SEARCH_INDEX, query);
 }

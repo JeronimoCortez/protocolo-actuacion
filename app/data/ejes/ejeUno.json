@@ -1,10 +1,10 @@
 {
   "numero": "1",
-  "nombre": "Violencia",
+  "nombre": "Violencias",
   "subejes": [
     {
       "numero": "1.1",
-      "nombre": "Violencia entre estudiantes: agresión física o verbal severa. (Violencia que NO configuran bullying ni violencia de género)",
+      "nombre": "Violencia entre estudiantes: agresión física grave. (Violencia que NO configuran bullying ni violencia de género)",
       "pasos": [
         {
           "paso": "1",
@@ -50,7 +50,7 @@
     },
     {
       "numero": "1.2",
-      "nombre": "Violencia o agresión física o verbal severa del personal de la institución hacia estudiantes.",
+      "nombre": "Violencia o agresión física o verbal grave del personal de la institución hacia estudiantes.",
       "pasos": [
         {
           "paso": "1",
@@ -710,42 +710,9 @@
         }
       ]
     },
+    
     {
       "numero": "1.10.1",
-      "nombre": "Comentarios y mensajes sexistas",
-      "pasos": [
-        {
-          "paso": "1",
-          "descripcion": "Intervenir de manera inmediata para detener los hechos si son detectados por docente, preceptor/a o directivo."
-        },
-        {
-          "paso": "2",
-          "descripcion": "Registrar de forma clara y literal los hechos relatados por un estudiante o agente institucional."
-        },
-        {
-          "paso": "3",
-          "descripcion": "Dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
-        },
-        {
-          "paso": "4",
-          "descripcion": "Dar aviso a la Subdirección de Género de DGE."
-        },
-        {
-          "paso": "5",
-          "descripcion": "Propiciar un diálogo reflexivo entre las partes, promoviendo la comprensión del impacto del acto y el compromiso de cambio."
-        },
-        {
-          "paso": "6",
-          "descripcion": "Registrar en acta. Respetar la confidencialidad de las personas y/o estudiantes involucrados."
-        },
-        {
-          "paso": "7",
-          "descripcion": "Dar seguimiento al caso."
-        }
-      ]
-    },
-    {
-      "numero": "1.10.2",
       "nombre": "Tramitación institucional de la identidad de género de NNA o agentes de la institución. ",
       "pasos": [
         {
@@ -783,7 +750,7 @@
       ]
     },
     {
-      "numero": "1.10.3",
+      "numero": "1.10.2",
       "nombre": "Violencias en vínculos sexo-afectivos entre estudiantes",
       "pasos": [
         {
@@ -821,7 +788,7 @@
       ]
     },
     {
-      "numero": "1.10.5",
+      "numero": "1.10.3",
       "nombre": "Embarazos forzados en niñas, adolescentes y personas con capacidad de gestar menores de 13 años",
       "pasos": [
         {
@@ -867,7 +834,7 @@
       ]
     },
     {
-      "numero": "1.10.6",
+      "numero": "1.10.4",
       "nombre": "Embarazos no intencionales en adolescentes y personas con capacidad de gestar mayores de 14 años",
       "pasos": [
         {

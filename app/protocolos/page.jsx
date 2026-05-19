@@ -12,6 +12,11 @@ import ejeSiete from "../data/ejes/ejeSiete.json";
 import ejeTres from "../data/ejes/ejeTres.json";
 import ejeUno from "../data/ejes/ejeUno.json";
 import FloatingEmergencyFab from "../components/FloatingEmergencyFab";
+import {
+  buildSearchKeywords,
+  prepareFlexibleSearchIndex,
+  searchFlexibleIndex,
+} from "../lib/flexibleSearch";
 
 const RAW_EJES = [
   ejeUno,
@@ -875,7 +880,6 @@ export default function ProtocolosPage() {
         subejeId: eje.subejes?.[0]?.id ?? "",
         categoryKey: null,
         subcategoryKey: null,
-        searchText: `${ejeTitle} ${eje.nombre ?? ""}`.toLowerCase(),
       });
 
       (eje.subejes ?? []).forEach((subeje) => {
@@ -889,7 +893,6 @@ export default function ProtocolosPage() {
           subejeId: subeje.id,
           categoryKey: null,
           subcategoryKey: null,
-          searchText: `${subejeTitle} ${subeje.nombre ?? ""} ${ejeTitle}`.toLowerCase(),
         });
 
         const categories = extractChildren(subeje);
@@ -904,7 +907,6 @@ export default function ProtocolosPage() {
             subejeId: subeje.id,
             categoryKey: category.key,
             subcategoryKey: null,
-            searchText: `${categoryTitle} ${category.value?.nombre ?? ""} ${subejeTitle} ${ejeTitle}`.toLowerCase(),
           });
 
           const subcategories = extractChildren(category.value);
@@ -919,7 +921,6 @@ export default function ProtocolosPage() {
               subejeId: subeje.id,
               categoryKey: category.key,
               subcategoryKey: subcategory.key,
-              searchText: `${subcategoryTitle} ${subcategory.value?.nombre ?? ""} ${categoryTitle} ${subejeTitle} ${ejeTitle}`.toLowerCase(),
             });
           });
         });
@@ -928,14 +929,27 @@ export default function ProtocolosPage() {
     return entries;
   }, [ejes]);
 
+  const preparedSearchIndex = useMemo(
+    () =>
+      prepareFlexibleSearchIndex(searchIndex, (entry) => ({
+        primary: entry.title,
+        secondary: entry.subtitle,
+        keywords: buildSearchKeywords(
+          entry.type,
+          entry.title,
+          entry.subtitle,
+          entry.ejeId,
+          entry.subejeId,
+          entry.categoryKey,
+          entry.subcategoryKey
+        ),
+      })),
+    [searchIndex]
+  );
+
   const filteredSearchResults = useMemo(() => {
-    const query = searchQuery.trim().toLowerCase();
-    if (!query) return [];
-    const terms = query.split(/\s+/).filter(Boolean);
-    return searchIndex
-      .filter((entry) => terms.every((term) => entry.searchText.includes(term)))
-      .slice(0, 12);
-  }, [searchIndex, searchQuery]);
+    return searchFlexibleIndex(preparedSearchIndex, searchQuery, { limit: 12 });
+  }, [preparedSearchIndex, searchQuery]);
 
   const handleSearchSelection = (entry) => {
     const nextEje = ejes.find((item) => item.id === entry.ejeId);

@@ -687,6 +687,10 @@ p, li, td, th, label, input, select, button, textarea {
   max-width: 190px;
 }
 
+.max-w-none {
+  max-width: none;
+}
+
 .flex-1 {
   flex: 1;
 }
@@ -1893,6 +1897,11 @@ svg {
   background-color: rgb(161 98 7 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:bg-white:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
 .hover\:text-blue-500:hover {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity, 1));
@@ -2069,8 +2078,69 @@ svg {
 }
 
 @media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:grid {
+    display: grid;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:h-full {
+    height: 100%;
+  }
+
+  .lg\:max-w-none {
+    max-width: none;
+  }
+
+  .lg\:auto-cols-fr {
+    grid-auto-columns: minmax(0, 1fr);
+  }
+
+  .lg\:grid-flow-col {
+    grid-auto-flow: column;
+  }
+
   .lg\:grid-cols-\[1fr_380px\] {
     grid-template-columns: 1fr 380px;
+  }
+
+  .lg\:grid-cols-\[380px_1fr\] {
+    grid-template-columns: 380px 1fr;
+  }
+
+  .lg\:flex-col {
+    flex-direction: column;
+  }
+
+  .lg\:gap-3 {
+    gap: .75rem;
+  }
+
+  .lg\:self-center {
+    align-self: center;
+  }
+
+  .lg\:border {
+    border-width: 1px;
+  }
+
+  .lg\:border-\[var\(--border\)\] {
+    border-color: var(--border);
+  }
+
+  .lg\:bg-\[var\(--secondary\)\] {
+    background-color: var(--secondary);
+  }
+
+  .lg\:hover\:bg-\[oklch\(0\.94_0\.015_250\)\]:hover {
+    background-color: #e4ecf5;
+    background-color: lab(93.0262% -1.61359 -5.34217);
   }
 }
 

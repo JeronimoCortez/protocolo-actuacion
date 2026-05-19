@@ -17,21 +17,26 @@ export default function ContactsCard({ contacts }) {
         Contactos de Emergencia
       </h2>
 
-      {contacts.map((contact, index) => (
-        <div key={contact.name}>
-          <a href={`tel:${contact.number}`} className="flex cursor-pointer items-center gap-3.5 rounded-[0.6rem] p-3 transition hover:bg-[var(--secondary)]">
-            <span className={`flex h-[38px] w-[38px] shrink-0 items-center justify-center rounded-lg ${contact.iconBg}`}>
-              <ContactIcon icon={contact.icon} stroke={contact.iconStroke} />
-            </span>
-            <span>
-              <span className="block text-sm font-semibold text-[var(--heading)]">{contact.name}</span>
-              <span className="block text-xs text-[var(--text-soft)]">{contact.number}</span>
-            </span>
-            <ArrowRightIcon className="ml-auto h-4 w-4 text-[var(--muted-foreground)]" />
-          </a>
-          {index < contacts.length - 1 && <div className="my-2 h-px bg-[var(--border)]" />}
-        </div>
-      ))}
+      <div className="lg:grid lg:grid-flow-col lg:auto-cols-fr lg:gap-3">
+        {contacts.map((contact, index) => (
+          <div key={contact.name}>
+            <a
+              href={`tel:${contact.number}`}
+              className="flex cursor-pointer items-center gap-3.5 rounded-[0.6rem] p-3 transition hover:bg-[var(--secondary)] lg:h-full lg:border lg:border-[var(--border)] lg:bg-[var(--secondary)] lg:hover:bg-[oklch(0.94_0.015_250)]"
+            >
+              <span className={`flex h-[38px] w-[38px] shrink-0 items-center justify-center rounded-lg ${contact.iconBg}`}>
+                <ContactIcon icon={contact.icon} stroke={contact.iconStroke} />
+              </span>
+              <span>
+                <span className="block text-sm font-semibold text-[var(--heading)]">{contact.name}</span>
+                <span className="block text-xs text-[var(--text-soft)]">{contact.number}</span>
+              </span>
+              <ArrowRightIcon className="ml-auto h-4 w-4 text-[var(--muted-foreground)]" />
+            </a>
+            {index < contacts.length - 1 && <div className="my-2 h-px bg-[var(--border)] lg:hidden" />}
+          </div>
+        ))}
+      </div>
     </section>
   );
 }

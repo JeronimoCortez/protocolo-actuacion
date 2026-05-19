@@ -1,6 +1,6 @@
 {
   "numero": "6",
-  "nombre": "Crisis emocional y Fallecimiento de NNA o Personal de la Institución",
+  "nombre": "Crisis emocional y Fallecimiento de estudiante o Personal de la Institución",
   "subejes": [
     {
       "numero": "6.1",
@@ -87,7 +87,7 @@
     },
     {
       "numero": "6.2",
-      "nombre": "Fallecimiento de un NNA  o Personal de la institución educativa",
+      "nombre": "Fallecimiento de un estudiante o Personal de la institución educativa",
       "categorias": [
         {
           "numero": "6.2.1",

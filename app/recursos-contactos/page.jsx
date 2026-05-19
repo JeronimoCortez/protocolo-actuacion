@@ -23,6 +23,11 @@ import tunuyanData from "../data/contactos/por-departamento/tunuyan/tunuyan.json
 import tupungatoData from "../data/contactos/por-departamento/tupungato/tupungato.json";
 import generalAlvearData from "../data/contactos/por-departamento/general-alvear/general-alvear.json";
 import FloatingEmergencyFab from "../components/FloatingEmergencyFab";
+import {
+  buildSearchKeywords,
+  prepareFlexibleSearchIndex,
+  searchFlexibleIndex,
+} from "../lib/flexibleSearch";
 
 const DEPARTMENT_SOURCES = [
   { id: "capital", label: "Capital", data: capitalData },
@@ -199,18 +204,8 @@ function toPhoneHref(value) {
   return `tel:${String(value).replace(/[^\d+]/g, "")}`;
 }
 
-function buildContactSearchText(contact) {
-  const detailsText = Object.entries(contact.details)
-    .map(([key, value]) => `${key} ${JSON.stringify(value)}`)
-    .join(" ");
-  return `${contact.name} ${contact.subtitle} ${contact.primaryAccess.label} ${detailsText}`.toLowerCase();
-}
-
 function findContactsByQuery(searchableContacts, query) {
-  const normalizedQuery = query.trim().toLowerCase();
-  if (!normalizedQuery) return [];
-  const terms = normalizedQuery.split(/\s+/).filter(Boolean);
-  return searchableContacts.filter((entry) => terms.every((term) => entry.searchText.includes(term)));
+  return searchFlexibleIndex(searchableContacts, query);
 }
 
 function normalizeDepartmentContacts() {
@@ -430,15 +425,20 @@ export default function RecursosContactosPage() {
   const contactosDepartamento = useMemo(() => normalizeDepartmentContacts(), []);
   const allContacts = useMemo(() => [...contactosInteres, ...contactosDepartamento], [contactosInteres, contactosDepartamento]);
   const searchableContacts = useMemo(
-    () => allContacts.map((contact) => ({ contact, searchText: buildContactSearchText(contact) })),
+    () =>
+      prepareFlexibleSearchIndex(allContacts, (contact) => ({
+        primary: contact.name,
+        secondary: `${contact.subtitle} ${contact.primaryAccess.label}`,
+        keywords: buildSearchKeywords(contact.details, contact.subtitle, contact.primaryAccess?.kind),
+      })),
     [allContacts]
   );
   const searchPreviewResults = useMemo(
-    () => findContactsByQuery(searchableContacts, searchInput).slice(0, 8).map((entry) => entry.contact),
+    () => findContactsByQuery(searchableContacts, searchInput).slice(0, 8),
     [searchableContacts, searchInput]
   );
   const appliedSearchResults = useMemo(
-    () => findContactsByQuery(searchableContacts, appliedSearchQuery).map((entry) => entry.contact),
+    () => findContactsByQuery(searchableContacts, appliedSearchQuery),
     [appliedSearchQuery, searchableContacts]
   );
 

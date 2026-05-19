@@ -147,7 +147,7 @@
         },
         {
           "numero": "3.2.4",
-          "nombre": "Posvención",
+          "nombre": "Posvención - Dentro y fuera de la escuela",
           "pasos": [
             { "paso": "1", "descripcion": "Implementar acciones de posvención que permitan la tramitación psicosocial de lo acontecido, favoreciendo respuestas saludables ante eventos traumáticos y previniendo nuevas situaciones asociadas." },
             { "paso": "2", "descripcion": "Iniciar la intervención en los plazos establecidos: dentro de las 24 horas en caso de fallecimiento por suicidio de adolescentes, y entre las 48 y 72 horas en niños, jóvenes o adultos. Sostener acciones hasta dos meses con seguimiento de uno a dos años." },

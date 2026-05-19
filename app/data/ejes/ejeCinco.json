@@ -1,10 +1,10 @@
 {
   "numero": "5",
-  "nombre": "Ausentismo, desconocimiento de paradero y retraso en el retiro de NNyA ",
+  "nombre": "Ausentismo, desconocimiento de paradero y retraso en el retiro de estudiantes",
   "subejes": [
     {
       "numero": "5.1",
-      "nombre": "Ausentismo",
+      "nombre": "Ausentismo en NNA",
       "condicion": {
         "condicion": "Cuando se hayan agotado todas las instancias que establecen las resoluciones vigentes para cada nivel",
         "pasos": [
@@ -45,7 +45,7 @@
     },
     {
       "numero": "5.2",
-      "nombre": "Desconocimiento del paradero de un NNA",
+      "nombre": "Desconocimiento del paradero de un estudiante",
       "informacion": {
         "descripcion": "Cualquier persona puede denunciar, tenga o no un parentesco o vínculo próximo con el  desaparecido, y la denuncia puede realizarse en la jurisdicción en donde se produjo la desaparición o en la que resida el  denunciante. Realizar la denuncia de forma inmediata. Se realiza en la comisaría, fiscalía o juzgado más cercano.  Se puede llamar de forma gratuita al 134.",
         "requisitos_para_realizar_denuncia": [
@@ -58,7 +58,7 @@
       "categorias": [
         {
           "numero": "5.2.1",
-          "nombre": "Si el desconocimiento del paradero del NNA ocurre fuera del horario escolar",
+          "nombre": "Si el desconocimiento del paradero del estudiante ocurre fuera del horario escolar",
           "pasos": [
             {
               "paso": 1,

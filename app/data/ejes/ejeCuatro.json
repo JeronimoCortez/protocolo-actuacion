@@ -1,6 +1,7 @@
 {
   "numero": "4",
   "nombre": "Trabajo Infantil",
+  "orientacion_general": "Completar",
   "pasos": [
     {
       "paso": "1",

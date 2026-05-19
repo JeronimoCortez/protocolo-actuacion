@@ -20,7 +20,7 @@ Luego de la pandemia de COVID-19, se ha observado un preocupante incremento de l
 - La detección y atención temprana de posibles comportamientos con riesgo suicida.
 - El abordaje de situaciones que puedan intensificar dichos riesgos (violencia, abuso sexual, escasa comunicación o aislamiento, entre otros).
 
-## 5.3.1. Caracterización de los emergentes
+## 5.3.1. Caracterización de los emergentes de suicidio, autolesiones e ideación
 
 - **Autolesiones o autoagresiones:** Conductas de provocar en el propio cuerpo lesiones físicas (cortes, quemaduras, tirones de pelo, golpes, rasguños, mordeduras, entre otros), con o sin intención suicida. No pueden minimizarse, ya que son situaciones de riesgo. Las motivaciones son múltiples y es importante analizar el contexto singular y social de cada persona. Una de las formas más habituales es el *cutting* (cortes en brazos y muslos).
 

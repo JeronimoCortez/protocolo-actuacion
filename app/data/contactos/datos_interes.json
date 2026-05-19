@@ -27,6 +27,10 @@
       "enlace": "https://informacionoficial.mendoza.gob.ar/seguridadyjusticia/atencion-a-victimas-de-delito/"
     },
     {
+      "nombre": "Unidad Fiscal Delitos Contra La Integridad Sexual",
+      "enlace": "https://mpfmza.jus.mendoza.gov.ar/guia-mpf/"
+    },
+    {
       "nombre": "Programa Provincial de Prevención y Atención Integral del Maltrato a la Niñez y Adolescencia (PPMI)",
       "descripcion": "Línea 102 recibe llamadas sólo para uso de la comunidad. Ante emergentes de situaciones de violencia a nivel institucional se debe articular con los organismos competentes.",
       "telefono": "102"
@@ -220,7 +224,7 @@
       "enlace": "https://jusmendoza.gob.ar/fuero-familia-%C2%B7-inicio/"
     },
     {
-      "nombre": "Direccion de la Mujer",
+      "nombre": "Dirección de la Mujer, género y diversidad",
       "descripcion": "1° Circunscripción Judicial",
       "numero": "2614498622",
       "whatsapp": [
@@ -254,7 +258,7 @@
       "correo": "copreti@mendoza.gov.ar"
     },
     {
-      "nombre": "Direccion de Derecho Humanos (Mendoza)",
+      "nombre": "Dirección de Derecho Humanos (Mendoza)",
       "telefono": "4492164",
       "correo": "ddhh@mendoza.gov.ar"
     },
@@ -265,7 +269,7 @@
       "correo": "discapacidad@mendoza.gov.ar"
     },
     {
-      "nombre": "Defensoría de las persionas con discapacidad",
+      "nombre": "Defensoría de las personas con discapacidad",
       "telefono": "4493882",
       "whatsapp": "263862360",
       "correo": "defensoriadediscapacidad@gmail.com"
@@ -285,7 +289,7 @@
       "correo": "mentalmza@mendoza.gov.ar"
     },
     {
-      "nombre": "Plan provincial de adicciones",
+      "nombre": "Plan Provincial de Adicciones",
       "telefonos": ["4253964", "4294017", "4299344"]
     },
     {

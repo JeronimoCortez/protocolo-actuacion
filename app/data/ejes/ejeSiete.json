@@ -141,8 +141,17 @@
               "paso": 3,
               "descripcion": "Separar al grupo de estudiantes de la persona armada."
             },
+            
             {
               "paso": 4,
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            },
+            {
+              "paso": 5,
+              "descripcion": "Comunicar el emergente a DAE Central o al EOS para CEBJA/CENS."
+            },
+            {
+              "paso": 6,
               "descripcion": "Evaluar la situación y actuar de acuerdo a las siguientes opciones.",
               "condiciones": [
                 {
@@ -164,14 +173,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "paso": 5,
-              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
-            },
-            {
-              "paso": 6,
-              "descripcion": "Comunicar el emergente a DAE Central o al EOS para CEBJA/CENS."
             },
             {
               "paso": 7,
@@ -226,7 +227,7 @@
     },
     {
       "numero": "7.4",
-      "nombre": "Imágenes de NNA portando armas",
+      "nombre": "Imágenes de estdudiantes NNA portando armas",
       "pasos": [
         {
           "paso": 1,
