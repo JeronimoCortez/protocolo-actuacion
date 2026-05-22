@@ -16,19 +16,19 @@
         },
         {
           "paso": "3",
-          "descripcion": "Comunicar el emergente a la Dirección de Acompañamiento Escolar (DAE Central) o EOS para EPJA o CENS."
-        },
-        {
-          "paso": "4",
-          "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
-        },
-        {
-          "paso": "5",
           "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado con el que cuenta la escuela, sólo si hay riesgo potencial de agravamiento o riesgo inmediato de vida o de una función vital."
         },
         {
-          "paso": "6",
+          "paso": "4",
+          "descripcion": "El equipo directivo comunica el emergente a DAE Central. En paralelo, dar aviso al profesional DAE asignado a la escuela/SOE/EOS para CEBJA/CENS o Equipos de Educación Especial según corresponda."
+        },
+        {
+          "paso": "5",
           "descripcion": "Dar aviso a las familias o responsables legales de los NNA involucrados."
+        },
+        {
+          "paso": "6",
+          "descripcion": "Aplicar normativa correspondiente de acuerdo a la gravedad del hecho y la reglamentación vigente según nivel."
         },
         {
           "paso": "7",
@@ -36,14 +36,6 @@
         },
         {
           "paso": "8",
-          "descripcion": "Aplicar normativa correspondiente de acuerdo a la gravedad del hecho y la reglamentación vigente según nivel."
-        },
-        {
-          "paso": "9",
-          "descripcion": "Coordinar acciones de prevención."
-        },
-        {
-          "paso": "10",
           "descripcion": "Dar seguimiento al caso."
         }
       ]

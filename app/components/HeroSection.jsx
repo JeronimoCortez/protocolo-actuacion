@@ -8,7 +8,7 @@ export default function HeroSection() {
     >
       <div className="flex items-center">
         <h1 className="page-title max-w-[18ch] lg:max-w-none text-center">
-          Protocolo de Actuacion ante situaciones emergentes en el ambito escolar
+          Protocolo de Actuación ante situaciones emergentes en el ámbito escolar
         </h1>
       </div>
 

@@ -862,6 +862,7 @@ export default function ProtocolosPage() {
   };
 
   const ejeActions = normalizePreventiveActions(selectedEje?.acciones_preventivas);
+  const ejeImportantInfo = normalizeSimpleItems(selectedEje?.informacion_importante);
   const ejeGeneralCriteria = normalizeSimpleItems(selectedEje?.criterios_generales);
   const ejeConfidentiality = normalizeSimpleItems(selectedEje?.confidencialidad);
   const selectedSubeje911Info = isObject(selectedSubeje?.informacion_911) ? selectedSubeje.informacion_911 : null;
@@ -1151,6 +1152,14 @@ export default function ProtocolosPage() {
                   ) : null}
                 </section>
               ) : null}
+
+              <PreventiveActionsPanel
+                title="Informacion importante del eje"
+                items={ejeImportantInfo}
+                wrapperClassName="rounded-2xl p-4"
+                theme="rose"
+                defaultOpen
+              />
 
               <PreventiveActionsPanel
                 title="Acciones preventivas del eje"

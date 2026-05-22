@@ -1,3 +1,4 @@
+import { MoveRight } from "lucide-react";
 import { ClockIcon, PhoneIcon } from "./icons";
 
 export default function DaeCentralCard({ className = "" }) {
@@ -30,9 +31,9 @@ export default function DaeCentralCard({ className = "" }) {
             <span className="mb-0.5 block text-xs text-[var(--text-soft)]">Llamar ahora</span>
             <span className="block text-[1.65rem] font-bold leading-none tracking-tight text-[var(--primary)]">4231473</span>
           </span>
-          <span className="text-right">
+          <span className="flex shrink-0 items-center gap-1 text-right md:gap-2">
             <span className="block text-xs text-[var(--text-soft)]">Disponible</span>
-            <span className="block text-lg font-bold text-[var(--primary)]">{"->"}</span>
+            <MoveRight className="h-4 w-4 shrink-0 hidden md:inline" />
           </span>
         </a>
       </div>
