@@ -2036,16 +2036,16 @@ svg {
     gap: 2.5rem;
   }
 
+  .md\:gap-2 {
+    gap: .5rem;
+  }
+
   .md\:gap-5 {
     gap: 1.25rem;
   }
 
   .md\:gap-8 {
     gap: 2rem;
-  }
-
-  .md\:gap-2 {
-    gap: .5rem;
   }
 
   .md\:space-y-5 > :not([hidden]) ~ :not([hidden]) {

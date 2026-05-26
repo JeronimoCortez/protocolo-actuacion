@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import Header from "../components/Header";
 import { navItems } from "../data/home";
 import ejeCinco from "../data/ejes/ejeCinco.json";
@@ -707,7 +708,10 @@ function ProtocolNode({
   );
 }
 
-export default function ProtocolosPage() {
+function ProtocolosPageContent() {
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
   const ejes = useMemo(() => normalizeEjes(RAW_EJES), []);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedEjeId, setSelectedEjeId] = useState("");
@@ -796,15 +800,13 @@ export default function ProtocolosPage() {
   const progressPercent = allSteps.length ? Math.round((completedCount / allSteps.length) * 100) : 0;
 
   useEffect(() => {
-    if (typeof window === "undefined") return;
-    const params = new URLSearchParams(window.location.search);
-    const ejeParam = String(params.get("eje") ?? "").trim();
+    const ejeParam = String(searchParams.get("eje") ?? "").trim();
     if (!ejeParam) return;
 
     const matchedEje = ejes.find((item) => String(item?.numero ?? "").trim() === ejeParam);
     if (!matchedEje) return;
 
-    const subejeParam = String(params.get("subeje") ?? "").trim();
+    const subejeParam = String(searchParams.get("subeje") ?? "").trim();
     const matchedSubeje = subejeParam
       ? matchedEje.subejes?.find((item) => String(item?.numero ?? "").trim() === subejeParam) ?? null
       : matchedEje.subejes?.[0] ?? null;
@@ -812,14 +814,15 @@ export default function ProtocolosPage() {
     const nextEjeId = matchedEje.id;
     const nextSubejeId = matchedSubeje?.id ?? matchedEje.subejes?.[0]?.id ?? "";
 
-    if (selectedEjeId !== nextEjeId) {
-      setSelectedEjeId(nextEjeId);
-    }
+    setSelectedEjeId((current) => (current === nextEjeId ? current : nextEjeId));
+    setSelectedSubejeId((current) => (current === nextSubejeId ? current : nextSubejeId));
 
-    if (selectedSubejeId !== nextSubejeId) {
-      setSelectedSubejeId(nextSubejeId);
-    }
-  }, [ejes, selectedEjeId, selectedSubejeId]);
+    const nextParams = new URLSearchParams(searchParams.toString());
+    nextParams.delete("eje");
+    nextParams.delete("subeje");
+    const nextQuery = nextParams.toString();
+    router.replace(nextQuery ? `${pathname}?${nextQuery}` : pathname, { scroll: false });
+  }, [ejes, pathname, router, searchParams]);
 
   const handleSelectEje = (ejeId) => {
     const nextEje = ejes.find((item) => item.id === ejeId);
@@ -1217,5 +1220,13 @@ export default function ProtocolosPage() {
         <FloatingEmergencyFab/>
       </main>
     </>
+  );
+}
+
+export default function ProtocolosPage() {
+  return (
+    <Suspense fallback={null}>
+      <ProtocolosPageContent />
+    </Suspense>
   );
 }

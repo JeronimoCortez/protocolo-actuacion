@@ -39,7 +39,7 @@ export default function DaeCentralCard({ className = "" }) {
       </div>
 
       <p className="supporting-copy pt-3 text-xs">
-        Centro de coordinacion para situaciones de emergencia. Reporte inmediatamente cualquier situacion critica.
+        Centro de coordinación para situaciones de emergencia. Reporte inmediatamente cualquier situacion critica.
       </p>
     </aside>
   );

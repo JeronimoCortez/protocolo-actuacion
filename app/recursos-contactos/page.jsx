@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import Header from "../components/Header";
 import { navItems } from "../data/home";
 import datosInteresRaw from "../data/contactos/datos_interes.json";
@@ -412,7 +413,10 @@ function ContactCard({ contact, isOpen, onToggle }) {
   );
 }
 
-export default function RecursosContactosPage() {
+function RecursosContactosPageContent() {
+  const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
   const [activeFilter, setActiveFilter] = useState("interes");
   const [selectedDepartment, setSelectedDepartment] = useState(DEPARTMENT_SOURCES[0]?.id ?? "");
   const [openContactId, setOpenContactId] = useState("");
@@ -473,9 +477,7 @@ export default function RecursosContactosPage() {
   }, [visibleContacts]);
 
   useEffect(() => {
-    if (typeof window === "undefined") return;
-    const params = new URLSearchParams(window.location.search);
-    const headerSearch = String(params.get("search") ?? "").trim();
+    const headerSearch = String(searchParams.get("search") ?? "").trim();
     if (!headerSearch) return;
 
     setSearchInput(headerSearch);
@@ -483,7 +485,12 @@ export default function RecursosContactosPage() {
     setSelectedSearchContactId("");
     setOpenContactId("");
     setIsSearchPreviewOpen(false);
-  }, []);
+
+    const nextParams = new URLSearchParams(searchParams.toString());
+    nextParams.delete("search");
+    const nextQuery = nextParams.toString();
+    router.replace(nextQuery ? `${pathname}?${nextQuery}` : pathname, { scroll: false });
+  }, [pathname, router, searchParams]);
 
   const applyGlobalSearch = () => {
     const query = searchInput.trim();
@@ -498,6 +505,12 @@ export default function RecursosContactosPage() {
     setAppliedSearchQuery(query);
     setSelectedSearchContactId("");
     setOpenContactId("");
+    setIsSearchPreviewOpen(false);
+  };
+
+  const clearAppliedSearch = () => {
+    setAppliedSearchQuery("");
+    setSelectedSearchContactId("");
     setIsSearchPreviewOpen(false);
   };
 
@@ -527,6 +540,7 @@ export default function RecursosContactosPage() {
               type="button"
               onClick={() => {
                 setActiveFilter("interes");
+                clearAppliedSearch();
                 setOpenContactId("");
               }}
               className={`rounded-xl border px-4 py-3 text-left transition ${
@@ -547,6 +561,7 @@ export default function RecursosContactosPage() {
               type="button"
               onClick={() => {
                 setActiveFilter("departamento");
+                clearAppliedSearch();
                 setOpenContactId("");
               }}
               className={`rounded-xl border px-4 py-3 text-left transition ${
@@ -650,6 +665,7 @@ export default function RecursosContactosPage() {
                       value={selectedDepartment}
                       onChange={(event) => {
                         setSelectedDepartment(event.target.value);
+                        clearAppliedSearch();
                         setOpenContactId("");
                       }}
                       className="w-full appearance-none rounded-xl border border-slate-300 bg-gradient-to-b from-white to-slate-50 px-3 py-2.5 pr-10 text-sm font-medium text-slate-800 shadow-sm outline-none transition focus:border-slate-500 focus:ring-2 focus:ring-slate-200 [&>option]:bg-white [&>option]:py-2 [&>option]:text-sm [&>option]:font-medium"
@@ -713,5 +729,13 @@ export default function RecursosContactosPage() {
         <FloatingEmergencyFab/>
       </main>
     </>
+  );
+}
+
+export default function RecursosContactosPage() {
+  return (
+    <Suspense fallback={null}>
+      <RecursosContactosPageContent />
+    </Suspense>
   );
 }
