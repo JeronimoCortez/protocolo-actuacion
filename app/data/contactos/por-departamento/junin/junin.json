@@ -7,12 +7,8 @@
         {
           "nombre": "Centro de Salud Nº62 Oscar de Lellis",
           "direccion": "Salvador González 192, Junín, Mendoza",
-          "telefonos": [
-            "02634492244"
-          ],
-          "correos": [
-            "caps-62@mendoza.gov.ar"
-          ]
+          "telefonos": ["02634492244"],
+          "correos": ["caps-62@mendoza.gov.ar"]
         }
       ]
     },
@@ -22,9 +18,7 @@
         {
           "nombre": "Centro de Salud Nº162",
           "direccion": "Salvador González 192, Junín, Mendoza",
-          "telefonos": [
-            "02634492244"
-          ]
+          "telefonos": ["02634492244"]
         }
       ]
     },
@@ -34,12 +28,8 @@
         {
           "nombre": "ETI",
           "direccion": "Nicolás Videla 36, Junín, Mendoza",
-          "telefonos": [
-            "02634492288"
-          ],
-          "correos": [
-            "spdjunin@mendoza.gov.ar"
-          ]
+          "telefonos": ["02634492288"],
+          "correos": ["spdjunin@mendoza.gov.ar"]
         }
       ]
     },
@@ -49,16 +39,20 @@
         {
           "nombre": "Municipalidad de Junín",
           "direccion": "Sarmiento y Don Bosco, Junín, Mendoza",
-          "telefonos": [
-            "4492672",
-            "4492050"
-          ],
-          "internos": [
-            "148"
-          ],
-          "correos": [
-            "intendencia@juninmendoza.gov.ar"
-          ]
+          "telefonos": ["4492672", "4492050"],
+          "internos": ["148"],
+          "correos": ["intendencia@juninmendoza.gov.ar"]
+        }
+      ]
+    },
+    {
+      "nombre": "Dirección de Salud Mental y Consumos Problemáticos",
+      "organismos": [
+        {
+          "nombre": "Centro de Atención Primaria en Salud Nº62",
+          "direccion": "Salvador González 192, Junín, Mendoza",
+          "telefonos": ["2634273328"],
+          "correos": ["smentaljunin@mendoza.gov.ar"]
         }
       ]
     },
@@ -67,12 +61,8 @@
       "organismos": [
         {
           "nombre": "Asesor de Menores",
-          "telefonos": [
-            "2614177171"
-          ],
-          "correos": [
-            "abusosJUNIN@jus.mendoza.gov.ar"
-          ]
+          "telefonos": ["2614177171"],
+          "correos": ["abusosJUNIN@jus.mendoza.gov.ar"]
         }
       ]
     }

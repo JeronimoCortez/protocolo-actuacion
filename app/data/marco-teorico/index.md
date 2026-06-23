@@ -9,13 +9,13 @@ description: "Propósito, rol de la escuela, normativa y principios rectores del
 
 Con el propósito de resguardar el bienestar integral —bio, psico-social— de cada estudiante y de garantizar la continuidad y finalización oportuna de sus trayectorias escolares, la Dirección General de Escuelas actualiza los procedimientos de actuación ante situaciones emergentes.
 
-El presente protocolo tiene por finalidad brindar a equipos de supervisión, dirección, docentes y personal no docente, profesionales de los equipos técnicos de todos los niveles y modalidades educativas del sistema, un conjunto de lineamientos claros, unificados y operativos para intervenir de manera adecuada frente a situaciones complejas que irrumpen en la vida escolar. El mismo además establece medidas de seguimiento y contención orientadas a que las escuelas, en conjunto con la comunidad, prevengan situaciones futuras.
+El presente protocolo tiene por finalidad brindar a equipos de supervisión, dirección, docentes y personal no docente, profesionales de los equipos técnicos de todos los niveles y modalidades educativas del sistema, un conjunto de lineamientos claros, unificados y operativos para intervenir de manera adecuada frente a situaciones complejas que irrumpen en la vida escolar. El mismo además,  establece medidas de seguimiento y contención orientadas a que las escuelas, en conjunto con la comunidad, prevengan situaciones futuras.
 
 Asimismo, este documento busca fortalecer a las instituciones educativas mediante herramientas de gestión que consoliden la autoridad democrática y la corresponsabilidad de las personas mayores de edad de la comunidad escolar. Su implementación procura garantizar un clima institucional propicio para la enseñanza y el aprendizaje, fomentar la inclusión y la participación, promover la resolución pacífica de los conflictos, impulsar el cuidado de la salud integral y acompañar de manera efectiva las trayectorias escolares.
 
 ## 2. El rol de la escuela
 
-La escuela cumple un rol indelegable en la promoción del bienestar integral de la comunidad estudiantil y en el sostenimiento de sus trayectorias educativas. En este marco, desarrolla acciones de prevención, identificación temprana de situaciones que puedan afectar el desarrollo o la convivencia escolar, y la coordinación oportuna con los organismos pertinentes cuando corresponda intervenir desde otras áreas del Estado.
+La escuela cumple un rol indelegable en la promoción del bienestar integral de la comunidad estudiantil y en el sostenimiento de sus trayectorias educativas. En este marco, desarrolla acciones de prevención, identificación temprana de situaciones que puedan afectar el desarrollo o la convivencia escolar,  y la coordinación oportuna con los organismos pertinentes cuando corresponda intervenir desde otras áreas del Estado.
 
 Su responsabilidad se expresa en la generación de entornos protectores, la observación profesional, el registro adecuado y la activación de los dispositivos institucionales necesarios. Asimismo, la escuela articula con otros efectores para garantizar intervenciones integrales, actuando de manera coordinada y corresponsable dentro de sus competencias.
 
@@ -37,6 +37,7 @@ Su responsabilidad se expresa en la generación de entornos protectores, la obse
 | Ley 26586/09 | Programa Nacional de Educación y Prevención sobre Adicciones y Consumo Indebido de Drogas |
 | Ley 26657/10 | Ley Nacional de Salud Mental |
 | Ley 26743/12 | Ley de Identidad de Género |
+| Ley 26842/12 | Ley de Prevención y Sanción de la Trata de Personas y Asistencia a sus Víctimas |
 | Ley 27044/14 | Jerarquía constitucional de la convención sobre los derechos de personas con discapacidad |
 | Ley 26934/14 | Plan IACOP (Plan Integral para el Abordaje de Consumos Problemáticos) |
 | Ley 26994/14 | Código Civil y Comercial de la Nación |
@@ -73,13 +74,13 @@ Su responsabilidad se expresa en la generación de entornos protectores, la obse
 
 Las intervenciones previstas en el presente protocolo se sustentan en un enfoque de bienestar integral —bio-psico-social— del estudiante, el cual constituye la pauta prioritaria para la toma de decisiones institucionales.
 
-Desde esta perspectiva, cada intervención en el ámbito educativo debe contemplar de manera articulada las distintas dimensiones que atraviesan el proceso de desarrollo y maduración, considerando las etapas del proceso evolutivo de NNA, el contexto sociocomunitario donde transitan su trayectoria vital, así como otras circunstancias que los afecten.
-
 Se promueve una mirada integral e interdisciplinaria que incorpora la protección de derechos humanos como uno de sus ejes, junto con la promoción de la salud mental, el aprendizaje socioemocional, el bienestar docente, la convivencia escolar, la prevención de factores de riesgo y la intervención frente a situaciones emergentes.
 
 El propósito de toda actuación no se limita a la prevención de vulneraciones, sino que apunta fundamentalmente a sostener las trayectorias escolares y garantizar el pleno desarrollo de la infancia y la adolescencia en contextos educativos protectores y significativos.
 
 Asimismo, toda intervención institucional se sustenta en el reconocimiento de niñas, niños y adolescentes como sujetos plenos de derechos, conforme a la Ley N.º 26.061, el Código Civil y Comercial de la Nación y la normativa vigente.
+
+La protección de derechos humanos constituye un eje indispensable del abordaje, integrado a una mirada más amplia de bienestar integral, cuidado y desarrollo.
 
 ### Principios legales que rigen toda actuación
 
@@ -97,11 +98,11 @@ Asimismo, toda intervención institucional se sustenta en el reconocimiento de n
 
 En el marco de la corresponsabilidad, la escuela forma parte del Sistema Integral de Promoción y Protección de Derechos, asumiendo su rol indelegable de detección temprana, intervención institucional y comunicación oportuna ante situaciones de amenaza o vulneración de derechos que excedan el ámbito estrictamente pedagógico.
 
-El deber de comunicar alcanza a todos los miembros de la comunidad educativa y rige independientemente del medio por el cual se tome conocimiento de la situación —observación directa, relato de terceros o circulación de información en entornos digitales—. Esto implica que cualquier persona que advierta una situación emergente tiene la responsabilidad de activar el protocolo de actuación, sin sustituir a otros organismos del Estado y sin realizar investigaciones, priorizando siempre el cuidado integral del estudiante.
+El deber de comunicar alcanza a todos los miembros de la comunidad educativa y rige independientemente del medio por el cual se tome conocimiento de la situación —observación directa, relato de terceros o circulación de información en entornos digitales—. Esto implica que cualquier persona que advierta una situación emergente tiene la responsabilidad de activar el protocolo de actuación. Esta obligación se ejerce sin sustituir a otros organismos del Estado y sin realizar investigaciones, priorizando siempre el cuidado integral del estudiante.
 
-En todas las situaciones emergentes que involucran a estudiantes con discapacidad, las intervenciones deberán garantizar el acceso efectivo a la información, la comunicación y la participación, mediante la implementación de ajustes razonables y apoyos necesarios, conforme a lo establecido en la Convención sobre los Derechos de las Personas con Discapacidad (Ley N.º 26.378). Deberá evitarse cualquier práctica que implique discriminación, infantilización o sustitución de la voluntad, promoviendo el respeto por la autonomía progresiva y la toma de decisiones con apoyos cuando corresponda.
+En todas las situaciones emergentes que involucran a estudiantes con discapacidad, las intervenciones deberán garantizar el acceso efectivo a la información, la comunicación y la participación, mediante la implementación de ajustes razonables y apoyos necesarios, conforme a lo establecido en la Convención sobre los Derechos de las Personas con Discapacidad (Ley N.º 26.378). Asimismo, deberá evitarse cualquier práctica que implique discriminación, infantilización o sustitución de la voluntad, promoviendo el respeto por la autonomía progresiva y la toma de decisiones con apoyos cuando corresponda.
 
-Finalmente, considerando que este protocolo alcanza a la modalidad de jóvenes y adultos, es pertinente reconocer que esta persona, en carácter de estudiante, es un sujeto autónomo cuya identidad se define por sus trayectorias de vida, saberes previos y multiplicidad de roles sociales —laborales y familiares—. La intervención ante situaciones emergentes no puede tratarlo como a NNA, y debe tender a la construcción de un diálogo que respete su singularidad, garantizando siempre la protección de sus derechos y la continuidad de su trayectoria educativa.
+Finalmente, considerando que este protocolo alcanza a la modalidad de jóvenes y adultos, es pertinente reconocer que esta persona, en carácter de estudiante, es un sujeto autónomo cuya identidad se define por sus trayectorias de vida, saberes previos y multiplicidad de roles sociales —laborales y familiares—. La intervención ante situaciones emergentes debe tender a la construcción de un diálogo que respete su singularidad, garantizando siempre la protección de sus derechos y la continuidad de su trayectoria educativa.
 
 ## 5. Marcos conceptuales de los Ejes de Intervención
 
@@ -114,6 +115,7 @@ A continuación se desarrollan los fundamentos conceptuales de cada eje:
 - [Eje 3: Suicidio, autolesiones e ideación](/marco-teorico/eje-3-suicidio-autolesiones)
 - [Eje 4: Trabajo Infantil](/marco-teorico/eje-4-trabajo-infantil)
 - [Eje 5: Ausentismo, desconocimiento de paradero y retraso en el retiro de NNA](/marco-teorico/eje-5-ausentismo)
-- [Eje 6: Crisis emocional y fallecimiento de NNA o personal de la institución](/marco-teorico/eje-6-crisis-emocional)
-- [Eje 7: Armas, explosivos e incidente por conflicto externo](/marco-teorico/eje-7-armas-explosivos)
-- [Eje 8: Comunicación Institucional de situaciones emergentes](/marco-teorico/eje-8-comunicacion-institucional)
+- [Eje 6: Crisis emocional](/marco-teorico/eje-6-crisis-emocional)
+- [Eje 7: Fallecimiento de estudiante o personal de la institución](/marco-teorico/eje-7-fallecimiento)
+- [Eje 8: Armas, explosivos e incidente por conflicto externo](/marco-teorico/eje-8-armas-explosivos)
+- [Eje 9: Comunicación Institucional de situaciones emergentes](/marco-teorico/eje-9-comunicacion-institucional)

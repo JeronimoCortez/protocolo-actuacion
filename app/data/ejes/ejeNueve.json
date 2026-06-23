@@ -1,0 +1,62 @@
+{
+  "numero": "9",
+  "nombre": "Comunicación Institucional de situaciones emergentes",
+  "subejes": [
+    {
+      "numero": "9.1",
+      "nombre": "Interacción con los medios de comunicación.",
+      "pasos": [
+        {
+          "paso": "1",
+          "descripcion": "El Equipo Directivo es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+        },
+        {
+          "paso": "2",
+          "descripcion": "Toda interacción con medios de comunicación debe ser autorizada y coordinada por: Área de Prensa de DGE. Dirección de Acompañamiento Escolar (DAE). Supervisión."
+        },
+        {
+          "paso": "3",
+          "descripcion": "Redactar un comunicado institucional oficial breve y claro."
+        },
+        {
+          "paso": "4",
+          "descripcion": "Difundirlo por los canales de comunicación validados en la escuela y dirigido a todo el personal docente y no-docente de la institución y la comunidad educativa en general."
+        },
+        {
+          "paso": "5",
+          "descripcion": "DGE designa un vocero institucional."
+        },
+        {
+          "paso": "6",
+          "descripcion": "Resguardar la confidencialidad y la protección de los estudiantes. No debe difundirse por ningún medio de comunicación o redes sociales imágenes de estudiantes en tanto pueden constituir un riesgo para su integridad física y psíquica."
+        },
+        {
+          "paso": "7",
+          "descripcion": "Evitar proporcionar datos sensibles o detalles que puedan identificar a estudiantes o a las familias, respetando la confidencialidad y la no revictimización."
+        },
+        {
+          "paso": "8",
+          "descripcion": "Registrar en acta y comunicar por vía jerárquica."
+        }
+      ]
+    },
+    {
+      "numero": "9.2",
+      "nombre": "Interacción con las familias",
+      "pasos": [
+        {
+          "paso": "1",
+          "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+        },
+        {
+          "paso": "2",
+          "descripcion": "Designar una persona del establecimiento para organizar y disponer el envío de la comunicación."
+        },
+        {
+          "paso": "3",
+          "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. (Ver modelo de comunicación institucional sugerido en el PROTOCOLO)"
+        }
+      ]
+    }
+  ]
+}

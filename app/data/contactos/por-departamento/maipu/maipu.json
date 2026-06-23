@@ -7,26 +7,18 @@
         {
           "nombre": "Hospital Dr. Diego Paroissien",
           "direccion": "Godoy Cruz 975, Maipú, Mendoza",
-          "telefonos": [
-            "4972288"
-          ],
-          "correos": [
-            "hsp-paroissien@mendoza.gov.ar"
-          ]
+          "telefonos": ["4972288"],
+          "correos": ["hsp-paroissien@mendoza.gov.ar"]
         },
         {
           "nombre": "Hospital Alfredo Metraux",
           "direccion": "Fray Luis Beltrán, Mendoza",
-          "telefonos": [
-            "02614921000"
-          ]
+          "telefonos": ["02614921000"]
         },
         {
-          "nombre": "Centre Infanto-Juvenil",
-          "direccion": "Perón 70, Maipú, Mendoza",
-          "telefonos": [
-            "4952666"
-          ]
+          "nombre": "Centro Preventivo Asistencial Infanto Juvenil N°3",
+          "direccion": "Ruta 50 786, Rodeo del Medio, Maipú, Mendoza",
+          "telefonos": ["4952666"]
         }
       ]
     },
@@ -36,9 +28,7 @@
         {
           "nombre": "Centro de Salud Mental Nº27",
           "direccion": "Perón 70, Parque Metropolitano, Maipú, Mendoza",
-          "telefonos": [
-            "02614973449"
-          ]
+          "telefonos": ["02614973449"]
         }
       ]
     },
@@ -48,22 +38,13 @@
         {
           "nombre": "Diego Paroissien",
           "direccion": "Godoy Cruz 551, Maipú, Mendoza",
-          "telefonos": [
-            "4972833",
-            "4972288",
-            "4972459"
-          ],
-          "correos": [
-            "hsp-paroissien@mendoza.gov.ar"
-          ]
+          "telefonos": ["4972833", "4972288", "4972459"],
+          "correos": ["hsp-paroissien@mendoza.gov.ar"]
         },
         {
           "nombre": "Alfredo Metraux",
           "direccion": "España 162, Fray Luis Beltrán, Maipú, Mendoza",
-          "telefonos": [
-            "4921000",
-            "492177704"
-          ]
+          "telefonos": ["4921000", "492177704"]
         }
       ]
     },
@@ -73,12 +54,8 @@
         {
           "nombre": "ETI",
           "direccion": "Maza 131, Maipú, Mendoza",
-          "telefonos": [
-            "4810896"
-          ],
-          "correos": [
-            "spdmaipu@mendoza.gov.ar"
-          ]
+          "telefonos": ["4810896"],
+          "correos": ["spdmaipu@mendoza.gov.ar"]
         }
       ]
     },
@@ -88,12 +65,8 @@
         {
           "nombre": "Municipalidad de Maipú",
           "direccion": "Padre Vásquez 586, Maipú, Mendoza",
-          "telefonos": [
-            "4974285"
-          ],
-          "correos": [
-            "areamujermaipu@gmail.com"
-          ]
+          "telefonos": ["4974285"],
+          "correos": ["areamujermaipu@gmail.com"]
         }
       ]
     },
@@ -103,12 +76,19 @@
         {
           "nombre": "Municipalidad de Maipú",
           "direccion": "Maza 131, Maipú, Mendoza",
-          "telefonos": [
-            "4976558"
-          ],
-          "correos": [
-            "spdmaipu@mendoza.gov.ar"
-          ]
+          "telefonos": ["4976558"],
+          "correos": ["spdmaipu@mendoza.gov.ar"]
+        }
+      ]
+    },
+    {
+      "nombre": "Dirección de Salud Mental y Consumos Problemáticos",
+      "organismos": [
+        {
+          "nombre": "El Faro – Centro de Día de Salud Mental para Adolescentes",
+          "direccion": "CIC de Fray Luis Beltrán, Los Álamos y Ruta Nac. 7, Maipú",
+          "telefonos": ["2616950866"],
+          "correos": ["elfarocentrodediamdz@gmail.com"]
         }
       ]
     },
@@ -118,22 +98,14 @@
         {
           "nombre": "Fiscalía Nº10 Seccional 10",
           "direccion": "Pedro Vásquez 110, Maipú, Mendoza",
-          "telefonos": [
-            "3487821"
-          ],
-          "correos": [
-            "of10s10@jus.mendoza.gov.ar"
-          ]
+          "telefonos": ["3487821"],
+          "correos": ["of10s10@jus.mendoza.gov.ar"]
         },
         {
           "nombre": "Fiscalía Nº16 Seccional 49",
           "direccion": "Ruta Provincial 50 s/n, Maipú, Mendoza",
-          "telefonos": [
-            "3487404"
-          ],
-          "correos": [
-            "of16s49@jus.mendoza.gov.ar"
-          ]
+          "telefonos": ["3487404"],
+          "correos": ["of16s49@jus.mendoza.gov.ar"]
         }
       ]
     },
@@ -142,12 +114,8 @@
       "organismos": [
         {
           "nombre": "Asesor de Menores",
-          "telefonos": [
-            "2616290733"
-          ],
-          "correos": [
-            "abusosMAIPU@jus.mendoza.gov.ar"
-          ]
+          "telefonos": ["2616290733"],
+          "correos": ["abusosMAIPU@jus.mendoza.gov.ar"]
         }
       ]
     }

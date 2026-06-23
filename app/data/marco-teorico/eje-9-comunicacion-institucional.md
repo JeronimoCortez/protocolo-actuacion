@@ -1,6 +1,6 @@
-# 5.8. Fundamentos conceptuales del Eje 8: Comunicación Institucional de situaciones emergentes
+# 5.9. Fundamentos conceptuales del Eje 9: Comunicación Institucional de situaciones emergentes
 
-## 5.8.1. Interacción con los medios de comunicación
+## 5.9.1. Interacción con los medios de comunicación
 
 La difusión mediática de situaciones escolares puede tener efectos significativos en la comunidad educativa. Por ello, la comunicación con los medios debe entenderse también como un **acto de cuidado**. Se establecen pautas claras para regular la relación e interacción de la institución educativa con medios de comunicación, asegurando el resguardo de los derechos de NNA, del personal escolar y la imagen institucional.
 
@@ -12,7 +12,7 @@ Frente a esto, la tarea de la escuela no se reduce a dar información: también 
 
 Resulta valioso que las instituciones trabajen la manera en que los medios relatan las noticias. Esto ayuda a desarrollar una **mirada crítica** y a evitar que se repitan prejuicios o discriminaciones.
 
-## 5.8.2. Interacción con las familias
+## 5.9.2. Interacción con las familias
 
 La notificación a las familias y a la comunidad educativa debe utilizarse **únicamente en situaciones** que, aun encontrándose bajo control, puedan generar inquietud, preocupación o interpretaciones erróneas entre sus miembros. Su objetivo principal es ofrecer **información clara, precisa y responsable**, evitando la circulación de rumores y promoviendo la tranquilidad, la confianza y la transparencia en el accionar institucional.
 

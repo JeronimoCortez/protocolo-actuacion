@@ -7,36 +7,24 @@
         {
           "nombre": "Dr. Ramón Carrillo",
           "direccion": "Martín Fierro 1724, Las Heras, Mendoza",
-          "telefonos": [
-            "4133872"
-          ],
-          "correos": [
-            "hosp-ramoncarrillo@mendoza.gov.ar"
-          ]
+          "telefonos": ["4133872"],
+          "correos": ["hosp-ramoncarrillo@mendoza.gov.ar"]
         },
         {
           "nombre": "Gailhac",
           "direccion": "Dorrego 63, Las Heras",
-          "telefonos": [
-            "02614511301"
-          ],
-          "correos": [
-            "hosp-gailhac@mendoza.gov.ar"
-          ]
+          "telefonos": ["02614511301"],
+          "correos": ["hosp-gailhac@mendoza.gov.ar"]
         },
         {
           "nombre": "Centro de Salud Nº139",
           "direccion": "B° Municipal M35 C27",
-          "telefonos": [
-            "4444325"
-          ]
+          "telefonos": ["4444325"]
         },
         {
           "nombre": "Centro de Salud Nº25",
           "direccion": "Alas Argentinas 1700, Las Heras",
-          "telefonos": [
-            "4302261"
-          ]
+          "telefonos": ["4302261"]
         }
       ]
     },
@@ -46,24 +34,14 @@
         {
           "nombre": "Héctor Elías Gailhac",
           "direccion": "Aristóbulo del Valle 1359, Las Heras, Mendoza",
-          "telefonos": [
-            "4511301",
-            "4511304"
-          ],
-          "correos": [
-            "hosp-gailhac@mendoza.gov.ar"
-          ]
+          "telefonos": ["4511301", "4511304"],
+          "correos": ["hosp-gailhac@mendoza.gov.ar"]
         },
         {
           "nombre": "Dr. Ramón Carrillo",
           "direccion": "Martín Fierro 1724, Las Heras, Mendoza",
-          "telefonos": [
-            "02614133800"
-          ],
-          "correos": [
-            "hosp-ramoncarrillo@mendoza.gov.ar",
-            "carrillosaludmental@gmail.com"
-          ]
+          "telefonos": ["02614133800"],
+          "correos": ["hosp-ramoncarrillo@mendoza.gov.ar", "carrillosaludmental@gmail.com"]
         }
       ]
     },
@@ -73,24 +51,8 @@
         {
           "nombre": "Dr. Luis Chrabalowski",
           "direccion": "Tupungato y Aconcagua s/n, Las Heras, Mendoza",
-          "telefonos": [
-            "02624420001"
-          ],
-          "correos": [
-            "hosp-chrabalowski@mendoza.gov.ar"
-          ]
-        }
-      ]
-    },
-    {
-      "nombre": "Plan Provincial de Adicciones",
-      "organismos": [
-        {
-          "nombre": "Plan Provincial de Adicciones",
-          "direccion": "Morón 332, Las Heras, Mendoza",
-          "telefonos": [
-            "4294017"
-          ]
+          "telefonos": ["02624420001"],
+          "correos": ["hosp-chrabalowski@mendoza.gov.ar"]
         }
       ]
     },
@@ -100,9 +62,7 @@
         {
           "nombre": "Centro Preventivo Asistencial Las Heras",
           "direccion": "Dorrego 53, Las Heras, Mendoza",
-          "telefonos": [
-            "4486011"
-          ]
+          "telefonos": ["4486011"]
         }
       ]
     },
@@ -112,12 +72,8 @@
         {
           "nombre": "Dr. Ramón Carrillo (ETI)",
           "direccion": "Martín Fierro 1724, Las Heras, Mendoza",
-          "telefonos": [
-            "2614133800"
-          ],
-          "correos": [
-            "spdlasheras@mendoza.gov.ar"
-          ]
+          "telefonos": ["2614133800"],
+          "correos": ["spdlasheras@mendoza.gov.ar"]
         }
       ]
     },
@@ -127,12 +83,8 @@
         {
           "nombre": "Municipalidad de Las Heras",
           "direccion": "Almafuerte 1385 – B° 1 de Septiembre – Las Heras, Mendoza",
-          "telefonos": [
-            "2617092877"
-          ],
-          "correos": [
-            "politicasdegenero@ciudaddemendoza.gov.ar"
-          ]
+          "telefonos": ["2617092877"],
+          "correos": ["politicasdegenero@ciudaddemendoza.gov.ar"]
         }
       ]
     },
@@ -142,12 +94,8 @@
         {
           "nombre": "Dirección de Desarrollo Social, Secretaría de Gobierno",
           "direccion": "Echeverría 463 (entre Dr. Moreno y Agustín Álvarez), Las Heras, Mendoza",
-          "telefonos": [
-            "2617092877"
-          ],
-          "correos": [
-            "generodiversidad.lh@gmail.com"
-          ]
+          "telefonos": ["2617092877"],
+          "correos": ["generodiversidad.lh@gmail.com"]
         }
       ]
     },
@@ -157,12 +105,8 @@
         {
           "nombre": "Municipalidad de Las Heras (Familia)",
           "direccion": "San Miguel y Rivadavia, Las Heras, Mendoza",
-          "telefonos": [
-            "4122592"
-          ],
-          "correos": [
-            "www.lasheras.gov.ar"
-          ]
+          "telefonos": ["4122592"],
+          "correos": ["www.lasheras.gov.ar"]
         }
       ]
     },
@@ -172,23 +116,17 @@
         {
           "nombre": "Fiscalía N° 5 Seccional 16",
           "direccion": "Rivadavia 540, Las Heras, Mendoza",
-          "telefonos": [
-            "3487834"
-          ]
+          "telefonos": ["3487834"]
         },
         {
           "nombre": "Fiscalía N° 6 Seccional 36",
           "direccion": "Lisandro Moyano 2331, Las Heras, Mendoza",
-          "telefonos": [
-            "3487479"
-          ]
+          "telefonos": ["3487479"]
         },
         {
           "nombre": "Fiscalía N° 14 Seccional 56",
           "direccion": "Aristóbulo del Valle 1540, Las Heras, Mendoza",
-          "telefonos": [
-            "3488100"
-          ]
+          "telefonos": ["3488100"]
         }
       ]
     },
@@ -197,12 +135,8 @@
       "organismos": [
         {
           "nombre": "Asesor de Menores",
-          "telefonos": [
-            "2615097845"
-          ],
-          "correos": [
-            "abusosLASHERAS@jus.mendoza.gov.ar"
-          ]
+          "telefonos": ["2615097845"],
+          "correos": ["abusosLASHERAS@jus.mendoza.gov.ar"]
         }
       ]
     }

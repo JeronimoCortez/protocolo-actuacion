@@ -12,7 +12,10 @@
     },
     {
       "nombre": "Subdirección de Género",
-      "telefonos": ["3853127", "2617687994"],
+      "telefonos": [
+        "3853127",
+        "2617687994"
+      ],
       "correo": "genero-dge@mendoza.gov.ar"
     },
     {
@@ -155,7 +158,7 @@
         {
           "nombre": "CPAA Lavalle",
           "georreferencia": "Lavalle",
-          "atencion":"Lunes a viernes, de 8 a 17",
+          "atencion": "Lunes a viernes, de 8 a 17",
           "telefono": "2617532087",
           "direccion": "Doctor Moreno s/n, Costa de Araujo",
           "correo": "cconsumoproblematicocostalv@gmail.com"
@@ -226,7 +229,7 @@
     {
       "nombre": "Dirección de la Mujer, género y diversidad",
       "descripcion": "1° Circunscripción Judicial",
-      "numero": "2614498622",
+      "numero": ["2614498622", "8656"],
       "whatsapp": [
         {
           "atencion": "Lunes a Viernes de 7:30 a 13:30",
@@ -271,7 +274,7 @@
     {
       "nombre": "Defensoría de las personas con discapacidad",
       "telefono": "4493882",
-      "whatsapp": "263862360",
+      "whatsapp": "2613862360",
       "correo": "defensoriadediscapacidad@gmail.com"
     },
     {
@@ -315,163 +318,47 @@
       "nombre": "Equipos Técnicos Interdisciplinarios (ETI)",
       "descripcion_guardia": "La Guardia Provincial trabaja las 24 horas, los 365 días del año y actúa durante el horario en que las oficinas de ETI permanecen cerradas, fines de semana y feriados.",
       "guardias": [
-        {
-          "nombre": "Guardia Diurna",
-          "horario": "8 a 18",
-          "telefono": "2615592696"
-        },
-        {
-          "nombre": "Guardia Nocturna",
-          "horario": "18 a 4",
-          "telefono": "2612066735"
-        },
-        {
-          "nombre": "Guardia Profesionales",
-          "horario": "4 a 8",
-          "telefono": "2615595705"
-        }
+        {"nombre": "Guardia Diurna", "horario": "8 a 18", "telefono": "2615592696"},
+        {"nombre": "Guardia Nocturna", "horario": "18 a 4", "telefono": "2612066735"},
+        {"nombre": "Guardia Profesionales", "horario": "4 a 8", "telefono": "2615595705"}
       ],
       "equipos": [
-        {
-          "nombre": "ETI de Capital",
-          "direccion": "Pasaje Lemos 535 – Ciudad de Mendoza",
-          "telefonos": ["4236994"],
-          "correos": ["spdcapital@mendoza.gov.ar", "gmaragna@mendoza.gov.ar"]
-        },
-        {
-          "nombre": "ETI de Godoy Cruz",
-          "direccion": "Las Heras 52 – Godoy Cruz",
-          "telefonos": ["4229306", "2615594517"],
-          "correos": ["spdgodoycruz@mendoza.gov.ar", "vavidela@mendoza.gov.ar"]
-        },
-        {
-          "nombre": "ETI de Maipú",
-          "direccion": "Maza 131 – Maipú",
-          "telefonos": ["4810896"],
-          "correos": [
-            "spdmaipu@mendoza.gov.ar",
-            "msanchezcuello@mendoza.gov.ar"
-          ]
-        },
-        {
-          "nombre": "ETI de Guaymallén",
-          "direccion": "Bolivia 414 – Guaymallén",
-          "telefonos": ["4212948"],
-          "correos": ["spdguaymallen@mendoza.gov.ar", "maxperez@mendoza.gov.ar"]
-        },
-        {
-          "nombre": "ETI de Luján de Cuyo",
-          "direccion": "Carlos María Alvear 73 – Luján de Cuyo",
-          "telefonos": ["4984145", "2616661088"],
-          "correos": ["spdlujan@mendoza.gov.ar", "sscavarda@mendoza.gov.ar"]
-        },
-        {
-          "nombre": "ETI de Las Heras",
-          "direccion": "Barrio Jardín Los Andes M9 C5, Luis Pasteur 2000 – Las Heras",
-          "telefonos": ["4122592"],
-          "correos": ["spdlasheras@mendoza.gov.ar"]
-        },
-        {
-          "nombre": "ETI de Lavalle",
-          "direccion": "Calle Abraham Toum 48, Villa Tulumaya – Lavalle",
-          "telefonos": ["2616655974"],
-          "correos": ["spdlavalle@mendoza.gov.ar", "dsuans@mendoza.gov.ar"]
-        },
-        {
-          "nombre": "ETI de Tunuyán",
-          "direccion": "Yrigoyen 950 – Tunuyán",
-          "telefonos": ["2622423978", "2612069913"],
-          "correos": ["spdtunuyan@mendoza.gov.ar", "apmiranda@mendoza.gov.ar"]
-        },
-        {
-          "nombre": "ETI de San Carlos",
-          "direccion": "Bernardo Quiroga 425 – Eugenio Bustos, San Carlos",
-          "telefonos": ["0262721476"],
-          "correos": ["spdsancarlos@mendoza.gov.ar", "cordivini@mendoza.gov.ar"]
-        },
-        {
-          "nombre": "ETI de Tupungato",
-          "direccion": "Laprida 55 – Tupungato",
-          "telefonos": ["2622488669"],
-          "correos": ["spdtupungato@mendoza.gov.ar", "mmcardoso@mendoza.gov.ar"]
-        },
-        {
-          "nombre": "ETI de San Martín",
-          "direccion": "9 de Julio 421 – San Martín",
-          "telefonos": ["2634424821"],
-          "correos": [
-            "spdsanmartin@mendoza.gov.ar",
-            "casandrarossi@mendoza.gov.ar"
-          ]
-        },
-        {
-          "nombre": "ETI de La Paz",
-          "direccion": "Av. San Martín 645 – La Paz",
-          "telefonos": ["2613679698"],
-          "correos": ["spdlapaz@mendoza.gov.ar", "ssquiroga@mendoza.gov.ar"]
-        },
-        {
-          "nombre": "ETI de Rivadavia",
-          "direccion": "Lavalle 664 – Rivadavia",
-          "telefonos": ["2634443200"],
-          "correos": ["spdrivadavia@mendoza.gov.ar", "vpantone@mendoza.gov.ar"]
-        },
-        {
-          "nombre": "ETI de Junín",
-          "telefonos": ["2634492288"],
-          "correos": ["spdjunin@mendoza.gov.ar", "jgizzi@mendoza.gov.ar"]
-        },
-        {
-          "nombre": "ETI de Santa Rosa",
-          "direccion": "Julio A. Roca 368 – Santa Rosa",
-          "telefonos": ["2634497053", "2615181494"],
-          "correos": ["spdsantarosa@mendoza.gov.ar", "gscaccia@mendoza.gov.ar"]
-        },
-        {
-          "nombre": "ETI de San Rafael",
-          "direccion": "Libertador 245 – San Rafael",
-          "telefonos": ["2604422243"],
-          "correos": ["spdsanrafael@mendoza.gov.ar", "mcamacho@mendoza.gov.ar"]
-        },
-        {
-          "nombre": "ETI de Malargüe",
-          "direccion": "Uriburu 117 – Malargüe",
-          "telefonos": ["2604470056"],
-          "correos": ["spdmalargue@mendoza.gov.ar", "alvergara@mendoza.gov.ar"]
-        },
-        {
-          "nombre": "ETI de General Alvear",
-          "direccion": "Belgrano 192 – General Alvear",
-          "telefonos": ["2625425521"],
-          "correos": [
-            "spdgeneralalvear@mendoza.gov.ar",
-            "jpparola@mendoza.gov.ar"
-          ]
-        }
+        {"nombre": "ETI de Capital", "direccion": "Pasaje Lemos 535 – Ciudad de Mendoza", "telefonos": ["4236994"], "correos": ["spdcapital@mendoza.gov.ar", "gmaragna@mendoza.gov.ar"]},
+        {"nombre": "ETI de Godoy Cruz", "direccion": "Las Heras 52 – Godoy Cruz", "telefonos": ["4229306", "2615594517"], "correos": ["spdgodoycruz@mendoza.gov.ar", "vavidela@mendoza.gov.ar"]},
+        {"nombre": "ETI de Maipú", "direccion": "Maza 131 – Maipú", "telefonos": ["4810896"], "correos": ["spdmaipu@mendoza.gov.ar", "msanchezcuello@mendoza.gov.ar"]},
+        {"nombre": "ETI de Guaymallén", "direccion": "Bolivia 414 – Guaymallén", "telefonos": ["4212948"], "correos": ["spdguaymallen@mendoza.gov.ar", "maxperez@mendoza.gov.ar"]},
+        {"nombre": "ETI de Luján de Cuyo", "direccion": "Carlos María Alvear 73 – Luján de Cuyo", "telefonos": ["4984145", "2616661088"], "correos": ["spdlujan@mendoza.gov.ar", "sscavarda@mendoza.gov.ar"]},
+        {"nombre": "ETI de Las Heras", "direccion": "Barrio Jardín Los Andes M9 C5, Luis Pasteur 2000 – Las Heras", "telefonos": ["4122592"], "correos": ["spdlasheras@mendoza.gov.ar"]},
+        {"nombre": "ETI de Lavalle", "direccion": "Calle Abraham Toum 48, Villa Tulumaya – Lavalle", "telefonos": ["2616655974"], "correos": ["spdlavalle@mendoza.gov.ar", "dsuans@mendoza.gov.ar"]},
+        {"nombre": "ETI de Tunuyán", "direccion": "Yrigoyen 950 – Tunuyán", "telefonos": ["2622423978", "2612069913"], "correos": ["spdtunuyan@mendoza.gov.ar", "apmiranda@mendoza.gov.ar"]},
+        {"nombre": "ETI de San Carlos", "direccion": "Bernardo Quiroga 425 – Eugenio Bustos, San Carlos", "telefonos": ["0262721476"], "correos": ["spdsancarlos@mendoza.gov.ar", "cordivini@mendoza.gov.ar"]},
+        {"nombre": "ETI de Tupungato", "direccion": "Laprida 55 – Tupungato", "telefonos": ["2622488669"], "correos": ["spdtupungato@mendoza.gov.ar", "mmcardoso@mendoza.gov.ar"]},
+        {"nombre": "ETI de San Martín", "direccion": "9 de Julio 421 – San Martín", "telefonos": ["2634424821"], "correos": ["spdsanmartin@mendoza.gov.ar", "casandrarossi@mendoza.gov.ar"]},
+        {"nombre": "ETI de La Paz", "direccion": "Av. San Martín 645 – La Paz", "telefonos": ["2613679698"], "correos": ["spdlapaz@mendoza.gov.ar", "ssquiroga@mendoza.gov.ar"]},
+        {"nombre": "ETI de Rivadavia", "direccion": "Lavalle 664 – Rivadavia", "telefonos": ["2634443200"], "correos": ["spdrivadavia@mendoza.gov.ar", "vpantone@mendoza.gov.ar"]},
+        {"nombre": "ETI de Junín", "telefonos": ["2634492288"], "correos": ["spdjunin@mendoza.gov.ar", "jgizzi@mendoza.gov.ar"]},
+        {"nombre": "ETI de Santa Rosa", "direccion": "Julio A. Roca 368 – Santa Rosa", "telefonos": ["2634497053", "2615181494"], "correos": ["spdsantarosa@mendoza.gov.ar", "gscaccia@mendoza.gov.ar"]},
+        {"nombre": "ETI de San Rafael", "direccion": "Libertador 245 – San Rafael", "telefonos": ["2604422243"], "correos": ["spdsanrafael@mendoza.gov.ar", "mcamacho@mendoza.gov.ar"]},
+        {"nombre": "ETI de Malargüe", "direccion": "Uriburu 117 – Malargüe", "telefonos": ["2604470056"], "correos": ["spdmalargue@mendoza.gov.ar", "alvergara@mendoza.gov.ar"]},
+        {"nombre": "ETI de General Alvear", "direccion": "Belgrano 192 – General Alvear", "telefonos": ["2625425521"], "correos": ["spdgeneralalvear@mendoza.gov.ar", "jpparola@mendoza.gov.ar"]}
       ],
       "fuente": "https://informacionoficial.mendoza.gob.ar/educacion-cultura-infancias-dge/educacion-cultura-infancias-y-dge-mendoza/infancias-adolescencias-y-juventudes-mendoza/etis-mendoza/"
     },
     {
-        "nombre": "Dirección de Salud Mental y Consumos Problemáticos de la provincia de Mendoza",
-        "telefono": [
-            {
-                "numero": "148",
-                "opcion": "0"
-            }
-        ]
+      "nombre": "Dirección de Salud Mental y Consumos Problemáticos de la provincia de Mendoza",
+      "telefono": [{"numero": "148", "opcion": "0"}]
     },
     {
-        "nombre": "Denuncia de Violencias y Bullying",
-        "telefono": [
-            {
-                "numero": "148",
-                "opcion": "4"
-            }
-        ]
+      "nombre": "Unidad de Atención Permanente de Salud Itinerante (UAPSI)",
+      "direccion": "Córdoba 554, Ciudad, Mendoza"
     },
     {
-        "nombre": "Mapeo integral de escuelas y efectores de salud. Dirección de Planificación Territorial del Ministerio de Gobierno",
-        "enlace": "https://ide.mendoza.gov.ar/portal/home/"
+      "nombre": "Denuncia de Violencias y Bullying",
+      "telefono": [{"numero": "148", "opcion": "4"}]
+    },
+    {
+      "nombre": "Mapeo integral de escuelas y efectores de salud. Dirección de Planificación Territorial del Ministerio de Gobierno",
+      "enlace": "https://ide.mendoza.gov.ar/portal/home/"
     }
   ]
 }

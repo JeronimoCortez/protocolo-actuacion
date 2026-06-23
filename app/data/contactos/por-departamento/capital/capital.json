@@ -8,15 +8,16 @@
           "nombre": "Centro Integrador Comunitario",
           "direccion": "9 de Julio 3565, Mendoza",
           "telefonos": ["4300441"],
-          "correos": ["cic1@ciudaddemendoza.gov.ar"]
-        },
-        {
-          "nombre": "Centro de Salud Nº300",
-          "direccion": "Cordón del Plata s/n B° San Martín",
-          "telefonos": ["4444792"]
+          "correos": ["ppmiciccapital@mendoza.gov.ar"]
         },
         {
           "nombre": "Centro de Salud Nº1",
+          "direccion": "Cordón del Plata s/n B° San Martín",
+          "telefonos": ["4444792"],
+          "correos": ["ppmics1@mendoza.gov.ar"]
+        },
+        {
+          "nombre": "Centro de Salud Nº300",
           "direccion": "Camino Acceso a Papagallos y calle de la escuela B° La Favorita",
           "telefonos": ["4447129"]
         }

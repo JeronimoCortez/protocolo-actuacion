@@ -7,12 +7,14 @@ import { navItems } from "../data/home";
 import ejeCinco from "../data/ejes/ejeCinco.json";
 import ejeCuatro from "../data/ejes/ejeCuatro.json";
 import ejeDos from "../data/ejes/ejeDos.json";
+import ejeNueve from "../data/ejes/ejeNueve.json";
 import ejeOcho from "../data/ejes/ejeOcho.json";
 import ejeSeis from "../data/ejes/ejeSeis.json";
 import ejeSiete from "../data/ejes/ejeSiete.json";
 import ejeTres from "../data/ejes/ejeTres.json";
 import ejeUno from "../data/ejes/ejeUno.json";
 import FloatingEmergencyFab from "../components/FloatingEmergencyFab";
+import ProtocolStepsPdfActions from "../components/ProtocolStepsPdfActions";
 import {
   buildSearchKeywords,
   prepareFlexibleSearchIndex,
@@ -28,6 +30,7 @@ const RAW_EJES = [
   ejeSeis,
   ejeSiete,
   ejeOcho,
+  ejeNueve,
 ];
 
 const CATEGORY_KEYS = ["categorias", "subcategorias", "subcatergorias"];
@@ -307,6 +310,122 @@ function normalizeSimpleItems(source) {
     if (isObject(item)) return item;
     return { descripcion: String(item) };
   });
+}
+
+function sanitizeFileNameSegment(value) {
+  return String(value ?? "")
+    .trim()
+    .replace(/[<>:"/\\|?*\u0000-\u001F]+/g, "-")
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+function getSelectedStepCondition(stepConditions, stepConditionPath, conditionSelections) {
+  if (!stepConditions.length) return null;
+  const selectedKey = conditionSelections[stepConditionPath] ?? "0";
+  const selectedIndex = Number.parseInt(selectedKey, 10);
+  const resolvedIndex = Number.isNaN(selectedIndex) ? 0 : selectedIndex;
+  const selectedCondition = stepConditions[resolvedIndex] ?? stepConditions[0] ?? null;
+  return selectedCondition ? { condition: selectedCondition, index: resolvedIndex } : null;
+}
+
+function buildProtocolPdfBlocks(node, path, conditionSelections, title = null, depth = 0) {
+  if (!isObject(node)) return [];
+
+  const blocks = [];
+
+  if (title) {
+    blocks.push({ type: "heading", level: Math.min(6, depth + 2), text: title });
+    blocks.push({ type: "spacer", height: 6 });
+  }
+
+  const stepGroups = extractStepGroups(node.pasos, `${path}/pasos`);
+  stepGroups.forEach((group) => {
+    if (group.title) {
+      blocks.push({ type: "heading", level: Math.min(6, depth + 3), text: group.title });
+    }
+
+    group.steps.forEach((step, stepIndex) => {
+      const stepId = `${group.id}/step-${stepIndex}`;
+      const stepConditions = Array.isArray(step.condiciones) ? step.condiciones.filter(isObject) : [];
+      const stepConditionPath = `${stepId}/condiciones`;
+      const selectedStepConditionInfo = getSelectedStepCondition(stepConditions, stepConditionPath, conditionSelections);
+      const selectedStepCondition = selectedStepConditionInfo?.condition ?? null;
+      const files = getFileRefsFromStep(step).map((fileRef, fileIndex) => {
+        const fileName = String(fileRef).split("/").filter(Boolean).pop();
+        return fileName ?? `archivo ${fileIndex + 1}`;
+      });
+
+      blocks.push({
+        type: "step",
+        stepLabel: `Paso ${step.paso}`,
+        description: step.descripcion ?? "",
+        note: step.nota ?? "",
+        actions: Array.isArray(step.acciones) ? step.acciones.map((action) => String(action)) : [],
+        condition: selectedStepCondition
+          ? {
+              title: getConditionTitle(selectedStepCondition, selectedStepConditionInfo?.index ?? 0),
+              actions: Array.isArray(selectedStepCondition.acciones)
+                ? selectedStepCondition.acciones.map((action) => String(action))
+                : [],
+            }
+          : null,
+        criteria: Array.isArray(step.criterios)
+          ? step.criterios.map((criterion, criterionIndex) => ({
+              title: criterion?.tipo ?? `Criterio ${criterionIndex + 1}`,
+              description: criterion?.descripcion ?? "",
+            }))
+          : [],
+        files,
+      });
+    });
+  });
+
+  const conditionObject = isObject(node.condicion) ? node.condicion : null;
+  if (conditionObject) {
+    blocks.push(
+      ...buildProtocolPdfBlocks(
+        conditionObject,
+        `${path}/condicion`,
+        conditionSelections,
+        conditionObject.condicion ? `Condicion: ${conditionObject.condicion}` : "Condicion",
+        depth + 1
+      )
+    );
+  }
+
+  getConditionEntries(node, path, conditionSelections).forEach(({ condition, index }) => {
+    blocks.push(
+      ...buildProtocolPdfBlocks(
+        condition,
+        `${path}/condiciones/${index}`,
+        conditionSelections,
+        getConditionTitle(condition, index),
+        depth + 1
+      )
+    );
+  });
+
+  getActionEntries(node, path, conditionSelections).forEach(({ action, index }) => {
+    blocks.push(
+      ...buildProtocolPdfBlocks(
+        action,
+        `${path}/acciones/${index}`,
+        conditionSelections,
+        action.condicion ?? action.descripcion ?? action.titulo ?? `Accion ${index + 1}`,
+        depth + 1
+      )
+    );
+  });
+
+  extractChildren(node).forEach((child, index) => {
+    blocks.push(
+      ...buildProtocolPdfBlocks(child.value, `${path}/${child.label}/${index}`, conditionSelections, buildCategoryTitle(child), depth + 1)
+    );
+  });
+
+  return blocks;
 }
 
 function getPanelThemeClasses(theme = "emerald") {
@@ -758,6 +877,46 @@ function ProtocolosPageContent() {
   }, [activeCategory, activeSubcategory, selectedSubeje]);
 
   const scopeKey = `${selectedEje?.id ?? "sin-eje"}::${selectedSubeje?.id ?? "sin-subeje"}::${activeCategory?.key ?? "all"}::${activeSubcategory?.key ?? "all"}`;
+
+  const selectedSubejeTitle = useMemo(() => {
+    const code = selectedSubeje?.numero ?? "General";
+    const name = selectedSubeje?.nombre ?? "";
+    return name ? `${code} - ${name}` : String(code);
+  }, [selectedSubeje]);
+
+  const protocolPdfBlocks = useMemo(() => {
+    if (!selectedEje || !selectedSubeje || !protocolNode) return [];
+
+    const blocks = [
+      {
+        type: "paragraph",
+        text: `Eje ${selectedEje.numero}: ${selectedEje.nombre}`,
+        fontStyle: "bold",
+        spaceAfter: 4,
+      },
+    ];
+
+    if (protocolTitle && protocolTitle !== selectedSubejeTitle) {
+      blocks.push({
+        type: "paragraph",
+        text: `Vista actual: ${protocolTitle}`,
+        spaceAfter: 6,
+      });
+    } else {
+      blocks.push({ type: "spacer", height: 6 });
+    }
+
+    blocks.push(...buildProtocolPdfBlocks(protocolNode, `${scopeKey}/root`, conditionSelections));
+
+    return blocks;
+  }, [conditionSelections, protocolNode, protocolTitle, scopeKey, selectedEje, selectedSubeje, selectedSubejeTitle]);
+
+  const protocolPdfFilename = useMemo(() => {
+    const ejeSegment = sanitizeFileNameSegment(`eje-${selectedEje?.numero ?? "general"}`);
+    const subejeSegment = sanitizeFileNameSegment(selectedSubejeTitle || "subeje");
+    return `protocolos-${ejeSegment}-${subejeSegment || "documento"}.pdf`;
+  }, [selectedEje?.numero, selectedSubejeTitle]);
+
   const allSteps = useMemo(
     () => (protocolNode ? collectStepEntries(protocolNode, `${scopeKey}/root`, conditionSelections) : []),
     [protocolNode, scopeKey, conditionSelections]
@@ -1187,7 +1346,14 @@ function ProtocolosPageContent() {
               />
 
               <div className="surface-card rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-5">
-                <p className="card-title text-sm">Avance de pasos</p>
+                <div className="flex flex-wrap items-center justify-between gap-3">
+                  <p className="card-title text-sm">Avance de pasos</p>
+                  <ProtocolStepsPdfActions
+                    documentTitle={selectedSubejeTitle}
+                    filename={protocolPdfFilename}
+                    blocks={protocolPdfBlocks}
+                  />
+                </div>
                 <div className="mt-2 space-y-2">
                   <div className="control-text flex items-center justify-between">
                     <span>

@@ -45,3 +45,8 @@ En **CEBJA, CENS y CEPAS**, establecer contacto con la DEPJA (Dirección de Educ
 - Equipos de orientación Seccionales e institucionales (DEPJA)
 
 Esta articulación permitirá contar con el acompañamiento de profesionales capacitados que puedan brindar orientación, asesoramiento y recursos específicos, así como establecer articulaciones con otras instituciones para fortalecer las estrategias institucionales.
+
+### Líneas de consulta y denuncia
+
+- **Línea 102:** Servicio gratuito y confidencial de atención a niños/as y adolescentes.
+- **ChatBot TINA** por WhatsApp al +54 9 11 3910-1010.

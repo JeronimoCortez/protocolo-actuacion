@@ -45,6 +45,10 @@
         {
           "paso": "10",
           "descripcion": "Dar seguimiento al caso."
+        },
+        {
+          "paso": "11",
+          "descripcion": "Iniciar acciones vinculadas a los factores protectores."
         }
       ]
     },
@@ -91,6 +95,10 @@
         {
           "paso": "10",
           "descripcion": "Dar seguimiento al caso."
+        },
+        {
+          "paso": "11",
+          "descripcion": "Iniciar acciones vinculadas a los factores protectores."
         }
       ]
     },

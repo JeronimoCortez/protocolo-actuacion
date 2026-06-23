@@ -12,6 +12,8 @@ En casos de ausentismo se aplicará la normativa vigente emitida por la DGE seg�
 
 ## 5.5.2. Desconocimiento del paradero de un estudiante
 
+Conforme a los lineamientos establecidos por el Sistema Federal de Búsqueda de Personas Desaparecidas y Extraviadas (SIFEBU) y lo dispuesto por el Ministerio de Seguridad de la Nación y el artículo 174 del Código Procesal Penal de la Nación, cualquier persona se encuentra facultada para efectuar la denuncia por averiguación de paradero, exista o no relación de parentesco o vínculo con la persona desaparecida.
+
 **No es necesario esperar 24 horas para radicar una denuncia por averiguación de paradero.** La intervención temprana es clave para resguardar el derecho a la vida, a la integridad y a la protección de NNA.
 
 Las situaciones en las que se desconoce el paradero de un estudiante constituyen un acontecimiento crítico que interpela a la escuela en su función pedagógica y de cuidado, tanto si ocurre **dentro** como **fuera** del horario escolar.
@@ -24,7 +26,9 @@ La **averiguación de paradero** es un procedimiento oficial en el que se busca 
 - El NNA ingresa a la escuela y no se encuentra dentro del establecimiento, o no regresa después de una actividad deportiva, salida pedagógica, etc.
 - El NNA sale de la escuela y el responsable legal informa que no ha llegado a la casa o actividad programada.
 
-La intervención requiere articular procedimientos claros, coordinados con los organismos competentes. La forma en que la escuela responde ante estos episodios incide tanto en la localización del estudiante como en la construcción de confianza y seguridad en la comunidad educativa.
+La intervención requiere articular procedimientos claros, coordinados con los organismos competentes. La forma en que la escuela responde ante estos episodios no solo incide en la localización del estudiante, sino también en la construcción de confianza y seguridad en la comunidad educativa.
+
+Abordar estas situaciones implica reconocer que cada práctica de cuidado es también una práctica educativa, y que la forma en que la escuela responde deja una huella en la construcción de ciudadanía y en la percepción de la escuela como un espacio seguro.
 
 ## 5.5.3. No retiran al estudiante NNA en el horario previsto (Nivel Inicial y Primario)
 
@@ -63,3 +67,9 @@ En **Educación Especial**, establecer contacto también con los Equipos de la M
 En **CEBJA, CENS y CEPAS**, establecer contacto además con la DEPJA (Dirección de Educación Permanente de Jóvenes y Adultos):
 - Equipo Técnico Pedagógico Central (DEPJA)
 - Equipos de orientación Seccionales e institucionales (DEPJA)
+
+### Líneas de consulta y denuncia
+
+- **Línea 102:** Servicio gratuito y confidencial de atención a niños/as y adolescentes.
+- **ChatBot TINA** por WhatsApp al +54 9 11 3910-1010.
+- **Línea 134:** Denuncias Ministerio de Seguridad de la Nación.

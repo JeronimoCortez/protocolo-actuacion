@@ -1,4 +1,4 @@
-# 5.6. Fundamentos conceptuales del Eje 6: Crisis emocional y Fallecimiento de estudiante o Personal de la Institución
+# 5.6. Fundamentos conceptuales del Eje 6: Crisis emocional
 
 ## 5.6.1. Crisis Emocionales
 
@@ -40,20 +40,3 @@ En **CEBJA, CENS y CEPAS**, establecer contacto además con la DEPJA (Dirección
   - **Línea 148 – opción 0:** Servicio gratuito provincial de Salud Mental para orientación, contención y acompañamiento profesional.
   - **Línea 102:** Servicio gratuito y confidencial de atención a niños/as y adolescentes.
   - **ChatBot TINA** por WhatsApp al +54 9 11 3910-1010.
-
-## 5.6.3. Fallecimiento de estudiante o Personal de la institución educativa
-
-La muerte de algún miembro de la comunidad educativa genera un impacto profundo y resulta difícil de asimilar en la escena educativa. Para que pueda ser comprendida y afrontada como acontecimiento doloroso, requiere de **espacios de intercambio, reflexión y acompañamiento**, con actitudes de acogida y cuidado que permitan poner en palabras y simbolizar ideas y sentimientos, facilitando así los procesos de duelo y de significación de la vida.
-
-Las orientaciones propuestas están dirigidas a la intervención socioeducativa, entendiendo que el fallecimiento puede asumir distintas características:
-
-- Repentino o no repentino
-- Accidental
-- Resultante de violencias
-- De personas adultas, niñas, niños o adolescentes
-- Ocurrido dentro o fuera de la institución
-
-Se distinguen dos situaciones en el procedimiento:
-
-- **(a)** Fallecimiento de NNA o personal de la institución educativa **dentro** de la institución.
-- **(b)** Fallecimiento de NNA o personal de la institución educativa en **ámbito distinto** al educativo.

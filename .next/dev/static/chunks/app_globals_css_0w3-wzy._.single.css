@@ -1434,6 +1434,10 @@ p, li, td, th, label, input, select, button, textarea {
   text-transform: uppercase;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .leading-6 {
   line-height: 1.5rem;
 }
@@ -1986,6 +1990,10 @@ svg {
 .disabled\:bg-slate-100:disabled {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity, 1));
+}
+
+.disabled\:opacity-50:disabled {
+  opacity: .5;
 }
 
 .group:hover .group-hover\:translate-x-1 {

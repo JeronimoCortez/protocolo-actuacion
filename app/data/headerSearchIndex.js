@@ -1,6 +1,7 @@
 ﻿import ejeCinco from "./ejes/ejeCinco.json";
 import ejeCuatro from "./ejes/ejeCuatro.json";
 import ejeDos from "./ejes/ejeDos.json";
+import ejeNueve from "./ejes/ejeNueve.json";
 import ejeOcho from "./ejes/ejeOcho.json";
 import ejeSeis from "./ejes/ejeSeis.json";
 import ejeSiete from "./ejes/ejeSiete.json";
@@ -32,7 +33,7 @@ import tunuyanData from "./contactos/por-departamento/tunuyan/tunuyan.json";
 import tupungatoData from "./contactos/por-departamento/tupungato/tupungato.json";
 import generalAlvearData from "./contactos/por-departamento/general-alvear/general-alvear.json";
 
-const EJE_DATASETS = [ejeUno, ejeDos, ejeTres, ejeCuatro, ejeCinco, ejeSeis, ejeSiete, ejeOcho];
+const EJE_DATASETS = [ejeUno, ejeDos, ejeTres, ejeCuatro, ejeCinco, ejeSeis, ejeSiete, ejeOcho, ejeNueve];
 
 const DEPARTMENT_SOURCES = [
   { label: "Capital", data: capitalData },

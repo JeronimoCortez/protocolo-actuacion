@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "17b0ff5caa94fc35f2979595d1cf260d",
-    "previewModeSigningKey": "5b87176aabad351596ea7ffecd9918e898379ed4bd18bff17ac60377f4edb98b",
-    "previewModeEncryptionKey": "86791f494047abf8e12f8d2526772c12268d5905287d9e2dbf16463f84ef78da"
-  }
-}
+{"version":4,"routes":{"/marco-teorico/eje-1-violencias":{},"/marco-teorico/eje-2-consumos-problematicos":{},"/marco-teorico/eje-3-suicidio-autolesiones":{},"/marco-teorico/eje-4-trabajo-infantil":{},"/marco-teorico/eje-5-ausentismo":{},"/marco-teorico/eje-6-crisis-emocional":{},"/marco-teorico/eje-7-fallecimiento":{},"/marco-teorico/eje-8-armas-explosivos":{},"/marco-teorico/eje-9-comunicacion-institucional":{}},"dynamicRoutes":{"/marco-teorico/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/marco-teorico/[slug]","routeRegex":"^\\/marco\\-teorico\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"a63c18795ccd00583dd78de13b2116dd","previewModeSigningKey":"4bf376f5bc3555d3e9b357830bade3e19d1f74e20483ddd5dee820449ae0b8d9","previewModeEncryptionKey":"81cca2466dcc8145cd4a92ce46d22799ee1af540b2ed09dd4683b4ff4c64ba99"}}
