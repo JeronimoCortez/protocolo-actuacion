@@ -1,8 +1,10 @@
 "use client";
 
+import { useRef, useEffect } from "react";
 import { jsPDF } from "jspdf";
 
 const PAGE_MARGIN = 44;
+const TOP_OFFSET = 20;
 
 function normalizeInlineText(text) {
   return String(text || "")
@@ -100,6 +102,15 @@ function buildPrintableHtml({ documentTitle, blocks }) {
   const content = blocks.map((block) => renderBlockHtml(block)).join("");
   const escapedTitle = escapeHtml(documentTitle || "Documento");
 
+  const headerHtml = `
+    <div class="print-header">
+      <img src="/logo-dae.png" alt="Logo DAE" class="print-header-logo" />
+    </div>
+    <hr class="print-header-sep" />
+  `;
+
+  const footerHtml = `<div class="print-footer">PROTOCOLO DE ACTUACION - DAE</div>`;
+
   return `<!doctype html>
     <html lang="es">
       <head>
@@ -119,6 +130,21 @@ function buildPrintableHtml({ documentTitle, blocks }) {
           body {
             -webkit-print-color-adjust: exact;
             print-color-adjust: exact;
+          }
+          .print-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 4px;
+          }
+          .print-header-logo {
+            width: 140px;
+            height: auto;
+          }
+          .print-header-sep {
+            border: none;
+            border-top: 1px solid #e2e8f0;
+            margin: 0 0 12px;
           }
           .sheet {
             width: 100%;
@@ -234,7 +260,36 @@ function buildPrintableHtml({ documentTitle, blocks }) {
             font-size: 11px;
             color: #475569;
           }
+          .print-footer {
+            text-align: center;
+            font-size: 8px;
+            color: #64748b;
+          }
           @media print {
+            body { padding-top: 16mm; padding-bottom: 10mm; }
+            .print-header {
+              position: fixed;
+              top: 0;
+              left: 0;
+              right: 0;
+              padding: 6mm 14mm 0;
+              background: #ffffff;
+              z-index: 1000;
+            }
+            .print-header-sep {
+              position: fixed;
+              top: 14mm;
+              left: 14mm;
+              right: 14mm;
+              z-index: 1000;
+            }
+            .print-footer {
+              position: fixed;
+              bottom: 4mm;
+              left: 0;
+              right: 0;
+              z-index: 1000;
+            }
             .print-step,
             .print-list li,
             .print-heading {
@@ -245,9 +300,11 @@ function buildPrintableHtml({ documentTitle, blocks }) {
       </head>
       <body>
         <main class="sheet">
+          ${headerHtml}
           <h1 class="print-title">${escapedTitle}</h1>
           ${content}
         </main>
+        ${footerHtml}
         <script>
           window.addEventListener("load", () => {
             setTimeout(() => {
@@ -261,18 +318,42 @@ function buildPrintableHtml({ documentTitle, blocks }) {
     </html>`;
 }
 
-function createPdfDocument({ documentTitle, blocks }) {
+function createPdfDocument({ documentTitle, blocks, logoData }) {
   const doc = new jsPDF({ unit: "pt", format: "a4" });
   const pageWidth = doc.internal.pageSize.getWidth();
   const pageHeight = doc.internal.pageSize.getHeight();
   const contentWidth = pageWidth - PAGE_MARGIN * 2;
 
-  let y = PAGE_MARGIN;
+  let y = PAGE_MARGIN + TOP_OFFSET;
+
+  function drawPageHeader() {
+    if (logoData) {
+      try {
+        doc.addImage(logoData, "PNG", PAGE_MARGIN, 12, 140, 28);
+      } catch {}
+    }
+    doc.setDrawColor(226, 232, 240);
+    doc.setLineWidth(0.5);
+    doc.line(PAGE_MARGIN, 42, pageWidth - PAGE_MARGIN, 42);
+  }
+
+  function drawPageFooter() {
+    doc.setFont("helvetica", "normal");
+    doc.setFontSize(8);
+    doc.setTextColor(100, 116, 139);
+    doc.text("PROTOCOLO DE ACTUACION - DAE", pageWidth / 2, pageHeight - 18, { align: "center" });
+    doc.setTextColor(0, 0, 0);
+  }
+
+  drawPageHeader();
+  drawPageFooter();
 
   function ensureSpace(minHeight = 24) {
     if (y + minHeight > pageHeight - PAGE_MARGIN) {
       doc.addPage();
-      y = PAGE_MARGIN;
+      drawPageHeader();
+      drawPageFooter();
+      y = PAGE_MARGIN + TOP_OFFSET;
     }
   }
 
@@ -300,6 +381,9 @@ function createPdfDocument({ documentTitle, blocks }) {
 
     for (const line of lines) {
       ensureSpace(lineHeightPt + 4);
+      doc.setFont("helvetica", fontStyle);
+      doc.setFontSize(fontSize);
+      doc.setTextColor(30, 41, 59);
       doc.text(line, PAGE_MARGIN + indent, y);
       y += lineHeightPt;
     }
@@ -309,7 +393,7 @@ function createPdfDocument({ documentTitle, blocks }) {
 
   function drawHeading(text, level = 2) {
     if (level <= 1) {
-      drawTextBlock(text, { fontSize: 18, fontStyle: "bold", lineHeight: 1.2, spaceAfter: 14 });
+      drawTextBlock(text, { fontSize: 18, fontStyle: "bold", lineHeight: 1.2, spaceAfter: 18 });
       return;
     }
 
@@ -344,6 +428,8 @@ function createPdfDocument({ documentTitle, blocks }) {
     const titleIndent = 18;
     const titleFontSize = 12;
     const titleLineHeight = titleFontSize * 1.3;
+    doc.setFont("helvetica", "bold");
+    doc.setFontSize(titleFontSize);
     const titleLines = doc.splitTextToSize(title, Math.max(80, contentWidth - titleIndent));
 
     ensureSpace((titleLines.length + 1) * titleLineHeight + 40);
@@ -351,10 +437,11 @@ function createPdfDocument({ documentTitle, blocks }) {
     doc.setLineWidth(1);
     doc.rect(PAGE_MARGIN, y + 2, checkboxSize, checkboxSize);
 
-    doc.setFont("helvetica", "bold");
-    doc.setFontSize(titleFontSize);
     titleLines.forEach((line) => {
       ensureSpace(titleLineHeight + 4);
+      doc.setFont("helvetica", "bold");
+      doc.setFontSize(titleFontSize);
+      doc.setTextColor(30, 41, 59);
       doc.text(line, PAGE_MARGIN + titleIndent, y);
       y += titleLineHeight;
     });
@@ -412,7 +499,7 @@ function createPdfDocument({ documentTitle, blocks }) {
       drawList(block.files, { indent: titleIndent + 6, spaceAfter: 4 });
     }
 
-    y += 4;
+    y += 10;
   }
 
   doc.setProperties({ title: normalizeInlineText(documentTitle) || "Documento" });
@@ -460,9 +547,24 @@ export default function ProtocolStepsPdfActions({
   blocks = [],
   disabled = false,
 }) {
+  const logoDataRef = useRef(null);
+
+  useEffect(() => {
+    const img = new Image();
+    img.onload = () => {
+      const canvas = document.createElement("canvas");
+      canvas.width = img.naturalWidth;
+      canvas.height = img.naturalHeight;
+      const ctx = canvas.getContext("2d");
+      ctx.drawImage(img, 0, 0);
+      logoDataRef.current = canvas.toDataURL("image/png");
+    };
+    img.src = "/logo-dae.png";
+  }, []);
+
   const handleDownload = () => {
     if (disabled || !blocks.length) return;
-    const doc = createPdfDocument({ documentTitle, blocks });
+    const doc = createPdfDocument({ documentTitle, blocks, logoData: logoDataRef.current });
     doc.save(filename);
   };
 
@@ -471,7 +573,7 @@ export default function ProtocolStepsPdfActions({
     const printWindow = window.open("", "_blank", "width=900,height=700");
 
     if (!printWindow) {
-      const doc = createPdfDocument({ documentTitle, blocks });
+      const doc = createPdfDocument({ documentTitle, blocks, logoData: logoDataRef.current });
       doc.save(filename);
       return;
     }

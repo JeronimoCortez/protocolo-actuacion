@@ -28,9 +28,23 @@ export default function PrintSectionButton({
             table { border-collapse: collapse; width: 100%; margin: 12px 0; }
             th, td { border: 1px solid #cbd5e1; text-align: left; padding: 6px 8px; vertical-align: top; }
             a { color: #1d4ed8; text-decoration: underline; }
+            .print-header { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
+            .print-header-logo { width: 140px; height: auto; }
+            .print-header-title { font-size: 14px; font-weight: 700; color: #0f172a; letter-spacing: -0.01em; }
+            .print-header-sep { border: none; border-top: 1px solid #e2e8f0; margin: 0 0 12px; }
+            @media print {
+              body { padding-top: 22mm; }
+              .print-header { position: fixed; top: 0; left: 0; right: 0; padding: 6mm 14mm 0; background: #fff; z-index: 1000; }
+              .print-header-sep { position: fixed; top: 17mm; left: 14mm; right: 14mm; z-index: 1000; }
+            }
           </style>
         </head>
         <body>
+          <div class="print-header">
+            <img src="/logo-dae.png" alt="Logo DAE" class="print-header-logo" />
+            <span class="print-header-title">PROTOCOLO DE ACTUACION</span>
+          </div>
+          <hr class="print-header-sep" />
           ${section.innerHTML}
         </body>
       </html>

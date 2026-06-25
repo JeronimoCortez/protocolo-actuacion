@@ -24,6 +24,8 @@ import tunuyanData from "../data/contactos/por-departamento/tunuyan/tunuyan.json
 import tupungatoData from "../data/contactos/por-departamento/tupungato/tupungato.json";
 import generalAlvearData from "../data/contactos/por-departamento/general-alvear/general-alvear.json";
 import FloatingEmergencyFab from "../components/FloatingEmergencyFab";
+import DownloadContactsTableButton from "../components/DownloadContactsTableButton";
+import PrintContactsTableButton from "../components/PrintContactsTableButton";
 import {
   buildSearchKeywords,
   prepareFlexibleSearchIndex,
@@ -476,6 +478,14 @@ function RecursosContactosPageContent() {
     return { left, right };
   }, [visibleContacts]);
 
+  const printTitle = useMemo(() => {
+    if (selectedSearchContactId) return "Contacto seleccionado";
+    if (appliedSearchQuery.trim()) return `Resultados: "${appliedSearchQuery}"`;
+    if (activeFilter === "interes") return "Datos de interes";
+    const dept = DEPARTMENT_SOURCES.find((d) => d.id === selectedDepartment);
+    return `Contactos - ${dept?.label ?? "Departamento"}`;
+  }, [activeFilter, appliedSearchQuery, selectedDepartment, selectedSearchContactId]);
+
   useEffect(() => {
     const headerSearch = String(searchParams.get("search") ?? "").trim();
     if (!headerSearch) return;
@@ -693,9 +703,21 @@ function RecursosContactosPageContent() {
         </section>
 
         <section className="space-y-3">
-          <p className="card-title text-sm text-slate-700">
-            {visibleContacts.length} contacto{visibleContacts.length === 1 ? "" : "s"} encontrados
-          </p>
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <p className="card-title text-sm text-slate-700">
+              {visibleContacts.length} contacto{visibleContacts.length === 1 ? "" : "s"} encontrados
+            </p>
+            <DownloadContactsTableButton
+              contacts={visibleContacts}
+              title={printTitle}
+              filename={`contactos-${Date.now()}.pdf`}
+            />
+            <PrintContactsTableButton
+              contacts={visibleContacts}
+              title={printTitle}
+              label="Imprimir tabla"
+            />
+          </div>
 
           {visibleContacts.length ? (
             <div className="grid gap-3 md:grid-cols-2">

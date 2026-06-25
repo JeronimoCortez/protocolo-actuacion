@@ -1,9 +1,11 @@
 "use client";
 
+import { useRef, useEffect } from "react";
 import { jsPDF } from "jspdf";
 import autoTable from "jspdf-autotable";
 
 const PAGE_MARGIN = 44;
+const TOP_OFFSET = 20;
 
 function normalizeInlineMarkdown(text) {
   return String(text || "")
@@ -24,18 +26,59 @@ export default function DownloadMarcoTeoricoPdfButton({
   title = "Marco Teórico General",
   filename = "marco-teorico-general.pdf",
 }) {
+  const logoDataRef = useRef(null);
+
+  useEffect(() => {
+    const img = new Image();
+    img.onload = () => {
+      const canvas = document.createElement("canvas");
+      canvas.width = img.naturalWidth;
+      canvas.height = img.naturalHeight;
+      const ctx = canvas.getContext("2d");
+      ctx.drawImage(img, 0, 0);
+      logoDataRef.current = canvas.toDataURL("image/png");
+    };
+    img.src = "/logo-dae.png";
+  }, []);
+
   const handleDownload = () => {
     const doc = new jsPDF({ unit: "pt", format: "a4" });
     const pageWidth = doc.internal.pageSize.getWidth();
     const pageHeight = doc.internal.pageSize.getHeight();
     const contentWidth = pageWidth - PAGE_MARGIN * 2;
 
-    let y = PAGE_MARGIN;
+    const logoData = logoDataRef.current;
+
+    let y = PAGE_MARGIN + TOP_OFFSET;
+
+    function drawPageHeader() {
+      if (logoData) {
+        try {
+          doc.addImage(logoData, "PNG", PAGE_MARGIN, 12, 140, 28);
+        } catch {}
+      }
+      doc.setDrawColor(226, 232, 240);
+      doc.setLineWidth(0.5);
+      doc.line(PAGE_MARGIN, 42, pageWidth - PAGE_MARGIN, 42);
+    }
+
+    function drawPageFooter() {
+      doc.setFont("helvetica", "normal");
+      doc.setFontSize(8);
+      doc.setTextColor(100, 116, 139);
+      doc.text("PROTOCOLO DE ACTUACION - DAE", pageWidth / 2, pageHeight - 18, { align: "center" });
+      doc.setTextColor(0, 0, 0);
+    }
+
+    drawPageHeader();
+    drawPageFooter();
 
     function ensureSpace(minHeight = 24) {
       if (y + minHeight > pageHeight - PAGE_MARGIN) {
         doc.addPage();
-        y = PAGE_MARGIN;
+        drawPageHeader();
+        drawPageFooter();
+        y = PAGE_MARGIN + TOP_OFFSET;
       }
     }
 
@@ -63,6 +106,9 @@ export default function DownloadMarcoTeoricoPdfButton({
 
       for (const line of lines) {
         ensureSpace(lineHeightPt + 4);
+        doc.setFont("helvetica", fontStyle);
+        doc.setFontSize(fontSize);
+        doc.setTextColor(30, 41, 59);
         doc.text(line, PAGE_MARGIN + indent, y);
         y += lineHeightPt;
       }
@@ -70,7 +116,7 @@ export default function DownloadMarcoTeoricoPdfButton({
       y += spaceAfter;
     }
 
-    drawTextBlock(title, { fontSize: 18, fontStyle: "bold", lineHeight: 1.2, spaceAfter: 16 });
+    drawTextBlock(title, { fontSize: 18, fontStyle: "bold", lineHeight: 1.2, spaceAfter: 20 });
 
     for (const block of blocks) {
       if (block.type === "heading") {

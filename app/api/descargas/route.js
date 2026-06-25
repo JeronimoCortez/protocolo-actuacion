@@ -264,7 +264,7 @@ function createSimplePdfFromText(text, title = "Documento") {
     printableLines.push(...wrapped);
   }
 
-  const linesPerPage = 44;
+  const linesPerPage = 41;
   const pages = [];
   for (let i = 0; i < printableLines.length; i += linesPerPage) {
     pages.push(printableLines.slice(i, i + linesPerPage));
@@ -282,7 +282,23 @@ function createSimplePdfFromText(text, title = "Documento") {
     pageIds.push(pageId);
     contentIds.push(contentId);
 
-    const contentOps = ["BT", "/F1 11 Tf", "56 790 Td", "14 TL"];
+    const contentOps = [
+      "BT",
+      "/F2 13 Tf",
+      "56 790 Td",
+      "(PROTOCOLO DE ACTUACION) Tj",
+      "ET",
+      "q",
+      "0.5 w",
+      "56 772 m",
+      "556 772 l",
+      "S",
+      "Q",
+      "BT",
+      "/F1 11 Tf",
+      "56 758 Td",
+      "14 TL",
+    ];
     for (const line of pageLines) {
       const safe = escapePdfText(Buffer.from(line, "latin1").toString("latin1"));
       contentOps.push(`(${safe}) Tj`);
@@ -302,7 +318,7 @@ function createSimplePdfFromText(text, title = "Documento") {
     const pageObject =
       `${pageId} 0 obj\n` +
       "<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] " +
-      "/Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> >> >> " +
+      "/Resources << /Font << /F1 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >> /F2 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >> >> >> " +
       `/Contents ${contentId} 0 R >>\n` +
       "endobj\n";
 
