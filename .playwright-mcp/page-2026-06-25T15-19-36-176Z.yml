@@ -1,0 +1,724 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Protocolo de Actuacion Escolar" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Protocolo de Actuacion Escolar" [ref=e6]
+      - navigation [ref=e7]:
+        - link "Inicio" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "Protocolos" [ref=e9] [cursor=pointer]:
+          - /url: /protocolos
+        - link "Marco Teórico" [ref=e10] [cursor=pointer]:
+          - /url: /marco-teorico
+        - link "Recursos y Contactos" [ref=e11] [cursor=pointer]:
+          - /url: /recursos-contactos
+      - generic [ref=e13]:
+        - img [ref=e14]
+        - textbox "Buscar" [ref=e17]:
+          - /placeholder: Buscar títulos...
+  - main [ref=e18]:
+    - generic [ref=e19]:
+      - heading "Recursos y contactos" [level=1] [ref=e20]
+      - paragraph [ref=e21]: Filtra por datos de interes o por departamento. Cada tarjeta muestra un numero o enlace principal y el resto de la informacion en desplegable.
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - button "Datos de interes Ver todos los contactos de referencia general." [ref=e24] [cursor=pointer]:
+          - paragraph [ref=e25]: Datos de interes
+          - paragraph [ref=e26]: Ver todos los contactos de referencia general.
+        - button "Por departamento Buscar organismos segun el departamento." [ref=e27] [cursor=pointer]:
+          - paragraph [ref=e28]: Por departamento
+          - paragraph [ref=e29]: Buscar organismos segun el departamento.
+      - generic [ref=e31]:
+        - text: Buscar contactos
+        - generic [ref=e32]:
+          - textbox "Buscar contactos" [ref=e33]:
+            - /placeholder: Nombre, telefono, correo o direccion
+          - button "Buscar en todos los contactos" [ref=e34] [cursor=pointer]:
+            - img [ref=e35]
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - paragraph [ref=e39]: 75 contactos encontrados
+        - button "Imprimir tabla" [active] [ref=e40] [cursor=pointer]
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - article [ref=e43]:
+            - button "Dirección de Acompañamiento Escolar (DAE) Datos de interes 4231473" [ref=e44] [cursor=pointer]:
+              - generic [ref=e45]:
+                - paragraph [ref=e46]: Dirección de Acompañamiento Escolar (DAE)
+                - paragraph [ref=e47]: Datos de interes
+              - generic [ref=e48]:
+                - link "4231473" [ref=e49]:
+                  - /url: tel:4231473
+                - img [ref=e51]
+          - article [ref=e53]:
+            - button "Subdirección de Género Datos de interes 3853127" [ref=e54] [cursor=pointer]:
+              - generic [ref=e55]:
+                - paragraph [ref=e56]: Subdirección de Género
+                - paragraph [ref=e57]: Datos de interes
+              - generic [ref=e58]:
+                - link "3853127" [ref=e59]:
+                  - /url: tel:3853127
+                - img [ref=e61]
+          - article [ref=e63]:
+            - button "Víctimas de Delitos Datos de interes https://informacionoficial.mendoza.gob.ar/seguridadyjusticia/atencion-a-victimas-de-delito/" [ref=e64] [cursor=pointer]:
+              - generic [ref=e65]:
+                - paragraph [ref=e66]: Víctimas de Delitos
+                - paragraph [ref=e67]: Datos de interes
+              - generic [ref=e68]:
+                - link "https://informacionoficial.mendoza.gob.ar/seguridadyjusticia/atencion-a-victimas-de-delito/" [ref=e69]:
+                  - /url: https://informacionoficial.mendoza.gob.ar/seguridadyjusticia/atencion-a-victimas-de-delito/
+                - img [ref=e71]
+          - article [ref=e73]:
+            - button "Programa Provincial de Prevención y Atención Integral del Maltrato a la Niñez y Adolescencia (PPMI) Datos de interes 102" [ref=e74] [cursor=pointer]:
+              - generic [ref=e75]:
+                - paragraph [ref=e76]: Programa Provincial de Prevención y Atención Integral del Maltrato a la Niñez y Adolescencia (PPMI)
+                - paragraph [ref=e77]: Datos de interes
+              - generic [ref=e78]:
+                - link "102" [ref=e79]:
+                  - /url: tel:102
+                - img [ref=e81]
+          - article [ref=e83]:
+            - button "Centro Infanto Juvenil 1 — Godoy Cruz Datos de interes · Centros de Salud Mental Infanto-Juvenil 4220836" [ref=e84] [cursor=pointer]:
+              - generic [ref=e85]:
+                - paragraph [ref=e86]: Centro Infanto Juvenil 1 — Godoy Cruz
+                - paragraph [ref=e87]: Datos de interes · Centros de Salud Mental Infanto-Juvenil
+              - generic [ref=e88]:
+                - link "4220836" [ref=e89]:
+                  - /url: tel:4220836
+                - img [ref=e91]
+          - article [ref=e93]:
+            - button "Centro Infanto Juvenil 3 — Rodeo del Medio Datos de interes · Centros de Salud Mental Infanto-Juvenil 4952666" [ref=e94] [cursor=pointer]:
+              - generic [ref=e95]:
+                - paragraph [ref=e96]: Centro Infanto Juvenil 3 — Rodeo del Medio
+                - paragraph [ref=e97]: Datos de interes · Centros de Salud Mental Infanto-Juvenil
+              - generic [ref=e98]:
+                - link "4952666" [ref=e99]:
+                  - /url: tel:4952666
+                - img [ref=e101]
+          - article [ref=e103]:
+            - button "Centro Infanto Juvenil 5 — San Martín Datos de interes · Centros de Salud Mental Infanto-Juvenil 02634432957" [ref=e104] [cursor=pointer]:
+              - generic [ref=e105]:
+                - paragraph [ref=e106]: Centro Infanto Juvenil 5 — San Martín
+                - paragraph [ref=e107]: Datos de interes · Centros de Salud Mental Infanto-Juvenil
+              - generic [ref=e108]:
+                - link "02634432957" [ref=e109]:
+                  - /url: tel:02634432957
+                - img [ref=e111]
+          - article [ref=e113]:
+            - button "Centro Infanto Juvenil 7 — San Rafael Datos de interes · Centros de Salud Mental Infanto-Juvenil 02604445947" [ref=e114] [cursor=pointer]:
+              - generic [ref=e115]:
+                - paragraph [ref=e116]: Centro Infanto Juvenil 7 — San Rafael
+                - paragraph [ref=e117]: Datos de interes · Centros de Salud Mental Infanto-Juvenil
+              - generic [ref=e118]:
+                - link "02604445947" [ref=e119]:
+                  - /url: tel:02604445947
+                - img [ref=e121]
+          - article [ref=e123]:
+            - button "Centro Infanto Juvenil 9 — Tupungato Datos de interes · Centros de Salud Mental Infanto-Juvenil 02613898035" [ref=e124] [cursor=pointer]:
+              - generic [ref=e125]:
+                - paragraph [ref=e126]: Centro Infanto Juvenil 9 — Tupungato
+                - paragraph [ref=e127]: Datos de interes · Centros de Salud Mental Infanto-Juvenil
+              - generic [ref=e128]:
+                - link "02613898035" [ref=e129]:
+                  - /url: tel:02613898035
+                - img [ref=e131]
+          - article [ref=e133]:
+            - button "Coordinación Central - CPAA Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA) 4294017" [ref=e134] [cursor=pointer]:
+              - generic [ref=e135]:
+                - paragraph [ref=e136]: Coordinación Central - CPAA
+                - paragraph [ref=e137]: Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA)
+              - generic [ref=e138]:
+                - link "4294017" [ref=e139]:
+                  - /url: tel:4294017
+                - img [ref=e141]
+          - article [ref=e143]:
+            - button "CPAA Godoy Cruz Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA) 02614228633" [ref=e144] [cursor=pointer]:
+              - generic [ref=e145]:
+                - paragraph [ref=e146]: CPAA Godoy Cruz
+                - paragraph [ref=e147]: Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA)
+              - generic [ref=e148]:
+                - link "02614228633" [ref=e149]:
+                  - /url: tel:02614228633
+                - img [ref=e151]
+          - article [ref=e153]:
+            - button "CPAA Luján de Cuyo Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA) 2612473293" [ref=e154] [cursor=pointer]:
+              - generic [ref=e155]:
+                - paragraph [ref=e156]: CPAA Luján de Cuyo
+                - paragraph [ref=e157]: Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA)
+              - generic [ref=e158]:
+                - link "2612473293" [ref=e159]:
+                  - /url: tel:2612473293
+                - img [ref=e161]
+          - article [ref=e163]:
+            - button "CPAA Lavalle Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA) 2617532087" [ref=e164] [cursor=pointer]:
+              - generic [ref=e165]:
+                - paragraph [ref=e166]: CPAA Lavalle
+                - paragraph [ref=e167]: Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA)
+              - generic [ref=e168]:
+                - link "2617532087" [ref=e169]:
+                  - /url: tel:2617532087
+                - img [ref=e171]
+          - article [ref=e173]:
+            - button "CPAA Tupungato Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA) 026175532086" [ref=e174] [cursor=pointer]:
+              - generic [ref=e175]:
+                - paragraph [ref=e176]: CPAA Tupungato
+                - paragraph [ref=e177]: Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA)
+              - generic [ref=e178]:
+                - link "026175532086" [ref=e179]:
+                  - /url: tel:026175532086
+                - img [ref=e181]
+          - article [ref=e183]:
+            - button "CPAA San Carlos Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA) 02617532088" [ref=e184] [cursor=pointer]:
+              - generic [ref=e185]:
+                - paragraph [ref=e186]: CPAA San Carlos
+                - paragraph [ref=e187]: Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA)
+              - generic [ref=e188]:
+                - link "02617532088" [ref=e189]:
+                  - /url: tel:02617532088
+                - img [ref=e191]
+          - article [ref=e193]:
+            - button "CPAA General Alvear Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA) 02625422165" [ref=e194] [cursor=pointer]:
+              - generic [ref=e195]:
+                - paragraph [ref=e196]: CPAA General Alvear
+                - paragraph [ref=e197]: Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA)
+              - generic [ref=e198]:
+                - link "02625422165" [ref=e199]:
+                  - /url: tel:02625422165
+                - img [ref=e201]
+          - article [ref=e203]:
+            - button "Ministerio Público Fiscal Datos de interes 2614497748" [ref=e204] [cursor=pointer]:
+              - generic [ref=e205]:
+                - paragraph [ref=e206]: Ministerio Público Fiscal
+                - paragraph [ref=e207]: Datos de interes
+              - generic [ref=e208]:
+                - link "2614497748" [ref=e209]:
+                  - /url: tel:2614497748
+                - img [ref=e211]
+          - article [ref=e213]:
+            - button "Poder Judicial en el Fuero de Familias Datos de interes https://jusmendoza.gob.ar/fuero-familia-%C2%B7-inicio/" [ref=e214] [cursor=pointer]:
+              - generic [ref=e215]:
+                - paragraph [ref=e216]: Poder Judicial en el Fuero de Familias
+                - paragraph [ref=e217]: Datos de interes
+              - generic [ref=e218]:
+                - link "https://jusmendoza.gob.ar/fuero-familia-%C2%B7-inicio/" [ref=e219]:
+                  - /url: https://jusmendoza.gob.ar/fuero-familia-%C2%B7-inicio/
+                - img [ref=e221]
+          - article [ref=e223]:
+            - button "Oficina de Asistencia a Víctimas y Testigos de Delitos Datos de interes · Direccion de Derechos Humanos y Acceso a la Justicia 4498650" [ref=e224] [cursor=pointer]:
+              - generic [ref=e225]:
+                - paragraph [ref=e226]: Oficina de Asistencia a Víctimas y Testigos de Delitos
+                - paragraph [ref=e227]: Datos de interes · Direccion de Derechos Humanos y Acceso a la Justicia
+              - generic [ref=e228]:
+                - link "4498650" [ref=e229]:
+                  - /url: tel:4498650
+                - img [ref=e231]
+          - article [ref=e233]:
+            - button "Comisión Provincial para la Erradicación del Trabajo Infantil Datos de interes 4413312" [ref=e234] [cursor=pointer]:
+              - generic [ref=e235]:
+                - paragraph [ref=e236]: Comisión Provincial para la Erradicación del Trabajo Infantil
+                - paragraph [ref=e237]: Datos de interes
+              - generic [ref=e238]:
+                - link "4413312" [ref=e239]:
+                  - /url: tel:4413312
+                - img [ref=e241]
+          - article [ref=e243]:
+            - button "Dirección de Atención a las Personas con Discapacidad Datos de interes 4253756" [ref=e244] [cursor=pointer]:
+              - generic [ref=e245]:
+                - paragraph [ref=e246]: Dirección de Atención a las Personas con Discapacidad
+                - paragraph [ref=e247]: Datos de interes
+              - generic [ref=e248]:
+                - link "4253756" [ref=e249]:
+                  - /url: tel:4253756
+                - img [ref=e251]
+          - article [ref=e253]:
+            - button "Defensoría del Personal Docente (DePE) Datos de interes depedge@gmail.com" [ref=e254] [cursor=pointer]:
+              - generic [ref=e255]:
+                - paragraph [ref=e256]: Defensoría del Personal Docente (DePE)
+                - paragraph [ref=e257]: Datos de interes
+              - generic [ref=e258]:
+                - link "depedge@gmail.com" [ref=e259]:
+                  - /url: mailto:depedge@gmail.com
+                - img [ref=e261]
+          - article [ref=e263]:
+            - button "Dirección de Salud Mental y Consumos Problemáticos Datos de interes 4253964" [ref=e264] [cursor=pointer]:
+              - generic [ref=e265]:
+                - paragraph [ref=e266]: Dirección de Salud Mental y Consumos Problemáticos
+                - paragraph [ref=e267]: Datos de interes
+              - generic [ref=e268]:
+                - link "4253964" [ref=e269]:
+                  - /url: tel:4253964
+                - img [ref=e271]
+          - article [ref=e273]:
+            - button "Programa Provincial para el Abordaje de Problemática del Suicidio (Dirección de Salud Mental y Consumo Problemáticos) Datos de interes 4253964" [ref=e274] [cursor=pointer]:
+              - generic [ref=e275]:
+                - paragraph [ref=e276]: Programa Provincial para el Abordaje de Problemática del Suicidio (Dirección de Salud Mental y Consumo Problemáticos)
+                - paragraph [ref=e277]: Datos de interes
+              - generic [ref=e278]:
+                - link "4253964" [ref=e279]:
+                  - /url: tel:4253964
+                - img [ref=e281]
+          - article [ref=e283]:
+            - button "Dirección General de Responsabilidad Penal Juvenil (DGRPJ) Datos de interes 4492165" [ref=e284] [cursor=pointer]:
+              - generic [ref=e285]:
+                - paragraph [ref=e286]: Dirección General de Responsabilidad Penal Juvenil (DGRPJ)
+                - paragraph [ref=e287]: Datos de interes
+              - generic [ref=e288]:
+                - link "4492165" [ref=e289]:
+                  - /url: tel:4492165
+                - img [ref=e291]
+          - article [ref=e293]:
+            - button "ETI de Capital Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 4236994" [ref=e294] [cursor=pointer]:
+              - generic [ref=e295]:
+                - paragraph [ref=e296]: ETI de Capital
+                - paragraph [ref=e297]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e298]:
+                - link "4236994" [ref=e299]:
+                  - /url: tel:4236994
+                - img [ref=e301]
+          - article [ref=e303]:
+            - button "ETI de Maipú Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 4810896" [ref=e304] [cursor=pointer]:
+              - generic [ref=e305]:
+                - paragraph [ref=e306]: ETI de Maipú
+                - paragraph [ref=e307]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e308]:
+                - link "4810896" [ref=e309]:
+                  - /url: tel:4810896
+                - img [ref=e311]
+          - article [ref=e313]:
+            - button "ETI de Luján de Cuyo Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 4984145" [ref=e314] [cursor=pointer]:
+              - generic [ref=e315]:
+                - paragraph [ref=e316]: ETI de Luján de Cuyo
+                - paragraph [ref=e317]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e318]:
+                - link "4984145" [ref=e319]:
+                  - /url: tel:4984145
+                - img [ref=e321]
+          - article [ref=e323]:
+            - button "ETI de Lavalle Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 2616655974" [ref=e324] [cursor=pointer]:
+              - generic [ref=e325]:
+                - paragraph [ref=e326]: ETI de Lavalle
+                - paragraph [ref=e327]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e328]:
+                - link "2616655974" [ref=e329]:
+                  - /url: tel:2616655974
+                - img [ref=e331]
+          - article [ref=e333]:
+            - button "ETI de San Carlos Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 0262721476" [ref=e334] [cursor=pointer]:
+              - generic [ref=e335]:
+                - paragraph [ref=e336]: ETI de San Carlos
+                - paragraph [ref=e337]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e338]:
+                - link "0262721476" [ref=e339]:
+                  - /url: tel:0262721476
+                - img [ref=e341]
+          - article [ref=e343]:
+            - button "ETI de San Martín Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 2634424821" [ref=e344] [cursor=pointer]:
+              - generic [ref=e345]:
+                - paragraph [ref=e346]: ETI de San Martín
+                - paragraph [ref=e347]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e348]:
+                - link "2634424821" [ref=e349]:
+                  - /url: tel:2634424821
+                - img [ref=e351]
+          - article [ref=e353]:
+            - button "ETI de Rivadavia Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 2634443200" [ref=e354] [cursor=pointer]:
+              - generic [ref=e355]:
+                - paragraph [ref=e356]: ETI de Rivadavia
+                - paragraph [ref=e357]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e358]:
+                - link "2634443200" [ref=e359]:
+                  - /url: tel:2634443200
+                - img [ref=e361]
+          - article [ref=e363]:
+            - button "ETI de Santa Rosa Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 2634497053" [ref=e364] [cursor=pointer]:
+              - generic [ref=e365]:
+                - paragraph [ref=e366]: ETI de Santa Rosa
+                - paragraph [ref=e367]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e368]:
+                - link "2634497053" [ref=e369]:
+                  - /url: tel:2634497053
+                - img [ref=e371]
+          - article [ref=e373]:
+            - button "ETI de Malargüe Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 2604470056" [ref=e374] [cursor=pointer]:
+              - generic [ref=e375]:
+                - paragraph [ref=e376]: ETI de Malargüe
+                - paragraph [ref=e377]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e378]:
+                - link "2604470056" [ref=e379]:
+                  - /url: tel:2604470056
+                - img [ref=e381]
+          - article [ref=e383]:
+            - button "Guardia Diurna Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 2615592696" [ref=e384] [cursor=pointer]:
+              - generic [ref=e385]:
+                - paragraph [ref=e386]: Guardia Diurna
+                - paragraph [ref=e387]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e388]:
+                - link "2615592696" [ref=e389]:
+                  - /url: tel:2615592696
+                - img [ref=e391]
+          - article [ref=e393]:
+            - button "Guardia Profesionales Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 2615595705" [ref=e394] [cursor=pointer]:
+              - generic [ref=e395]:
+                - paragraph [ref=e396]: Guardia Profesionales
+                - paragraph [ref=e397]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e398]:
+                - link "2615595705" [ref=e399]:
+                  - /url: tel:2615595705
+                - img [ref=e401]
+          - article [ref=e403]:
+            - button "Unidad de Atención Permanente de Salud Itinerante (UAPSI) Datos de interes Sin dato principal" [ref=e404] [cursor=pointer]:
+              - generic [ref=e405]:
+                - paragraph [ref=e406]: Unidad de Atención Permanente de Salud Itinerante (UAPSI)
+                - paragraph [ref=e407]: Datos de interes
+              - generic [ref=e408]:
+                - generic "Sin dato principal" [ref=e409]
+                - img [ref=e411]
+          - article [ref=e413]:
+            - button "Mapeo integral de escuelas y efectores de salud. Dirección de Planificación Territorial del Ministerio de Gobierno Datos de interes https://ide.mendoza.gov.ar/portal/home/" [ref=e414] [cursor=pointer]:
+              - generic [ref=e415]:
+                - paragraph [ref=e416]: Mapeo integral de escuelas y efectores de salud. Dirección de Planificación Territorial del Ministerio de Gobierno
+                - paragraph [ref=e417]: Datos de interes
+              - generic [ref=e418]:
+                - link "https://ide.mendoza.gov.ar/portal/home/" [ref=e419]:
+                  - /url: https://ide.mendoza.gov.ar/portal/home/
+                - img [ref=e421]
+        - generic [ref=e423]:
+          - article [ref=e424]:
+            - button "Servicios Coordinados de Emergencias Datos de interes 911" [ref=e425] [cursor=pointer]:
+              - generic [ref=e426]:
+                - paragraph [ref=e427]: Servicios Coordinados de Emergencias
+                - paragraph [ref=e428]: Datos de interes
+              - generic [ref=e429]:
+                - link "911" [ref=e430]:
+                  - /url: tel:911
+                - img [ref=e432]
+          - article [ref=e434]:
+            - button "Infraestructura de datos especiales de la provincia de Mendoza (IDEP Mendoza) Datos de interes https://ide.mendoza.gov.ar/portal/home/" [ref=e435] [cursor=pointer]:
+              - generic [ref=e436]:
+                - paragraph [ref=e437]: Infraestructura de datos especiales de la provincia de Mendoza (IDEP Mendoza)
+                - paragraph [ref=e438]: Datos de interes
+              - generic [ref=e439]:
+                - link "https://ide.mendoza.gov.ar/portal/home/" [ref=e440]:
+                  - /url: https://ide.mendoza.gov.ar/portal/home/
+                - img [ref=e442]
+          - article [ref=e444]:
+            - button "Unidad Fiscal Delitos Contra La Integridad Sexual Datos de interes https://mpfmza.jus.mendoza.gov.ar/guia-mpf/" [ref=e445] [cursor=pointer]:
+              - generic [ref=e446]:
+                - paragraph [ref=e447]: Unidad Fiscal Delitos Contra La Integridad Sexual
+                - paragraph [ref=e448]: Datos de interes
+              - generic [ref=e449]:
+                - link "https://mpfmza.jus.mendoza.gov.ar/guia-mpf/" [ref=e450]:
+                  - /url: https://mpfmza.jus.mendoza.gov.ar/guia-mpf/
+                - img [ref=e452]
+          - article [ref=e454]:
+            - button "Coordinación Central - Centros de Salud Mental Infanto-Juvenil Datos de interes · Centros de Salud Mental Infanto-Juvenil 4294017" [ref=e455] [cursor=pointer]:
+              - generic [ref=e456]:
+                - paragraph [ref=e457]: Coordinación Central - Centros de Salud Mental Infanto-Juvenil
+                - paragraph [ref=e458]: Datos de interes · Centros de Salud Mental Infanto-Juvenil
+              - generic [ref=e459]:
+                - link "4294017" [ref=e460]:
+                  - /url: tel:4294017
+                - img [ref=e462]
+          - article [ref=e464]:
+            - button "Centro Infanto Juvenil 2 — Capital Datos de interes · Centros de Salud Mental Infanto-Juvenil 4307424" [ref=e465] [cursor=pointer]:
+              - generic [ref=e466]:
+                - paragraph [ref=e467]: Centro Infanto Juvenil 2 — Capital
+                - paragraph [ref=e468]: Datos de interes · Centros de Salud Mental Infanto-Juvenil
+              - generic [ref=e469]:
+                - link "4307424" [ref=e470]:
+                  - /url: tel:4307424
+                - img [ref=e472]
+          - article [ref=e474]:
+            - button "Centro Infanto Juvenil 4 — Tunuyán Datos de interes · Centros de Salud Mental Infanto-Juvenil 02622422935" [ref=e475] [cursor=pointer]:
+              - generic [ref=e476]:
+                - paragraph [ref=e477]: Centro Infanto Juvenil 4 — Tunuyán
+                - paragraph [ref=e478]: Datos de interes · Centros de Salud Mental Infanto-Juvenil
+              - generic [ref=e479]:
+                - link "02622422935" [ref=e480]:
+                  - /url: tel:02622422935
+                - img [ref=e482]
+          - article [ref=e484]:
+            - button "Centro Infanto Juvenil 6 — Lavalle Datos de interes · Centros de Salud Mental Infanto-Juvenil 02615452802" [ref=e485] [cursor=pointer]:
+              - generic [ref=e486]:
+                - paragraph [ref=e487]: Centro Infanto Juvenil 6 — Lavalle
+                - paragraph [ref=e488]: Datos de interes · Centros de Salud Mental Infanto-Juvenil
+              - generic [ref=e489]:
+                - link "02615452802" [ref=e490]:
+                  - /url: tel:02615452802
+                - img [ref=e492]
+          - article [ref=e494]:
+            - button "Centro Infanto Juvenil 8 — Guaymallén Datos de interes · Centros de Salud Mental Infanto-Juvenil 4265132" [ref=e495] [cursor=pointer]:
+              - generic [ref=e496]:
+                - paragraph [ref=e497]: Centro Infanto Juvenil 8 — Guaymallén
+                - paragraph [ref=e498]: Datos de interes · Centros de Salud Mental Infanto-Juvenil
+              - generic [ref=e499]:
+                - link "4265132" [ref=e500]:
+                  - /url: tel:4265132
+                - img [ref=e502]
+          - article [ref=e504]:
+            - button "Programa Provincial de Salud Integral en Adolescencia Datos de interes 4201890" [ref=e505] [cursor=pointer]:
+              - generic [ref=e506]:
+                - paragraph [ref=e507]: Programa Provincial de Salud Integral en Adolescencia
+                - paragraph [ref=e508]: Datos de interes
+              - generic [ref=e509]:
+                - link "4201890" [ref=e510]:
+                  - /url: tel:4201890
+                - img [ref=e512]
+          - article [ref=e514]:
+            - button "CPAA Capital Tejada Gómez Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA) 2614292081" [ref=e515] [cursor=pointer]:
+              - generic [ref=e516]:
+                - paragraph [ref=e517]: CPAA Capital Tejada Gómez
+                - paragraph [ref=e518]: Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA)
+              - generic [ref=e519]:
+                - link "2614292081" [ref=e520]:
+                  - /url: tel:2614292081
+                - img [ref=e522]
+          - article [ref=e524]:
+            - button "CPAA Las Heras Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA) 2617508665" [ref=e525] [cursor=pointer]:
+              - generic [ref=e526]:
+                - paragraph [ref=e527]: CPAA Las Heras
+                - paragraph [ref=e528]: Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA)
+              - generic [ref=e529]:
+                - link "2617508665" [ref=e530]:
+                  - /url: tel:2617508665
+                - img [ref=e532]
+          - article [ref=e534]:
+            - button "CPAA Zona Este Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA) 02634433783" [ref=e535] [cursor=pointer]:
+              - generic [ref=e536]:
+                - paragraph [ref=e537]: CPAA Zona Este
+                - paragraph [ref=e538]: Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA)
+              - generic [ref=e539]:
+                - link "02634433783" [ref=e540]:
+                  - /url: tel:02634433783
+                - img [ref=e542]
+          - article [ref=e544]:
+            - button "CPAA Tunuyán Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA) 26213830032" [ref=e545] [cursor=pointer]:
+              - generic [ref=e546]:
+                - paragraph [ref=e547]: CPAA Tunuyán
+                - paragraph [ref=e548]: Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA)
+              - generic [ref=e549]:
+                - link "26213830032" [ref=e550]:
+                  - /url: tel:26213830032
+                - img [ref=e552]
+          - article [ref=e554]:
+            - button "CPAA Valle de Uco Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA) 26213830032" [ref=e555] [cursor=pointer]:
+              - generic [ref=e556]:
+                - paragraph [ref=e557]: CPAA Valle de Uco
+                - paragraph [ref=e558]: Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA)
+              - generic [ref=e559]:
+                - link "26213830032" [ref=e560]:
+                  - /url: tel:26213830032
+                - img [ref=e562]
+          - article [ref=e564]:
+            - button "CPAA San Rafael Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA) 2614446152" [ref=e565] [cursor=pointer]:
+              - generic [ref=e566]:
+                - paragraph [ref=e567]: CPAA San Rafael
+                - paragraph [ref=e568]: Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA)
+              - generic [ref=e569]:
+                - link "2614446152" [ref=e570]:
+                  - /url: tel:2614446152
+                - img [ref=e572]
+          - article [ref=e574]:
+            - button "CPAA Malargüe Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA) 2617508669" [ref=e575] [cursor=pointer]:
+              - generic [ref=e576]:
+                - paragraph [ref=e577]: CPAA Malargüe
+                - paragraph [ref=e578]: Datos de interes · Centros Provinciales de Atención en Adicciones (CPAA)
+              - generic [ref=e579]:
+                - link "2617508669" [ref=e580]:
+                  - /url: tel:2617508669
+                - img [ref=e582]
+          - article [ref=e584]:
+            - 'button "Ministerio Público de la Defensa y Pupilar: ASESORES DE MENORES E INCAPACES Datos de interes 2614497788" [ref=e585] [cursor=pointer]':
+              - generic [ref=e586]:
+                - paragraph [ref=e587]: "Ministerio Público de la Defensa y Pupilar: ASESORES DE MENORES E INCAPACES"
+                - paragraph [ref=e588]: Datos de interes
+              - generic [ref=e589]:
+                - link "2614497788" [ref=e590]:
+                  - /url: tel:2614497788
+                - img [ref=e592]
+          - article [ref=e594]:
+            - button "Dirección de la Mujer, género y diversidad Datos de interes 2614498622" [ref=e595] [cursor=pointer]:
+              - generic [ref=e596]:
+                - paragraph [ref=e597]: Dirección de la Mujer, género y diversidad
+                - paragraph [ref=e598]: Datos de interes
+              - generic [ref=e599]:
+                - link "2614498622" [ref=e600]:
+                  - /url: tel:2614498622
+                - img [ref=e602]
+          - article [ref=e604]:
+            - button "Sudireccion de Niñez, adolescencia y familia Datos de interes · Direccion de Derechos Humanos y Acceso a la Justicia 4498649" [ref=e605] [cursor=pointer]:
+              - generic [ref=e606]:
+                - paragraph [ref=e607]: Sudireccion de Niñez, adolescencia y familia
+                - paragraph [ref=e608]: Datos de interes · Direccion de Derechos Humanos y Acceso a la Justicia
+              - generic [ref=e609]:
+                - link "4498649" [ref=e610]:
+                  - /url: tel:4498649
+                - img [ref=e612]
+          - article [ref=e614]:
+            - button "Dirección de Derecho Humanos (Mendoza) Datos de interes 4492164" [ref=e615] [cursor=pointer]:
+              - generic [ref=e616]:
+                - paragraph [ref=e617]: Dirección de Derecho Humanos (Mendoza)
+                - paragraph [ref=e618]: Datos de interes
+              - generic [ref=e619]:
+                - link "4492164" [ref=e620]:
+                  - /url: tel:4492164
+                - img [ref=e622]
+          - article [ref=e624]:
+            - button "Defensoría de las personas con discapacidad Datos de interes 4493882" [ref=e625] [cursor=pointer]:
+              - generic [ref=e626]:
+                - paragraph [ref=e627]: Defensoría de las personas con discapacidad
+                - paragraph [ref=e628]: Datos de interes
+              - generic [ref=e629]:
+                - link "4493882" [ref=e630]:
+                  - /url: tel:4493882
+                - img [ref=e632]
+          - article [ref=e634]:
+            - 'button "Subcretería de Derechos Humnanos: trata de personas Datos de interes 145" [ref=e635] [cursor=pointer]':
+              - generic [ref=e636]:
+                - paragraph [ref=e637]: "Subcretería de Derechos Humnanos: trata de personas"
+                - paragraph [ref=e638]: Datos de interes
+              - generic [ref=e639]:
+                - link "145" [ref=e640]:
+                  - /url: tel:145
+                - img [ref=e642]
+          - article [ref=e644]:
+            - button "Plan Provincial de Adicciones Datos de interes 4253964" [ref=e645] [cursor=pointer]:
+              - generic [ref=e646]:
+                - paragraph [ref=e647]: Plan Provincial de Adicciones
+                - paragraph [ref=e648]: Datos de interes
+              - generic [ref=e649]:
+                - link "4253964" [ref=e650]:
+                  - /url: tel:4253964
+                - img [ref=e652]
+          - article [ref=e654]:
+            - button "Fonodroga Datos de interes 0800-800-3764" [ref=e655] [cursor=pointer]:
+              - generic [ref=e656]:
+                - paragraph [ref=e657]: Fonodroga
+                - paragraph [ref=e658]: Datos de interes
+              - generic [ref=e659]:
+                - link "0800-800-3764" [ref=e660]:
+                  - /url: tel:0800-800-3764
+                - img [ref=e662]
+          - article [ref=e664]:
+            - button "Equipos Técnicos Interdisciplinarios (ETI) Datos de interes https://informacionoficial.mendoza.gob.ar/educacion-cultura-infancias-dge/educacion-cultura-infancias-y-dge-mendoza/infancias-adolescencias-y-juventudes-mendoza/etis-mendoza/" [ref=e665] [cursor=pointer]:
+              - generic [ref=e666]:
+                - paragraph [ref=e667]: Equipos Técnicos Interdisciplinarios (ETI)
+                - paragraph [ref=e668]: Datos de interes
+              - generic [ref=e669]:
+                - link "https://informacionoficial.mendoza.gob.ar/educacion-cultura-infancias-dge/educacion-cultura-infancias-y-dge-mendoza/infancias-adolescencias-y-juventudes-mendoza/etis-mendoza/" [ref=e670]:
+                  - /url: https://informacionoficial.mendoza.gob.ar/educacion-cultura-infancias-dge/educacion-cultura-infancias-y-dge-mendoza/infancias-adolescencias-y-juventudes-mendoza/etis-mendoza/
+                - img [ref=e672]
+          - article [ref=e674]:
+            - button "ETI de Godoy Cruz Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 4229306" [ref=e675] [cursor=pointer]:
+              - generic [ref=e676]:
+                - paragraph [ref=e677]: ETI de Godoy Cruz
+                - paragraph [ref=e678]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e679]:
+                - link "4229306" [ref=e680]:
+                  - /url: tel:4229306
+                - img [ref=e682]
+          - article [ref=e684]:
+            - button "ETI de Guaymallén Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 4212948" [ref=e685] [cursor=pointer]:
+              - generic [ref=e686]:
+                - paragraph [ref=e687]: ETI de Guaymallén
+                - paragraph [ref=e688]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e689]:
+                - link "4212948" [ref=e690]:
+                  - /url: tel:4212948
+                - img [ref=e692]
+          - article [ref=e694]:
+            - button "ETI de Las Heras Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 4122592" [ref=e695] [cursor=pointer]:
+              - generic [ref=e696]:
+                - paragraph [ref=e697]: ETI de Las Heras
+                - paragraph [ref=e698]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e699]:
+                - link "4122592" [ref=e700]:
+                  - /url: tel:4122592
+                - img [ref=e702]
+          - article [ref=e704]:
+            - button "ETI de Tunuyán Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 2622423978" [ref=e705] [cursor=pointer]:
+              - generic [ref=e706]:
+                - paragraph [ref=e707]: ETI de Tunuyán
+                - paragraph [ref=e708]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e709]:
+                - link "2622423978" [ref=e710]:
+                  - /url: tel:2622423978
+                - img [ref=e712]
+          - article [ref=e714]:
+            - button "ETI de Tupungato Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 2622488669" [ref=e715] [cursor=pointer]:
+              - generic [ref=e716]:
+                - paragraph [ref=e717]: ETI de Tupungato
+                - paragraph [ref=e718]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e719]:
+                - link "2622488669" [ref=e720]:
+                  - /url: tel:2622488669
+                - img [ref=e722]
+          - article [ref=e724]:
+            - button "ETI de La Paz Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 2613679698" [ref=e725] [cursor=pointer]:
+              - generic [ref=e726]:
+                - paragraph [ref=e727]: ETI de La Paz
+                - paragraph [ref=e728]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e729]:
+                - link "2613679698" [ref=e730]:
+                  - /url: tel:2613679698
+                - img [ref=e732]
+          - article [ref=e734]:
+            - button "ETI de Junín Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 2634492288" [ref=e735] [cursor=pointer]:
+              - generic [ref=e736]:
+                - paragraph [ref=e737]: ETI de Junín
+                - paragraph [ref=e738]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e739]:
+                - link "2634492288" [ref=e740]:
+                  - /url: tel:2634492288
+                - img [ref=e742]
+          - article [ref=e744]:
+            - button "ETI de San Rafael Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 2604422243" [ref=e745] [cursor=pointer]:
+              - generic [ref=e746]:
+                - paragraph [ref=e747]: ETI de San Rafael
+                - paragraph [ref=e748]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e749]:
+                - link "2604422243" [ref=e750]:
+                  - /url: tel:2604422243
+                - img [ref=e752]
+          - article [ref=e754]:
+            - button "ETI de General Alvear Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 2625425521" [ref=e755] [cursor=pointer]:
+              - generic [ref=e756]:
+                - paragraph [ref=e757]: ETI de General Alvear
+                - paragraph [ref=e758]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e759]:
+                - link "2625425521" [ref=e760]:
+                  - /url: tel:2625425521
+                - img [ref=e762]
+          - article [ref=e764]:
+            - button "Guardia Nocturna Datos de interes · Equipos Técnicos Interdisciplinarios (ETI) 2612066735" [ref=e765] [cursor=pointer]:
+              - generic [ref=e766]:
+                - paragraph [ref=e767]: Guardia Nocturna
+                - paragraph [ref=e768]: Datos de interes · Equipos Técnicos Interdisciplinarios (ETI)
+              - generic [ref=e769]:
+                - link "2612066735" [ref=e770]:
+                  - /url: tel:2612066735
+                - img [ref=e772]
+          - article [ref=e774]:
+            - button "Dirección de Salud Mental y Consumos Problemáticos de la provincia de Mendoza Datos de interes 148" [ref=e775] [cursor=pointer]:
+              - generic [ref=e776]:
+                - paragraph [ref=e777]: Dirección de Salud Mental y Consumos Problemáticos de la provincia de Mendoza
+                - paragraph [ref=e778]: Datos de interes
+              - generic [ref=e779]:
+                - link "148" [ref=e780]:
+                  - /url: tel:148
+                - img [ref=e782]
+          - article [ref=e784]:
+            - button "Denuncia de Violencias y Bullying Datos de interes 148" [ref=e785] [cursor=pointer]:
+              - generic [ref=e786]:
+                - paragraph [ref=e787]: Denuncia de Violencias y Bullying
+                - paragraph [ref=e788]: Datos de interes
+              - generic [ref=e789]:
+                - link "148" [ref=e790]:
+                  - /url: tel:148
+                - img [ref=e792]
+    - button "Acceso rápido de emergencia" [ref=e795] [cursor=pointer]:
+      - img [ref=e796]
+  - button "Open Next.js Dev Tools" [ref=e803] [cursor=pointer]:
+    - img [ref=e804]
+  - alert [ref=e807]

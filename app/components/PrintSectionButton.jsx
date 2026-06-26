@@ -20,8 +20,9 @@ export default function PrintSectionButton({
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <title>${title}</title>
           <style>
+            @page { size: A4; margin: 14mm; }
             :root { color-scheme: light; }
-            body { font-family: "Plus Jakarta Sans", "Segoe UI", Arial, sans-serif; margin: 24px; color: #1e293b; }
+            body { font-family: "Plus Jakarta Sans", "Segoe UI", Arial, sans-serif; margin: 0; padding: 0; color: #1e293b; }
             h1, h2, h3, h4 { color: #0f172a; letter-spacing: -0.01em; margin-top: 1.1em; margin-bottom: 0.5em; }
             p, li, td, th { font-size: 14px; line-height: 1.65; }
             ul { padding-left: 22px; }
@@ -30,22 +31,24 @@ export default function PrintSectionButton({
             a { color: #1d4ed8; text-decoration: underline; }
             .print-header { display: flex; align-items: center; gap: 10px; margin-bottom: 4px; }
             .print-header-logo { width: 140px; height: auto; }
-            .print-header-title { font-size: 14px; font-weight: 700; color: #0f172a; letter-spacing: -0.01em; }
-            .print-header-sep { border: none; border-top: 1px solid #e2e8f0; margin: 0 0 12px; }
-            @media print {
-              body { padding-top: 22mm; }
-              .print-header { position: fixed; top: 0; left: 0; right: 0; padding: 6mm 14mm 0; background: #fff; z-index: 1000; }
-              .print-header-sep { position: fixed; top: 17mm; left: 14mm; right: 14mm; z-index: 1000; }
-            }
+.print-header-sep { border: none; border-top: 1px solid #e2e8f0; margin: 0 0 12px; }
           </style>
         </head>
         <body>
           <div class="print-header">
             <img src="/logo-dae.png" alt="Logo DAE" class="print-header-logo" />
-            <span class="print-header-title">PROTOCOLO DE ACTUACION</span>
           </div>
           <hr class="print-header-sep" />
           ${section.innerHTML}
+        <script>
+          window.addEventListener("load", () => {
+            setTimeout(() => {
+              window.focus();
+              window.print();
+            }, 200);
+          });
+          window.addEventListener("afterprint", () => window.close());
+        </script>
         </body>
       </html>
     `;
@@ -53,9 +56,6 @@ export default function PrintSectionButton({
     printWindow.document.open();
     printWindow.document.write(html);
     printWindow.document.close();
-    printWindow.focus();
-    printWindow.print();
-    printWindow.close();
   };
 
   return (

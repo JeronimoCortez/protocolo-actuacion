@@ -285,18 +285,18 @@ function createSimplePdfFromText(text, title = "Documento") {
     const contentOps = [
       "BT",
       "/F2 13 Tf",
-      "56 790 Td",
+      "56 771 Td",
       "(PROTOCOLO DE ACTUACION) Tj",
       "ET",
       "q",
       "0.5 w",
-      "56 772 m",
-      "556 772 l",
+      "56 750 m",
+      "556 750 l",
       "S",
       "Q",
       "BT",
       "/F1 11 Tf",
-      "56 758 Td",
+      "56 728 Td",
       "14 TL",
     ];
     for (const line of pageLines) {

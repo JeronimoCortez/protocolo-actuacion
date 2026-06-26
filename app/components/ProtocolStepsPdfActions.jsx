@@ -144,7 +144,7 @@ function buildPrintableHtml({ documentTitle, blocks }) {
           .print-header-sep {
             border: none;
             border-top: 1px solid #e2e8f0;
-            margin: 0 0 12px;
+            margin: 0 0 14px;
           }
           .sheet {
             width: 100%;
@@ -266,30 +266,6 @@ function buildPrintableHtml({ documentTitle, blocks }) {
             color: #64748b;
           }
           @media print {
-            body { padding-top: 16mm; padding-bottom: 10mm; }
-            .print-header {
-              position: fixed;
-              top: 0;
-              left: 0;
-              right: 0;
-              padding: 6mm 14mm 0;
-              background: #ffffff;
-              z-index: 1000;
-            }
-            .print-header-sep {
-              position: fixed;
-              top: 14mm;
-              left: 14mm;
-              right: 14mm;
-              z-index: 1000;
-            }
-            .print-footer {
-              position: fixed;
-              bottom: 4mm;
-              left: 0;
-              right: 0;
-              z-index: 1000;
-            }
             .print-step,
             .print-list li,
             .print-heading {

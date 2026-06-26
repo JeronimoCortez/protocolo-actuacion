@@ -1,18 +1,9 @@
 {
   "app": {
-    "[project]/app/marco-teorico/[slug]/page": [
-      "static/media/fba5a26ea33df6a3-s.p.0eehd8tgys7nv.woff2"
-    ],
     "[project]/app/marco-teorico/page": [
       "static/media/fba5a26ea33df6a3-s.p.0eehd8tgys7nv.woff2"
     ],
     "[project]/app/page": [
-      "static/media/fba5a26ea33df6a3-s.p.0eehd8tgys7nv.woff2"
-    ],
-    "[project]/app/protocolos/page": [
-      "static/media/fba5a26ea33df6a3-s.p.0eehd8tgys7nv.woff2"
-    ],
-    "[project]/app/recursos-contactos/page": [
       "static/media/fba5a26ea33df6a3-s.p.0eehd8tgys7nv.woff2"
     ]
   },

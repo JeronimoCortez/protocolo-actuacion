@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/marco-teorico/eje-1-violencias":{},"/marco-teorico/eje-2-consumos-problematicos":{},"/marco-teorico/eje-3-suicidio-autolesiones":{},"/marco-teorico/eje-4-trabajo-infantil":{},"/marco-teorico/eje-5-ausentismo":{},"/marco-teorico/eje-6-crisis-emocional":{},"/marco-teorico/eje-7-fallecimiento":{},"/marco-teorico/eje-8-armas-explosivos":{},"/marco-teorico/eje-9-comunicacion-institucional":{}},"dynamicRoutes":{"/marco-teorico/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/marco-teorico/[slug]","routeRegex":"^\\/marco\\-teorico\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"a63c18795ccd00583dd78de13b2116dd","previewModeSigningKey":"4bf376f5bc3555d3e9b357830bade3e19d1f74e20483ddd5dee820449ae0b8d9","previewModeEncryptionKey":"81cca2466dcc8145cd4a92ce46d22799ee1af540b2ed09dd4683b4ff4c64ba99"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "0a74d722b7a534d421800680dbac3edf",
+    "previewModeSigningKey": "1b1b93c955c975107c4af7a8453e64739fec94933e0c8fc08a7ae52e41fe2b50",
+    "previewModeEncryptionKey": "91db384302ca5fca617d29a56b0c85d0f90cf8b04576214e93776800a0153095"
+  }
+}

@@ -1,0 +1,201 @@
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Protocolo de Actuacion Escolar" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Protocolo de Actuacion Escolar" [ref=e6]
+      - navigation [ref=e7]:
+        - link "Inicio" [ref=e8] [cursor=pointer]:
+          - /url: /
+        - link "Protocolos" [ref=e9] [cursor=pointer]:
+          - /url: /protocolos
+        - link "Marco Teórico" [ref=e10] [cursor=pointer]:
+          - /url: /marco-teorico
+        - link "Recursos y Contactos" [ref=e11] [cursor=pointer]:
+          - /url: /recursos-contactos
+      - generic [ref=e13]:
+        - img [ref=e14]
+        - textbox "Buscar" [ref=e17]:
+          - /placeholder: Buscar títulos...
+  - main [ref=e18]:
+    - generic [ref=e19]:
+      - heading "Recursos y contactos" [level=1] [ref=e20]
+      - paragraph [ref=e21]: Filtra por datos de interes o por departamento. Cada tarjeta muestra un numero o enlace principal y el resto de la informacion en desplegable.
+    - generic [ref=e22]:
+      - generic [ref=e23]:
+        - button "Datos de interes Ver todos los contactos de referencia general." [ref=e24] [cursor=pointer]:
+          - paragraph [ref=e25]: Datos de interes
+          - paragraph [ref=e26]: Ver todos los contactos de referencia general.
+        - button "Por departamento Buscar organismos segun el departamento." [active] [ref=e27] [cursor=pointer]:
+          - paragraph [ref=e28]: Por departamento
+          - paragraph [ref=e29]: Buscar organismos segun el departamento.
+      - generic [ref=e30]:
+        - generic [ref=e31]:
+          - text: Buscar contactos
+          - generic [ref=e32]:
+            - textbox "Buscar contactos" [ref=e33]:
+              - /placeholder: Nombre, telefono, correo o direccion
+            - button "Buscar en todos los contactos" [ref=e34] [cursor=pointer]:
+              - img [ref=e35]
+        - generic [ref=e808]:
+          - text: Selecciona un departamento
+          - generic [ref=e809]:
+            - combobox "Selecciona un departamento" [ref=e810]:
+              - option "Capital" [selected]
+              - option "Godoy Cruz"
+              - option "Guaymallen"
+              - option "Junin"
+              - option "La Paz"
+              - option "Las Heras"
+              - option "Lavalle"
+              - option "Lujan"
+              - option "Maipu"
+              - option "Malargue"
+              - option "Rivadavia"
+              - option "San Carlos"
+              - option "San Martin"
+              - option "San Rafael"
+              - option "Santa Rosa"
+              - option "Tunuyan"
+              - option "Tupungato"
+              - option "General Alvear"
+            - generic:
+              - img
+    - generic [ref=e37]:
+      - generic [ref=e38]:
+        - paragraph [ref=e39]: 14 contactos encontrados
+        - button "Imprimir tabla" [ref=e40] [cursor=pointer]
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - article [ref=e811]:
+            - button "Centro Integrador Comunitario Capital · Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI) 4300441" [ref=e812] [cursor=pointer]:
+              - generic [ref=e813]:
+                - paragraph [ref=e814]: Centro Integrador Comunitario
+                - paragraph [ref=e815]: Capital · Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)
+              - generic [ref=e816]:
+                - link "4300441" [ref=e817]:
+                  - /url: tel:4300441
+                - img [ref=e819]
+          - article [ref=e821]:
+            - button "Centro de Salud Nº300 Capital · Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI) 4447129" [ref=e822] [cursor=pointer]:
+              - generic [ref=e823]:
+                - paragraph [ref=e824]: Centro de Salud Nº300
+                - paragraph [ref=e825]: Capital · Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)
+              - generic [ref=e826]:
+                - link "4447129" [ref=e827]:
+                  - /url: tel:4447129
+                - img [ref=e829]
+          - article [ref=e831]:
+            - button "Central Capital · Hospitales 2613855684" [ref=e832] [cursor=pointer]:
+              - generic [ref=e833]:
+                - paragraph [ref=e834]: Central
+                - paragraph [ref=e835]: Capital · Hospitales
+              - generic [ref=e836]:
+                - link "2613855684" [ref=e837]:
+                  - /url: tel:2613855684
+                - img [ref=e839]
+          - article [ref=e841]:
+            - button "Defensoría de la Persona con Discapacidad Capital · Defensoría de la Persona con Discapacidad 4204494" [ref=e842] [cursor=pointer]:
+              - generic [ref=e843]:
+                - paragraph [ref=e844]: Defensoría de la Persona con Discapacidad
+                - paragraph [ref=e845]: Capital · Defensoría de la Persona con Discapacidad
+              - generic [ref=e846]:
+                - link "4204494" [ref=e847]:
+                  - /url: tel:4204494
+                - img [ref=e849]
+          - article [ref=e851]:
+            - button "Secretaría de Gobierno Capital · Áreas Género 4495304" [ref=e852] [cursor=pointer]:
+              - generic [ref=e853]:
+                - paragraph [ref=e854]: Secretaría de Gobierno
+                - paragraph [ref=e855]: Capital · Áreas Género
+              - generic [ref=e856]:
+                - link "4495304" [ref=e857]:
+                  - /url: tel:4495304
+                - img [ref=e859]
+          - article [ref=e861]:
+            - button "Fiscalía Nº1 Seccional 3ª Capital · Ministerio de Justicia y Seguridad 3487490" [ref=e862] [cursor=pointer]:
+              - generic [ref=e863]:
+                - paragraph [ref=e864]: Fiscalía Nº1 Seccional 3ª
+                - paragraph [ref=e865]: Capital · Ministerio de Justicia y Seguridad
+              - generic [ref=e866]:
+                - link "3487490" [ref=e867]:
+                  - /url: tel:3487490
+                - img [ref=e869]
+          - article [ref=e871]:
+            - button "Fiscalía Nº13 Seccional 4ª Capital · Ministerio de Justicia y Seguridad 3487520" [ref=e872] [cursor=pointer]:
+              - generic [ref=e873]:
+                - paragraph [ref=e874]: Fiscalía Nº13 Seccional 4ª
+                - paragraph [ref=e875]: Capital · Ministerio de Justicia y Seguridad
+              - generic [ref=e876]:
+                - link "3487520" [ref=e877]:
+                  - /url: tel:3487520
+                - img [ref=e879]
+        - generic [ref=e423]:
+          - article [ref=e881]:
+            - button "Centro de Salud Nº1 Capital · Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI) 4444792" [ref=e882] [cursor=pointer]:
+              - generic [ref=e883]:
+                - paragraph [ref=e884]: Centro de Salud Nº1
+                - paragraph [ref=e885]: Capital · Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)
+              - generic [ref=e886]:
+                - link "4444792" [ref=e887]:
+                  - /url: tel:4444792
+                - img [ref=e889]
+          - article [ref=e891]:
+            - button "Lagomaggiore Capital · Hospitales 4134600" [ref=e892] [cursor=pointer]:
+              - generic [ref=e893]:
+                - paragraph [ref=e894]: Lagomaggiore
+                - paragraph [ref=e895]: Capital · Hospitales
+              - generic [ref=e896]:
+                - link "4134600" [ref=e897]:
+                  - /url: tel:4134600
+                - img [ref=e899]
+          - article [ref=e901]:
+            - button "Carlos Pereyra Capital · Hospitales 3859100" [ref=e902] [cursor=pointer]:
+              - generic [ref=e903]:
+                - paragraph [ref=e904]: Carlos Pereyra
+                - paragraph [ref=e905]: Capital · Hospitales
+              - generic [ref=e906]:
+                - link "3859100" [ref=e907]:
+                  - /url: tel:3859100
+                - img [ref=e909]
+          - article [ref=e911]:
+            - button "Dirección de Salud y Acción Social Capital · Casa del Discapacitado 4236451" [ref=e912] [cursor=pointer]:
+              - generic [ref=e913]:
+                - paragraph [ref=e914]: Dirección de Salud y Acción Social
+                - paragraph [ref=e915]: Capital · Casa del Discapacitado
+              - generic [ref=e916]:
+                - link "4236451" [ref=e917]:
+                  - /url: tel:4236451
+                - img [ref=e919]
+          - article [ref=e921]:
+            - button "Área Departamental de la Niñez y Adolescencia y Familia Capital · Áreas Municipales 02614236994" [ref=e922] [cursor=pointer]:
+              - generic [ref=e923]:
+                - paragraph [ref=e924]: Área Departamental de la Niñez y Adolescencia y Familia
+                - paragraph [ref=e925]: Capital · Áreas Municipales
+              - generic [ref=e926]:
+                - link "02614236994" [ref=e927]:
+                  - /url: tel:02614236994
+                - img [ref=e929]
+          - article [ref=e931]:
+            - button "Fiscalía Nº2 Seccional 6ª Capital · Ministerio de Justicia y Seguridad 3487564" [ref=e932] [cursor=pointer]:
+              - generic [ref=e933]:
+                - paragraph [ref=e934]: Fiscalía Nº2 Seccional 6ª
+                - paragraph [ref=e935]: Capital · Ministerio de Justicia y Seguridad
+              - generic [ref=e936]:
+                - link "3487564" [ref=e937]:
+                  - /url: tel:3487564
+                - img [ref=e939]
+          - article [ref=e941]:
+            - button "Asesor de Menores Capital · Asesor de Menores 2613878710" [ref=e942] [cursor=pointer]:
+              - generic [ref=e943]:
+                - paragraph [ref=e944]: Asesor de Menores
+                - paragraph [ref=e945]: Capital · Asesor de Menores
+              - generic [ref=e946]:
+                - link "2613878710" [ref=e947]:
+                  - /url: tel:2613878710
+                - img [ref=e949]
+    - button "Acceso rápido de emergencia" [ref=e795] [cursor=pointer]:
+      - img [ref=e796]
+  - button "Open Next.js Dev Tools" [ref=e803] [cursor=pointer]:
+    - img [ref=e804]
+  - alert [ref=e807]
