@@ -6,13 +6,16 @@ import Header from "../components/Header";
 import { navItems } from "../data/home";
 import ejeCinco from "../data/ejes/ejeCinco.json";
 import ejeCuatro from "../data/ejes/ejeCuatro.json";
+import ejeDiez from "../data/ejes/ejeDiez.json";
 import ejeDos from "../data/ejes/ejeDos.json";
 import ejeNueve from "../data/ejes/ejeNueve.json";
 import ejeOcho from "../data/ejes/ejeOcho.json";
+import ejeOnce from "../data/ejes/ejeOnce.json";
 import ejeSeis from "../data/ejes/ejeSeis.json";
 import ejeSiete from "../data/ejes/ejeSiete.json";
 import ejeTres from "../data/ejes/ejeTres.json";
 import ejeUno from "../data/ejes/ejeUno.json";
+import introduccion from "../data/ejes/introduccion.json";
 import FloatingEmergencyFab from "../components/FloatingEmergencyFab";
 import ProtocolStepsPdfActions from "../components/ProtocolStepsPdfActions";
 import {
@@ -31,6 +34,8 @@ const RAW_EJES = [
   ejeSiete,
   ejeOcho,
   ejeNueve,
+  ejeDiez,
+  ejeOnce,
 ];
 
 const CATEGORY_KEYS = ["categorias", "subcategorias", "subcatergorias"];
@@ -181,7 +186,8 @@ function getActionBranches(node) {
 }
 
 function shouldUseWeaponTypeSelector(node, actionBranches) {
-  return String(node?.numero ?? "") === "7.2.1" && actionBranches.length > 1;
+  // Nodo "Presencia de arma en la escuela": se identifica por su clasificación, no por el número del eje
+  return Array.isArray(node?.clasificacion) && node.clasificacion.length > 0 && actionBranches.length > 1;
 }
 
 function getActionEntries(node, path, selections = null) {
@@ -503,6 +509,74 @@ function PreventiveActionsPanel({ title, intro, items, defaultOpen = false, wrap
         </div>
       ) : null}
     </div>
+  );
+}
+
+function ProtocolIntroduction({ data }) {
+  const [isOpen911, setIsOpen911] = useState(false);
+  if (!isObject(data)) return null;
+
+  const paragraphs = toArray(data.parrafos).filter(Boolean);
+  const orientations = isObject(data.orientaciones_911) ? data.orientaciones_911 : null;
+  const cases = toArray(orientations?.casos).filter(isObject);
+  const themeClasses = getPanelThemeClasses("sky");
+
+  return (
+    <section className="surface-card space-y-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
+      {data.titulo ? <h2 className="section-title text-lg">{data.titulo}</h2> : null}
+
+      {paragraphs.map((paragraph, index) => (
+        <p key={`intro-${index}`} className="control-text text-slate-700">
+          {paragraph}
+        </p>
+      ))}
+
+      {orientations ? (
+        <div className={`rounded-xl border p-3 shadow-sm ${themeClasses.container}`}>
+          <button
+            type="button"
+            onClick={() => setIsOpen911((previous) => !previous)}
+            aria-expanded={isOpen911}
+            className={`flex w-full items-center justify-between gap-3 text-left text-sm font-semibold tracking-tight ${themeClasses.title}`}
+          >
+            <span>{orientations.descripcion ?? "Orientaciones para comunicarse con el 911"}</span>
+            <span className={`inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full border transition ${themeClasses.indicator} ${isOpen911 ? "rotate-180" : ""}`}>
+              <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4">
+                <path
+                  fillRule="evenodd"
+                  d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.51a.75.75 0 01-1.08 0l-4.25-4.51a.75.75 0 01.02-1.06z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </span>
+          </button>
+          {isOpen911 ? (
+            <div className="mt-3 grid gap-3 md:grid-cols-2">
+              {cases.map((item, index) => (
+                <article key={`911-${index}`} className="space-y-2 rounded-lg border border-sky-200 bg-white p-3">
+                  <p className="card-title text-sm">{item.titulo}</p>
+                  {item.indicacion ? <p className={`control-text ${themeClasses.bodyText}`}>{item.indicacion}</p> : null}
+                  {toArray(item.datos_a_brindar).length ? (
+                    <>
+                      <p className="control-text font-medium text-slate-800">Brindar la siguiente información:</p>
+                      <ul className={`control-text list-disc space-y-1 pl-5 ${themeClasses.bodyText}`}>
+                        {toArray(item.datos_a_brindar).map((dato, datoIndex) => (
+                          <li key={`911-${index}-${datoIndex}`}>{dato}</li>
+                        ))}
+                      </ul>
+                    </>
+                  ) : null}
+                </article>
+              ))}
+            </div>
+          ) : null}
+        </div>
+      ) : null}
+
+      {data.aclaracion ? (
+        <p className="rounded-md border border-amber-200 bg-amber-50 p-3 text-sm text-amber-900">{data.aclaracion}</p>
+      ) : null}
+    </section>
   );
 }
 
@@ -1147,6 +1221,8 @@ function ProtocolosPageContent() {
           </p>
         </section>
 
+        <ProtocolIntroduction data={introduccion} />
+
         <section className="space-y-4">
           <div className="surface-card w-full rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-5">
             <div className="mb-4 rounded-xl border border-slate-200 bg-slate-50 p-3">
@@ -1314,6 +1390,28 @@ function ProtocolosPageContent() {
                   ) : null}
                 </section>
               ) : null}
+
+              {toArray(selectedSubeje?.recuadros).filter(isObject).map((recuadro, recuadroIndex) => (
+                <section
+                  key={`recuadro-${recuadroIndex}`}
+                  className="surface-card space-y-3 rounded-2xl border border-amber-200 bg-amber-50 p-4 shadow-sm md:p-5"
+                >
+                  <header>
+                    <h3 className="section-title text-xl text-amber-950">{recuadro.titulo}</h3>
+                    {recuadro.subtitulo ? <p className="control-text mt-1 font-semibold text-amber-900">{recuadro.subtitulo}</p> : null}
+                  </header>
+                  {toArray(recuadro.grupos).map((grupo, grupoIndex) => (
+                    <ul
+                      key={`recuadro-${recuadroIndex}-grupo-${grupoIndex}`}
+                      className="control-text list-disc space-y-1.5 rounded-xl border border-amber-200 bg-white py-3 pl-8 pr-4 text-amber-950"
+                    >
+                      {toArray(grupo).map((item, itemIndex) => (
+                        <li key={`recuadro-${recuadroIndex}-${grupoIndex}-${itemIndex}`}>{item}</li>
+                      ))}
+                    </ul>
+                  ))}
+                </section>
+              ))}
 
               <PreventiveActionsPanel
                 title="Informacion importante del eje"

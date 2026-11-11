@@ -1,62 +1,131 @@
 {
   "numero": "9",
-  "nombre": "Comunicación Institucional de situaciones emergentes",
+  "nombre": "Fallecimiento de estudiante o Personal de la Institución",
   "subejes": [
     {
       "numero": "9.1",
-      "nombre": "Interacción con los medios de comunicación.",
-      "pasos": [
+      "nombre": "Fallecimiento de un estudiante o Personal de la institución educativa",
+      "categorias": [
         {
-          "paso": "1",
-          "descripcion": "El Equipo Directivo es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+          "numero": "9.1.1",
+          "nombre": "Dentro de la institución",
+          "pasos": [
+            {
+              "paso": "1",
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            },
+            {
+              "paso": "2",
+              "descripcion": "Contactar al Servicio de Emergencia Coordinado (911) o Servicio de Emergencia privado con el que cuenta la escuela. No movilizar a la persona. Aislar el área, impedir el acceso de personas y evitar registro de fotos o vídeos."
+            },
+            {
+              "paso": "3",
+              "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad."
+            },
+            {
+              "paso": "4",
+              "descripcion": "Contactar a la familia o referentes con sensibilidad y respeto. Realizar la comunicación de forma directa y empática, brindando acompañamiento y contención."
+            },
+            {
+              "paso": "5",
+              "descripcion": "Resguardar la dignidad de la persona fallecida. Actuar con respeto, prudencia y cuidado en todo momento."
+            },
+            {
+              "paso": "6",
+              "descripcion": "Gestionar la comunicación oficial: Centralizar la información en el Equipo Directivo de la escuela:",
+              "acciones": ["Redactar una comunicación oficial institucional clara, breve y respetuosa (ver Eje 11: Comunicación Institucional de situaciones emergentes).", "Evitar la difusión de datos no confirmados o inapropiados.", "No revelar detalles sensibles ni personales sin autorización de la familia.", "Establecer un solo canal oficial de comunicación para medios de comunicación y comunidad escolar.", "Evitar que estudiantes o docentes ofrezcan declaraciones públicas no autorizadas."]
+            },
+            {
+              "paso": "7",
+              "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+            },
+            {
+              "paso": "8",
+              "descripcion": "Planificar instancia de Posvención articulada con DAE y la Dirección de Salud Mental dentro de las 48/72 hs posteriores al evento."
+            }
+          ]
         },
         {
-          "paso": "2",
-          "descripcion": "Toda interacción con medios de comunicación debe ser autorizada y coordinada por: Área de Prensa de DGE. Dirección de Acompañamiento Escolar (DAE). Supervisión."
-        },
-        {
-          "paso": "3",
-          "descripcion": "Redactar un comunicado institucional oficial breve y claro."
-        },
-        {
-          "paso": "4",
-          "descripcion": "Difundirlo por los canales de comunicación validados en la escuela y dirigido a todo el personal docente y no-docente de la institución y la comunidad educativa en general."
-        },
-        {
-          "paso": "5",
-          "descripcion": "DGE designa un vocero institucional."
-        },
-        {
-          "paso": "6",
-          "descripcion": "Resguardar la confidencialidad y la protección de los estudiantes. No debe difundirse por ningún medio de comunicación o redes sociales imágenes de estudiantes en tanto pueden constituir un riesgo para su integridad física y psíquica."
-        },
-        {
-          "paso": "7",
-          "descripcion": "Evitar proporcionar datos sensibles o detalles que puedan identificar a estudiantes o a las familias, respetando la confidencialidad y la no revictimización."
-        },
-        {
-          "paso": "8",
-          "descripcion": "Registrar en acta y comunicar por vía jerárquica."
-        }
-      ]
-    },
-    {
-      "numero": "9.2",
-      "nombre": "Interacción con las familias",
-      "pasos": [
-        {
-          "paso": "1",
-          "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
-        },
-        {
-          "paso": "2",
-          "descripcion": "Designar una persona del establecimiento para organizar y disponer el envío de la comunicación."
-        },
-        {
-          "paso": "3",
-          "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. (Ver modelo de comunicación institucional sugerido en el PROTOCOLO)"
+          "numero": "9.1.2",
+          "nombre": "Fuera de la escuela",
+          "pasos": [
+            {
+              "paso": "1",
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            },
+            {
+              "paso": "2",
+              "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad."
+            },
+            {
+              "paso": "3",
+              "descripcion": "Contactar a la familia con sensibilidad y respeto. Realizar la comunicación de forma directa y empática, brindando acompañamiento y contención."
+            },
+            {
+              "paso": "4",
+              "descripcion": "Resguardar la dignidad de la persona fallecida. Actuar con respeto, prudencia y cuidado en todo momento."
+            },
+            {
+              "paso": "5",
+              "descripcion": "Gestionar la comunicación oficial: Centralizar la información en el Equipo Directivo de la escuela:",
+              "acciones": ["Redactar una comunicación oficial institucional clara, breve y respetuosa (ver Eje 11: Comunicación Institucional de situaciones emergentes).", "Evitar la difusión de datos no confirmados o inapropiados.", "No revelar detalles sensibles ni personales sin autorización de la familia.", "Establecer un solo canal oficial de comunicación para medios de comunicación y comunidad escolar.", "Evitar que estudiantes o docentes ofrezcan declaraciones públicas no autorizadas."]
+            },
+            {
+              "paso": "6",
+              "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+            },
+            {
+              "paso": "7",
+              "descripcion": "Planificar instancia de Posvención articulada con DAE y la Dirección de Salud Mental dentro de las 48/72 hs posteriores al evento."
+            }
+          ]
         }
       ]
     }
-  ]
+  ],
+  "acciones_preventivas": {
+    "factores_protectores": "Se activan acciones de posvención. Durante la posvención, las prácticas de cuidado y acciones que ponga en marcha la escuela resultan fundamentales para la tramitación psicosocial de lo acontecido, para favorecer el desarrollo de otro tipo de respuestas ante eventos traumáticos y/o padecimientos psicosociales agudos y prevenir otras situaciones ligadas a este emergente. Será necesario que se desplieguen en la comunidad educativa, acciones que posibiliten hablar sobre lo sucedido con los estudiantes.",
+    "acciones": [
+      {
+        "accion": 1,
+        "descripcion": "Intervenir a partir de las 48hs a 72hs posteriores al evento, y en un plazo de hasta dos meses, con seguimiento de uno a dos años."
+      },
+      {
+        "accion": 2,
+        "descripcion": "Habilitar la palabra y los silencios: Promover espacios donde las y los estudiantes puedan hablar sobre lo sucedido —por medio del diálogo, la escritura o la expresión artística—, respetando los tiempos de cada quien y la necesidad de silencio como forma legítima de elaboración."
+      },
+      {
+        "accion": 3,
+        "descripcion": "Cuidar a quienes cuidan: Brindar acompañamiento inmediato a docentes y adultos referentes, ofreciéndoles espacios de contención coordinados por el equipo técnico o DAE, reconociendo su rol como primeros intervinientes."
+      },
+      {
+        "accion": 4,
+        "descripcion": "Definir responsabilidades y coordinación: Identificar las personas adultas encargadas de articular los dispositivos de acompañamiento y asegurar la coherencia de las intervenciones entre los distintos actores institucionales."
+      },
+      {
+        "accion": 5,
+        "descripcion": "Atender las redes familiares y educativas: Relevar la presencia de hermanos o hermanas u otros familiares en la misma institución u otras instituciones para articular abordajes interinstitucionales, garantizando un acompañamiento integral y coherente."
+      },
+      {
+        "accion": 6,
+        "descripcion": "Habilitar espacios de escucha diferenciados: Priorizar la atención del grupo más cercano por edad, lazo o vínculo con la persona fallecida, reconociendo las diversas formas de afectación emocional."
+      },
+      {
+        "accion": 7,
+        "descripcion": "Evitar juicios y discursos moralizantes: Abstenerse de idealizar, juzgar o moralizar la conducta de la persona que se quitó la vida o lo intentó; evitar también mensajes simplificadores o vitalistas que puedan resultar contraproducentes."
+      },
+      {
+        "accion": 8,
+        "descripcion": "Acompañar los gestos de memoria (homenajes) favoreciendo su carácter transitorio, para que contribuyan a elaborar el duelo sin cristalizar la pérdida."
+      },
+      {
+        "accion": 9,
+        "descripcion": "Acompañar a las familias con corresponsabilidad: Trabajar junto a los servicios locales de salud y salud mental, fortaleciendo la red de apoyo y garantizando una mirada integral del acompañamiento."
+      },
+      {
+        "accion": 10,
+        "descripcion": "Promover una comunicación responsable: Se debe procurar asignar un referente para la comunicación con familiares del fallecido. Observar con especial atención la circulación de mensajes en redes sociales y medios de comunicación, evitando la exposición o estigmatización y protegiendo siempre los derechos de niñas, niños y adolescentes."
+      }
+    ]
+  }
 }

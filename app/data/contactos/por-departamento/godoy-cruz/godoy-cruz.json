@@ -2,44 +2,49 @@
   "nombre": "Organismos y servicios de interés - Godoy Cruz",
   "categorias": [
     {
-      "nombre": "Centros de Salud",
+      "nombre": "Programa Provincial de Prevención y Atención Integral del Maltrato a la Niñez y Adolescencia (PPMI)",
       "organismos": [
         {
-          "nombre": "Centro de Salud Nº30",
+          "nombre": "Centro de Atención Primaria en Salud N° 30",
           "direccion": "Colón 339, Godoy Cruz",
           "telefonos": ["4220001"],
-          "correos": ["cap30@mendoza.gov.ar"]
+          "correos": ["ppmics30@mendoza.gov.ar"]
         },
         {
-          "nombre": "Centro de Salud Nº149",
-          "direccion": "Montes de Oca y Plumerillo 242, Godoy Cruz",
+          "nombre": "Centro de Atención Primaria en Salud N° 149",
+          "direccion": "Montes de Oca y Plumerillo 242",
           "telefonos": ["4272294"],
           "correos": ["cap149@mendoza.gov.ar"]
         },
         {
-          "nombre": "Centro de Salud Nº168",
+          "nombre": "Centro de Atención Primaria en Salud N° 168",
           "direccion": "B° Dolores Prats de Huisi M-12, Godoy Cruz",
           "telefonos": ["4399862"],
-          "correos": ["cap168@mendoza.gov.ar"]
+          "correos": ["ppmics168@mendoza.gov.ar"]
         },
         {
-          "nombre": "Centro de Salud Nº4",
+          "nombre": "Centro de Atención Primaria en Salud N° 4",
           "direccion": "Curitiba 750, Godoy Cruz, Mendoza",
           "telefonos": ["02614271064"],
-          "correos": ["cap149@mendoza.gov.ar"]
+          "correos": ["ppmics4@mendoza.gov.ar"]
         }
       ]
     },
     {
-      "nombre": "Salud Mental",
+      "nombre": "Dirección de Salud Mental y Consumos problemáticos",
       "organismos": [
         {
-          "nombre": "Centro de Salud Mental Godoy Cruz",
+          "nombre": "Centro de salud mental Godoy Cruz",
           "direccion": "Mármol y Derquí, Godoy Cruz",
           "telefonos": ["4313239"]
-        },
+        }
+      ]
+    },
+    {
+      "nombre": "Dirección de Salud Mental y Consumos Problemáticos",
+      "organismos": [
         {
-          "nombre": "Centro Infanto Juvenil Nº1",
+          "nombre": "Centro preventivo asistencial infanto juvenil N°1",
           "direccion": "Joaquín V. González 390, Godoy Cruz",
           "telefonos": ["4220836"]
         }
@@ -49,13 +54,13 @@
       "nombre": "Hospitales",
       "organismos": [
         {
-          "nombre": "José Néstor Lencina",
-          "direccion": "Talcahuano s/n, Godoy Cruz",
+          "nombre": "José Nestor Lencinas",
+          "direccion": "Talcahuano S/n, Godoy Cruz",
           "telefonos": ["4272600"]
         },
         {
-          "nombre": "Hospital Lencina",
-          "direccion": "Talcahuano s/n, Godoy Cruz",
+          "nombre": "Hospital Lencinas",
+          "direccion": "Talcahuano S/n, Godoy Cruz",
           "telefonos": ["4272773"],
           "internos": ["108"]
         }
@@ -65,14 +70,14 @@
       "nombre": "Plan Provincial de Adicciones",
       "organismos": [
         {
-          "nombre": "CPAA Godoy Cruz",
+          "nombre": "Centro preventivo asistencial en adicciones de Godoy Cruz",
           "direccion": "Salvador Arias 1072, Godoy Cruz",
           "telefonos": ["4228633"]
         }
       ]
     },
     {
-      "nombre": "Dirección de Protección y Promoción de Derechos",
+      "nombre": "Dir. de Protección y Promoción de Derechos",
       "organismos": [
         {
           "nombre": "ETI",
@@ -83,17 +88,22 @@
       ]
     },
     {
-      "nombre": "Áreas Municipales",
+      "nombre": "Dirección de Género y Diversidad",
       "organismos": [
         {
-          "nombre": "Hiperlibertad - Mujer y Equidad",
-          "direccion": "Joaquín V. González 450, Godoy Cruz",
+          "nombre": "Hiper Libertad",
+          "direccion": "Juaquin v.Gonzalez 450, Godoy Cruz",
           "telefonos": ["4429349"],
           "correos": ["mujeryequidadgodoycruz@gmail.com"]
-        },
+        }
+      ]
+    },
+    {
+      "nombre": "Desarrollo Social de Godoy Cruz",
+      "organismos": [
         {
-          "nombre": "Hiperlibertad - Desarrollo Social",
-          "direccion": "Joaquín V. González 450, Godoy Cruz",
+          "nombre": "Hiper Libertad",
+          "direccion": "Juaquin v.Gonzalez 450, Godoy Cruz",
           "telefonos": ["4429374"],
           "correos": ["dsocialgc@gmail.com"]
         },
@@ -129,16 +139,6 @@
           "nombre": "Fiscalía N° 17 Seccional 40",
           "direccion": "B° Estanzuela, Godoy Cruz",
           "telefonos": ["4416829"]
-        }
-      ]
-    },
-    {
-      "nombre": "Asesor de Menores",
-      "organismos": [
-        {
-          "nombre": "Asesor de Menores",
-          "telefonos": ["2612098665"],
-          "correos": ["abusosGODOYCRUZ@jus.mendoza.gov.ar"]
         }
       ]
     }

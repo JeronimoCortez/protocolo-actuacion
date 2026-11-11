@@ -1,0 +1,75 @@
+{
+  "numero": "11",
+  "nombre": "Comunicación Institucional de situaciones emergentes",
+  "subejes": [
+    {
+      "numero": "11.1",
+      "nombre": "Interacción con los medios de comunicación",
+      "pasos": [
+        {
+          "paso": "1",
+          "descripcion": "El Equipo Directivo es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+        },
+        {
+          "paso": "2",
+          "descripcion": "Toda interacción con medios de comunicación debe ser autorizada y coordinada por:",
+          "acciones": ["Área de Prensa de DGE.", "Dirección de Acompañamiento Escolar (DAE).", "Supervisión."]
+        },
+        {
+          "paso": "3",
+          "descripcion": "Redactar un comunicado institucional oficial breve y claro."
+        },
+        {
+          "paso": "4",
+          "descripcion": "Difundirlo por los canales de comunicación validados en la escuela y dirigido a todo el personal docente y no-docente de la institución y la comunidad educativa en general."
+        },
+        {
+          "paso": "5",
+          "descripcion": "DGE designa un vocero institucional."
+        },
+        {
+          "paso": "6",
+          "descripcion": "Resguardar la confidencialidad y la protección de los estudiantes. No debe difundirse por ningún medio de comunicación o redes sociales imágenes de estudiantes en tanto pueden constituir un riesgo para su integridad física y psíquica."
+        },
+        {
+          "paso": "7",
+          "descripcion": "Evitar proporcionar datos sensibles o detalles que puedan identificar a estudiantes o a las familias, respetando la confidencialidad y la no revictimización."
+        },
+        {
+          "paso": "8",
+          "descripcion": "Redactar acta. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+        }
+      ]
+    },
+    {
+      "numero": "11.2",
+      "nombre": "Interacción con las familias",
+      "pasos": [
+        {
+          "paso": "1",
+          "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+        },
+        {
+          "paso": "2",
+          "descripcion": "Designar una persona del establecimiento para organizar y disponer el envío de la comunicación."
+        },
+        {
+          "paso": "3",
+          "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad.",
+          "condiciones": [
+            {
+              "tipo": "modelo_de_comunicación_institucional_sugerido",
+              "acciones": ["A la comunidad educativa:", "Por medio de la presente, informamos que el día XX/XX/XX, durante la jornada escolar, se registró un emergente que requirió la intervención del Equipo Directivo y del equipo de la DAE correspondiente.", "Queremos llevar tranquilidad a las familias informando que se procedió de manera inmediata activando los protocolos institucionales vigentes.", "Acciones realizadas:", "Se brindó acompañamiento y contención inmediata al/los estudiante/s involucrado/s.", "Se dio aviso a la autoridad correspondiente (Dirección de Acompañamiento Escolar).", "Se labró el registro de la situación en el libro de actas correspondiente.", "Se estableció comunicación con la familia, informando lo sucedido y las medidas adoptadas.", "Se iniciaron las intervenciones necesarias para garantizar el bienestar del estudiante y su continuidad pedagógica.", "Se encuentra en curso el seguimiento y evaluación del caso por parte del equipo técnico de la DAE.", "Se articuló con los efectores de la red…(si correspondiera)", "Reafirmamos nuestro compromiso de garantizar el bienestar, la seguridad y el cuidado de las trayectorias educativas de nuestros estudiantes.", "El Equipo Directivo queda a disposición para coordinar reunión ante cualquier consulta y/o duda.", "Atentamente,", "Firma: _______________ Aclaración: _______________ Cargo / Área: ____________", "Fecha:__ /__/__", "Quedamos a disposición para continuar construyendo acuerdos comunes que fortalezcan el bienestar y la comunicación institucional.", "Saludos cordiales.", "Dirección General de Escuelas"]
+            },
+            {
+              "tipo": "modelo_ante_amenazas_de_intimidación_pública",
+              "acciones": ["COMUNICADO OFICIAL", "A la comunidad educativa:", "La Dirección de la Escuela [Nombre de la Institución] se dirige a ustedes con el fin de brindar tranquilidad y garantizar el resguardo efectivo de la integridad física de nuestros estudiantes ante los sucesos de público conocimiento.", "Informamos que, desde el primer momento, esta institución ha procedido de manera inmediata activando los protocolos vigentes y articulando acciones con los organismos técnicos de la Dirección General de Escuelas (DAE) y el Ministerio de Seguridad.", "En virtud de priorizar la seguridad y el normal desarrollo de las clases, comunicamos las medidas adoptadas:", "Articulación de Seguridad: Se ha dado intervención a la fuerza policial de investigaciones y se trabaja bajo el asesoramiento de equipos técnicos especializados para la evaluación y seguimiento del caso.", "Trazabilidad y Prevención: Se han reforzado las rondas de inspección en las instalaciones y se ha establecido un registro de ingreso y egreso supervisado a sectores comunes.", "Gestión de Pertenencias: De manera preventiva y hasta nuevo aviso, se solicita que los estudiantes concurran únicamente con carpeta y cartuchera, evitando el ingreso de mochilas al establecimiento para facilitar la supervisión del entorno escolar.", "Acompañamiento Profesional: El Servicio de Orientación Escolar se encuentra a disposición para brindar los primeros auxilios psicológicos y contención a aquellos estudiantes que manifiesten inquietudes o miedos derivados de esta situación.", "Apelamos a la corresponsabilidad parental, solicitando a las familias dialogar con sus hijos sobre el uso responsable de las redes sociales y las graves consecuencias legales de las conductas de intimidación pública. Asimismo, pedimos supervisar activamente los dispositivos móviles y las pertenencias de los menores para asegurar que no ingresen objetos que puedan poner en riesgo la convivencia.", "Reafirmamos nuestro compromiso inalienable de garantizar la previsibilidad institucional y el cuidado de las trayectorias educativas de nuestros estudiantes en un entorno protegido.", "El Equipo Directivo queda a su entera disposición para cualquier consulta o coordinación necesaria.", "Equipo Directivo Escuela [Nombre/Número] Dirección General de Escuelas."]
+            }
+          ],
+          "modelo_acta": "./modelo_comunicacion_institucional.pdf",
+          "archivo": "./comunicado_eje7_1.pdf"
+        }
+      ]
+    }
+  ]
+}

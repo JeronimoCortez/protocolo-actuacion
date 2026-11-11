@@ -2,21 +2,14 @@
   "nombre": "Organismos y servicios de interés - San Rafael",
   "categorias": [
     {
-      "nombre": "Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)",
+      "nombre": "Programa Provincial de Prevención y Atención Integral del Maltrato a la Niñez y Adolescencia (PPMI)",
       "organismos": [
         {
           "nombre": "Hospital Schestakow",
-          "direccion": "Comandante Tórrez 17, San Rafael, Mendoza",
-          "telefonos": [
-            "02627422580",
-            "02627424291"
-          ],
-          "fax": [
-            "02627421404"
-          ],
-          "correos": [
-            "hosp-schestakov@mendoza.gov.ar"
-          ]
+          "direccion": "Comandante Tórzez 17, San Rafael, Mendoza",
+          "telefonos": ["02627422580", "02627424291"],
+          "fax": ["02627421404"],
+          "correos": ["ppmisanrafael@mendoza.gov.ar"]
         }
       ]
     },
@@ -26,27 +19,19 @@
         {
           "nombre": "Hospital Schestakow",
           "direccion": "Cmte. Torres 150, San Rafael, Mendoza",
-          "telefonos": [
-            "02604424290"
-          ],
-          "correos": [
-            "hosp-schestakov@mendoza.gov.ar"
-          ]
+          "telefonos": ["02604424290"],
+          "correos": ["hosp-schestakov@mendoza.gov.ar"]
         }
       ]
     },
     {
-      "nombre": "Dirección de Protección y Promoción de Derechos",
+      "nombre": "Dir. de Protección y Promoción de Derechos",
       "organismos": [
         {
           "nombre": "ETI",
-          "direccion": "Libertador 245, San Rafael, Mendoza",
-          "telefonos": [
-            "02604422243"
-          ],
-          "correos": [
-            "spdsanrafael@mendoza.gov.ar"
-          ]
+          "direccion": "LIBERTADOR 245, San Rafael, Mendoza",
+          "telefonos": ["02604422243"],
+          "correos": ["spdsanrafael@mendoza.gov.ar"]
         }
       ]
     },
@@ -55,30 +40,20 @@
       "organismos": [
         {
           "nombre": "Municipalidad de San Rafael",
-          "direccion": "Comandante Salas y Belgrano, San Rafael, Mendoza",
-          "telefonos": [
-            "02604422121"
-          ],
-          "internos": [
-            "144"
-          ],
-          "correos": [
-            "www.sanrafael.gov.ar"
-          ]
+          "direccion": "Conardanta Salas y Belgrano, San Rafael, Mendoza",
+          "telefonos": ["02504422121"],
+          "internos": ["144"],
+          "correos": ["www.sanrafael.gov.ar"]
         }
       ]
     },
     {
-      "nombre": "Asesor de Menores",
+      "nombre": "Asesoría de niños, niñas, adolescentes y personas con capacidad restringida",
       "organismos": [
         {
-          "nombre": "Asesor de Menores",
-          "telefonos": [
-            "2604277658"
-          ],
-          "correos": [
-            "abusosSANRAFAEL@jus.mendoza.gov.ar"
-          ]
+          "nombre": "Asesoría de niños, niñas, adolescentes y personas con capacidad restringida",
+          "telefonos": ["2604277658"],
+          "correos": ["abusosSANRAFAEL@jus.mendoza.gov.ar"]
         }
       ]
     }

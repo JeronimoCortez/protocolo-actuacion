@@ -2,17 +2,14 @@
   "nombre": "Organismos y servicios de interés - Tupungato",
   "categorias": [
     {
-      "nombre": "Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)",
+      "nombre": "Programa Provincial de Prevención y Atención Integral del Maltrato a la Niñez y Adolescencia (PPMI)",
       "organismos": [
         {
-          "nombre": "Hospital Las Heras",
-          "direccion": "Las Heras y Monseñor Fernández, Tupungato, Mendoza",
-          "telefonos": [
-            "02622488293"
-          ],
-          "fax": [
-            "02622488537"
-          ]
+          "nombre": "Hospital “Las Heras”",
+          "direccion": "Las heras y M. Fernandéz, Tupungato, Mendoza",
+          "telefonos": ["02622488293"],
+          "fax": ["02622488537"],
+          "correos": ["ppmitupungato@mendoza.gov.ar"]
         }
       ]
     },
@@ -20,44 +17,32 @@
       "nombre": "Hospitales",
       "organismos": [
         {
-          "nombre": "Hospital General Las Heras",
+          "nombre": "Hospital General “Las Heras\"",
           "direccion": "Las Heras y Monseñor Fernández, Tupungato, Mendoza",
-          "telefonos": [
-            "02622488293"
-          ],
-          "fax": [
-            "486537"
-          ]
+          "telefonos": ["02622488293"],
+          "fax": ["02622486537"]
         }
       ]
     },
     {
-      "nombre": "Dirección de Protección y Promoción de Derechos",
+      "nombre": "Dir. de Protección y Promoción de Derechos",
       "organismos": [
         {
           "nombre": "ETI",
           "direccion": "Monseñor Fernández 125, Tupungato, Mendoza",
-          "telefonos": [
-            "02622488669"
-          ],
-          "correos": [
-            "spdtupungato@mendoza.gov.ar"
-          ]
+          "telefonos": ["02622488669"],
+          "correos": ["spdtupungato@mendoza.gov.ar"]
         }
       ]
     },
     {
-      "nombre": "Área Género",
+      "nombre": "Área Género y Diversidad",
       "organismos": [
         {
           "nombre": "Dirección de Desarrollo Social",
-          "direccion": "25 de Mayo y Mosconi, Tupungato, Mendoza",
-          "telefonos": [
-            "02622521059"
-          ],
-          "correos": [
-            "generoydiversidad@tupungato.gov.ar"
-          ]
+          "direccion": "25 de Mayo y Mosconi – Tupungato – 5561 – Mendoza",
+          "telefonos": ["02622521059"],
+          "correos": ["generoydiversidad@tupungato.gov.ar"]
         }
       ]
     },
@@ -67,26 +52,18 @@
         {
           "nombre": "Municipalidad de Tupungato",
           "direccion": "Av. Belgrano 348, Tupungato, Mendoza",
-          "telefonos": [
-            "02622468597"
-          ],
-          "correos": [
-            "desarrollosocial@tupungato.gov.ar"
-          ]
+          "telefonos": ["02622468597"],
+          "correos": ["desarrollosocial@tupungato.gov.ar"]
         }
       ]
     },
     {
-      "nombre": "Asesor de Menores",
+      "nombre": "Asesoría de niños, niñas, adolescentes y personas con capacidad restringida",
       "organismos": [
         {
-          "nombre": "Asesor de Menores",
-          "telefonos": [
-            "2613860853"
-          ],
-          "correos": [
-            "abusosTUPUNGATO@jus.mendoza.gov.ar"
-          ]
+          "nombre": "Asesoría de niños, niñas, adolescentes y personas con capacidad restringida",
+          "telefonos": ["2613860853"],
+          "correos": ["abusosTUPUNGATO@jus.mendoza.gov.ar"]
         }
       ]
     }

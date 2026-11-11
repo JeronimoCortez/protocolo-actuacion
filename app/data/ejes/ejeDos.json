@@ -4,7 +4,7 @@
   "subejes": [
     {
       "numero": "2.1",
-      "nombre": "Consumo problemático de sustancias, objetos y/o prácticas.",
+      "nombre": "Presunción o certeza de consumo problemático de sustancias, objetos y/o prácticas",
       "pasos": [
         {
           "paso": "1",
@@ -12,49 +12,34 @@
         },
         {
           "paso": "2",
-          "descripcion": "Comunicar el emergente a DAE Central o EOS en CEBJA/CENS."
+          "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
         },
         {
           "paso": "3",
-          "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
+          "descripcion": "El profesional que interviene debe:",
+          "acciones": ["Privilegiar el relato del estudiante.", "Garantizar una escucha atenta que respete su privacidad.", "Evitar la reiteración del relato.", "En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere."]
         },
         {
           "paso": "4",
-          "descripcion": "El equipo interviniente genera un espacio de escucha atenta, respetando la privacidad, intimidad y contención del estudiante (evitando que intervengan actores innecesarios), con el objetivo de lograr un clima de confianza para que pueda expresarse sin juzgar ni estigmatizar. Abordar la situación desde una mirada integral, centralizando la intervención en el sujeto y no en las sustancias/objeto/prácticas, entendiendo a la escuela como un espacio de acompañamiento."
+          "descripcion": "El profesional que interviene elabora un informe en forma objetiva con la descripción de los hechos y analizará el impacto sobre la víctima, el grupo y el clima escolar."
         },
         {
           "paso": "5",
-          "descripcion": "Convocar a los responsables legales, familia o referente afectivo del estudiante, explicando la importancia de su rol en la contención en esta etapa."
+          "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
         },
         {
           "paso": "6",
-          "descripcion": "Comunicar el emergente a ETI según georeferencia en caso de que el estudiante sea menor de 13 años. En estudiantes mayores de 13 años, el equipo interviniente evalúa la existencia de vulneración de derechos y la derivación pertinente a dicho organismo."
-        },
-        {
-          "paso": "7",
-          "descripcion": "Articular acciones con efectores de salud y/o salud mental."
-        },
-        {
-          "paso": "8",
-          "descripcion": "Realizar registro escrito de la reunión en el legajo del estudiante."
-        },
-        {
-          "paso": "9",
-          "descripcion": "Registrar en acta e informar por vía jerárquica."
-        },
-        {
-          "paso": "10",
           "descripcion": "Dar seguimiento al caso."
         },
         {
-          "paso": "11",
+          "paso": "7",
           "descripcion": "Iniciar acciones vinculadas a los factores protectores."
         }
       ]
     },
     {
       "numero": "2.2",
-      "nombre": "Estado de intoxicación",
+      "nombre": "Aparente estado de intoxicación",
       "pasos": [
         {
           "paso": "1",
@@ -62,49 +47,46 @@
         },
         {
           "paso": "2",
-          "descripcion": "Brindar apoyo y contención, no dejar solo al estudiante. Llevarlo a un sector de la escuela en el que se sienta cómodo. Preservar la intimidad y la confidencialidad. Evitar aproximaciones culpabilizadoras o estigmatizantes."
+          "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. El equipo interviniente realiza el primer despeje:",
+          "acciones": ["Evalúa la existencia de una vulneración de derechos y da intervención a ETI o deriva a un efector de salud/salud mental."]
         },
         {
           "paso": "3",
-          "descripcion": "Convocar a los responsables legales, familia o referente afectivo del estudiante."
+          "descripcion": "Contactar con el 911 Servicio de Emergencias Coordinado. Si la indicación médica es trasladar al estudiante a un efector de salud, deberá ir acompañado por el responsable legal. En caso de que no se presente el referente afectivo deberá acompañarlo algún miembro del Equipo Directivo o docente a cargo de la dirección."
         },
         {
           "paso": "4",
-          "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado con el que cuenta la escuela. Si la indicación médica es trasladar al estudiante a un efector de salud, deberá ir acompañado por un familiar, referente afectivo o representante legal. En caso de que no se presente, deberá acompañarlo un miembro del equipo directivo o docente a cargo."
+          "descripcion": "Brindar apoyo y contención, no dejar solo al estudiante. Llevarlo a un sector de la escuela en el que se sienta cómodo. Preservar la intimidad y la confidencialidad. Evitar aproximaciones culpabilizadoras o estigmatizantes."
         },
         {
           "paso": "5",
-          "descripcion": "Comunicar el emergente a DAE Central o EOS en CEBJA/CENS."
+          "descripcion": "Convocar a los responsables legales, familia o referente afectivo del estudiante."
         },
         {
           "paso": "6",
-          "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes."
+          "descripcion": "En caso de mayores de 18 años se orienta para su atención en algún efector de salud/salud mental. Si la situación involucra al personal de la institución, se debe, además, iniciar los procedimientos administrativos correspondientes."
         },
         {
           "paso": "7",
-          "descripcion": "Comunicar el emergente a ETI según georeferencia en caso de que el estudiante sea menor de 13 años. En estudiantes mayores de 13 años, el equipo interviniente evalúa la existencia de vulneración de derechos y la derivación pertinente a dicho organismo."
+          "descripcion": "Registrar en acta e informar por vía jerárquica. En el acta debe quedar consignada el parte médico del profesional. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
         },
         {
           "paso": "8",
-          "descripcion": "Realizar registro escrito de la reunión en el legajo del estudiante."
+          "descripcion": "Realizar registro escrito de lo actuado en el legajo del estudiante."
         },
         {
           "paso": "9",
-          "descripcion": "Registrar en acta e informar por vía jerárquica. En el acta debe quedar consignado el parte médico del profesional."
-        },
-        {
-          "paso": "10",
           "descripcion": "Dar seguimiento al caso."
         },
         {
-          "paso": "11",
+          "paso": "10",
           "descripcion": "Iniciar acciones vinculadas a los factores protectores."
         }
       ]
     },
     {
       "numero": "2.3",
-      "nombre": "Consumo de sustancias dentro de la escuela",
+      "nombre": "Consumo de sustancias, objetos y/o prácticas dentro de la escuela",
       "pasos": [
         {
           "paso": "1",
@@ -112,39 +94,40 @@
         },
         {
           "paso": "2",
-          "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS."
+          "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
         },
         {
           "paso": "3",
-          "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
+          "descripcion": "Llamar al 911."
         },
         {
           "paso": "4",
-          "descripcion": "El equipo interviniente genera un espacio de escucha atenta, respetando la privacidad, intimidad y contención del estudiante (evitando que intervengan actores innecesarios), con el objetivo de lograr un clima de confianza para que pueda expresarse sin juzgar ni estigmatizar. Abordar la situación desde una mirada integral, centralizando la intervención en el sujeto y no en las sustancias/objeto/prácticas, entendiendo a la escuela como un espacio de acompañamiento."
+          "descripcion": "Convocar a los responsables legales, familia o referente afectivo del estudiante, explicarles la importancia de contenerlo, es fundamental el rol de estos actores en esta etapa."
         },
         {
           "paso": "5",
-          "descripcion": "Convocar a los responsables legales, familia o referente afectivo del estudiante, explicando la importancia de su rol en la contención en esta etapa."
+          "descripcion": "El equipo interviniente genera:",
+          "acciones": ["Un espacio de escucha atenta, respetando la privacidad, intimidad y contención del estudiante (evitando que intervengan actores innecesarios) con el objetivo de lograr un clima de confianza para que pueda expresarse, sin juzgar ni estigmatizar.", "Abordar la situación desde una mirada integral centralizando la intervención en el sujeto, nunca en las sustancias/objeto/prácticas, entendiendo a la escuela como un lugar que los aloja y acompaña.", "El equipo interviniente evalúa la existencia de una vulneración de derechos y da intervención a ETI o deriva a un efector de salud/salud mental."]
         },
         {
           "paso": "6",
-          "descripcion": "El equipo evalúa posibles derivaciones, en caso de ser necesario, a ETI y/o efectores de salud/salud mental cuando se trate de estudiantes menores de 18 años. Cuando se trate de estudiantes mayores de 18 años se orienta y se facilita la articulación con efectores de salud/salud mental."
+          "descripcion": "En caso de mayores de 18 años se orienta para su atención en algún efector de salud/salud mental."
         },
         {
           "paso": "7",
-          "descripcion": "Articular acciones con efectores de salud y/o salud mental."
+          "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
         },
         {
           "paso": "8",
-          "descripcion": "Realizar registro escrito de la reunión en el legajo del estudiante."
+          "descripcion": "Realizar registro escrito de lo actuado en el legajo del estudiante."
         },
         {
           "paso": "9",
-          "descripcion": "Registrar en acta e informar por vía jerárquica."
+          "descripcion": "Dar seguimiento al caso."
         },
         {
           "paso": "10",
-          "descripcion": "Dar seguimiento al caso."
+          "descripcion": "Iniciar acciones vinculadas a los factores protectores."
         }
       ]
     },
@@ -162,32 +145,33 @@
             },
             {
               "paso": "2",
-              "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS."
+              "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
             },
             {
               "paso": "3",
-              "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
+              "descripcion": "Dar aviso a los responsables legales, familia o referentes afectivos del estudiante, para que asistan a la institución y se informen de lo sucedido."
             },
             {
               "paso": "4",
-              "descripcion": "Solicitar al estudiante que posee la sustancia psicoactiva legal que la entregue. En caso de negativa, solicitar la intervención de un referente institucional con vínculo cercano.",
-              "nota": "Es importante explicar las razones por las cuales es necesario que entregue la sustancia y explicitar que el objetivo de las acciones de la escuela se enmarca en la normativa vigente y en el cuidado del estudiante."
+              "descripcion": "Solicitar al estudiante que posee la sustancia psicoactiva legal (alcohol, cigarrillos, vapeadores, medicamentos, energizantes) que la entregue. En caso de que se niegue se pide la intervención del referente institucional con vínculo cercano.",
+              "nota": "Es importante explicar las razones por las cuales es necesario que entregue la sustancia y explicitar que el objetivo de las acciones que toma la escuela se enmarcan dentro de una normativa y es siempre en pos del cuidado."
             },
             {
               "paso": "5",
-              "descripcion": "El equipo interviniente genera un espacio de escucha atenta, respetando la privacidad, intimidad y contención del estudiante (evitando que intervengan actores innecesarios), con el objetivo de lograr un clima de confianza para que pueda expresarse sin juzgar ni estigmatizar. Abordar la situación desde una mirada integral, centralizando la intervención en el sujeto y no en las sustancias/objeto/prácticas, entendiendo a la escuela como un espacio de acompañamiento."
+              "descripcion": "El equipo interviniente genera:",
+              "acciones": ["Un espacio de escucha atenta, respetando la privacidad, intimidad y contención del estudiante (evitando que intervengan actores innecesarios) con el objetivo de lograr un clima de confianza para que pueda expresarse, sin juzgar ni estigmatizar.", "Se sugiere abordar la situación desde una mirada integral centralizando la intervención en el sujeto, nunca en las sustancias/objeto/prácticas, entendiendo a la escuela como un lugar que los aloja y acompaña."]
             },
             {
               "paso": "6",
-              "descripcion": "Dar aviso a los responsables legales, familia o referentes afectivos del estudiante para que asistan a la institución y se informen de lo sucedido."
+              "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
             },
             {
               "paso": "7",
-              "descripcion": "Registrar en acta e informar por vía jerárquica."
+              "descripcion": "Dar seguimiento al caso."
             },
             {
               "paso": "8",
-              "descripcion": "Dar seguimiento al caso."
+              "descripcion": "Iniciar acciones vinculadas a los factores protectores."
             }
           ]
         },
@@ -201,32 +185,32 @@
             },
             {
               "paso": "2",
-              "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS."
+              "descripcion": "Llamar al 911 (Fuerzas de seguridad) para solicitar el retiro y la custodia de la sustancia presente en la institución, con características compatibles a las sustancias psicoactivas (por envoltorio, aspecto, aroma, etc)."
             },
             {
               "paso": "3",
-              "descripcion": "Llamar al 911 (Fuerzas de seguridad) para solicitar el retiro y la custodia de la sustancia presente en la institución, con características compatibles a sustancias psicoactivas (por envoltorio, aspecto, aroma, etc.).",
-              "nota": "La solicitud implica requerir la presencia de una autoridad de seguridad que pueda evaluar y eventualmente custodiar y retirar un objeto sobre el cual la escuela no puede emitir juicio de legalidad o peligrosidad. Al configurarse una posible hipótesis de delito (tenencia para comercialización), la Policía actuará con aval del Ministerio Público Fiscal de Mendoza."
+              "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
             },
             {
               "paso": "4",
-              "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
+              "descripcion": "Dar aviso a los responsables legales, familia o referentes afectivos del estudiante, para que asistan a la institución y se informen de lo sucedido."
             },
             {
               "paso": "5",
-              "descripcion": "En caso de identificarse a la persona a la que pertenece la sustancia, el equipo interviniente genera un espacio de escucha atenta, respetando la privacidad, intimidad y contención del estudiante (evitando la intervención de actores innecesarios), con el objetivo de generar un clima de confianza para que pueda expresarse sin juzgar ni estigmatizar. Abordar la situación desde una mirada integral centrada en el sujeto."
+              "descripcion": "En caso de que se sepa a quién pertenece la sustancia, el equipo interviniente genera:",
+              "acciones": ["Un espacio de escucha atenta, respetando la privacidad, intimidad y contención del estudiante (evitando que intervengan actores innecesarios) con el objetivo de lograr un clima de confianza para que pueda expresarse, sin juzgar ni estigmatizar.", "Se sugiere que la situación desde una mirada integral centralizando la intervención en el sujeto, nunca en las sustancias/objeto/prácticas, entendiendo a la escuela como un lugar que los aloja y acompaña."]
             },
             {
               "paso": "6",
-              "descripcion": "Dar aviso a los responsables legales, familia o referentes afectivos del estudiante para que asistan a la institución y se informen de lo sucedido."
+              "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
             },
             {
               "paso": "7",
-              "descripcion": "Registrar en acta e informar por vía jerárquica."
+              "descripcion": "Dar seguimiento al caso."
             },
             {
               "paso": "8",
-              "descripcion": "Dar seguimiento al caso."
+              "descripcion": "Iniciar acciones vinculadas a los factores protectores."
             }
           ]
         }
@@ -234,7 +218,7 @@
     },
     {
       "numero": "2.5",
-      "nombre": "Venta  de Sustancias  legales e  ilegales en la escuela",
+      "nombre": "Venta de sustancias legales e ilegales en la escuela",
       "pasos": [
         {
           "paso": "1",
@@ -242,72 +226,62 @@
         },
         {
           "paso": "2",
-          "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS."
+          "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
         },
         {
           "paso": "3",
-          "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
-        },
-        {
-          "paso": "4",
-          "descripcion": "Procurar establecer un diálogo con el estudiante para reunir información sobre la situación en un clima de confidencialidad."
-        },
-        {
-          "paso": "5",
           "descripcion": "Dar aviso a los responsables legales, familia o referentes afectivos solo en casos de NNA, para que asistan a la institución e informar lo sucedido."
         },
         {
+          "paso": "4",
+          "descripcion": "En caso de sustancias ilegales llamar al 911 (Fuerzas de seguridad) para solicitar el retiro y la custodia de la sustancia presente en la institución, con características compatibles a las sustancias psicoactivas (por envoltorio, aspecto, aroma, etc)."
+        },
+        {
+          "paso": "5",
+          "descripcion": "Procurar establecer un diálogo con el estudiante para reunir información sobre la situación en un clima de confidencialidad."
+        },
+        {
           "paso": "6",
-          "descripcion": "En caso de sustancias ilegales, llamar al 911 (Fuerzas de seguridad) para solicitar el retiro y la custodia de la sustancia presente en la institución, con características compatibles a sustancias psicoactivas (por envoltorio, aspecto, aroma, etc.).",
-          "nota": "La solicitud implica requerir la presencia de una autoridad de seguridad que pueda evaluar y eventualmente custodiar y retirar un objeto sobre el cual la escuela no puede emitir juicio de legalidad o peligrosidad. Al configurarse una posible hipótesis de delito (tenencia para comercialización), la Policía actuará con aval del Ministerio Público Fiscal de Mendoza."
+          "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
         },
         {
           "paso": "7",
-          "descripcion": "Incorporar en los Acuerdos Institucionales de Convivencia (AIC) que en la institución no está permitido ningún tipo de comercialización. En el caso de jóvenes y adultos, incluir al Consejo Escolar Comunitario (CEC) en su elaboración."
+          "descripcion": "Dar seguimiento al caso."
         },
         {
           "paso": "8",
-          "descripcion": "Registrar en acta e informar por vía jerárquica."
-        },
-        {
-          "paso": "9",
-          "descripcion": "Dar seguimiento al caso."
+          "descripcion": "Iniciar acciones vinculadas a los factores protectores."
         }
       ]
     }
   ],
-  "acciones_preventivas": [
-    {
-      "accion": "1",
-      "descripcion": "Garantizar el cumplimiento de acciones preventivas mediante la designación de responsables institucionales, fortaleciendo factores protectores dentro de la escuela."
-    },
-    {
-      "accion": "2",
-      "descripcion": "Los profesionales intervinientes de los equipos DAE, SOE y de las modalidades Especial y Jóvenes y Adultos continuarán trabajando a través del diálogo y la reflexión con los estudiantes."
-    },
-    {
-      "accion": "3",
-      "descripcion": "En función de las entrevistas, los equipos DAE, SOE o correspondientes según modalidad definirán la necesidad de derivación a salud mental. Según el nivel de complejidad, podrá realizarse a centros de salud, centros preventivo-asistenciales de salud mental infanto juvenil, CPAA, hospitales, CACs o DTC según georreferencia."
-    },
-    {
-      "accion": "4",
-      "descripcion": "Implementar estrategias que prioricen la inclusión del estudiante, brindando apoyo y acompañamiento permanente, facilitando su asistencia escolar y la continuidad de su tratamiento de salud."
-    },
-    {
-      "accion": "5",
-      "descripcion": "Realizar seguimiento institucional solicitando constancias de asistencia a turnos y articulando con profesionales tratantes para el abordaje integral de la situación del estudiante."
-    },
-    {
-      "accion": "6",
-      "descripcion": "Sostener el diálogo y articular acciones con los organismos intervinientes, a fin de construir estrategias conjuntas que acompañen la trayectoria escolar del estudiante de manera integral."
-    },
-    {
-      "accion": "7",
-      "descripcion": "Promover espacios de diálogo con otros estudiantes para reflexionar sobre lo ocurrido, abordando el consumo como una problemática social y habilitando el intercambio de representaciones y experiencias."
-    },
-    {
-      "accion": "8",
-      "descripcion": "En la modalidad EPJA, convocar al Consejo Escolar Comunitario para identificar factores protectores, establecer acuerdos y desarrollar talleres relacionados con el consumo problemático de sustancias, objetos y prácticas."
-    }
-  ]
+  "acciones_preventivas": {
+    "factores_protectores": "La escuela debe garantizar el cumplimiento de las siguientes acciones designando a los responsables correspondientes.",
+    "acciones": [
+      {
+        "accion": 1,
+        "descripcion": "Los profesionales intervinientes de los equipos DAE, SOE y los correspondientes a las modalidades Especial y Jóvenes y Adultos, continuarán trabajando a través del diálogo y la reflexión."
+      },
+      {
+        "accion": 2,
+        "descripcion": "En función de las entrevistas - el Equipo de DAE Nivel Inicial y Primaria, el SOE o equipos correspondientes según modalidad especial o Jóvenes y Adultos- definirá cuando sea necesaria la derivación a algún equipo de salud mental. Teniendo en cuenta el nivel de complejidad la derivación será realizada a un centro de salud, Centro preventivo asistencial de salud mental infanto juvenil o centro preventivo asistencial en adicciones (CPAA), hospitales y CACs (Centros de Acompañamiento Comunitario), DTC (Dispositivos Territoriales Comunitarios) que correspondan por georreferencia."
+      },
+      {
+        "accion": 3,
+        "descripcion": "Implementar diferentes estrategias de acción que tengan como prioridad la inclusión del estudiante brindando apoyo y acompañamiento permanente, facilitando la concurrencia del estudiante a la escuela, para que complete su trayectoria escolar y su tratamiento de salud. Es importante que desde la escuela se realice seguimiento de asistencia a turnos, en articulación con el profesional tratante para conocimiento de la situación del estudiante a nivel de su salud integral."
+      },
+      {
+        "accion": 4,
+        "descripcion": "Sostener el diálogo y articular las acciones con los organismos que intervienen en la situación como parte del seguimiento que realiza la escuela, de modo de conocer coordenadas de abordaje de dicho organismo que permitan construir definiciones que atañen a la trayectoria escolar. Se entiende que el acompañamiento a las trayectorias escolares debe garantizarse de modo integral."
+      },
+      {
+        "accion": 5,
+        "descripcion": "Promover con los demás estudiantes, un diálogo abierto, en el que se hable sobre lo ocurrido, y se intente pensar en el consumo como una problemática social que nos atraviesa a todos. Dar lugar a un espacio para hablar e intercambiar acerca de sus representaciones sociales relacionadas con el consumo."
+      },
+      {
+        "accion": 6,
+        "descripcion": "En la modalidad EPJA se sugiere convocar al Consejo Escolar Comunitario para identificar factores protectores con los que cuenta el centro educativo. Establecer acuerdos y talleres en relación al consumo problemático de sustancias, objetos y prácticas."
+      }
+    ]
+  }
 }

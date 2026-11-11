@@ -1,0 +1,450 @@
+{
+  "numero": "10",
+  "nombre": "Armas, explosivos e incidente por conflicto externo",
+  "informacion_importante": ["El personal de la escuela NO debe manipular el arma sin presencia policial, salvo que sea estrictamente necesario por seguridad.", "Evitar la difusión de imágenes, nombres o datos personales en medios de comunicación y redes sociales."],
+  "subejes": [
+    {
+      "numero": "10.1",
+      "nombre": "Amenazas de Intimidación Pública en Instituciones Educativas",
+      "pasos": [
+        {
+          "paso": "1",
+          "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+        },
+        {
+          "paso": "2",
+          "descripcion": "Llamar al 911- Sistema de Seguridad Pública: Toda amenaza de atentado contra la integridad física debe ser reportada de inmediato al sistema de emergencias para dar intervención a las fuerzas de seguridad."
+        },
+        {
+          "paso": "3",
+          "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
+        },
+        {
+          "paso": "4",
+          "descripcion": "Preservar la evidencia: Registrar fotográficamente el mensaje para la denuncia judicial y, acto seguido, proceder a su eliminación física para evitar la viralización."
+        },
+        {
+          "paso": "5",
+          "descripcion": "Emitir Comunicado oficial a la comunidad educativa:",
+          "acciones": ["COMUNICADO OFICIAL", "A la comunidad educativa:", "La Dirección de la Escuela [Nombre de la Institución] se dirige a ustedes con el fin de brindar tranquilidad y garantizar el resguardo efectivo de la integridad física de nuestros estudiantes ante los sucesos de público conocimiento.", "Informamos que, desde el primer momento, esta institución ha procedido de manera inmediata activando los protocolos vigentes y articulando acciones con los organismos técnicos de la Dirección General de Escuelas (DAE) y el Ministerio de Seguridad.", "En virtud de priorizar la seguridad y el normal desarrollo de las clases, comunicamos las medidas adoptadas:", "Articulación de Seguridad: Se ha dado intervención a la fuerza policial de investigaciones y se trabaja bajo el asesoramiento de equipos técnicos especializados para la evaluación y seguimiento del caso.", "Trazabilidad y Prevención: Se han reforzado las rondas de inspección en las instalaciones y se ha establecido un registro de ingreso y egreso supervisado a sectores comunes.", "Gestión de Pertenencias: De manera preventiva y hasta nuevo aviso, se solicita que los estudiantes concurran únicamente con carpeta y cartuchera, evitando el ingreso de mochilas al establecimiento para facilitar la supervisión del entorno escolar.", "Acompañamiento Profesional: El Servicio de Orientación Escolar se encuentra a disposición para brindar los primeros auxilios psicológicos y contención a aquellos estudiantes que manifiesten inquietudes o miedos derivados de esta situación.", "Apelamos a la corresponsabilidad parental, solicitando a las familias dialogar con sus hijos sobre el uso responsable de las redes sociales y las graves consecuencias legales de las conductas de intimidación pública. Asimismo, pedimos supervisar activamente los dispositivos móviles y las pertenencias de los estudiantes para asegurar que no ingresen objetos que puedan poner en riesgo la convivencia.", "Reafirmamos nuestro compromiso inalienable de garantizar la previsibilidad institucional y el cuidado de las trayectorias educativas de nuestros estudiantes en un entorno protegido.", "El Equipo Directivo queda a su entera disposición para cualquier consulta o coordinación necesaria.", "Equipo Directivo Escuela [Nombre/Número] Dirección General de Escuelas"],
+          "archivo": "./comunicado_eje7_1.pdf"
+        },
+        {
+          "paso": "6",
+          "descripcion": "El personal de la institución no debe difundir en redes sociales privadas estas situaciones. La comunicación es estrictamente oficial para evitar la desinformación."
+        },
+        {
+          "paso": "7",
+          "descripcion": "En caso de reconocimiento de autoría del hecho se cita a los adultos responsables del o los estudiantes para informarles acerca de su responsabilidad contravencional."
+        },
+        {
+          "paso": "8",
+          "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+        },
+        {
+          "paso": "9",
+          "descripcion": "Iniciar acciones vinculadas a los factores protectores."
+        }
+      ]
+    },
+    {
+      "numero": "10.2",
+      "nombre": "Armas",
+      "categorias": [
+        {
+          "numero": "10.2.1",
+          "nombre": "Presencia de arma en la escuela",
+          "informacion": "Se encuentra un arma dentro del establecimiento pero NO está en posesión de ninguna persona.",
+          "clasificacion": [
+            {
+              "tipo": "Armas blancas"
+            },
+            {
+              "tipo": "Armas impropias"
+            },
+            {
+              "tipo": "Armas de fuego"
+            }
+          ],
+          "acciones": [
+            {
+              "condicion": "Arma blanca o impropia",
+              "pasos": [
+                {
+                  "paso": "1",
+                  "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+                },
+                {
+                  "paso": "2",
+                  "descripcion": "Llamar al 911 Sistema Seguridad Pública para que retire el arma y realice las pericias correspondientes."
+                },
+                {
+                  "paso": "3",
+                  "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
+                },
+                {
+                  "paso": "4",
+                  "descripcion": "Separar y resguardar a los estudiantes hacia un lugar seguro y alejados del arma."
+                },
+                {
+                  "paso": "5",
+                  "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+                },
+                {
+                  "paso": "6",
+                  "descripcion": "Iniciar acciones vinculadas a los factores protectores."
+                }
+              ]
+            },
+            {
+              "condicion": "Arma de fuego",
+              "pasos": [
+                {
+                  "paso": "1",
+                  "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+                },
+                {
+                  "paso": "2",
+                  "descripcion": "Llamar al 911 Sistema seguridad pública para que retire el arma y realice las pericias correspondientes."
+                },
+                {
+                  "paso": "3",
+                  "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
+                },
+                {
+                  "paso": "4",
+                  "descripcion": "Separar a los estudiantes del lugar donde se encuentra el arma. Considerar todas las armas de fuego como si estuvieran cargadas."
+                },
+                {
+                  "paso": "5",
+                  "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+                },
+                {
+                  "paso": "6",
+                  "descripcion": "Iniciar acciones vinculadas a los factores protectores."
+                }
+              ]
+            }
+          ],
+          "pasos": []
+        },
+        {
+          "numero": "10.2.2",
+          "nombre": "Persona portando arma dentro de la institución",
+          "pasos": [
+            {
+              "paso": "1",
+              "descripcion": "Llamar al 911 Sistema de seguridad pública, informar la situación y solicitar asesoramiento y presencia inmediata. Considerar todas las armas de fuego como si estuvieran cargadas."
+            },
+            {
+              "paso": "2",
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            },
+            {
+              "paso": "3",
+              "descripcion": "Comunicar el emergente a DAE Central. Los equipos realizan el primer despeje. En paralelo dar aviso al superior jerárquico."
+            },
+            {
+              "paso": "4",
+              "descripcion": "Indicar a los estudiantes que se dirijan a zona segura, en dirección contraria a la persona armada."
+            },
+            {
+              "paso": "5",
+              "descripcion": "Evaluar la situación y actuar de acuerdo a las siguientes opciones.",
+              "condiciones": [
+                {
+                  "tipo": "salir_rapidamente",
+                  "acciones": ["Deje sus pertenencias y, de inmediato, elabore un plan de salida en dirección contraria a la persona armada.", "Si está a cargo de un grupo de personas, evacúe el lugar rápidamente y sin dudar, procurando llegar a la zona segura designada o salir del edificio según corresponda.", "En caso de encontrarse con el personal policial intente mantener las manos visibles en todo momento para permitir que la policía identifique rápidamente a quien porta el arma."]
+                },
+                {
+                  "tipo": "resguardarse",
+                  "acciones": ["En caso de no poder salir rápidamente, asegúrese de resguardarse en un área fuera del campo visual del agresor.", "Cierre la puerta o bloquee el acceso; si se encuentra en un aula, utilice pupitres, sillas u otros objetos para obstruir puertas y ventanas.", "Evite ubicarse frente a puertas o ventanas.", "Silencie su celular por completo -incluido el modo vibrador- y permanezca en absoluto silencio, esperando a que la agresión termine o llegue ayuda policial.", "En caso de encontrarse con el personal policial intenten mantener las manos visibles en todo momento para permitir que la policía identifique rápidamente a quien porta el arma"]
+                }
+              ]
+            },
+            {
+              "paso": "6",
+              "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+            },
+            {
+              "paso": "7",
+              "descripcion": "Dar seguimiento si la persona involucrada es un estudiante, en caso de que el equipo interviniente detecte la existencia de riesgo o amenaza o vulneración de derechos da intervención a instituciones competentes según municipio, Equipos de salud o ETI."
+            },
+            {
+              "paso": "8",
+              "descripcion": "Iniciar acciones vinculadas a los factores protectores."
+            }
+          ]
+        },
+        {
+          "numero": "10.2.3",
+          "nombre": "Adulto que se presenta en la puerta de la escuela con actitud amenazante",
+          "pasos": [
+            {
+              "paso": "1",
+              "descripcion": "Llamar al 911 Sistema de seguridad pública, informar la situación y solicitar asesoramiento."
+            },
+            {
+              "paso": "2",
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            },
+            {
+              "paso": "3",
+              "descripcion": "Impedir el acceso al establecimiento de cualquier adulto en actitud amenazante o que porte un arma (de fuego, arma blanca o cualquier elemento contundente)."
+            },
+            {
+              "paso": "4",
+              "descripcion": "Preservar la seguridad de los estudiantes hasta la llegada de las fuerzas policiales."
+            },
+            {
+              "paso": "5",
+              "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "10.3",
+      "nombre": "Imágenes de estudiantes portando armas",
+      "pasos": [
+        {
+          "paso": "1",
+          "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+        },
+        {
+          "paso": "2",
+          "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
+        },
+        {
+          "paso": "3",
+          "descripcion": "En paralelo, llamar al 911- Sistema de seguridad pública, informar la situación y solicitar asesoramiento."
+        },
+        {
+          "paso": "4",
+          "descripcion": "Quien detecta la imagen del estudiante portando un arma - a través del relato de tercero o visualización en redes sociales- tiene el deber de informar."
+        },
+        {
+          "paso": "5",
+          "descripcion": "Comunicar la situación a la familia, referentes afectivos o responsables legales y requerir su presencia inmediata en la institución."
+        },
+        {
+          "paso": "6",
+          "descripcion": "Si el equipo interviniente advierte un riesgo o amenaza, dar intervención a instituciones competentes."
+        },
+        {
+          "paso": "7",
+          "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+        },
+        {
+          "paso": "8",
+          "descripcion": "Iniciar acciones vinculadas a los factores protectores."
+        }
+      ]
+    },
+    {
+      "numero": "10.4",
+      "nombre": "Incidentes con explosivos",
+      "categorias": [
+        {
+          "numero": "10.4.1",
+          "nombre": "Amenaza de bomba",
+          "pasos": [
+            {
+              "paso": "1",
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            },
+            {
+              "paso": "2",
+              "descripcion": "Llamar al 911 Sistema de seguridad pública, informar la situación, solicitar asesoramiento y presencia inmediata."
+            },
+            {
+              "paso": "3",
+              "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad."
+            },
+            {
+              "paso": "4",
+              "descripcion": "Trasladar a los estudiantes docentes y personal de la escuela al lugar seguro del establecimiento designado con anterioridad:",
+              "acciones": ["Los docentes son responsables de sus estudiantes y deberán contar con un listado de todos los presentes en el día.", "Evitar la evacuación al exterior", "Llevar consigo todas sus pertenencias."]
+            },
+            {
+              "paso": "5",
+              "descripcion": "Informar por vía jerárquica."
+            },
+            {
+              "paso": "6",
+              "descripcion": "La persona que toma conocimiento de la amenaza - vía telefónica, escrita, relato de tercero o redes sociales- debe:",
+              "acciones": ["Permanecer en calma", "Estar atenta a la palabra y el tono de voz", "Será quien brindará información importante para los especialistas de la unidad de explosivos", "Resguardar el elemento de prueba en caso de que se haya recibido de forma escrita y/o por redes sociales"]
+            },
+            {
+              "paso": "7",
+              "descripcion": "Seguir las indicaciones de los especialistas de la Unidad de Explosivos."
+            },
+            {
+              "paso": "8",
+              "descripcion": "Redactar acta. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+            },
+            {
+              "paso": "9",
+              "descripcion": "Iniciar acciones vinculadas a los factores protectores."
+            }
+          ]
+        },
+        {
+          "numero": "10.4.2",
+          "nombre": "Hallazgo de artefactos explosivos o sospechosos de serlo",
+          "pasos": [
+            {
+              "paso": "1",
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            },
+            {
+              "paso": "2",
+              "descripcion": "Llamar al 911 Sistema de seguridad pública, informar la situación y solicitar asesoramiento y presencia inmediata."
+            },
+            {
+              "paso": "3",
+              "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad."
+            },
+            {
+              "paso": "4",
+              "descripcion": "No permitir que la persona que encontró el objeto se retire del lugar. No manipular el objeto. Aislar la zona."
+            },
+            {
+              "paso": "5",
+              "descripcion": "Si el objeto se encuentra dentro del establecimiento, activar de inmediato el PLAN DE EVACUACIÓN."
+            },
+            {
+              "paso": "6",
+              "descripcion": "Si el objeto se encuentra afuera, el lugar más seguro es el establecimiento educativo o lugares internos previamente designados."
+            },
+            {
+              "paso": "7",
+              "descripcion": "Esperar la llegada de la Unidad de Explosivos del Ministerio de Seguridad y seguir sus recomendaciones."
+            },
+            {
+              "paso": "8",
+              "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+            },
+            {
+              "paso": "9",
+              "descripcion": "Iniciar acciones vinculadas a los factores protectores."
+            }
+          ]
+        },
+        {
+          "numero": "10.4.3",
+          "nombre": "Detonación de explosivos",
+          "pasos": [
+            {
+              "paso": "1",
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            },
+            {
+              "paso": "2",
+              "descripcion": "Llamar al 911 Sistema de seguridad pública, informar la situación y solicitar asesoramiento y presencia inmediata."
+            },
+            {
+              "paso": "3",
+              "descripcion": "Activar de inmediato el PLAN DE EVACUACIÓN hacia una zona establecida previamente como segura, asegurando una distancia mínima de 100 mts., ya que podrían existir otros artefactos ocultos."
+            },
+            {
+              "paso": "4",
+              "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad."
+            },
+            {
+              "paso": "5",
+              "descripcion": "Si no hay víctimas y no existe riesgo inminente para sus vidas, indicar que se desplacen por sus medios a las zonas seguras."
+            },
+            {
+              "paso": "6",
+              "descripcion": "Esperar la llegada de la Unidad de Explosivos del Ministerio de Seguridad de elementos explosivos."
+            },
+            {
+              "paso": "7",
+              "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+            },
+            {
+              "paso": "8",
+              "descripcion": "Iniciar acciones vinculadas a los factores protectores"
+            }
+          ]
+        }
+      ],
+      "recuadros": [
+        {
+          "titulo": "Evacuación",
+          "subtitulo": "Siempre seguir las recomendaciones de los especialistas de la Unidad de Explosivos",
+          "grupos": [
+            ["En casos en que se requiera una evacuación inmediata la misma será decisión de especialistas en explosivos.", "No generar alarma generalizada.", "Localizado el objeto o verificada su veracidad se debe proceder a la evacuación."],
+            ["Realizar la evacuación con orden, rapidez y disciplina.", "Durante el proceso de evacuación, no alterar puertas ni ventanas ni modificar los espacios.", "Al salir o al pasar de un ambiente a otro, deje las puertas abiertas.", "Cada docente será responsable de sus alumnos.", "El personal no docente quedará a disposición de los especialistas."],
+            ["Recordar que, de ser posible, TODOS deben abandonar su área de actividad llevando consigo bultos y pertenencias. Esto facilitará en un 80% la rapidez y efectividad del trabajo de los técnicos en búsqueda y localización.", "Si al evacuar se olvidaron pertenencias, NO regresar por sus objetos personales; evitar exponerse a riesgos."]
+          ]
+        }
+      ]
+    },
+    {
+      "numero": "10.5",
+      "nombre": "Incidente por Conflicto Social Externo",
+      "pasos": [
+        {
+          "paso": "1",
+          "descripcion": "Bloquear los accesos al establecimiento."
+        },
+        {
+          "paso": "2",
+          "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+        },
+        {
+          "paso": "3",
+          "descripcion": "Llamar al 911 Sistema de Seguridad Pública, informar la situación y solicitar asesoramiento y presencia inmediata."
+        },
+        {
+          "paso": "4",
+          "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad."
+        },
+        {
+          "paso": "5",
+          "descripcion": "El Equipo Directivo de la escuela comunica sobre la situación y modo de proceder a padres, madres, responsables legales o referentes afectivos."
+        },
+        {
+          "paso": "6",
+          "descripcion": "Cada docente debe mantener a sus estudiantes dentro del aula o en los espacios seguros fijados por la institución y verificar que no haya ausencias respecto al inicio de la jornada."
+        },
+        {
+          "paso": "7",
+          "descripcion": "Esperar la llegada del personal policial de la jurisdicción para confirmar que el entorno sea seguro y recibir indicaciones para la evacuación."
+        },
+        {
+          "paso": "8",
+          "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+        },
+        {
+          "paso": "9",
+          "descripcion": "Iniciar acciones vinculadas a los factores protectores."
+        }
+      ]
+    }
+  ],
+  "acciones_preventivas": {
+    "factores_protectores": "Generar acciones sostenidas en el tiempo para el seguimiento y acompañamiento de la institución escolar.",
+    "acciones": [
+      {
+        "accion": 1,
+        "descripcion": "Los profesionales de los equipos intervinientes - DAE para Inicial y Primaria, SOE secundaria o equipos de Educación Especial y Jóvenes y Adultos- junto con el Equipo Directivo de la institución, se encargarán de activar, sostener y fortalecer las redes de apoyo interinstitucionales."
+      },
+      {
+        "accion": 2,
+        "descripcion": "La DAE diseñará e implementará acciones para contener emocionalmente, detectar posibles situaciones de miedo, ansiedad o trauma en los estudiantes, docentes y personal no docente."
+      },
+      {
+        "accion": 3,
+        "descripcion": "Promover en conjunto con los estudiantes, docentes, directivos, familias y otras organizaciones/actores de la comunidad un diálogo abierto, para reflexionar sobre lo ocurrido, la violencia social y la repercusión en el ámbito educativo y reforzar el rol de la escuela como espacio seguro."
+      },
+      {
+        "accion": 4,
+        "descripcion": "En la modalidad EPJA se sugiere convocar al Consejo Escolar Comunitario para identificar factores protectores con los que cuenta el centro educativo. Establecer acuerdos y talleres en relación a los emergentes."
+      }
+    ]
+  }
+}

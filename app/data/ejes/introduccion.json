@@ -1,0 +1,35 @@
+{
+  "titulo": "Protocolo de actuación",
+  "parrafos": [
+    "La persona de la institución que detecta el emergente, ya sea porque recibe el relato directo del estudiante o relato de terceros o porque presencia la situación, asume un rol protagónico. Es su responsabilidad indelegable activar el protocolo y llevar a cabo las acciones iniciales de cuidado. La activación del protocolo se encuentra amparada por la Ley 9054, la cual protege a quien la realiza.",
+    "Cada activación del Protocolo debe quedar debidamente registrada en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+  ],
+  "orientaciones_911": {
+    "descripcion": "Se recomienda tener en cuenta las siguientes orientaciones para comunicarse con el 911.",
+    "casos": [
+      {
+        "titulo": "Comunicación con el 911 frente a riesgos de salud",
+        "indicacion": "Durante el llamado seguir indicaciones del operador. Comunicar la situación con calma y claridad.",
+        "datos_a_brindar": [
+          "Nombre y cargo de quien se comunica.",
+          "Ubicación exacta: departamento/localidad, calle, altura o puntos de referencia.",
+          "Descripción del emergente y edad de la persona. Por ejemplo: especificar si es un intento de suicidio, crisis de angustia/psicosis o intoxicación por sustancias, episodio de violencia con lesiones graves, entre otros.",
+          "Estado de la persona. Por ejemplo: no responde cuando se intenta establecer comunicación, está agitada, ausente, sangra mucho, no tiene pulso, convulsiona o se desmaya, presenta dolor en el pecho, traumatismo grave, entre otros.",
+          "Presencia de elementos de riesgo. Por ejemplo: indicar si la persona tiene acceso a armas, pastillas, objetos cortantes o si está en un lugar elevado."
+        ]
+      },
+      {
+        "titulo": "Comunicación con el 911 frente a riesgos de seguridad y averiguación de paradero",
+        "indicacion": "Durante el llamado seguir indicaciones del operador. Comunicar la situación con calma y claridad.",
+        "datos_a_brindar": [
+          "Nombre y cargo de quien se comunica.",
+          "Ubicación exacta: departamento/localidad, calle, altura o puntos de referencia.",
+          "Descripción del emergente (tipología): especificar si se trata de un caso de armas, explosivos, incidentes por conflictos externos, intimidación pública bajo forma de “retos virales”, averiguación de paradero u otros.",
+          "En caso de paradero señalar: datos personales básicos de la persona desaparecida (nombre/s y apellido/s, edad, DNI, domicilio, teléfono), descripción física y de vestimenta, ubicación y horario de la última vez que fue vista.",
+          "En caso de persona armada señalar: cantidad de agresores y su ubicación, cantidad y tipo de armas que posean y cantidad de posibles víctimas en el lugar."
+        ]
+      }
+    ]
+  },
+  "aclaracion": "El presente protocolo hace referencia a diversos programas, direcciones, organismos y líneas de atención vigentes al momento de su elaboración. Dado que estas denominaciones pueden modificarse en el tiempo por reestructuraciones institucionales, cambios normativos o de gestión, se deja establecido que toda mención a un programa, dirección u organismo debe entenderse referida al que, en cada momento, cumpla las funciones equivalentes, aun cuando su nombre haya cambiado. Corresponderá a quienes apliquen este protocolo identificar el organismo que en el futuro reemplace o continúe las funciones del mencionado en el texto."
+}

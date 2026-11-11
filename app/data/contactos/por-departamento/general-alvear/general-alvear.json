@@ -6,8 +6,8 @@
       "organismos": [
         {
           "nombre": "Hospital Enfermeros Argentinos",
-          "direccion": "Emilio Civit 400, General Alvear, Mendoza",
-          "telefonos": ["02625-422165", "02625-422857"],
+          "direccion": "Emilio Civit 400, Gral. Alvear",
+          "telefonos": ["02625422165", "02625422857"],
           "correos": ["ppmialvear@mendoza.gov.ar"]
         }
       ]
@@ -17,8 +17,8 @@
       "organismos": [
         {
           "nombre": "Hospital Enfermeros Argentinos",
-          "direccion": "Emilio Civit 400, General Alvear, Mendoza",
-          "telefonos": ["02625-422165", "02625-422857"],
+          "direccion": "Emilio Civit 400, Gral. Alvear",
+          "telefonos": ["02625422165", "02625422857"],
           "correos": ["hosp-alvear@mendoza.gov.ar"]
         }
       ]
@@ -28,14 +28,14 @@
       "organismos": [
         {
           "nombre": "Área departamental de la niñez y adolescencia y familia",
-          "direccion": "San Rafael 243, General Alvear, Mendoza",
-          "telefonos": ["02625-422605"],
+          "direccion": "San Rafael 243, Gral. Alvear",
+          "telefonos": ["02625422605"],
           "correos": ["desarrollo@alvearmendoza.gob.ar"]
         }
       ]
     },
     {
-      "nombre": "Asesor de menores",
+      "nombre": "Asesoría de niños, niñas, adolescentes y personas con capacidad restringida",
       "organismos": [
         {
           "nombre": "1° Asesoría de NNAyPCR - General Alvear",
@@ -50,18 +50,18 @@
       "organismos": [
         {
           "nombre": "Oficina Fiscal - Comisaría 14°",
-          "direccion": "Av. Alvear Oeste y San Rafael, General Alvear, Mendoza",
-          "telefonos": ["02625-422013", "02625-426356"]
+          "direccion": "Av. Alvear Oeste y San Rafael",
+          "telefonos": ["02625422013", "02625426356"]
         },
         {
           "nombre": "Oficina Fiscal - Comisaría 46°",
-          "direccion": "Av. Sarmiento 155, Bowen, Mendoza",
-          "telefonos": ["02625-480001"]
+          "direccion": "Av. Sarmiento 155 - Bowen",
+          "telefonos": ["02625480001"]
         },
         {
           "nombre": "Oficina Fiscal - Comisaría 26° Villa Atuel",
-          "direccion": "Balbino Arizu y Mazza, Villa Atuel, Mendoza",
-          "telefonos": ["0260-4470256", "0260-4470003"],
+          "direccion": "Balbino Arizu y Mazza",
+          "telefonos": ["02604470256", "02604470003"],
           "correos": ["spdgeneralalvear@mendoza.gov.ar"]
         }
       ]
@@ -70,19 +70,20 @@
       "nombre": "Dirección de Salud Mental y Consumos Problemáticos",
       "organismos": [
         {
-          "nombre": "CPAA - Hospital Enfermeros Argentinos",
-          "direccion": "Emilio Civit, Área de Salud Mental, Consultorio 7, General Alvear, Mendoza",
-          "telefonos": ["02625-422165 interno 848", "2617508670"]
+          "nombre": "CPAA - Hospital Enfermeros Argentinos, General Alvear",
+          "direccion": "Emilio Civit. Área de Salud Mental, consultorio 7",
+          "telefonos": ["02625422165", "2617508670"],
+          "internos": ["848"]
         }
       ]
     },
     {
-      "nombre": "Dirección de Protección y Promoción de Derechos",
+      "nombre": "Dir. de Protección y Promoción de Derechos",
       "organismos": [
         {
           "nombre": "ETI",
-          "direccion": "Belgrano 192, General Alvear, Mendoza",
-          "telefonos": ["2625-425521"]
+          "direccion": "Belgrano 192 – General Alvear",
+          "telefonos": ["2625425521"]
         }
       ]
     }

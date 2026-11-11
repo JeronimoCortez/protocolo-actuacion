@@ -1,84 +1,78 @@
 {
   "numero": "7",
-  "nombre": "Fallecimiento de estudiante o Personal de la Institución",
+  "nombre": "Retraso en el retiro de estudiantes",
   "subejes": [
     {
       "numero": "7.1",
-      "nombre": "Fallecimiento de un estudiante o Personal de la institución educativa",
-      "categorias": [
+      "nombre": "Nivel Inicial y Primario: No retiran al estudiante en horario previsto por la institución escolar",
+      "pasos": [
         {
-          "numero": "7.1.1",
-          "nombre": "Dentro de la institución",
-          "pasos": [
-            {
-              "paso": "1",
-              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
-            },
-            {
-              "paso": "2",
-              "descripcion": "Contactar al Servicio de Emergencia Coordinado (911) o Servicio de Emergencia privado con el que cuenta la escuela. Si se observan signos vitales brindar los primeros auxilios. No movilizar a la persona. Aislar el área, impedir el acceso de personas y evitar la toma de fotos o vídeos."
-            },
-            {
-              "paso": "3",
-              "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad."
-            },
-            {
-              "paso": "4",
-              "descripcion": "Contactar a la familia o referentes con sensibilidad y respeto. Realizar la comunicación de forma directa y empática, brindando acompañamiento y contención."
-            },
-            {
-              "paso": "5",
-              "descripcion": "Resguardar la dignidad de la persona fallecida. Actuar con respeto, prudencia y cuidado en todo momento."
-            },
-            {
-              "paso": "6",
-              "descripcion": "Gestionar la comunicación oficial: Centralizar la información en la Dirección de la escuela, evitando la difusión de datos no confirmados o inapropiados. Redactar una comunicación oficial institucional (según modelo Eje 9): Clara, breve y respetuosa. No revelar detalles sensibles ni personales sin autorización de la familia. Establecer un solo canal oficial de comunicación para medios de comunicación y comunidad escolar. Evitar que estudiantes o docentes ofrezcan declaraciones públicas no autorizadas."
-            },
-            {
-              "paso": "7",
-              "descripcion": "Registrar en acta y comunicar por vía jerárquica."
-            },
-            {
-              "paso": "8",
-              "descripcion": "Planificar instancia de Posvención articulada con DAE y la Dirección de Salud Mental dentro de las 48/72 hs posteriores al evento."
-            }
-          ]
+          "paso": "1",
+          "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
         },
         {
-          "numero": "7.1.2",
-          "nombre": "Fuera de la escuela",
-          "pasos": [
-            {
-              "paso": "1",
-              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
-            },
-            {
-              "paso": "2",
-              "descripcion": "Contactar a la familia con sensibilidad y respeto. Realizar la comunicación de forma directa y empática, brindando acompañamiento y contención."
-            },
-            {
-              "paso": "3",
-              "descripcion": "Resguardar la dignidad de la persona fallecida. Actuar con respeto, prudencia y cuidado en todo momento."
-            },
-            {
-              "paso": "4",
-              "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad."
-            },
-            {
-              "paso": "5",
-              "descripcion": "Gestionar la comunicación oficial: Centralizar la información en la Dirección de la escuela, evitando la difusión de datos no confirmados o inapropiados. Redactar una comunicación oficial institucional (según modelo Eje 9): Clara, breve y respetuosa. No revelar detalles sensibles ni personales sin autorización de la familia. Establecer un solo canal oficial de comunicación para medios de comunicación y comunidad escolar. Evitar que estudiantes o docentes ofrezcan declaraciones públicas no autorizadas."
-            },
-            {
-              "paso": "6",
-              "descripcion": "Registrar en acta e informar por vía jerárquica."
-            },
-            {
-              "paso": "7",
-              "descripcion": "Planificar instancia de Posvención articulada con DAE y la Dirección de Salud Mental dentro de las 48/72 hs posteriores al evento."
-            }
-          ]
+          "paso": "2",
+          "descripcion": "Llamar a los teléfonos de contacto brindados por la familia y registrados en la escuela inmediatamente de producida la tardanza."
+        },
+        {
+          "paso": "3",
+          "descripcion": "El estudiante debe permanecer en un espacio seguro de la escuela bajo responsabilidad del Equipo Directivo o de personal autorizado. No entregar al estudiante sin autorización, enviada por escrito, de los responsables legales, o la autoridad competente."
+        },
+        {
+          "paso": "4",
+          "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
+        },
+        {
+          "paso": "5",
+          "descripcion": "El profesional interviniente abre un espacio de diálogo con la familia para conocer los motivos de la reiteración y acordar estrategias que prevengan nuevos incumplimientos."
+        },
+        {
+          "paso": "6",
+          "descripcion": "En presencia de vulneración de derechos se da intervención al ETI (Negligencia grave y ausencia de responsable legal)."
+        },
+        {
+          "paso": "7",
+          "descripcion": "En paralelo, informar al Juzgado Contravencional de turno que corresponda por circunscripción para que arbitre las medidas pertinentes, una vez transcurrida más de una (1) hora de demora sin obtener respuesta de los responsables legales o personas autorizadas."
+        },
+        {
+          "paso": "8",
+          "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+        },
+        {
+          "paso": "9",
+          "descripcion": "Dar seguimiento al caso."
+        },
+        {
+          "paso": "10",
+          "descripcion": "Iniciar acciones vinculadas a los factores protectores.",
+          "nota": "Estas pautas de actuación deben implementarse tanto ante un episodio aislado como frente a conductas reiteradas. Consideración por fuerza mayor: Se deberán contemplar aquellas situaciones excepcionales o causas de fuerza mayor que impidan a los responsables legales o personas autorizadas llegar a la institución en el horario previsto (por ejemplo: inclemencias climáticas en ámbitos rurales, dificultades de transporte, entre otros). En estos casos, el Equipo Directivo comunicará la novedad de inmediato a la Supervisión para evaluar de manera conjunta alternativas de retiro seguras."
         }
       ]
     }
-  ]
+  ],
+  "acciones_preventivas": {
+    "factores_protectores": "La escuela debe garantizar el cumplimiento de las siguientes acciones designando a los responsables.",
+    "acciones": [
+      {
+        "accion": 1,
+        "descripcion": "Ofrecer contención al estudiante y a la familia."
+      },
+      {
+        "accion": 2,
+        "descripcion": "Generar espacios de diálogo y sensibilización para promover el compromiso y participación de toda la comunidad educativa en la problemática."
+      },
+      {
+        "accion": 3,
+        "descripcion": "Implementar diferentes estrategias de acción que tengan como prioridad la inclusión del estudiante brindando apoyo y acompañamiento permanente, facilitando la concurrencia del estudiante a la escuela para que complete su trayectoria escolar."
+      },
+      {
+        "accion": 4,
+        "descripcion": "Trabajar con otras instituciones en red para garantizar el seguimiento y acompañamiento del estudiante en caso de que se haya determinado la existencia de riesgo, amenaza o vulneración de derechos del estudiante NNA."
+      },
+      {
+        "accion": 5,
+        "descripcion": "Los profesionales de los equipos intervinientes - DAE para Inicial y Primaria, SOE secundaria o equipos de Educación Especial y Jóvenes y Adultos- junto con el Equipo Directivo de la institución, se encargarán de activar, sostener y fortalecer las redes de apoyo interinstitucionales."
+      }
+    ]
+  }
 }

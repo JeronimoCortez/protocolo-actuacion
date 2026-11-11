@@ -2,17 +2,13 @@
   "nombre": "Organismos y servicios de interés - Santa Rosa",
   "categorias": [
     {
-      "nombre": "Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)",
+      "nombre": "Programa Provincial de Prevención y Atención Integral del Maltrato a la Niñez y Adolescencia (PPMI)",
       "organismos": [
         {
           "nombre": "Hospital Raffo",
-          "direccion": "Julio A. Roca 239, Santa Rosa, Mendoza",
-          "telefonos": [
-            "02634497053"
-          ],
-          "correos": [
-            "hosp-santarosa@mendoza.gov.ar"
-          ]
+          "direccion": "Julio A. Roca 239",
+          "telefonos": ["02634497053"],
+          "correos": ["ppmisantarosa@mendoza.gov.ar"]
         }
       ]
     },
@@ -21,28 +17,20 @@
       "organismos": [
         {
           "nombre": "Hospital Raffo",
-          "direccion": "Julio A. Roca 239, Santa Rosa, Mendoza",
-          "telefonos": [
-            "0263497028"
-          ],
-          "correos": [
-            "hosp-santarosa@mendoza.gov.ar"
-          ]
+          "direccion": "Julio A. Roca 239",
+          "telefonos": ["0263497028"],
+          "correos": ["hosp-santarosa@mendoza.gov.ar"]
         }
       ]
     },
     {
-      "nombre": "Dirección de Protección y Promoción de Derechos",
+      "nombre": "Dir. de Protección y Promoción de Derechos",
       "organismos": [
         {
           "nombre": "ETI",
-          "direccion": "Julio A. Roca 239, Santa Rosa, Mendoza",
-          "telefonos": [
-            "02634497053"
-          ],
-          "correos": [
-            "spdsantarosa@mendoza.gov.ar"
-          ]
+          "direccion": "JULIO A ROCA 239",
+          "telefonos": ["02634497053"],
+          "correos": ["spdsantarosa@mendoza.gov.ar"]
         }
       ]
     },
@@ -51,28 +39,19 @@
       "organismos": [
         {
           "nombre": "Municipalidad de Santa Rosa",
-          "direccion": "Julio A. Roca 289, Santa Rosa, Mendoza",
-          "telefonos": [
-            "425583"
-          ],
-          "correos": [
-            "dnayf@santarosa.gob.ar"
-          ]
+          "direccion": "Julio A. Roca 289",
+          "telefonos": ["425583"],
+          "correos": ["dnayf@santarosa.gob.ar"]
         }
       ]
     },
     {
-      "nombre": "Asesores de Menores",
+      "nombre": "Asesores de menores",
       "organismos": [
         {
-          "nombre": "Asesor de Menores",
-          "telefonos": [
-            "2634688890",
-            "2634532293"
-          ],
-          "correos": [
-            "abusosSANTAROSA@jus.mendoza.gov.ar"
-          ]
+          "nombre": "Asesores de menores",
+          "telefonos": ["2634688890", "2634532293"],
+          "correos": ["abusosSANTAROSA@jus.mendoza.gov.ar"]
         }
       ]
     }

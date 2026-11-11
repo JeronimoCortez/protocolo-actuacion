@@ -2,13 +2,13 @@
   "nombre": "Organismos y servicios de interés - Junín",
   "categorias": [
     {
-      "nombre": "Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)",
+      "nombre": "Programa Provincial de Prevención y Atención Integral del Maltrato a la Niñez y Adolescencia (PPMI)",
       "organismos": [
         {
-          "nombre": "Centro de Salud Nº62 Oscar de Lellis",
-          "direccion": "Salvador González 192, Junín, Mendoza",
-          "telefonos": ["02634492244"],
-          "correos": ["caps-62@mendoza.gov.ar"]
+          "nombre": "Centro de Atención Primaria en Salud Nº 62 “Oscar de Lellis”",
+          "direccion": "Salvador Gonzalez 192",
+          "telefonos": ["2634492244"],
+          "correos": ["ppmijunin@mendoza.gov.ar"]
         }
       ]
     },
@@ -16,9 +16,10 @@
       "nombre": "Hospitales",
       "organismos": [
         {
-          "nombre": "Centro de Salud Nº162",
-          "direccion": "Salvador González 192, Junín, Mendoza",
-          "telefonos": ["02634492244"]
+          "nombre": "Centro de Atención Primaria en Salud Nº 162",
+          "direccion": "Salvador Gonzalez 192, Junín, Mendoza",
+          "telefonos": ["2634492244"],
+          "correos": ["caps-162@mendoza.gov.ar"]
         }
       ]
     },
@@ -37,7 +38,7 @@
       "nombre": "Área Departamental de Niñez, Adolescencia y Familia",
       "organismos": [
         {
-          "nombre": "Municipalidad de Junín",
+          "nombre": "Municipalidad Junín",
           "direccion": "Sarmiento y Don Bosco, Junín, Mendoza",
           "telefonos": ["4492672", "4492050"],
           "internos": ["148"],
@@ -46,23 +47,23 @@
       ]
     },
     {
-      "nombre": "Dirección de Salud Mental y Consumos Problemáticos",
+      "nombre": "Asesoría de niños, niñas, adolescentes y personas con capacidad restringida",
       "organismos": [
         {
-          "nombre": "Centro de Atención Primaria en Salud Nº62",
-          "direccion": "Salvador González 192, Junín, Mendoza",
-          "telefonos": ["2634273328"],
-          "correos": ["smentaljunin@mendoza.gov.ar"]
+          "nombre": "Asesoría de niños, niñas, adolescentes y personas con capacidad restringida",
+          "telefonos": ["2614177171"],
+          "correos": ["abusosJUNIN@jus.mendoza.gov.ar"]
         }
       ]
     },
     {
-      "nombre": "Asesor de Menores",
+      "nombre": "Dirección de salud mental y consumos problemáticos",
       "organismos": [
         {
-          "nombre": "Asesor de Menores",
-          "telefonos": ["2614177171"],
-          "correos": ["abusosJUNIN@jus.mendoza.gov.ar"]
+          "nombre": "Centro de Atención Primaria en Salud Nº 62",
+          "direccion": "Salvador González 192",
+          "telefonos": ["2634273328"],
+          "correos": ["smentaljunin@mendoza.gov.ar"]
         }
       ]
     }

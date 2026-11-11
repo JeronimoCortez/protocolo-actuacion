@@ -4,11 +4,12 @@
   "subejes": [
     {
       "numero": "1.1",
-      "nombre": "Violencia entre estudiantes: agresión física grave. (Violencia que NO configuran bullying ni violencia de género)",
+      "nombre": "Violencia física entre estudiantes",
       "pasos": [
         {
           "paso": "1",
-          "descripcion": "El adulto que presencia la situación debe intentar desarticular el conflicto y procurar que cese la agresión física. Garantizar la integridad de los estudiantes involucrados. Brindar atención de primeros auxilios en caso de ser necesario."
+          "descripcion": "El adulto que presencia la situación debe intentar:",
+          "acciones": ["Desarticular el conflicto", "Procurar que cese la agresión entre los estudiantes", "Garantizar la integridad de los estudiantes involucrados", "Brindar atención de primeros auxilios en caso de ser necesario"]
         },
         {
           "paso": "2",
@@ -16,23 +17,23 @@
         },
         {
           "paso": "3",
-          "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado con el que cuenta la escuela, sólo si hay riesgo potencial de agravamiento o riesgo inmediato de vida o de una función vital."
+          "descripcion": "Contactar al Servicio de Emergencias Coordinado 911 solo si hay riesgo de agravamiento o para la vida."
         },
         {
           "paso": "4",
-          "descripcion": "El equipo directivo comunica el emergente a DAE Central. En paralelo, dar aviso al profesional DAE asignado a la escuela/SOE/EOS para CEBJA/CENS o Equipos de Educación Especial según corresponda."
+          "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad."
         },
         {
           "paso": "5",
-          "descripcion": "Dar aviso a las familias o responsables legales de los NNA involucrados."
+          "descripcion": "Dar aviso al responsable legal de los NNA involucrados."
         },
         {
           "paso": "6",
-          "descripcion": "Aplicar normativa correspondiente de acuerdo a la gravedad del hecho y la reglamentación vigente según nivel."
+          "descripcion": "Aplicar normativa correspondiente de acuerdo a la gravedad del hecho y la reglamentación vigente según nivel (sanciones, acciones reparadoras,etc.)"
         },
         {
           "paso": "7",
-          "descripcion": "Redactar acta e informar por vía jerárquica."
+          "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
         },
         {
           "paso": "8",
@@ -40,13 +41,13 @@
         },
         {
           "paso": "9",
-          "descripcion": "Iniciar acciones vinculadas a los factores protectores."
+          "descripcion": "Iniciar acciones vinculadas a los factores protectores correspondientes."
         }
       ]
     },
     {
       "numero": "1.2",
-      "nombre": "Violencia o agresión física o verbal grave del personal de la institución hacia estudiantes.",
+      "nombre": "Violencia física del personal de la institución contra estudiantes",
       "pasos": [
         {
           "paso": "1",
@@ -58,147 +59,97 @@
         },
         {
           "paso": "3",
-          "descripcion": "Comunicar el emergente a DAE Central o al EOS para CEBJA/CENS. Si mediare violencia de género dar aviso a la Subdirección de Género de DGE."
+          "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 sólo si hay riesgo de agravamiento o para la vida."
         },
         {
           "paso": "4",
-          "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
+          "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
         },
         {
           "paso": "5",
-          "descripcion": "El profesional que interviene debe privilegiar el relato del estudiante, resguardar de inmediato al estudiante evitando el contacto con la persona adulta involucrada, garantizar una escucha atenta que respete su privacidad y evitar la reiteración del relato. En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere."
+          "descripcion": "El profesional que interviene debe:",
+          "acciones": ["Privilegiar el relato del estudiante.", "Resguardar de inmediato al estudiante evitando el contacto con la persona adulta involucrada.", "Garantizar una escucha atenta que respete su privacidad.", "Evitar la reiteración del relato.", "En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere."]
         },
         {
           "paso": "6",
-          "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado con el que cuenta la escuela, sólo si hay riesgo potencial de agravamiento o riesgo inmediato de vida o de una función vital."
+          "descripcion": "Separar del cargo al agente involucrado de manera preventiva evitando contacto con el estudiante en tanto sea resuelta administrativamente su situación. El Equipo Directivo debe tomar las medidas pertinentes con el personal involucrado según el marco normativo de la DGE. Dar intervención al De.P.E. (Defensoría del personal de la educación). Otorgar al agente un plazo de 5 días para efectuar su descargo."
         },
         {
           "paso": "7",
-          "descripcion": "Citar al responsable legal del estudiante para informar las acciones institucionales realizadas y orientar en la realización de la denuncia, otorgándole un plazo de 48 hs para presentar la constancia al equipo directivo."
+          "descripcion": "Citar al responsable legal del estudiante para:",
+          "acciones": ["Informar las acciones institucionales realizadas.", "Orientar en la realización de la denuncia otorgándole un plazo de 24 hs para presentar y enviar al Equipo Directivo."]
         },
         {
           "paso": "8",
-          "descripcion": "En caso de que el responsable legal no efectuare la denuncia, la escuela actúa de oficio en la oficina fiscal más cercana a la institución educativa o bien por internet a través de la página del Ministerio Público Fiscal, con los datos de los directivos, de quien escuchó el relato del estudiante y de la familia referente. Tener constancia del número de denuncia."
+          "descripcion": "En caso de que el responsable legal no efectúe la denuncia:",
+          "acciones": ["La escuela actúa de oficio y realiza la denuncia en la oficina fiscal más cercana a la institución educativa o bien por internet a través de la página del Ministerio Público fiscal.", "Se consignan los datos de los directivos, de quien escuchó el relato del estudiante y del responsable legal.", "Resguardar la constancia de denuncia."]
         },
         {
           "paso": "9",
-          "descripcion": "Presentar lo actuado ante la De.P.E (Defensoría del Personal Docente). Otorgar al agente un plazo de 5 días para efectuar su descargo."
+          "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
         },
         {
           "paso": "10",
-          "descripcion": "Evitar el contacto de la persona denunciada con el estudiante en tanto se resuelve administrativamente la situación."
-        },
-        {
-          "paso": "11",
-          "descripcion": "Redactar acta e informar por vía jerárquica."
-        },
-        {
-          "paso": "12",
           "descripcion": "Dar seguimiento al caso."
         },
         {
-          "paso": "13",
+          "paso": "11",
           "descripcion": "Iniciar acciones vinculadas a los factores protectores."
         }
       ]
     },
     {
       "numero": "1.3",
-      "nombre": "Violencia/Abuso sexual contra estudiantes",
+      "nombre": "Abuso sexual contra estudiantes",
       "categorias": [
         {
           "numero": "1.3.1",
-          "nombre": "Situaciones de violencia/abuso sexual intrafamiliar, de adultos convivientes o del entorno cercano del NNA detectadas por la escuela",
+          "nombre": "Abuso sexual intrafamiliar, de adultos convivientes o del entorno cercano del NNA",
           "pasos": [
             {
               "paso": "1",
-              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo. Brindar atención de primeros auxilios en caso de ser necesario."
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
             },
             {
               "paso": "2",
-              "descripcion": "Comunicar el emergente a DAE Central o EOS para CEBJA/CENS."
+              "descripcion": "Brindar atención de primeros auxilios en caso de ser necesario."
             },
             {
               "paso": "3",
-              "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
+              "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
             },
             {
               "paso": "4",
-              "descripcion": "El profesional que interviene debe privilegiar el relato del estudiante, resguardar de inmediato al NNA evitando el contacto con la persona adulta involucrada, garantizar una escucha atenta que respete su privacidad y evitar la reiteración del relato. En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere."
+              "descripcion": "El profesional que interviene debe:",
+              "acciones": ["Privilegiar el relato del estudiante.", "Resguardar de inmediato al estudiante evitando el contacto con la persona adulta involucrada.", "Garantizar una escucha atenta que respete su privacidad.", "Evitar la reiteración del relato.", "En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere.", "Dar aviso al ETI, informando los datos conocidos, el riesgo advertido, la eventual convivencia o cercanía de la persona presuntamente involucrada y toda circunstancia necesaria para su intervención."]
             },
             {
               "paso": "5",
-              "descripcion": "Comunicar la situación a la Asesoría de Personas Menores e Incapaces para que realice la denuncia ante la Unidad Fiscal. Al mismo tiempo, remitir al ETI idéntica acta enviada a la Asesoría, con el objeto de que se dicten las medidas de protección correspondientes."
+              "descripcion": "Contactar al Servicio de Emergencias Coordinado 911 únicamente si existe urgencia médica, riesgo actual para la vida o la salud, lesiones, dolor, descompensación, necesidad de traslado inmediato."
             },
             {
               "paso": "6",
-              "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado con el que cuenta la escuela para su traslado de forma urgente a un hospital para aplicar Kit de emergencia (Resolución 3368/09)."
+              "descripcion": "Asegurar que, en caso de traslado por parte del Sistema Coordinado de Emergencias, el estudiante sea acompañado por una persona de confianza señalada por el estudiante o, en su ausencia, el directivo o docente a cargo."
             },
             {
               "paso": "7",
-              "descripcion": "Asegurar que, en caso de traslado por parte del Sistema Coordinado de Emergencias, el estudiante sea acompañado por una persona de confianza señalada por el NNA o, en su ausencia, el directivo o docente a cargo."
+              "descripcion": "Redactar acta del Anexo I del Decreto Reglamentario de la Ley 9054."
             },
             {
               "paso": "8",
-              "descripcion": "Informar a la red familiar (quien no haya ejercido el abuso) las acciones institucionales realizadas y no aportar contenidos de lo develado por el NNA."
+              "descripcion": "Enviar el acta a la Asesoría de niños, niñas, adolescentes y personas con capacidad restringida del Ministerio Público de la Defensa y Pupilar para que realice la denuncia ante la Unidad Fiscal correspondiente."
             },
             {
               "paso": "9",
-              "descripcion": "Redactar acta e informar por vía jerárquica."
+              "descripcion": "Remitir al ETI idéntica acta enviada a la Asesoría."
             },
             {
               "paso": "10",
-              "descripcion": "Dar seguimiento al caso."
-            }
-          ]
-        },
-        {
-          "numero": "1.3.2",
-          "nombre": "Del personal de la institución a un estudiante",
-          "pasos": [
-            {
-              "paso": "1",
-              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo. Brindar atención de primeros auxilios en caso de ser necesario."
-            },
-            {
-              "paso": "2",
-              "descripcion": "Comunicar el emergente a DAE Central o EOS para CEBJA/CENS. Si mediare violencia de género dar aviso a la Subdirección de Género de DGE."
-            },
-            {
-              "paso": "3",
-              "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
-            },
-            {
-              "paso": "4",
-              "descripcion": "El profesional que interviene debe privilegiar el relato del estudiante, resguardar de inmediato al estudiante evitando el contacto con el personal involucrado, garantizar una escucha atenta que respete su privacidad y evitar la reiteración del relato. En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere."
-            },
-            {
-              "paso": "5",
-              "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado con el que cuenta la escuela para su traslado de forma urgente a un hospital para aplicar Kit de emergencia (Resolución 3368/09)."
-            },
-            {
-              "paso": "6",
-              "descripcion": "Asegurar que, en caso de traslado, el estudiante sea acompañado por un responsable legal: familiar o, en su ausencia, directivo o docente a cargo."
-            },
-            {
-              "paso": "7",
-              "descripcion": "Citar al responsable legal del estudiante para comunicar las acciones institucionales realizadas y orientar en la realización de la denuncia, otorgándole un plazo de 48 hs para presentar la constancia al equipo directivo."
-            },
-            {
-              "paso": "8",
-              "descripcion": "En caso de que el responsable legal no efectuare la denuncia, la escuela actúa de oficio en la oficina fiscal más cercana a la institución educativa o bien por internet a través de la página del Ministerio Público Fiscal, con los datos de los directivos, de quien escuchó el relato y de la familia referente o responsables legales del estudiante. Tener constancia del número de denuncia."
-            },
-            {
-              "paso": "9",
-              "descripcion": "Redactar en acta e informar por vía jerárquica."
-            },
-            {
-              "paso": "10",
-              "descripcion": "El equipo directivo debe tomar las medidas pertinentes con el personal involucrado según el marco normativo de la DGE. Dar intervención al De.P.E. (Defensoría del personal de la educación Resol-2025-2791) o, si mediare violencia de género, dar aviso a la Subdirección de Género de DGE."
+              "descripcion": "Informar a la red familiar (quien no haya ejercido el abuso) las acciones institucionales realizadas y no aportar contenidos de lo develado por el estudiante."
             },
             {
               "paso": "11",
-              "descripcion": "Evitar el contacto de la persona denunciada con el estudiante y definir medidas de cuidado dentro de la institución en tanto se resuelve administrativamente la situación y avanza la investigación correspondiente."
+              "descripcion": "Informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
             },
             {
               "paso": "12",
@@ -211,52 +162,106 @@
           ]
         },
         {
-          "numero": "1.3.3",
-          "nombre": "Situaciones de índole sexual entre estudiantes",
+          "numero": "1.3.2",
+          "nombre": "Abuso sexual del personal de la institución contra estudiante",
           "pasos": [
             {
               "paso": "1",
-              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo. Brindar atención de primeros auxilios, en caso de ser necesario."
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
             },
             {
               "paso": "2",
-              "descripcion": "Comunicar el emergente a DAE Central o EOS para CEBJA/CENS. Si mediare violencia de género, dar aviso a la Subdirección de Género de DGE."
+              "descripcion": "Brindar atención de primeros auxilios en caso de ser necesario."
             },
             {
               "paso": "3",
-              "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos, dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despistaje."
+              "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
             },
             {
               "paso": "4",
-              "descripcion": "El profesional que interviene debe privilegiar el relato del estudiante, garantizar una escucha atenta que respete su privacidad, y evitar la reiteración del relato de manera innecesaria. En casos de estudiantes con discapacidad, se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo en los casos que se requiera. Puntear paso a paso considerando la caracterización y los rangos etarios."
+              "descripcion": "El profesional que interviene debe:",
+              "acciones": ["Privilegiar el relato del estudiante.", "Resguardar de inmediato al estudiante evitando el contacto con la persona adulta involucrada.", "Garantizar una escucha atenta que respete su privacidad.", "Evitar la reiteración del relato.", "En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere."]
             },
             {
               "paso": "5",
-              "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado con el que cuenta la escuela para su traslado de forma urgente a un hospital para aplicar Kit de emergencia (Resolución 3368/09)."
+              "descripcion": "Contactar al Servicio de Emergencias Coordinado 911 únicamente si existe urgencia médica, riesgo actual para la vida o la salud, lesiones, dolor, descompensación, necesidad de traslado inmediato."
             },
             {
               "paso": "6",
-              "descripcion": "Asegurar que, en caso de traslado, el estudiante sea acompañado por un responsable legal: familiar, tutor o, en su ausencia, directivo o docente a cargo."
+              "descripcion": "Asegurar que, en caso de traslado, el estudiante sea acompañado por un responsable legal, familiar, persona de confianza señalada por el estudiante o en su ausencia, directivo o docente a cargo."
             },
             {
               "paso": "7",
-              "descripcion": "Citar al responsable legal del estudiante para comunicar la situación y orientar en la realización de la denuncia, cuando corresponda según el Código Penal, otorgándole un plazo de 48 hs para presentar la constancia al equipo directivo."
+              "descripcion": "Separar del cargo al agente involucrado de manera preventiva evitando contacto con el estudiante en tanto sea resuelta administrativamente su situación. El Equipo Directivo debe tomar las medidas pertinentes con el personal involucrado según el marco normativo de la DGE. Dar intervención al De.P.E. (Defensoría del personal de la educación). Otorgar al agente un plazo de 5 días para efectuar su descargo."
             },
             {
               "paso": "8",
-              "descripcion": "En caso de que el responsable legal no efectuare la denuncia, la escuela actúa de oficio en la oficina fiscal más cercana a la institución educativa o bien por internet a través de la página del Ministerio Público Fiscal, con los datos de los directivos, de quien escuchó el relato del estudiante y de la familia o responsable legal. Tener constancia del número de denuncia."
+              "descripcion": "Citar al responsable legal del estudiante para:",
+              "acciones": ["Informar las acciones institucionales realizadas.", "Orientar en la realización de la denuncia otorgándole un plazo de 24 hs para presentar y enviar al Equipo Directivo."]
             },
             {
               "paso": "9",
-              "descripcion": "En caso de evaluar sintomatología de salud mental asociada al episodio de violencia, derivar a un efector de salud mental cercano al domicilio."
+              "descripcion": "En caso de que el responsable legal no efectúe la denuncia:",
+              "acciones": ["La escuela actúa de oficio en la oficina fiscal más cercana a la institución educativa o bien por internet a través de la página del Ministerio Público fiscal.", "Se consignan los datos de los directivos, de quien escuchó el relato del estudiante y del responsable legal.", "Resguardar la constancia de denuncia."]
             },
             {
               "paso": "10",
-              "descripcion": "Redactar acta e informar por vía jerárquica."
+              "descripcion": "Redactar en acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
             },
             {
               "paso": "11",
               "descripcion": "Dar seguimiento al caso."
+            },
+            {
+              "paso": "12",
+              "descripcion": "Iniciar acciones vinculadas a los factores protectores."
+            }
+          ]
+        },
+        {
+          "numero": "1.3.3",
+          "nombre": "Situaciones de contenido sexual entre estudiantes",
+          "pasos": [
+            {
+              "paso": "1",
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            },
+            {
+              "paso": "2",
+              "descripcion": "Brindar atención de primeros auxilios, en caso de ser necesario."
+            },
+            {
+              "paso": "3",
+              "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
+            },
+            {
+              "paso": "4",
+              "descripcion": "El profesional que interviene debe:",
+              "acciones": ["Privilegiar el relato del estudiante.", "Resguardar de inmediato al estudiante evitando el contacto con la persona involucrada.", "Garantizar una escucha atenta que respete su privacidad.", "Evitar la reiteración del relato.", "En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere.", "Si el emergente se produce en Nivel Inicial y Primaria entre estudiantes de misma edad, la intervención la realiza el equipo de DAE.", "En todas las edades se debe dar intervención al equipo de DAE o SOE quienes evalúan la derivación al efector del sistema correspondiente."]
+            },
+            {
+              "paso": "5",
+              "descripcion": "Contactar al Servicio de Emergencias Coordinado 911 únicamente si existe urgencia médica, riesgo actual para la vida o la salud, lesiones, dolor, descompensación, necesidad de traslado inmediato."
+            },
+            {
+              "paso": "6",
+              "descripcion": "En caso de traslado, el estudiante debe ser acompañado por el responsable legal o, en su ausencia, directivo o docente a cargo."
+            },
+            {
+              "paso": "7",
+              "descripcion": "Citar al responsable legal del estudiante para comunicar las acciones institucionales realizadas y orientar en posibles acciones administrativas y/o legales."
+            },
+            {
+              "paso": "8",
+              "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+            },
+            {
+              "paso": "9",
+              "descripcion": "Dar seguimiento al caso."
+            },
+            {
+              "paso": "10",
+              "descripcion": "Iniciar acciones vinculadas a los factores protectores."
             }
           ]
         }
@@ -264,7 +269,7 @@
     },
     {
       "numero": "1.4",
-      "nombre": "Violencia/Maltrato contra estudiantes por parte de personas adultas",
+      "nombre": "Violencia de adultos contra estudiantes",
       "categorias": [
         {
           "numero": "1.4.1",
@@ -272,27 +277,28 @@
           "subcatergorias": [
             {
               "letra": "a",
-              "nombre": "Cuando involucra a un NNA de manera directa",
+              "nombre": "Cuando involucra a un NNA de manera directa (se ejerce contra el NNA y afecta su integridad física y psíquica)",
               "pasos": [
                 {
                   "paso": "1",
-                  "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo. Brindar atención de primeros auxilios en caso de ser necesario."
+                  "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
                 },
                 {
                   "paso": "2",
-                  "descripcion": "Comunicar el emergente a DAE Central o EOS en CEBJA/CENS."
+                  "descripcion": "Brindar atención de primeros auxilios en caso de ser necesario."
                 },
                 {
                   "paso": "3",
-                  "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
+                  "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
                 },
                 {
                   "paso": "4",
-                  "descripcion": "El profesional que interviene debe privilegiar el relato del estudiante, resguardar de inmediato al NNA evitando el contacto con la persona adulta involucrada, garantizar una escucha atenta que respete su privacidad y evitar la reiteración del relato. En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo, si los hubiere."
+                  "descripcion": "El profesional que interviene debe:",
+                  "acciones": ["Privilegiar el relato del estudiante.", "Resguardar de inmediato al estudiante evitando el contacto con la persona adulta involucrada.", "Garantizar una escucha atenta que respete su privacidad.", "Evitar la reiteración del relato.", "En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere.", "Dar aviso al ETI, informando los datos conocidos, el riesgo advertido, la eventual convivencia o cercanía de la persona presuntamente involucrada y toda circunstancia necesaria para su intervención."]
                 },
                 {
                   "paso": "5",
-                  "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado con el que cuenta la escuela, sólo si hay riesgo potencial de agravamiento o riesgo inmediato de vida o de una función vital."
+                  "descripcion": "Contactar al Servicio de Emergencias Coordinado 911 únicamente si existe urgencia médica, riesgo actual para la vida o la salud, lesiones, dolor, descompensación, necesidad de traslado inmediato."
                 },
                 {
                   "paso": "6",
@@ -300,25 +306,37 @@
                 },
                 {
                   "paso": "7",
-                  "descripcion": "Comunicar la situación a la Asesoría de Personas Menores e Incapaces para que realice la denuncia ante la Unidad Fiscal. Al mismo tiempo, remitir al ETI idéntica acta enviada a la Asesoría, con el objeto de que se dicten las medidas de protección correspondientes."
+                  "descripcion": "Redactar acta del Anexo I del Decreto Reglamentario de la Ley 9054."
                 },
                 {
                   "paso": "8",
-                  "descripcion": "Informar a la red familiar (quien no haya ejercido maltrato) las acciones institucionales realizadas."
+                  "descripcion": "Enviar el acta a la Asesoría de niños, niñas, adolescentes y personas con capacidad restringida del Ministerio Público de la Defensa y Pupilar para que realice la denuncia ante la Unidad Fiscal correspondiente."
                 },
                 {
                   "paso": "9",
-                  "descripcion": "Redactar acta e informar por vía jerárquica."
+                  "descripcion": "Remitir a ETI idéntica acta enviada a la Asesoría."
                 },
                 {
                   "paso": "10",
+                  "descripcion": "Informar a la red familiar (quien no haya ejercido violencia) las acciones institucionales realizadas."
+                },
+                {
+                  "paso": "11",
+                  "descripcion": "Informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+                },
+                {
+                  "paso": "12",
                   "descripcion": "Dar seguimiento al caso."
+                },
+                {
+                  "paso": "13",
+                  "descripcion": "Iniciar acciones vinculadas a los factores protectores."
                 }
               ]
             },
             {
               "letra": "b",
-              "nombre": "Cuando involucra al NNA de manera indirecta",
+              "nombre": "Cuando involucra al NNA de manera indirecta (el estudiante presencia una situación en su seno familiar, lo refiere y/o es advertida por un agente escolar)",
               "condiciones": [
                 {
                   "numero": "1",
@@ -330,31 +348,28 @@
                     },
                     {
                       "paso": "2",
-                      "descripcion": "Comunicar el emergente a DAE Central o EOS en CEBJA/CENS."
+                      "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
                     },
                     {
                       "paso": "3",
-                      "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. Si mediare violencia de género dar aviso a la Subdirección de Género de DGE. En todos los casos son los equipos los que realizan el primer despeje."
+                      "descripcion": "El profesional que interviene debe:",
+                      "acciones": ["Privilegiar el relato del estudiante.", "Garantizar una escucha atenta que respete su privacidad.", "Evitar la reiteración del relato.", "En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere.", "Evalúa la pertinencia de derivar a ETI."]
                     },
                     {
                       "paso": "4",
-                      "descripcion": "El profesional que interviene debe privilegiar el relato del estudiante, resguardar de inmediato al NNA evitando el contacto con la persona adulta involucrada, garantizar una escucha atenta que respete su privacidad y evitar la reiteración del relato. En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere."
+                      "descripcion": "Informar a la red familiar (quien no haya ejercido violencia) las acciones realizadas."
                     },
                     {
                       "paso": "5",
-                      "descripcion": "Comunicar la situación al ETI con el objeto de que se dicten las medidas de protección correspondientes."
+                      "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
                     },
                     {
                       "paso": "6",
-                      "descripcion": "Informar a la red familiar (quien no haya ejercido maltrato) las acciones realizadas."
+                      "descripcion": "Dar seguimiento al caso."
                     },
                     {
                       "paso": "7",
-                      "descripcion": "Redactar acta e informar por vía jerárquica."
-                    },
-                    {
-                      "paso": "8",
-                      "descripcion": "Dar seguimiento al caso."
+                      "descripcion": "Iniciar acciones vinculadas a los factores protectores."
                     }
                   ]
                 },
@@ -368,19 +383,19 @@
                     },
                     {
                       "paso": "2",
-                      "descripcion": "Comunicar el emergente a DAE Central o EOS en CEBJA/CENS."
+                      "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. En todos los casos son los equipos los que realizan el primer despeje y acciones a seguir."
                     },
                     {
                       "paso": "3",
-                      "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje y acciones a seguir."
+                      "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
                     },
                     {
                       "paso": "4",
-                      "descripcion": "Redactar acta e informar por vía jerárquica."
+                      "descripcion": "Dar seguimiento al caso."
                     },
                     {
                       "paso": "5",
-                      "descripcion": "Dar seguimiento al caso."
+                      "descripcion": "Iniciar acciones vinculadas a los factores protectores."
                     }
                   ]
                 }
@@ -394,19 +409,19 @@
           "pasos": [
             {
               "paso": "1",
-              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo. Brindar atención de primeros auxilios en caso de ser necesario."
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
             },
             {
               "paso": "2",
-              "descripcion": "Comunicar el emergente a DAE Central o EOS en CEBJA/CENS."
+              "descripcion": "Brindar atención de primeros auxilios en caso de ser necesario."
             },
             {
               "paso": "3",
-              "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje. El profesional debe evaluar la existencia de factores protectores familiares para decidir si se da intervención a ETI."
+              "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje y evalúan la derivación a ETI."
             },
             {
               "paso": "4",
-              "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado con el que cuenta la escuela, si hay riesgo potencial de agravamiento o riesgo inmediato de vida o de una función vital."
+              "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 sólo si hay riesgo de agravamiento o para la vida."
             },
             {
               "paso": "5",
@@ -414,19 +429,16 @@
             },
             {
               "paso": "6",
-              "descripcion": "Citar al responsable legal del estudiante para comunicar la situación y orientar en la realización de la denuncia, otorgándole un plazo de 48 hs para presentar la constancia al equipo directivo."
+              "descripcion": "Citar al responsable legal del estudiante para comunicar la situación, y orientar en la realización de la denuncia otorgándole un plazo de 24 hs para enviar la constancia al Equipo Directivo. Dar seguimiento al caso. En caso de que el responsable legal no efectúe la denuncia:",
+              "acciones": ["La escuela actúa de oficio y realiza la denuncia en la oficina fiscal más cercana a la institución educativa o bien por internet a través de la página del Ministerio Público fiscal.", "Se consignan los datos de los directivos, de quien escuchó el relato del estudiante y del responsable legal.", "Resguardar la constancia de denuncia."]
             },
             {
               "paso": "7",
-              "descripcion": "En caso de que el responsable legal no efectuare la denuncia, la escuela actúa de oficio en la oficina fiscal más cercana a la institución educativa o bien por internet a través de la página del Ministerio Público Fiscal, con los datos de los directivos, de quien escuchó el relato del NNA y de la familia referente de los NNA. Tener constancia del número de denuncia."
+              "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
             },
             {
               "paso": "8",
-              "descripcion": "Redactar acta e informar por vía jerárquica."
-            },
-            {
-              "paso": "9",
-              "descripcion": "Dar seguimiento al caso."
+              "descripcion": "Iniciar acciones vinculadas a los factores protectores."
             }
           ]
         }
@@ -434,11 +446,11 @@
     },
     {
       "numero": "1.5",
-      "nombre": "Episodio de violencia física contra estudiantes por adultos referentes o externos en la institución educativa",
+      "nombre": "Violencia física de adultos referentes o externos dentro de la institución educativa contra estudiantes",
       "pasos": [
         {
           "paso": "1",
-          "descripcion": "Intervenir de inmediato para interrumpir la agresión preservando al estudiante. Resguardar a los estudiantes del contacto con la persona agresora. Disponer que al menos dos personas aborden a la persona agresora. Brindar atención de primeros auxilios en caso de ser necesario."
+          "descripcion": "Intervenir de inmediato para interrumpir la agresión preservando al estudiante. Resguardar a los estudiantes del contacto con la persona agresora. Quien aborde a la persona agresora, no debe hacerlo en solitario/individual, sino acompañada por otro adulto. Brindar atención de primeros auxilios en caso de ser necesario."
         },
         {
           "paso": "2",
@@ -450,31 +462,32 @@
         },
         {
           "paso": "4",
-          "descripcion": "Comunicar el emergente a DAE Central o EOS en CEBJA/CENS."
+          "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
         },
         {
           "paso": "5",
-          "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes."
+          "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 sólo si hay riesgo de agravamiento o para la vida."
         },
         {
           "paso": "6",
-          "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado con el que cuenta la escuela, sólo si hay riesgo potencial de agravamiento o riesgo inmediato de vida o de una función vital."
+          "descripcion": "Citar al responsable legal del estudiante para comunicar las acciones institucionales realizadas y orientar en la realización de la denuncia otorgándole un plazo de 24 hs para presentar la constancia al Equipo Directivo."
         },
         {
           "paso": "7",
-          "descripcion": "Citar al responsable legal del estudiante para comunicar las acciones institucionales realizadas y orientar en la realización de la denuncia, otorgándole un plazo de 48 hs para presentar la constancia al equipo directivo."
+          "descripcion": "En caso de que el responsable legal no efectúe la denuncia:",
+          "acciones": ["La escuela actúa de oficio y realiza la denuncia en la oficina fiscal más cercana a la institución educativa o bien por internet a través de la página del Ministerio Público fiscal.", "Se consignan los datos de los directivos, de quien escuchó el relato del estudiante y del responsable legal.", "Resguardar la constancia de denuncia."]
         },
         {
           "paso": "8",
-          "descripcion": "En caso de que el responsable legal no efectuare la denuncia, la escuela actúa de oficio en la oficina fiscal más cercana a la institución educativa o bien por internet a través de la página del Ministerio Público Fiscal, con los datos de los directivos, de quien escuchó el relato del estudiante y de la familia referente. Tener constancia del número de denuncia."
+          "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
         },
         {
           "paso": "9",
-          "descripcion": "Redactar acta e informar por vía jerárquica."
+          "descripcion": "Dar seguimiento al caso."
         },
         {
           "paso": "10",
-          "descripcion": "Dar seguimiento al caso."
+          "descripcion": "Iniciar acciones vinculadas a los factores protectores."
         }
       ]
     },
@@ -484,11 +497,11 @@
       "categorias": [
         {
           "numero": "1.6.1",
-          "nombre": " Entre el personal de la Institución",
+          "nombre": "Entre el personal de la Institución",
           "pasos": [
             {
               "paso": "1",
-              "descripcion": "La persona agredida o que presencia el hecho no debe responder con agresión. Se debe mantener alejados a los estudiantes de la situación."
+              "descripcion": "Mantener alejados a los estudiantes de la situación."
             },
             {
               "paso": "2",
@@ -496,15 +509,15 @@
             },
             {
               "paso": "3",
-              "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado con el que cuenta la escuela, sólo si hay riesgo potencial de agravamiento o riesgo inmediato de vida o de una función vital."
+              "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 sólo si hay riesgo de agravamiento o para la vida."
             },
             {
               "paso": "4",
-              "descripcion": "Redactar acta e informar por vía jerárquica."
+              "descripcion": "El Equipo Directivo debe apartar del cargo al personal involucrado según el marco normativo de la DGE. Dar intervención al De.P.E. (Defensoria del personal de la educación Resol-2025-2791)."
             },
             {
               "paso": "5",
-              "descripcion": "El equipo directivo debe tomar las medidas pertinentes con el personal involucrado según el marco normativo de la DGE. Dar intervención al De.P.E. (Defensoría del personal de la educación Resol-2025-2791) o, si mediare violencia de género, dar aviso a la Subdirección de Género de DGE."
+              "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
             },
             {
               "paso": "6",
@@ -518,7 +531,7 @@
         },
         {
           "numero": "1.6.2",
-          "nombre": "De personas adultas referentes de NNA,  estudiante o persona externa,  contra el personal  de la institución",
+          "nombre": "De adultos o estudiantes contra el personal de la institución",
           "pasos": [
             {
               "paso": "1",
@@ -526,37 +539,33 @@
             },
             {
               "paso": "2",
-              "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado con el que cuenta la escuela, sólo si hay riesgo potencial de agravamiento o riesgo inmediato de vida o de una función vital."
+              "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 sólo si hay riesgo de agravamiento o para la vida."
             },
             {
               "paso": "3",
-              "descripcion": "El personal agredido debe denunciar el hecho antes de las 48 hs. En caso de que la víctima no hiciera la denuncia, el directivo la debe efectuar de oficio en la Unidad Fiscal correspondiente."
+              "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad."
             },
             {
               "paso": "4",
-              "descripcion": "Solo en caso de que la agresión haya sido realizada por un estudiante, comunicar el emergente a la DAE Central por parte del profesional interviniente o EOS para CEBJA/CENS."
+              "descripcion": "El personal agredido debe denunciar el hecho antes de las 24 hs, en caso de que la víctima no hiciera la denuncia, el directivo la debe efectuar de oficio en oficina fiscal más cercana a la institución o a través de la página del Ministerio Público Fiscal."
             },
             {
               "paso": "5",
-              "descripcion": "En paralelo, y sólo en caso de que la agresión haya sido realizada por un estudiante, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes."
+              "descripcion": "Registrar en acta (identificando testigos de ser posible) e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
             },
             {
               "paso": "6",
-              "descripcion": "Registrar en acta (identificando testigos de ser posible) e informar vía jerárquica."
-            },
-            {
-              "paso": "7",
               "descripcion": "Dar seguimiento al caso."
             },
             {
-              "paso": "8",
+              "paso": "7",
               "descripcion": "Iniciar acciones vinculadas a los factores protectores."
             }
           ]
         },
         {
           "numero": "1.6.3",
-          "nombre": " Violencia de personal de la institución contra personas adultas referentes de estudiantes",
+          "nombre": "Del personal de la institución contra adultos externos a la institución",
           "pasos": [
             {
               "paso": "1",
@@ -564,15 +573,15 @@
             },
             {
               "paso": "2",
-              "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado con el que cuenta la escuela, sólo si hay riesgo potencial de agravamiento o riesgo inmediato de vida o de una función vital."
+              "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 sólo si hay riesgo de agravamiento o para la vida."
             },
             {
               "paso": "3",
-              "descripcion": "El equipo directivo debe tomar las medidas pertinentes con el personal involucrado según el marco normativo de la DGE. Dar intervención al De.P.E. (Defensoría del personal de la educación Resol-2025-2791) o, si mediare violencia de género, dar aviso a la Subdirección de Género de DGE."
+              "descripcion": "El Equipo Directivo debe tomar las medidas pertinentes con el personal involucrado según el marco normativo de la DGE. Dar intervención al De.P.E. (Defensoria del personal de la educación Resol-2025-2791)"
             },
             {
               "paso": "4",
-              "descripcion": "Registrar en acta e informar vía jerárquica."
+              "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
             },
             {
               "paso": "5",
@@ -588,11 +597,11 @@
     },
     {
       "numero": "1.7",
-      "nombre": "Violencia entre referentes adultos de estudiantes dentro de la institución",
+      "nombre": "Entre familiares o responsables legales de estudiantes dentro de la institución",
       "pasos": [
         {
           "paso": "1",
-          "descripcion": "Intervenir de inmediato para interrumpir las agresiones. Disponer que al menos dos personas aborden la situación."
+          "descripcion": "Intervenir de inmediato para interrumpir las agresiones. Quien aborde a la persona agresora, no debe hacerlo en solitario/individual, sino acompañada por otro adulto."
         },
         {
           "paso": "2",
@@ -600,15 +609,15 @@
         },
         {
           "paso": "3",
-          "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado con el que cuenta la escuela, sólo si hay riesgo potencial de agravamiento o riesgo inmediato de vida o de una función vital."
+          "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 sólo si hay riesgo de agravamiento o para la vida."
         },
         {
           "paso": "4",
-          "descripcion": "Convocar a los adultos involucrados por separado a una instancia de diálogo y reflexión. Solicitar orientación y apoyo de DAE o EOS para CEBJA/CENS."
+          "descripcion": "Convocar a los adultos involucrados, por separado, a una instancia de diálogo y reflexión. Solicitar orientación y apoyo de DAE y equipos correspondientes según modalidad."
         },
         {
           "paso": "5",
-          "descripcion": "Registrar en acta e informar vía jerárquica."
+          "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
         },
         {
           "paso": "6",
@@ -622,7 +631,7 @@
     },
     {
       "numero": "1.8",
-      "nombre": "Presunción de NNA o estudiantes mayores de 18 años en situación de vida en la calle",
+      "nombre": "Presunción de situación de vida en la calle de estudiantes",
       "pasos": [
         {
           "paso": "1",
@@ -630,113 +639,63 @@
         },
         {
           "paso": "2",
-          "descripcion": "Elaborar un informe escrito por parte del agente que presume situación de vida en la calle de un NNA y presentarlo de inmediato a la autoridad institucional."
+          "descripcion": "Elaborar un informe escrito por parte del agente que presume situación de vida en la calle de un estudiante y presentarlo de inmediato al Equipo Directivo."
         },
         {
           "paso": "3",
-          "descripcion": "Comunicar el emergente a DAE Central o EOS en CEBJA/CENS."
+          "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. En todos los casos son los equipos los que realizan el primer despeje y evalúan derivación a otros efectores del sistema."
         },
         {
           "paso": "4",
-          "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
+          "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
         },
         {
           "paso": "5",
-          "descripcion": "Coordinar acciones con ETI."
-        },
-        {
-          "paso": "6",
-          "descripcion": "Redactar acta e informar por vía jerárquica."
-        },
-        {
-          "paso": "7",
-          "descripcion": "Dar seguimiento al caso."
-        }
-      ]
-    },
-    {
-      "numero": "1.9",
-      "nombre": "Presunción de NNA o estudiantes mayores de 18 años en situación de trata",
-      "pasos": [
-        {
-          "paso": "1",
-          "descripcion": "Elaborar un informe escrito por parte del agente que presume situación de trata de un NNA y presentarlo de inmediato a la autoridad institucional."
-        },
-        {
-          "paso": "2",
-          "descripcion": "Comunicar el emergente a DAE Central o EOS en CEBJA/CENS."
-        },
-        {
-          "paso": "3",
-          "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
-        },
-        {
-          "paso": "4",
-          "descripcion": "Realizar informe y enviar por correo al ETI."
-        },
-        {
-          "paso": "5",
-          "descripcion": "Redactar acta e informar por vía jerárquica."
-        },
-        {
-          "paso": "6",
-          "descripcion": "Dar aviso a la Subdirección de Género de DGE."
-        },
-        {
-          "paso": "7",
-          "descripcion": "Dar seguimiento al caso."
-        }
-      ]
-    },
-    {
-      "numero": "1.10",
-      "nombre": "Violencia por motivos de género",
-      "pasos": [
-        {
-          "paso": "1",
-          "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo. Brindar atención de primeros auxilios en caso de ser necesario."
-        },
-        {
-          "paso": "2",
-          "descripcion": "Comunicar el emergente a DAE Central y a la Subdirección de Género de DGE."
-        },
-        {
-          "paso": "3",
-          "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
-        },
-        {
-          "paso": "4",
-          "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado con el que cuenta la escuela, sólo si hay riesgo potencial de agravamiento o riesgo inmediato de vida o de una función vital. En caso de que no llegue la ambulancia se pide al móvil policial el traslado. En los casos en que la víctima sea mayor de 18 años presente sangrado abundante o golpes debe dar su consentimiento para llamar al 911."
-        },
-        {
-          "paso": "5",
-          "descripcion": "Si la estudiante es mayor de 18 años o docente o personal vinculado a la DGE y da su consentimiento, arbitrar comunicación con la Subdirección de Género de la DGE para que realice el abordaje correspondiente."
-        },
-        {
-          "paso": "6",
-          "descripcion": "El profesional que interviene debe privilegiar el relato del estudiante, resguardar de inmediato a la niña o adolescente evitando el contacto con la persona adulta involucrada, garantizar una escucha atenta que respete su privacidad y evitar la reiteración del relato. En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere."
-        },
-        {
-          "paso": "7",
-          "descripcion": "Citar al responsable legal del estudiante para comunicar la situación y orientar a que realice la denuncia correspondiente en la Fiscalía de Género, debiendo presentar en un plazo de 24 horas constancia de la misma. De no hacerla, el directivo de la escuela deberá concretar la denuncia de oficio. Al mismo tiempo, remitir al ETI idéntica acta enviada a la Asesoría, con el objeto de que se dicten las medidas de protección correspondientes."
-        },
-        {
-          "paso": "8",
-          "descripcion": "Redactar acta e informar por vía jerárquica."
-        },
-        {
-          "paso": "9",
           "descripcion": "Dar seguimiento al caso."
         },
         {
-          "paso": "10",
+          "paso": "6",
           "descripcion": "Iniciar acciones vinculadas a los factores protectores."
         }
       ]
     },
     {
-      "numero": "1.10.1",
-      "nombre": "Tramitación institucional de la identidad de género de NNA o agentes de la institución. ",
+      "numero": "1.9",
+      "nombre": "Presunción de estudiante en situación de trata",
+      "pasos": [
+        {
+          "paso": "1",
+          "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+        },
+        {
+          "paso": "2",
+          "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
+        },
+        {
+          "paso": "3",
+          "descripcion": "Elaborar un informe escrito por parte del agente que presume situación de trata de un NNA y presentarlo de inmediato al Equipo Directivo."
+        },
+        {
+          "paso": "4",
+          "descripcion": "Enviar por correo al ETI si el estudiante es menor de 18 años."
+        },
+        {
+          "paso": "5",
+          "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+        },
+        {
+          "paso": "6",
+          "descripcion": "Dar seguimiento al caso."
+        },
+        {
+          "paso": "7",
+          "descripcion": "Iniciar acciones vinculadas a los factores protectores."
+        }
+      ]
+    },
+    {
+      "numero": "1.10",
+      "nombre": "Tramitación institucional de la identidad de género de NNA o agentes de la institución",
       "pasos": [
         {
           "paso": "1",
@@ -744,11 +703,11 @@
         },
         {
           "paso": "2",
-          "descripcion": "Dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes."
+          "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
         },
         {
           "paso": "3",
-          "descripcion": "Los profesionales intervinientes acompañan el proceso junto a los responsables legales o referentes afectivos de la persona solicitante y en articulación con los otros organismos o profesionales externos involucrados."
+          "descripcion": "Los profesionales intervinientes orientan en el proceso junto a los responsables legales o referentes afectivos de la persona solicitante y en articulación con los otros organismos o profesionales externos involucrados."
         },
         {
           "paso": "4",
@@ -756,19 +715,19 @@
         },
         {
           "paso": "5",
-          "descripcion": "Solicitar al personal de la institución el uso correcto del nombre, los pronombres y los espacios según la identidad de género."
+          "descripcion": "Dar aviso a la Subdirección de género de DGE para obtener asesoramiento en relación a los pasos administrativos."
         },
         {
           "paso": "6",
-          "descripcion": "Remitirse al protocolo específico emitido por DGE, resolución nº362 y su actualización nº 5522."
+          "descripcion": "Solicitar al personal de la institución el uso correcto del nombre, los pronombres y los espacios según la identidad de género."
         },
         {
           "paso": "7",
-          "descripcion": "Redactar acta e informar por vía jerárquica."
+          "descripcion": "Remitirse al protocolo específico emitido por DGE"
         },
         {
           "paso": "8",
-          "descripcion": "Dar aviso a la Subdirección de Género de DGE."
+          "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
         },
         {
           "paso": "9",
@@ -781,7 +740,7 @@
       ]
     },
     {
-      "numero": "1.10.2",
+      "numero": "1.11",
       "nombre": "Violencias en vínculos sexo-afectivos entre estudiantes",
       "pasos": [
         {
@@ -790,95 +749,103 @@
         },
         {
           "paso": "2",
-          "descripcion": "Comunicar el emergente a DAE Central o EOS en CEBJA/CENS."
+          "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
         },
         {
           "paso": "3",
-          "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
+          "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 sólo si hay riesgo de agravamiento o para la vida. En los casos en que la víctima sea mayor de 18 años se debe contar con el consentimiento para llamar al SEC."
         },
         {
           "paso": "4",
-          "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado con el que cuenta la escuela, sólo si hay riesgo potencial de agravamiento o riesgo inmediato de vida o de una función vital. En los casos en que la víctima sea mayor de 18 años debe contar con el consentimiento para llamar al SEC."
+          "descripcion": "El profesional que interviene debe:",
+          "acciones": ["Privilegiar el relato del estudiante.", "Resguardar de inmediato al estudiante evitando el contacto con la persona involucrada.", "Garantizar una escucha atenta que respete su privacidad.", "Evitar la reiteración del relato.", "En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere.", "Derivar,en caso de ser necesario, al organismo pertinente."]
         },
         {
           "paso": "5",
-          "descripcion": "El profesional que interviene debe privilegiar el relato del estudiante, resguardar de inmediato a la niña o adolescente evitando el contacto con la persona adulta involucrada, garantizar una escucha atenta que respete su privacidad y evitar la reiteración del relato. En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere."
+          "descripcion": "Citar al responsable legal de NNA menores de 18 años para comunicarle la situación y brindar orientación sobre las opciones para el abordaje de la situación."
         },
         {
           "paso": "6",
-          "descripcion": "Citar al responsable legal para comunicarle la situación en caso de NNA o menores de 18 años."
+          "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
         },
         {
           "paso": "7",
-          "descripcion": "Registrar en acta e informar siguiendo la vía jerárquica."
-        },
-        {
-          "paso": "8",
-          "descripcion": "Dar seguimiento al caso."
-        }
-      ]
-    },
-    {
-      "numero": "1.10.3",
-      "nombre": "Embarazos forzados en niñas, adolescentes y personas con capacidad de gestar menores de 13 años",
-      "pasos": [
-        {
-          "paso": "1",
-          "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo. Brindar atención de primeros auxilios en caso de ser necesario."
-        },
-        {
-          "paso": "2",
-          "descripcion": "Brindar atención de primeros auxilios en caso de ser necesario."
-        },
-        {
-          "paso": "3",
-          "descripcion": "Comunicar el emergente a DAE Central o EOS para CEBJA/CENS."
-        },
-        {
-          "paso": "4",
-          "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
-        },
-        {
-          "paso": "5",
-          "descripcion": "El profesional que interviene debe privilegiar el relato del estudiante, resguardar de inmediato al NNA evitando el contacto con la persona adulta involucrada, garantizar una escucha atenta que respete su privacidad y evitar la reiteración del relato. En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere."
-        },
-        {
-          "paso": "6",
-          "descripcion": "Comunicar la situación a la Asesoría de Personas Menores e Incapaces para que realice la denuncia ante la Unidad Fiscal. Al mismo tiempo, remitir al ETI idéntica acta enviada a la Asesoría, con el objeto de que se dicten las medidas de protección correspondientes."
-        },
-        {
-          "paso": "7",
-          "descripcion": "Remitir al ETI idéntica acta enviada a la Asesoría, con el objeto de que se dicten las medidas de protección correspondientes."
-        },
-        {
-          "paso": "8",
-          "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado con el que cuenta la escuela para su traslado de forma urgente a un hospital para aplicar Kit de emergencia (Resolución 3368/09)."
-        },
-        {
-          "paso": "9",
-          "descripcion": "Asegurar que, en caso de traslado por parte del Sistema Coordinado de Emergencias, el estudiante sea acompañado por una persona de confianza señalada por el NNA o, en su ausencia, el directivo o docente a cargo."
-        },
-        {
-          "paso": "10",
-          "descripcion": "Informar a la red familiar (quien no haya ejercido el abuso) las acciones institucionales realizadas y no aportar contenidos de lo develado por el NNA."
-        },
-        {
-          "paso": "11",
-          "descripcion": "Redactar acta e informar por vía jerárquica."
-        },
-        {
-          "paso": "12",
           "descripcion": "Dar seguimiento al caso."
         },
         {
-          "paso": "13",
+          "paso": "8",
           "descripcion": "Iniciar acciones vinculadas a los factores protectores."
         }
       ]
     },
     {
-      "numero": "1.10.4",
-      "nombre": "Embarazos no intencionales en adolescentes y personas con capacidad de gestar mayores de 14 años",
+      "numero": "1.12",
+      "nombre": "Embarazos en niñas, adolescentes y personas con capacidad de gestar menores de 13 años",
+      "pasos": [
+        {
+          "paso": "1",
+          "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo.",
+          "nota": "En personas gestantes menores de 13 años, el artículo 119 del Código Penal presume abuso sexual. Por lo tanto, se debe aplicar el punto 1.3. Abuso sexual contra estudiantes, del protocolo, con especial resguardo de la intimidad y la salud integral, biopsicosocial de la persona involucrada:"
+        },
+        {
+          "paso": "2",
+          "descripcion": "Resguardar a la persona gestante en un espacio seguro, reservado y acompañado por una persona adulta confiable de la institución."
+        },
+        {
+          "paso": "3",
+          "descripcion": "Brindar atención de primeros auxilios en caso de ser necesario."
+        },
+        {
+          "paso": "4",
+          "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
+        },
+        {
+          "paso": "5",
+          "descripcion": "El profesional que interviene debe:",
+          "acciones": ["Privilegiar el relato del estudiante.", "Garantizar una escucha atenta que respete su privacidad.", "Evitar la reiteración del relato.", "En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere.", "Dar aviso al ETI, informando los datos conocidos, el riesgo advertido, la eventual convivencia o cercanía de la persona presuntamente involucrada y toda circunstancia necesaria para su intervención."]
+        },
+        {
+          "paso": "6",
+          "descripcion": "Contactar al Servicio Coordinado de Emergencias 911 para solicitar traslado a un hospital público cuando exista dolor, sangrado, descompensación, urgencia obstétrica o riesgo para la vida."
+        },
+        {
+          "paso": "7",
+          "descripcion": "Asegurar que, en caso de traslado por parte del Sistema Coordinado de Emergencias, el estudiante sea acompañado por una persona de confianza señalada por el NNA o, en su ausencia, el directivo o docente a cargo."
+        },
+        {
+          "paso": "8",
+          "descripcion": "Redactar acta del Anexo I del Decreto Reglamentario de la Ley 9054."
+        },
+        {
+          "paso": "9",
+          "descripcion": "Enviar el acta a la Asesoría de niños, niñas, adolescentes y personas con capacidad restringida del Ministerio Público de la Defensa y Pupilar para que realice la denuncia ante la Unidad Fiscal correspondiente."
+        },
+        {
+          "paso": "10",
+          "descripcion": "Remitir al ETI idéntica acta enviada a la Asesoría."
+        },
+        {
+          "paso": "11",
+          "descripcion": "Informar a la red familiar (quien no haya ejercido el abuso) las acciones institucionales realizadas y no aportar contenidos de lo develado por el NNA."
+        },
+        {
+          "paso": "12",
+          "descripcion": "Informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+        },
+        {
+          "paso": "13",
+          "descripcion": "Los profesionales de los equipos técnicos que intervienen deben dar seguimiento al caso e informar periódicamente a DAE con el objetivo de:",
+          "acciones": ["Garantizar la trayectoria educativa.", "Garantizar el cuidado de la salud integral de la estudiante articulando con los equipos intervinientes de los efectores correspondientes."]
+        },
+        {
+          "paso": "14",
+          "descripcion": "Iniciar acciones vinculadas a los factores protectores."
+        }
+      ]
+    },
+    {
+      "numero": "1.13",
+      "nombre": "Embarazos no intencionales en adolescentes y personas con capacidad de gestar mayores de 13 años",
       "pasos": [
         {
           "paso": "1",
@@ -886,52 +853,42 @@
         },
         {
           "paso": "2",
-          "descripcion": "Comunicar el emergente al superior jerárquico."
+          "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
         },
         {
           "paso": "3",
-          "descripcion": "Comunicar el emergente a DAE Central o EOS en CEBJA/CENS."
+          "descripcion": "Entrevistar a la persona gestante, la entrevista debe ser realizada por profesional DAE o SOE o su equivalente según modalidad. La persona que entreviste realizará un informe escrito para ser presentado inmediatamente a la autoridad de la institución escolar. Criterios generales para la entrevista:",
+          "acciones": ["Escucha activa: sin inducir el relato, ni invalidar, ni cuestionar, ni emitir juicios de valor. Si la persona gestante no quiere hablar que no se la obligue a hacerlo. No realizar interrogatorio, ya que en el afán de ayudar se termina re victimizando a la persona.", "Confidencialidad: luego del relato, es importante no divulgar en ningún momento la situación", "Privacidad: En todo momento se preservará a la persona de la mirada u observación de otros estudiantes y del personal del establecimiento, la entrevista debe ser con la menor cantidad de personas presentes.", "Contener a la persona gestante hasta decidir el curso de acción a seguir. Bajo el principio de la autonomía progresiva es pertinente consultarle si quiere estar en compañía de alguien y/o ofrecer mediación.", "Brindarle información sobre educación sexual integral. Facilitar la articulación con efectores de salud.", "Despejar si existe el deseo de embarazo o maternidad.", "Despejar si la gestación es el resultado de una relación consentida.", "Despejar si la familia conoce la situación y si resulta ser el espacio más seguro y confiable para la adolescente."]
         },
         {
           "paso": "4",
-          "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
+          "descripcion": "Ante la presunción de abuso, se debe proceder según las pautas de actuación para emergentes de 1.3.1 Violencia/ abuso sexual dispuestas en este documento."
         },
         {
           "paso": "5",
-          "descripcion": "Entrevistar a la persona gestante. La entrevista debe ser realizada por profesional DAE o SOE o su equivalente según modalidad. La persona que entreviste realizará un informe escrito para ser presentado inmediatamente a la autoridad de la institución escolar."
+          "descripcion": "Contactar al Servicio de Emergencias Coordinado 911 solo si hay riesgo de agravamiento o para la vida. En caso que el servicio de emergencia considere que debe haber traslado, el mismo debe ser en compañía de un referente afectivo adulto que la persona gestante decida, en caso de que no se haga presente debe ser acompañada por directivo o un docente."
         },
         {
           "paso": "6",
-          "descripcion": "Ante la presunción de abuso, se debe proceder según las pautas de actuación para emergentes de 1.3.1 Violencia/abuso sexual dispuestas en este documento."
+          "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
         },
         {
           "paso": "7",
-          "descripcion": "Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado, sólo si hay riesgo potencial de agravamiento, riesgo inmediato de vida o si la persona gestante ha manifestado interrumpir voluntariamente su embarazo."
+          "descripcion": "Los profesionales de los equipos técnicos que intervienen deben dar seguimiento al caso e informar periódicamente a DAE con el objetivo de:",
+          "acciones": ["Garantizar la trayectoria educativa.", "Garantizar el cuidado de la salud integral de la estudiante articulando con los equipos intervinientes de otros efectores del sistema."]
         },
         {
           "paso": "8",
-          "descripcion": "En caso de traslado, debe ser acompañada por un referente afectivo adulto elegido por la persona gestante o, en su ausencia, por directivo o docente. Si no hay riesgo inmediato, coordinar con un efector de salud cercano para atención integral y aplicación de profilaxis post exposición para ITS."
-        },
-        {
-          "paso": "9",
-          "descripcion": "Registrar el acta e informar vía jerárquica."
-        },
-        {
-          "paso": "10",
-          "descripcion": "Dar seguimiento al caso."
-        },
-        {
-          "paso": "11",
           "descripcion": "Iniciar acciones vinculadas a los factores protectores."
         }
       ]
     },
     {
-      "numero": "1.11",
-      "nombre": "Violencia en entornos digitales",
+      "numero": "1.14",
+      "nombre": "Violencias en entornos digitales",
       "categorias": [
         {
-          "numero": "1.11.1",
+          "numero": "1.14.1",
           "nombre": "Grooming",
           "pasos": [
             {
@@ -940,44 +897,39 @@
             },
             {
               "paso": "2",
-              "descripcion": "Comunicar el emergente a DAE Central o EOS en CEBJA/CENS."
+              "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
             },
             {
               "paso": "3",
-              "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
+              "descripcion": "El profesional que interviene debe:",
+              "acciones": ["Privilegiar el relato del estudiante.", "Garantizar una escucha atenta que respete su privacidad.", "Generar una relación de confianza, no emitir juicios de valor ni poner en duda el relato.", "Evitar la reiteración del relato.", "No es necesario verificar si el NNA ha dado consentimiento o no.", "En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere."]
             },
             {
               "paso": "4",
-              "descripcion": "Escuchar activamente al NNA afectado por esta situación. Generar una relación de confianza, no emitir juicios de valor ni poner en duda el relato."
+              "descripcion": "Citar al responsable legal del estudiante para comunicar las acciones institucionales realizadas y orientar en:",
+              "acciones": ["La realización de la denuncia del perfil de la persona acosadora en Fiscalías del Ministerio Público Fiscal.", "El responsable legal tiene un plazo de 24 hs para enviar la constancia al Equipo Directivo. resguardo pruebas: URL, conversaciones, capturas de pantalla y fotografías. Las imágenes aportan datos útiles para la investigación.", "Revisar la seguridad, cambiar claves, ajustar la privacidad y contactos en redes sociales.", "Evaluar la articulación con ETI en caso de que no hubiera red de contención familiar."]
             },
             {
               "paso": "5",
-              "descripcion": "No es necesario verificar si el NNA ha dado consentimiento o no."
+              "descripcion": "En caso de que el responsable legal no presente la constancia de la denuncia:",
+              "acciones": ["La escuela actúa de oficio y realiza la denuncia en la oficina fiscal más cercana a la institución educativa o bien por internet a través de la página del Ministerio Público fiscal.", "Se consignan los datos de los directivos, de quien escuchó el relato del estudiante y del responsable legal.", "Resguardar la constancia de denuncia."]
             },
             {
               "paso": "6",
-              "descripcion": "Citar al responsable legal del estudiante para comunicar la situación y orientar en la realización de la denuncia, otorgándole un plazo de 48 hs para presentar la constancia al equipo directivo. Denunciar el perfil de la persona acosadora y resguardar pruebas: URL, conversaciones, capturas de pantalla y fotografías. Revisar la seguridad, cambiar claves y ajustar la privacidad y contactos en redes sociales."
+              "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
             },
             {
               "paso": "7",
-              "descripcion": "En caso de que el responsable legal no efectúe la denuncia, la escuela actúa de oficio en la oficina fiscal más cercana o bien por internet a través de la página del Ministerio Público Fiscal, con los datos de los directivos, de quien escuchó el relato del NNA y de la familia referente de los NNA. Tener constancia del número de denuncia."
+              "descripcion": "Dar seguimiento al caso."
             },
             {
               "paso": "8",
-              "descripcion": "Coordinar acciones con ETI en caso de que no hubiera red de contención familiar."
-            },
-            {
-              "paso": "9",
-              "descripcion": "Redactar acta e informar por vía jerárquica."
-            },
-            {
-              "paso": "10",
-              "descripcion": "Dar seguimiento al caso."
+              "descripcion": "Iniciar acciones vinculadas a los factores protectores."
             }
           ]
         },
         {
-          "numero": "1.11.2",
+          "numero": "1.14.2",
           "nombre": "Suplantación de identidad (Phishing), Ciber Control y Accesos no autorizados / Daños informáticos",
           "pasos": [
             {
@@ -986,33 +938,30 @@
             },
             {
               "paso": "2",
-              "descripcion": "Comunicar el emergente a DAE Central o EOS en CEBJA/CENS."
+              "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje. El profesional que interviene debe:",
+              "acciones": ["Privilegiar el relato del estudiante.", "Garantizar una escucha atenta que respete su privacidad.", "Evitar la reiteración del relato.", "En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere."]
             },
             {
               "paso": "3",
-              "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes."
+              "descripcion": "Citar al responsable legal del estudiante para comunicar la situación y orientar sobre la denuncia en la oficina fiscal más cercana o a través de la página del Ministerio Público Fiscal."
             },
             {
               "paso": "4",
-              "descripcion": "Privilegiar el relato del estudiante, garantizando una escucha atenta en un espacio adecuado que resguarde su privacidad y contención, evitando la reiteración del relato ante distintas personas a fin de prevenir la revictimización."
+              "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
             },
             {
               "paso": "5",
-              "descripcion": "Citar al responsable legal del estudiante para comunicar la situación."
+              "descripcion": "Dar seguimiento al caso."
             },
             {
               "paso": "6",
-              "descripcion": "Registrar el acta e informar vía jerárquica."
-            },
-            {
-              "paso": "7",
-              "descripcion": "Dar seguimiento al caso."
+              "descripcion": "Iniciar acciones vinculadas a los factores protectores."
             }
           ]
         },
         {
-          "numero": "1.11.3",
-          "nombre": "Video falso generado con IA (Deep Fake), material con contenido sexual falso generada con IA, retos virales y agresión grabada para redes (Happy Slapping)",
+          "numero": "1.14.3",
+          "nombre": "Video falso (Deep Fake) con material con contenido sexual falso generado con IA",
           "pasos": [
             {
               "paso": "1",
@@ -1020,38 +969,88 @@
             },
             {
               "paso": "2",
-              "descripcion": "Comunicar el emergente a DAE Central o EOS en CEBJA/CENS."
+              "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
             },
             {
               "paso": "3",
-              "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
+              "descripcion": "El profesional que interviene debe:",
+              "acciones": ["Privilegiar el relato del estudiante.", "Garantizar una escucha atenta que respete su privacidad.", "Evitar la reiteración del relato.", "En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere."]
             },
             {
               "paso": "4",
-              "descripcion": "El profesional que interviene debe privilegiar el relato del estudiante, garantizar una escucha atenta que respete su privacidad y evitar la reiteración del relato. En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo."
+              "descripcion": "Limitar o bloquear en la escuela, desde el área de tecnologías el acceso a los sitios o redes a través de los que se cometió el hecho violento para mitigar el daño digital."
             },
             {
               "paso": "5",
-              "descripcion": "Limitar o bloquear en la escuela, desde el área de tecnologías, el acceso a los sitios o redes a través de los que se cometió el hecho violento para mitigar el daño digital."
+              "descripcion": "Citar al responsable legal del estudiante para:",
+              "acciones": ["Comunicar la situación y orientar sobre la denuncia en la oficina fiscal más cercana o a través de la página del Ministerio Público Fiscal.", "Recopilar pruebas digitales: enlaces, URL, capturas de pantalla, testimonios.", "Informar sobre la herramienta Take It Down: orientar a la familia o referente legal sobre la existencia de la plataforma Take It Down (https://takeitdown.ncmec.org/es), gestionada por el National Center for Missing & Exploited Children (NCMEC). https://takeitdown.ncmec.org/e: esta herramienta permite generar una huella digital única del contenido para solicitar su detección y eliminación en plataformas como Instagram, Facebook y TikTok, sin necesidad de subir ni compartir la imagen. El proceso es confidencial y la imagen permanece en el dispositivo del usuario."]
             },
             {
               "paso": "6",
-              "descripcion": "Citar al responsable legal del estudiante para comunicar la situación y los recursos disponibles para realizar denuncia en el Ministerio Público Fiscal. Recopilar pruebas digitales sin revictimizar: enlaces, URL, capturas de pantalla y testimonios. En los casos en que el estudiante sea mayor de 18 años se orienta para realizar la denuncia."
+              "descripcion": "En los casos en que el estudiante sea mayor de 18 años se orienta para realizar la denuncia y la existencia de Take it Down."
             },
             {
               "paso": "7",
-              "descripcion": "Registrar el acta e informar vía jerárquica."
+              "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
             },
             {
               "paso": "8",
               "descripcion": "Dar seguimiento al caso."
+            },
+            {
+              "paso": "9",
+              "descripcion": "Iniciar acciones vinculadas a los factores protectores."
+            }
+          ]
+        },
+        {
+          "numero": "1.14.4",
+          "nombre": "Retos virales y agresión grabada para redes (Happy Slapping)",
+          "pasos": [
+            {
+              "paso": "1",
+              "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
+            },
+            {
+              "paso": "2",
+              "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
+            },
+            {
+              "paso": "3",
+              "descripcion": "El profesional que interviene debe:",
+              "acciones": ["Privilegiar el relato del estudiante.", "Garantizar una escucha atenta que respete su privacidad.", "Evitar la reiteración del relato.", "En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere."]
+            },
+            {
+              "paso": "4",
+              "descripcion": "Limitar o bloquear en la escuela, desde el área de tecnologías el acceso a los sitios o redes a través de los que se cometió el hecho violento para mitigar el daño digital."
+            },
+            {
+              "paso": "5",
+              "descripcion": "Citar al responsable legal del estudiante para:",
+              "acciones": ["Comunicar la situación y los recursos disponibles para realizar denuncia en el Ministerio Público Fiscal.", "Recopilar pruebas digitales: enlaces, URL, capturas de pantalla, testimonios.", "Informar sobre la herramienta Take It Down: orientar a la familia o referente legal sobre la existencia de la plataforma Take It Down (https://takeitdown.ncmec.org/es), gestionada por el National Center for Missing & Exploited Children (NCMEC). Esta herramienta permite generar una huella digital única del contenido para solicitar su detección y eliminación en plataformas como Instagram, Facebook y TikTok, sin necesidad de subir ni compartir la imagen. El proceso es confidencial y la imagen permanece en el dispositivo del usuario."]
+            },
+            {
+              "paso": "6",
+              "descripcion": "En los casos en que el estudiante sea mayor de 18 años se orienta para realizar la denuncia y la existencia de Take it Down."
+            },
+            {
+              "paso": "7",
+              "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+            },
+            {
+              "paso": "8",
+              "descripcion": "Dar seguimiento al caso."
+            },
+            {
+              "paso": "9",
+              "descripcion": "Iniciar acciones vinculadas a los factores protectores."
             }
           ]
         }
       ]
     },
     {
-      "numero": "1.12",
+      "numero": "1.15",
       "nombre": "Situaciones de discriminación, xenofobia y racismo",
       "pasos": [
         {
@@ -1064,75 +1063,83 @@
         },
         {
           "paso": "3",
-          "descripcion": "Comunicar el emergente a DAE Central o EOS en CEBJA/CENS."
+          "descripcion": "Comunicar el emergente a DAE Central. Dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
         },
         {
           "paso": "4",
-          "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo interdisciplinario seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
+          "descripcion": "El profesional que interviene debe:",
+          "acciones": ["Privilegiar el relato del estudiante.", "Garantizar una escucha atenta que respete su privacidad.", "Evitar la reiteración del relato.", "En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere."]
         },
         {
           "paso": "5",
-          "descripcion": "El profesional que interviene debe privilegiar el relato del estudiante, garantizar una escucha atenta que respete su privacidad y evitar la reiteración del relato. En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes razonables y sistemas de apoyo si los hubiere."
+          "descripcion": "El profesional que interviene elabora un informe en forma objetiva con la descripción de los hechos y analizará el impacto sobre la víctima, el grupo y el clima escolar."
         },
         {
           "paso": "6",
-          "descripcion": "El profesional que interviene elaborará un informe en forma objetiva con la descripción de los hechos y analizará el impacto sobre la víctima, el grupo y el clima escolar."
-        },
-        {
-          "paso": "7",
           "descripcion": "Aplicar las sanciones proporcionales a la gravedad del hecho y el rol de cada persona implicada. Son responsables no sólo quienes ejercieron la violencia directamente, sino también quienes la avalaron o no la cuestionaron."
         },
         {
-          "paso": "8",
+          "paso": "7",
           "descripcion": "Definir medidas de protección que contengan la difusión del hecho y resguarden la intimidad y seguridad de la víctima."
         },
         {
+          "paso": "8",
+          "descripcion": "En caso de que el agresor esté vinculado a la DGE interviene la De.P.E."
+        },
+        {
           "paso": "9",
-          "descripcion": "En caso de que el agresor esté vinculado a la DGE, interviene la De.P.E."
+          "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
         },
         {
           "paso": "10",
-          "descripcion": "Registrar el acta e informar vía jerárquica."
+          "descripcion": "Dar seguimiento al caso."
         },
         {
           "paso": "11",
-          "descripcion": "Dar seguimiento al caso."
+          "descripcion": "Iniciar acciones vinculadas a los factores protectores."
         }
       ]
     }
   ],
-  "acciones_preventivas": [
-    {
-      "accion": "1",
-      "descripcion": "Fomentar la responsabilidad y la reflexión integral incorporando al proyecto de convivencia institucional espacios de diálogo y acuerdos colectivos. Promover reparaciones simbólicas o concretas, como disculpas formales o restauración de daños, consolidando un compromiso ético con la comunidad."
-    },
-    {
-      "accion": "2",
-      "descripcion": "Realizar acciones preventivas sostenidas que incluyan talleres, campañas, actividades curriculares, espacios de mediación y la creación de espacios seguros para la escucha y la reflexión sobre la convivencia y los vínculos saludables."
-    },
-    {
-      "accion": "3",
-      "descripcion": "Asesorar sobre la protección de la identidad digital, la privacidad y la seguridad de los datos personales."
-    },
-    {
-      "accion": "4",
-      "descripcion": "Promover actividades de sensibilización y formación continua sobre violencia de género (como comentarios sexistas o discriminación), identidad de género, diversidad y derechos humanos. En relación a la identidad de género (Ley N° 26743), generar acciones institucionales como adecuación de registros, comunicados, material educativo y protocolos internos."
-    },
-    {
-      "accion": "5",
-      "descripcion": "Generar acciones de acompañamiento individual (para NNA víctimas y quienes ejercen violencia) y grupal, asegurando seguimiento por parte de referentes institucionales y evaluando la articulación con otras instituciones."
-    },
-    {
-      "accion": "6",
-      "descripcion": "Fortalecer las reuniones del consejo escolar para evaluar estrategias de convivencia y favorecer canales de comunicación accesibles y confidenciales."
-    },
-    {
-      "accion": "7",
-      "descripcion": "Favorecer el trabajo con las familias y otros agentes comunitarios (como áreas municipales, bibliotecas, entre otros)."
-    },
-    {
-      "accion": "8",
-      "descripcion": "Brindar orientación sobre recursos disponibles: Subdirección de Género DGE (para personas vinculadas laboralmente a la DGE), Línea 144 y áreas de género del municipio."
-    }
-  ]
+  "acciones_preventivas": {
+    "factores_protectores": "La escuela debe garantizar el cumplimiento de las siguientes acciones designando a los responsables.",
+    "acciones": [
+      {
+        "accion": 1,
+        "descripcion": "Fomentar la responsabilidad y la reflexión integral incorporando al proyecto de convivencia institucional espacios de diálogo y acuerdos colectivos. Se busca que las acciones pedagógicas deriven en reparaciones simbólicas o concretas, tales como disculpas formales o la restauración de daños al entorno, consolidando así un compromiso ético con la comunidad."
+      },
+      {
+        "accion": 2,
+        "descripcion": "Realizar acciones preventivas sostenidas, que incluyan talleres, campañas, actividades curriculares y espacios de mediación, así como la creación de espacios seguros para la escucha y la reflexión sobre la convivencia y los vínculos saludables."
+      },
+      {
+        "accion": 3,
+        "descripcion": "Asesorar sobre la protección de la identidad digital, privacidad y seguridad de los datos personales."
+      },
+      {
+        "accion": 4,
+        "descripcion": "Promover actividades de sensibilización y formación continua sobre, violencia de género, (ej: comentarios o mensajes sexistas, discriminación, etc.) identidad de género, diversidad y derechos humanos. En relación a situaciones que involucren la identidad de género (Ley N° 26743) generar acciones institucionales: adecuación de registros, comunicados, material educativo y protocolos internos."
+      },
+      {
+        "accion": 5,
+        "descripcion": "Generar acciones de acompañamiento individual (tanto para el NNA víctima de violencia como para los NNA que ejerzan violencia) y grupal y asegurar un seguimiento por parte de los referentes institucionales y evaluar la necesidad articular con otras instituciones."
+      },
+      {
+        "accion": 6,
+        "descripcion": "Fortalecer las reuniones del consejo escolar para evaluar estrategias de convivencia, favorecer canales de comunicación accesibles y confidenciales."
+      },
+      {
+        "accion": 7,
+        "descripcion": "Favorecer el trabajo con las familias y otros agentes comunitarios (áreas municipales, bibliotecas, etc.)"
+      },
+      {
+        "accion": 8,
+        "descripcion": "Asesorar sobre la existencia de líneas de denuncia y ayuda: 145, 137"
+      },
+      {
+        "accion": 9,
+        "descripcion": "Brindar orientación sobre recursos disponibles- Subdirección de Género DGE (si la persona está vinculada laboralmente a la DGE); Línea 144; Área de género del municipio,Asesoría de Salud Integral (en casos de estudiantes adolescentes)."
+      }
+    ]
+  }
 }

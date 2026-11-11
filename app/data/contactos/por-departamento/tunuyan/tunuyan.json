@@ -2,17 +2,13 @@
   "nombre": "Organismos y servicios de interés - Tunuyán",
   "categorias": [
     {
-      "nombre": "Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)",
+      "nombre": "Programa Provincial de Prevención y Atención Integral del Maltrato a la Niñez y Adolescencia (PPMI)",
       "organismos": [
         {
           "nombre": "Hospital Scaravelli",
           "direccion": "Güemes 1441, Tunuyán, Mendoza",
-          "telefonos": [
-            "02622422324"
-          ],
-          "correos": [
-            "direccion_scaravelli@mendoza.gov.ar"
-          ]
+          "telefonos": ["02622422324"],
+          "correos": ["ppmitunuyan@mendoza.gov.ar"]
         }
       ]
     },
@@ -21,35 +17,25 @@
       "organismos": [
         {
           "nombre": "Hospital Antonio Scaravelli",
-          "direccion": "Uruguay y Martín de Güemes, Tunuyán, Mendoza",
-          "telefonos": [
-            "02622422324"
-          ],
-          "correos": [
-            "direccion_scaravelli@mendoza.gov.ar"
-          ]
+          "direccion": "Uruguay y Martín de Güesa, Tunuyán, Mendoza",
+          "telefonos": ["02622422324"],
+          "correos": ["direccion_scaravelli@mendoza.gov.ar"]
         },
         {
           "nombre": "Centro Preventivo Asistencial",
           "direccion": "Almirante Brown 758, Tunuyán, Mendoza",
-          "telefonos": [
-            "02622425772"
-          ]
+          "telefonos": ["02622425772"]
         }
       ]
     },
     {
-      "nombre": "Dirección de Protección y Promoción de Derechos",
+      "nombre": "Dir. de Protección y Promoción de Derechos",
       "organismos": [
         {
           "nombre": "ETI",
           "direccion": "Dalmau 396, Tunuyán, Mendoza",
-          "telefonos": [
-            "02622423978"
-          ],
-          "correos": [
-            "spdtunuyan@mendoza.gov.ar"
-          ]
+          "telefonos": ["02622423978"],
+          "correos": ["spdtunuyan@mendoza.gov.ar"]
         }
       ]
     },
@@ -59,12 +45,8 @@
         {
           "nombre": "Hospital Scaravelli",
           "direccion": "Güemes y Uruguay, Tunuyán, Mendoza",
-          "telefonos": [
-            "02622424100"
-          ],
-          "correos": [
-            "direccion_scaravelli@mendoza.gov.ar"
-          ]
+          "telefonos": ["02622424100"],
+          "correos": ["direccion_scaravelli@mendoza.gov.ar"]
         }
       ]
     },
@@ -72,15 +54,10 @@
       "nombre": "Área Departamental de Niñez, Adolescencia y Familia",
       "organismos": [
         {
-          "nombre": "Municipalidad de Tunuyán - Área Gestión Social",
+          "nombre": "Municipalidad de Tunuyán: Área Gestión Social",
           "direccion": "Anexo Municipal I, Calle La Argentina 600, Tunuyán, Mendoza",
-          "telefonos": [
-            "02622423640",
-            "02622409456"
-          ],
-          "correos": [
-            "gestionsocialmunitunuyan@gmail.com"
-          ]
+          "telefonos": ["02622423640", "02622409456"],
+          "correos": ["gestionsocialmunitunuyan@gmail.com"]
         }
       ]
     },
@@ -88,25 +65,19 @@
       "nombre": "Ministerio de Justicia y Seguridad",
       "organismos": [
         {
-          "nombre": "Delegación Administrativa",
-          "direccion": "San Martín 1900, Tunuyán, Mendoza",
-          "telefonos": [
-            "02622425820"
-          ]
+          "nombre": "Delegación administrativa",
+          "direccion": "San Martín 1900 – Tunuyán, Mendoza",
+          "telefonos": ["02622425820"]
         }
       ]
     },
     {
-      "nombre": "Asesor de Menores",
+      "nombre": "Asesoría de niños, niñas, adolescentes y personas con capacidad restringida",
       "organismos": [
         {
-          "nombre": "Asesor de Menores",
-          "telefonos": [
-            "2616016212"
-          ],
-          "correos": [
-            "abusosTUNUYAN@jus.mendoza.gov.ar"
-          ]
+          "nombre": "Asesoría de niños, niñas, adolescentes y personas con capacidad restringida",
+          "telefonos": ["2616016212"],
+          "correos": ["abusosTUNUYAN@jus.mendoza.gov.ar"]
         }
       ]
     }

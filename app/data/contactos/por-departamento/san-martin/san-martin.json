@@ -2,24 +2,19 @@
   "nombre": "Organismos y servicios de interés - San Martín",
   "categorias": [
     {
-      "nombre": "Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)",
+      "nombre": "Programa Provincial de Prevención y Atención Integral del Maltrato a la Niñez y Adolescencia (PPMI)",
       "organismos": [
         {
           "nombre": "Hospital Perrupato",
-          "direccion": "Carril Costa Canal Montecaseros y Boulogne Sur Mer, San Martín, Mendoza",
-          "telefonos": [
-            "2634420158"
-          ]
+          "direccion": "Carril Costa Canal Montecaseros y Boulogne Sur Mer, San Martín. Mendoza",
+          "telefonos": ["2634420158"],
+          "correos": ["ppmiperrupato@mendoza.gov.ar"]
         },
         {
-          "nombre": "Centro de Salud Nº76",
-          "direccion": "Calle Soberanía Nacional s/n, Palmira, Mendoza",
-          "telefonos": [
-            "02623461060"
-          ],
-          "correos": [
-            "caps-76@mendoza.gov.ar"
-          ]
+          "nombre": "Centro de Atención Primaria en Salud N° 76",
+          "direccion": "C. Soberania Nacional s/n - Palmira",
+          "telefonos": ["02623461060"],
+          "correos": ["caps-76@mendoza.gov.ar"]
         }
       ]
     },
@@ -28,25 +23,19 @@
       "organismos": [
         {
           "nombre": "Hospital Perrupato",
-          "direccion": "Carril Costa Canal Montecaseros y Boulogne Sur Mer, San Martín, Mendoza",
-          "telefonos": [
-            "02634420158"
-          ]
+          "direccion": "Carril Costa Canal Montecaseros y Boulogne Sur Mer, San Martín. Mendoza",
+          "telefonos": ["02634420158"]
         }
       ]
     },
     {
-      "nombre": "Dirección de Protección y Promoción de Derechos",
+      "nombre": "Dir. de Protección y Promoción de Derechos",
       "organismos": [
         {
           "nombre": "ETI",
-          "direccion": "9 de Julio 419, San Martín, Mendoza",
-          "telefonos": [
-            "263424821"
-          ],
-          "correos": [
-            "spdsanmartin@mendoza.gov.ar"
-          ]
+          "direccion": "9 DE JULIO 419, San Martín. Mendoza",
+          "telefonos": ["263424821"],
+          "correos": ["spdsanmartin@mendoza.gov.ar"]
         }
       ]
     },
@@ -54,26 +43,19 @@
       "nombre": "Área Departamental de Niñez, Adolescencia y Familia",
       "organismos": [
         {
-          "nombre": "Municipalidad de San Martín",
-          "direccion": "Alem y 25 de Mayo, San Martín, Mendoza",
-          "telefonos": [
-            "026234431935"
-          ]
+          "nombre": "Municipalidad de San Martin",
+          "direccion": "Alem y 25 de Mayo, San Martín. Mendoza",
+          "telefonos": ["026234431935"]
         }
       ]
     },
     {
-      "nombre": "Asesor de Menores",
+      "nombre": "Asesoría de niños, niñas, adolescentes y personas con capacidad restringida",
       "organismos": [
         {
-          "nombre": "Asesor de Menores",
-          "telefonos": [
-            "2634688890",
-            "2634532293"
-          ],
-          "correos": [
-            "abusosSANMARTIN@jus.mendoza.gov.ar"
-          ]
+          "nombre": "Asesoría de niños, niñas, adolescentes y personas con capacidad restringida",
+          "telefonos": ["2634688890", "2634532293"],
+          "correos": ["abusosSANMARTIN@jus.mendoza.gov.ar"]
         }
       ]
     }

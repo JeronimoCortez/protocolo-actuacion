@@ -1,60 +1,135 @@
 {
   "numero": "6",
-  "nombre": "Crisis emocional",
+  "nombre": "Desconocimiento de paradero",
   "subejes": [
     {
       "numero": "6.1",
-      "nombre": "Expresiones de crisis emocionales- malestar subjetivo",
+      "nombre": "Fuera del horario escolar",
       "pasos": [
         {
-          "paso": 1,
-          "descripcion": "No dejar solo al estudiante en ningún momento."
-        },
-        {
-          "paso": 2,
+          "paso": "1",
           "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de arbitrar los medios necesarios en la aplicación del protocolo."
         },
         {
-          "paso": 3,
-          "descripcion": "Comunicar el emergente a la DAE Central o EOS en CEBJA/CENS."
+          "paso": "2",
+          "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
         },
         {
-          "paso": 4,
-          "descripcion": "En paralelo, dar aviso al profesional DAE asignado a la escuela o al Equipo Interdisciplinario Seccional en nivel inicial y primario o SOE en nivel secundario. En caso de las modalidades de Educación Especial y Jóvenes y Adultos se debe dar aviso a los equipos correspondientes. En todos los casos son los equipos los que realizan el primer despeje."
+          "paso": "3",
+          "descripcion": "Pasos a seguir, en forma inmediata, por el personal de la escuela (Equipo DAE y/o Equipo SOE y/o Equipo Directivo):",
+          "acciones": ["Realizar visitas al domicilio.", "Contactar a la red familiar y otros miembros de la familia extendida que no hayan comunicado la ausencia. Buscar información de la red comunitaria (compañeros, amigos, centro de salud, referentes barriales, polideportivos, etc.)", "Despejar si la ausencia del estudiante se debe al traslado de toda la familia."]
         },
         {
-          "paso": 5,
-          "descripcion": "Brindar atención de primeros auxilios si existen lesiones. Contactar con el Servicio de Emergencias Coordinado 911 y/o Servicio de Emergencia Médica privado con el que cuenta la escuela, si hay riesgo potencial de agravamiento o riesgo inmediato de vida o de una función vital."
+          "paso": "4",
+          "descripcion": "Verificar en el sistema GEI si existe matriculación activa o movimientos en otra institución de la provincia."
         },
         {
-          "paso": 6,
-          "descripcion": "La primera persona que identifica la situación del NNA debe generar un espacio de escucha atenta, cuidando el espacio y contexto en el que se desarrolla el diálogo, respetando la privacidad y contención del estudiante. Es importante lograr un clima de confianza para que el NNA pueda expresarse sin inducir el relato, invalidarlo o cuestionarlo."
+          "paso": "5",
+          "descripcion": "El Equipo Directivo orienta a la familia o responsable legal para que llame de forma inmediata al 911 y realice la denuncia por averiguación de paradero."
         },
         {
-          "paso": 7,
-          "descripcion": "El profesional debe procurar que no intervengan actores innecesarios y evitar la reiteración del relato, respetando los derechos del estudiante a la intimidad y a la salud. En casos de estudiantes con discapacidad se debe garantizar el acceso a la comunicación implementando los ajustes necesarios y sistemas de apoyo."
+          "paso": "6",
+          "descripcion": "Si la familia se niega o NO envía a la escuela la denuncia de forma inmediata, el equipo directivo debe llamar al 911 para realizar la denuncia por averiguación de paradero. Se confecciona el Informe de Averiguación de Paradero, dejando registro de la denuncia realizada al 911 (número de incidente asignado) y se envía por mail al Equipo Técnico Central de la DAE : dge-daeequipotecnico@mendoza.edu.ar. La DAE remitirá el informe al área de Investigaciones del Ministerio de Seguridad.",
+          "archivo": "./modelo_informe_averiguacion_paradero.pdf"
         },
         {
-          "paso": 8,
-          "descripcion": "Comunicarse con la familia, referente afectivo o responsable legal para informar la situación."
+          "paso": "7",
+          "descripcion": "Derivar a ETI. No constituye la primera instancia de intervención. Contactar a este efector luego de haber cumplido los pasos anteriores. El despeje de la situación para determinar la pertinencia de esta derivación es competencia de los equipos DAE."
         },
         {
-          "paso": 9,
-          "descripcion": "Si se detecta vulneración de derechos del NNA asociada al emergente que involucre a alguno de los responsables legales, no contactarlo. El profesional interviniente deberá derivar la situación a la institución correspondiente."
+          "paso": "8",
+          "descripcion": "No se logra contactar a la familia ni al estudiante (Mudanza / Traslado). Se constata que la ausencia se debe al traslado o mudanza de toda la familia y no se logra obtener el nuevo contacto, finaliza la búsqueda física por parte de la escuela. No corresponde realizar denuncia al 911. Dejar constancia detallada en actas y elevar el caso a Supervisión para su tratamiento administrativo."
         },
         {
-          "paso": 10,
-          "descripcion": "Orientar y asesorar a la familia, referente afectivo o representante legal del NNA sobre la importancia de dar intervención a efectores de salud mental."
+          "paso": "9",
+          "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
         },
         {
-          "paso": 11,
-          "descripcion": "Registrar en acta e informar según línea jerárquica."
+          "paso": "10",
+          "descripcion": "Dar seguimiento continuo al caso."
         },
         {
-          "paso": "12",
+          "paso": "11",
+          "descripcion": "Iniciar acciones vinculadas a los factores protectores."
+        }
+      ]
+    },
+    {
+      "numero": "6.2",
+      "nombre": "Dentro del horario escolar",
+      "pasos": [
+        {
+          "paso": "1",
+          "descripcion": "Dar aviso al Equipo Directivo, el cual es responsable de y arbitrar los medios necesarios en la aplicación del protocolo."
+        },
+        {
+          "paso": "2",
+          "descripcion": "Revisar de forma inmediata todos los espacios físicos de la escuela (baños, patios, biblioteca, aulas vacías, inmediaciones de la puerta)."
+        },
+        {
+          "paso": "3",
+          "descripcion": "Verificar con el personal docente/preceptores si el estudiante se encuentra en otra actividad escolar autorizada. Consultar con compañeros si han tenido contacto reciente o si manifestaron intenciones de retirarse."
+        },
+        {
+          "paso": "4",
+          "descripcion": "Comunicar el emergente a DAE Central y dar aviso al profesional o equipo técnico asignado a la institución, según nivel y modalidad. Los equipos realizan el primer despeje."
+        },
+        {
+          "paso": "5",
+          "descripcion": "Contactar a la familia, referente afectivo o representante legal para consultar si el estudiante se ha dirigido a su domicilio o si tienen información certera sobre su paradero."
+        },
+        {
+          "paso": "6",
+          "descripcion": "Pasos a seguir, en forma inmediata, por el personal de la escuela (Equipo DAE y/o Equipo SOE y/o Equipo Directivo):",
+          "acciones": ["Realizar visitas al domicilio.", "Contactar a la red familiar y otros miembros de la familia extendida.", "Buscar información de la red comunitaria (compañeros, amigos, centro de salud, referentes barriales, polideportivos, etc.)"]
+        },
+        {
+          "paso": "7",
+          "descripcion": "Si se constata el paradero. Se constata que el estudiante se encuentra con su familia/responsable legal, finaliza la búsqueda de emergencia. Citar a los responsables parentales para labrar el acta correspondiente por la irregularidad, aplicar los acuerdos de convivencia y restablecer el encuadre institucional."
+        },
+        {
+          "paso": "8",
+          "descripcion": "Si se desconoce el paradero (desaparición presunta). Agotados los pasos previos, la escuela debe llamar al 911 para realizar la denuncia por averiguación de paradero. Se confecciona el Informe de Averiguación de Paradero , dejando registro de la denuncia realizada al 911 (número de incidente asignado) y se envía por mail al Equipo Técnico Central de la DAE : dge-daeequipotecnico@mendoza.edu.ar. La DAE remitirá el informe al área de Investigaciones del Ministerio de Seguridad.",
+          "archivo": "./modelo_informe_averiguacion_paradero.pdf"
+        },
+        {
+          "paso": "9",
+          "descripcion": "Redactar acta e informar por vía jerárquica. Registrar, por el responsable asignado, en el sistema de Gestión Educativa Integral (GEI) dentro de un plazo máximo de 48 horas hábiles."
+        },
+        {
+          "paso": "10",
+          "descripcion": "Dar seguimiento continuo al caso."
+        },
+        {
+          "paso": "11",
           "descripcion": "Iniciar acciones vinculadas a los factores protectores."
         }
       ]
     }
-  ]
+  ],
+  "acciones_preventivas": {
+    "factores_protectores": "La escuela debe garantizar el cumplimiento de las siguientes acciones designando a los responsables.",
+    "acciones": [
+      {
+        "accion": 1,
+        "descripcion": "Ofrecer contención al estudiante y a la familia."
+      },
+      {
+        "accion": 2,
+        "descripcion": "Generar espacios de diálogo y sensibilización para promover el compromiso y participación de toda la comunidad educativa en la problemática."
+      },
+      {
+        "accion": 3,
+        "descripcion": "Implementar diferentes estrategias de acción que tengan como prioridad la inclusión del estudiante brindando apoyo y acompañamiento permanente, facilitando la concurrencia del estudiante a la escuela para que complete su trayectoria escolar."
+      },
+      {
+        "accion": 4,
+        "descripcion": "Trabajar con otras instituciones en red para garantizar el seguimiento y acompañamiento del estudiante en caso de que se haya determinado la existencia de riesgo, amenaza o vulneración de derechos del estudiante NNA."
+      },
+      {
+        "accion": 5,
+        "descripcion": "Los profesionales de los equipos intervinientes - DAE para Inicial y Primaria, SOE secundaria o equipos de Educación Especial y Jóvenes y Adultos- junto con el Equipo Directivo de la institución, se encargarán de activar, sostener y fortalecer las redes de apoyo interinstitucionales."
+      }
+    ]
+  }
 }

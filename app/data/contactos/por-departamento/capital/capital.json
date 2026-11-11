@@ -2,22 +2,22 @@
   "nombre": "Contactos de Interes Departamento Capital",
   "categorias": [
     {
-      "nombre": "Programa Provincial de Prevención y Atención Integral a la Niñez y Adolescencia (PPMI)",
+      "nombre": "Programa Provincial de Prevención y Atención Integral del Maltrato a la Niñez y Adolescencia (PPMI)",
       "organismos": [
         {
-          "nombre": "Centro Integrador Comunitario",
+          "nombre": "Centro Integrador comunitario",
           "direccion": "9 de Julio 3565, Mendoza",
           "telefonos": ["4300441"],
           "correos": ["ppmiciccapital@mendoza.gov.ar"]
         },
         {
-          "nombre": "Centro de Salud Nº1",
+          "nombre": "Centro de Atención Primaria en Salud N° 1",
           "direccion": "Cordón del Plata s/n B° San Martín",
           "telefonos": ["4444792"],
           "correos": ["ppmics1@mendoza.gov.ar"]
         },
         {
-          "nombre": "Centro de Salud Nº300",
+          "nombre": "Centro de Atención Primaria en Salud Nº 300",
           "direccion": "Camino Acceso a Papagallos y calle de la escuela B° La Favorita",
           "telefonos": ["4447129"]
         }
@@ -28,12 +28,12 @@
       "organismos": [
         {
           "nombre": "Lagomaggiore",
-          "direccion": "Timoteo Gordillo s/n, Ciudad, Mendoza",
+          "direccion": "Timoteo gordillo s/n, Ciudad, Mendoza",
           "telefonos": ["4134600"]
         },
         {
           "nombre": "Central",
-          "direccion": "L. N. Alem y Salta, Ciudad, Mendoza",
+          "direccion": "L. N. Alem y, Salta, Ciudad, Mendoza",
           "telefonos": ["2613855684"]
         },
         {
@@ -45,41 +45,41 @@
       ]
     },
     {
-      "nombre": "Defensoría de la Persona con Discapacidad",
+      "nombre": "Defensoría de la persona con discapacidad",
       "organismos": [
         {
-          "nombre": "Defensoría de la Persona con Discapacidad",
+          "nombre": "Defensoría de la persona con discapacidad",
           "direccion": "Espejo 65 PB dpto. 7, Ciudad, Mendoza",
           "telefonos": ["4204494"]
         }
       ]
     },
     {
-      "nombre": "Casa del Discapacitado",
+      "nombre": "Casa del discapacitado",
       "organismos": [
         {
-          "nombre": "Dirección de Salud y Acción Social",
+          "nombre": "Dir. de salud y acción social",
           "direccion": "Perú 762, Ciudad, Mendoza",
           "telefonos": ["4236451"]
         }
       ]
     },
     {
-      "nombre": "Áreas Género",
+      "nombre": "Área de Género y Diversidad",
       "organismos": [
         {
           "nombre": "Secretaría de Gobierno",
-          "direccion": "9 de Julio 500, Ciudad, Mendoza",
+          "direccion": "9 de julio 500, Ciudad, Mendoza",
           "telefonos": ["4495304", "4495302", "155092210"],
           "correos": ["politicasdegenero@ciudaddemendoza.gov.ar"]
         }
       ]
     },
     {
-      "nombre": "Áreas Municipales",
+      "nombre": "Áreas municipales",
       "organismos": [
         {
-          "nombre": "Área Departamental de la Niñez y Adolescencia y Familia",
+          "nombre": "Área departamental de la niñez y adolescencia y familia",
           "direccion": "Montevideo 578, Ciudad, Mendoza",
           "telefonos": ["02614236994"],
           "correos": ["familia@ciudaddemendoza.gov.ar"]
@@ -90,30 +90,30 @@
       "nombre": "Ministerio de Justicia y Seguridad",
       "organismos": [
         {
-          "nombre": "Fiscalía Nº1 Seccional 3ª",
+          "nombre": "Fiscalía Nº 1 seccional 3ª",
           "direccion": "Rioja 1252, Ciudad, Mendoza",
           "telefonos": ["3487490"],
           "correos": ["of1s3@jus.mendoza.gov.ar"]
         },
         {
-          "nombre": "Fiscalía Nº2 Seccional 6ª",
-          "direccion": "Los Virgilios y Las Magnolias B° Cano, Ciudad, Mendoza",
+          "nombre": "Fiscalía Nº 2 seccional 6ª",
+          "direccion": "Los Virgilios y Las Magnolias Bº Cano, Ciudad, Mendoza",
           "telefonos": ["3487564"],
           "correos": ["of2s6@jus.mendoza.gov.ar"]
         },
         {
-          "nombre": "Fiscalía Nº13 Seccional 4ª",
-          "direccion": "Av. San Martín 2556, Mendoza",
+          "nombre": "Fiscalía Nº13 seccional 4ª",
+          "direccion": "Av. San Martín 2556, M5500 Mendoza",
           "telefonos": ["3487520"],
           "correos": ["of13s4@jus.mendoza.gov.ar"]
         }
       ]
     },
     {
-      "nombre": "Asesor de Menores",
+      "nombre": "Asesoría de niños, niñas, adolescentes y personas con capacidad restringida",
       "organismos": [
         {
-          "nombre": "Asesor de Menores",
+          "nombre": "Asesoría de niños, niñas, adolescentes y personas con capacidad restringida",
           "telefonos": ["2613878710"],
           "correos": ["abusosCAPITAL@jus.mendoza.gov.ar"]
         }
