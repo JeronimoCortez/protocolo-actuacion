@@ -18,6 +18,7 @@ import ejeUno from "../data/ejes/ejeUno.json";
 import introduccion from "../data/ejes/introduccion.json";
 import FloatingEmergencyFab from "../components/FloatingEmergencyFab";
 import ProtocolStepsPdfActions from "../components/ProtocolStepsPdfActions";
+import { EjeIcon, MODULOS, ModuloBadge, SECTION_COLORS, SectionIcon, getEjeBrand } from "../components/brandIcons";
 import {
   buildSearchKeywords,
   prepareFlexibleSearchIndex,
@@ -437,6 +438,7 @@ function buildProtocolPdfBlocks(node, path, conditionSelections, title = null, d
 function getPanelThemeClasses(theme = "emerald") {
   if (theme === "rose") {
     return {
+      accent: SECTION_COLORS.red,
       container: "border-rose-300 bg-rose-50",
       title: "text-rose-900",
       indicator: "border-rose-300 bg-white text-rose-700",
@@ -446,6 +448,7 @@ function getPanelThemeClasses(theme = "emerald") {
 
   if (theme === "sky") {
     return {
+      accent: SECTION_COLORS.cyan,
       container: "border-sky-200 bg-sky-50",
       title: "text-sky-900",
       indicator: "border-sky-300 bg-white text-sky-700",
@@ -454,6 +457,7 @@ function getPanelThemeClasses(theme = "emerald") {
   }
 
   return {
+    accent: null,
     container: "border-emerald-200 bg-emerald-50",
     title: "text-emerald-900",
     indicator: "border-emerald-300 bg-white text-emerald-700",
@@ -461,7 +465,7 @@ function getPanelThemeClasses(theme = "emerald") {
   };
 }
 
-function PreventiveActionsPanel({ title, intro, items, defaultOpen = false, wrapperClassName = "", theme = "emerald" }) {
+function PreventiveActionsPanel({ title, intro, items, defaultOpen = false, wrapperClassName = "", theme = "emerald", icon = null }) {
   if (!intro && !items?.length) return null;
   const [isOpen, setIsOpen] = useState(defaultOpen);
   const themeClasses = getPanelThemeClasses(theme);
@@ -483,9 +487,13 @@ function PreventiveActionsPanel({ title, intro, items, defaultOpen = false, wrap
         setIsOpen((previous) => !previous);
       }}
       className={`group cursor-pointer rounded-xl border p-3 shadow-sm ${themeClasses.container} ${wrapperClassName}`.trim()}
+      style={themeClasses.accent ? { borderLeftColor: themeClasses.accent, borderLeftWidth: 6 } : undefined}
     >
       <div className={`flex items-center justify-between gap-3 text-sm font-semibold tracking-tight ${themeClasses.title}`}>
-        <span>{title}</span>
+        <span className="flex items-center gap-2">
+          {icon ? <SectionIcon type={icon} className="h-7 w-7" /> : null}
+          {title}
+        </span>
         <span className={`inline-flex h-6 w-6 items-center justify-center rounded-full border transition ${themeClasses.indicator} ${isOpen ? "rotate-180" : ""}`}>
           <svg viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4">
             <path
@@ -523,7 +531,12 @@ function ProtocolIntroduction({ data }) {
 
   return (
     <section className="surface-card space-y-4 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-      {data.titulo ? <h2 className="section-title text-lg">{data.titulo}</h2> : null}
+      {data.titulo ? (
+        <h2 className="section-title flex items-center gap-3 text-lg">
+          <SectionIcon type="presentacion" className="h-9 w-9" />
+          {data.titulo}
+        </h2>
+      ) : null}
 
       {paragraphs.map((paragraph, index) => (
         <p key={`intro-${index}`} className="control-text text-slate-700">
@@ -574,9 +587,56 @@ function ProtocolIntroduction({ data }) {
       ) : null}
 
       {data.aclaracion ? (
-        <p className="rounded-md border border-amber-200 bg-amber-50 p-3 text-sm text-amber-900">{data.aclaracion}</p>
+        <p className="rounded-md border border-amber-200 bg-amber-50 p-3 text-sm text-amber-900" style={{ borderLeftColor: SECTION_COLORS.yellow, borderLeftWidth: 6 }}>{data.aclaracion}</p>
       ) : null}
     </section>
+  );
+}
+
+function EjePicker({ ejes, selectedEjeId, onSelect }) {
+  const ejesByNumero = new Map(ejes.map((eje) => [Number.parseInt(String(eje.numero), 10), eje]));
+
+  return (
+    <div role="group" aria-labelledby="eje-selector-label" className="mt-2 grid gap-3 md:grid-cols-2">
+      {MODULOS.map((modulo) => (
+        <div
+          key={modulo.numero}
+          className="rounded-xl border border-slate-200 bg-slate-50/60 p-3"
+          style={{ borderTopColor: modulo.color, borderTopWidth: 4 }}
+        >
+          <p className="flex items-center gap-2 text-sm font-bold tracking-tight text-[var(--heading)]">
+            <ModuloBadge numero={modulo.numero} className="h-7 w-7" />
+            Módulo {modulo.numero}
+          </p>
+          <div className="mt-2 space-y-1.5">
+            {modulo.ejes.map((numero) => {
+              const eje = ejesByNumero.get(numero);
+              if (!eje) return null;
+              const isActive = eje.id === selectedEjeId;
+              const color = getEjeBrand(numero)?.color;
+              return (
+                <button
+                  key={eje.id}
+                  type="button"
+                  aria-pressed={isActive}
+                  onClick={() => onSelect(eje.id)}
+                  className={`flex w-full items-center gap-3 rounded-lg border bg-white px-2.5 py-2 text-left text-sm font-medium tracking-tight text-slate-800 transition hover:border-slate-400 hover:shadow-sm ${
+                    isActive ? "shadow-sm ring-2" : "border-slate-200"
+                  }`}
+                  style={isActive ? { borderColor: color, "--tw-ring-color": `${color}55` } : undefined}
+                >
+                  <EjeIcon numero={numero} className="h-8 w-8" />
+                  <span>
+                    <span className="block text-xs font-semibold text-slate-500">Eje {eje.numero}</span>
+                    <span className="block leading-snug">{eje.nombre}</span>
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      ))}
+    </div>
   );
 }
 
@@ -645,6 +705,7 @@ function ProtocolNode({
 
       <PreventiveActionsPanel
         title="Acciones preventivas"
+        icon="actividades"
         intro={actions?.intro}
         items={actions?.items}
       />
@@ -704,7 +765,7 @@ function ProtocolNode({
                         <p className="control-text">{step.descripcion}</p>
 
                         {step.nota ? (
-                          <p className="rounded-md border border-amber-200 bg-amber-50 p-2 text-sm text-amber-900">Nota: {step.nota}</p>
+                          <p className="rounded-md border border-amber-200 bg-amber-50 p-2 text-sm text-amber-900" style={{ borderLeftColor: SECTION_COLORS.yellow, borderLeftWidth: 6 }}>Nota: {step.nota}</p>
                         ) : null}
 
                         {Array.isArray(step.acciones) && step.acciones.length ? (
@@ -823,7 +884,7 @@ function ProtocolNode({
       ) : null}
 
       {hasConditionSelector ? (
-        <div className="rounded-xl border border-indigo-200 bg-indigo-50 p-3">
+        <div className="rounded-xl border border-indigo-200 bg-indigo-50 p-3" style={{ borderLeftColor: SECTION_COLORS.purple, borderLeftWidth: 6 }}>
           <p className="text-xs font-semibold uppercase tracking-wide text-indigo-700">Elegi una condicion</p>
           <StyledSelect id={`${path}-condiciones`} value={selectedConditionKey} onChange={(event) => onConditionSelection(path, event.target.value)}>
             {allConditionBlocks.map((condition, index) => (
@@ -851,7 +912,7 @@ function ProtocolNode({
       ))}
 
       {hasWeaponTypeSelector ? (
-        <div className="rounded-xl border border-indigo-200 bg-indigo-50 p-3">
+        <div className="rounded-xl border border-indigo-200 bg-indigo-50 p-3" style={{ borderLeftColor: SECTION_COLORS.purple, borderLeftWidth: 6 }}>
           <p className="text-xs font-semibold uppercase tracking-wide text-indigo-700">Tipo de arma</p>
           <StyledSelect
             id={`${path}-tipo-arma`}
@@ -1260,17 +1321,10 @@ function ProtocolosPageContent() {
               )}
             </div>
 
-            <label htmlFor="eje-selector" className="label-text">
+            <p id="eje-selector-label" className="label-text">
               Eje principal
-            </label>
-            <StyledSelect id="eje-selector" value={selectedEjeId} onChange={(event) => handleSelectEje(event.target.value)} >
-              <option value="">Debes seleccionar un eje</option>
-              {ejes.map((eje) => (
-                <option key={eje.id} value={eje.id} >
-                  Eje {eje.numero}: {eje.nombre}
-                </option>
-              ))}
-            </StyledSelect>
+            </p>
+            <EjePicker ejes={ejes} selectedEjeId={selectedEjeId} onSelect={handleSelectEje} />
 
             {selectedEje && showSubejeSelector ? (
               <div className="mt-2 w-full">
@@ -1290,12 +1344,17 @@ function ProtocolosPageContent() {
           {selectedEje && selectedSubeje ? (
             <section className="space-y-4">
               <div className="surface-card rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-5">
-                <p className="supporting-copy">
-                  Eje {selectedEje.numero}: {selectedEje.nombre}
-                </p>
-                <h2 className="section-title mt-1 text-xl">
-                  {selectedSubeje.numero ?? "General"} - {selectedSubeje.nombre}
-                </h2>
+                <div className="flex items-start gap-3">
+                  <EjeIcon numero={selectedEje.numero} className="h-12 w-12" />
+                  <div className="min-w-0">
+                    <p className="supporting-copy">
+                      Eje {selectedEje.numero}: {selectedEje.nombre}
+                    </p>
+                    <h2 className="section-title mt-1 text-xl">
+                      {selectedSubeje.numero ?? "General"} - {selectedSubeje.nombre}
+                    </h2>
+                  </div>
+                </div>
 
                 {categoryOptions.length ? (
                   <div className="mt-4 space-y-3">
@@ -1362,7 +1421,7 @@ function ProtocolosPageContent() {
               </div>
 
               {selectedSubeje911Info ? (
-                <section className="surface-card space-y-4 rounded-2xl border border-sky-200 bg-sky-50 p-4 shadow-sm md:p-5">
+                <section className="surface-card space-y-4 rounded-2xl border border-sky-200 bg-sky-50 p-4 shadow-sm md:p-5" style={{ borderLeftColor: SECTION_COLORS.cyan, borderLeftWidth: 6 }}>
                   <h3 className="section-title text-xl text-sky-950">
                     {selectedSubeje911Info.titulo ?? "Información para llamada al 911"}
                   </h3>
@@ -1395,6 +1454,7 @@ function ProtocolosPageContent() {
                 <section
                   key={`recuadro-${recuadroIndex}`}
                   className="surface-card space-y-3 rounded-2xl border border-amber-200 bg-amber-50 p-4 shadow-sm md:p-5"
+                  style={{ borderLeftColor: SECTION_COLORS.yellow, borderLeftWidth: 6 }}
                 >
                   <header>
                     <h3 className="section-title text-xl text-amber-950">{recuadro.titulo}</h3>
@@ -1423,6 +1483,7 @@ function ProtocolosPageContent() {
 
               <PreventiveActionsPanel
                 title="Acciones preventivas del eje"
+                icon="actividades"
                 intro={ejeActions?.intro}
                 items={ejeActions?.items}
                 wrapperClassName="rounded-2xl p-4"
@@ -1445,7 +1506,10 @@ function ProtocolosPageContent() {
 
               <div className="surface-card rounded-2xl border border-slate-200 bg-white p-4 shadow-sm md:p-5">
                 <div className="flex flex-wrap items-center justify-between gap-3">
-                  <p className="card-title text-sm">Avance de pasos</p>
+                  <p className="card-title flex items-center gap-2 text-sm">
+                    <SectionIcon type="hoja-de-ruta" className="h-7 w-7" />
+                    Hoja de ruta: avance de pasos
+                  </p>
                   <ProtocolStepsPdfActions
                     documentTitle={selectedSubejeTitle}
                     filename={protocolPdfFilename}
@@ -1460,7 +1524,10 @@ function ProtocolosPageContent() {
                     <span className="font-semibold">{progressPercent}%</span>
                   </div>
                   <div className="h-2 overflow-hidden rounded-full bg-slate-200">
-                    <div className="h-full rounded-full bg-slate-900 transition-all" style={{ width: `${progressPercent}%` }} />
+                    <div
+                      className="h-full rounded-full bg-slate-900 transition-all"
+                      style={{ width: `${progressPercent}%`, backgroundColor: getEjeBrand(selectedEje.numero)?.color }}
+                    />
                   </div>
                 </div>
               </div>

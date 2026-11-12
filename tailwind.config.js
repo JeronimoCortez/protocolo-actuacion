@@ -4,8 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-plus-jakarta-sans)", "sans-serif"],
-        serif: ["var(--font-plus-jakarta-sans)", "sans-serif"],
+        // Tipografía institucional: Helvetica (+ sus variables)
+        sans: ['"Helvetica Neue"', "Helvetica", "Arial", "sans-serif"],
+        serif: ['"Helvetica Neue"', "Helvetica", "Arial", "sans-serif"],
       },
       fontSize: {
         xs: ["0.78rem", { lineHeight: "1.45" }],

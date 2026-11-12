@@ -78,7 +78,7 @@ function buildPrintHtml(contacts, title) {
         width: 100%;
         background: #fff;
         color: #1e293b;
-        font-family: "Segoe UI", Arial, sans-serif;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         font-size: 11px;
         line-height: 1.4;
         -webkit-print-color-adjust: exact;

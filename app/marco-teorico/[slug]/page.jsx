@@ -7,6 +7,7 @@ import DownloadMarcoTeoricoPdfButton from "../../components/DownloadMarcoTeorico
 import PrintSectionButton from "../../components/PrintSectionButton";
 import { navItems } from "../../data/home";
 import FloatingEmergencyFab from "../../components/FloatingEmergencyFab";
+import { EjeIcon, ModuloBadge, SectionIcon, getEjeBrand } from "../../components/brandIcons";
 
 const MARCO_TEORICO_DIR = path.join(process.cwd(), "app/data/marco-teorico");
 
@@ -295,18 +296,36 @@ export default async function MarcoTeoricoEjePage({ params }) {
   const { metadata, content } = parseFrontmatter(markdownRaw);
   const blocks = parseMarkdownBlocks(content);
   const pageTitle = metadata.title ?? buildDisplayTitle(slug);
+  const ejeNumero = slug.match(/^eje-(\d+)-/)?.[1] ?? null;
+  const ejeBrand = getEjeBrand(ejeNumero);
 
   return (
     <>
       <Header navItems={navItems} />
       <main className="mx-auto w-full max-w-[1200px] space-y-6 px-4 pb-12 pt-8 md:px-6 md:pt-10">
-        <section className="surface-card rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-          <p className="kicker">
-            Marco Teórico por Eje
+        <section
+          className="surface-card rounded-2xl border border-slate-200 bg-white p-5 shadow-sm"
+          style={ejeBrand ? { borderTopColor: ejeBrand.color, borderTopWidth: 6 } : undefined}
+        >
+          <p className="kicker flex items-center gap-2">
+            {ejeBrand ? (
+              <>
+                <ModuloBadge numero={ejeBrand.modulo} className="h-6 w-6" />
+                Módulo {ejeBrand.modulo} · Marco Teórico por Eje
+              </>
+            ) : (
+              <>
+                <SectionIcon type="bibliografia" className="h-6 w-6" />
+                Marco Teórico por Eje
+              </>
+            )}
           </p>
-          <h1 className="page-title mt-2">
-            {pageTitle}
-          </h1>
+          <div className="mt-2 flex items-start gap-4">
+            <EjeIcon numero={ejeNumero} className="h-12 w-12 md:h-14 md:w-14" />
+            <h1 className="page-title">
+              {pageTitle}
+            </h1>
+          </div>
           <p className="supporting-copy mt-3">
             {metadata.description ?? "Desarrollo conceptual del eje seleccionado."}
           </p>

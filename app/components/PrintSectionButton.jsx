@@ -22,7 +22,7 @@ export default function PrintSectionButton({
           <style>
             @page { size: A4; margin: 14mm; }
             :root { color-scheme: light; }
-            body { font-family: "Plus Jakarta Sans", "Segoe UI", Arial, sans-serif; margin: 0; padding: 0; color: #1e293b; }
+            body { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; margin: 0; padding: 0; color: #1e293b; }
             h1, h2, h3, h4 { color: #0f172a; letter-spacing: -0.01em; margin-top: 1.1em; margin-bottom: 0.5em; }
             p, li, td, th { font-size: 14px; line-height: 1.65; }
             ul { padding-left: 22px; }

@@ -125,7 +125,7 @@ function buildPrintableHtml({ documentTitle, blocks }) {
             width: 100%;
             background: #ffffff;
             color: #1e293b;
-            font-family: "Segoe UI", Arial, sans-serif;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
           }
           body {
             -webkit-print-color-adjust: exact;

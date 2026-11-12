@@ -5,6 +5,55 @@ import DownloadMarcoTeoricoPdfButton from "../components/DownloadMarcoTeoricoPdf
 import PrintSectionButton from "../components/PrintSectionButton";
 import { navItems } from "../data/home";
 import FloatingEmergencyFab from "../components/FloatingEmergencyFab";
+import { EjeIcon, MODULOS, ModuloBadge, SectionIcon } from "../components/brandIcons";
+
+const EJE_LINK_PATTERN = /^\[Eje (\d+):\s*(.+)\]\(([^)]+)\)$/;
+
+function renderEjeLinksByModule(items, index) {
+  const ejeLinks = new Map(
+    items.map((item) => {
+      const [, numero, nombre, href] = item.match(EJE_LINK_PATTERN);
+      return [Number(numero), { numero, nombre, href }];
+    })
+  );
+
+  return (
+    <div key={`ejes-${index}`} className="grid gap-3 md:grid-cols-2">
+      {MODULOS.map((modulo) => (
+        <div
+          key={modulo.numero}
+          className="rounded-xl border border-slate-200 bg-slate-50/60 p-3"
+          style={{ borderTopColor: modulo.color, borderTopWidth: 4 }}
+        >
+          <p className="flex items-center gap-2 text-sm font-bold tracking-tight text-[var(--heading)]">
+            <ModuloBadge numero={modulo.numero} className="h-7 w-7" />
+            Módulo {modulo.numero}
+          </p>
+          <ul className="mt-2 space-y-1.5">
+            {modulo.ejes.map((numero) => {
+              const eje = ejeLinks.get(numero);
+              if (!eje) return null;
+              return (
+                <li key={numero}>
+                  <a
+                    href={eje.href}
+                    className="flex items-center gap-3 rounded-lg border border-slate-200 bg-white px-2.5 py-2 text-sm font-medium tracking-tight text-slate-800 transition hover:border-slate-400 hover:shadow-sm"
+                  >
+                    <EjeIcon numero={numero} className="h-8 w-8" />
+                    <span>
+                      <span className="block text-xs font-semibold text-slate-500">Eje {eje.numero}</span>
+                      <span className="block leading-snug">{eje.nombre}</span>
+                    </span>
+                  </a>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      ))}
+    </div>
+  );
+}
 
 function parseFrontmatter(markdown) {
   const frontmatterMatch = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---\r?\n?/);
@@ -210,6 +259,10 @@ function renderMarkdownBlocks(blocks) {
     }
 
     if (block.type === "list") {
+      if (block.items.every((item) => EJE_LINK_PATTERN.test(item))) {
+        return renderEjeLinksByModule(block.items, index);
+      }
+
       return (
         <ul key={`ul-${index}`} className="body-copy list-disc space-y-2 pl-6">
           {block.items.map((item, itemIndex) => (
@@ -266,7 +319,8 @@ export default async function MarcoTeoricoPage() {
         className="mx-auto w-full max-w-[1200px] space-y-6 px-4 pb-12 pt-8 md:px-6 md:pt-10"
       >
         <section className="surface-card rounded-2xl border border-slate-200 bg-white p-5 shadow-sm">
-          <h1 className="page-title">
+          <h1 className="page-title flex items-center gap-3">
+            <SectionIcon type="bibliografia" className="h-10 w-10" />
             Marco Teórico
           </h1>
           <p className="supporting-copy mt-3">
