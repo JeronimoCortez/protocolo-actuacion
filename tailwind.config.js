@@ -42,6 +42,7 @@ module.exports = {
       boxShadow: {
         "action-red": "0 8px 24px -4px oklch(0.7 0.15 25 / 0.25)",
         "action-blue": "0 8px 24px -4px oklch(0.6 0.1 250 / 0.2)",
+        "action-yellow": "0 8px 24px -4px oklch(0.8 0.16 75 / 0.25)",
         "action-green": "0 8px 24px -4px oklch(0.6 0.12 150 / 0.2)",
       },
     },

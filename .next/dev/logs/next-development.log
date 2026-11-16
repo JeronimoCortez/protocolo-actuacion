@@ -1,2 +1,14 @@
-{"timestamp":"00:00:02.319","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:04.840","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:02.872","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:02:58.470","source":"Server","level":"LOG","message":"✓ Compiled in 233ms"}
+{"timestamp":"00:03:03.738","source":"Server","level":"LOG","message":"✓ Compiled in 201ms"}
+{"timestamp":"00:04:00.958","source":"Server","level":"LOG","message":"✓ Compiled in 191ms"}
+{"timestamp":"00:05:07.001","source":"Server","level":"LOG","message":"✓ Compiled in 1152ms"}
+{"timestamp":"00:10:18.820","source":"Server","level":"LOG","message":"✓ Compiled in 433ms"}
+{"timestamp":"00:10:45.810","source":"Server","level":"LOG","message":"✓ Compiled in 402ms"}
+{"timestamp":"00:10:46.840","source":"Browser","level":"ERROR","message":"unhandledRejection: Error: No link element found for chunk /_next/static/chunks/app_globals_0jn8.0u.css"}
+{"timestamp":"00:10:48.473","source":"Server","level":"ERROR","message":"[browser] \"\\u001b[31m⨯ unhandledRejection: Error: No link element found for chunk /_next/static/chunks/app_globals_0jn8.0u.css\\u001b[39m\\n\\u001b[31m    at new Promise (<anonymous>)\\u001b[39m\""}
+{"timestamp":"00:10:48.474","source":"Browser","level":"ERROR","message":"\u001b[31m⨯ unhandledRejection: Error: No link element found for chunk /_next/static/chunks/app_globals_0jn8.0u.css\u001b[39m\n\u001b[31m    at new Promise (<anonymous>)\u001b[39m"}
+{"timestamp":"00:11:00.177","source":"Server","level":"LOG","message":"✓ Compiled in 526ms"}
+{"timestamp":"00:13:01.570","source":"Server","level":"LOG","message":"✓ Compiled in 172ms"}
+{"timestamp":"00:15:48.049","source":"Server","level":"LOG","message":"✓ Compiled in 243ms"}
+{"timestamp":"00:16:56.336","source":"Server","level":"LOG","message":"✓ Compiled in 152ms"}

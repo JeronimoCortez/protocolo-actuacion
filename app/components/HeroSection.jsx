@@ -1,4 +1,5 @@
 import DaeCentralCard from "./DaeCentralCard";
+import InstallAppButton from "./InstallAppButton";
 
 export default function HeroSection() {
   return (
@@ -11,6 +12,8 @@ export default function HeroSection() {
           Protocolo de Actuación ante situaciones emergentes en el ámbito escolar
         </h1>
       </div>
+
+      <InstallAppButton variant="home" className="md:hidden" />
 
       <DaeCentralCard className="lg:hidden" />
     </section>

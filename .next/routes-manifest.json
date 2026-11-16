@@ -63,6 +63,12 @@
       "namedRegex": "^/favicon\\.ico(?:/)?$"
     },
     {
+      "page": "/manifest.webmanifest",
+      "regex": "^/manifest\\.webmanifest(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/manifest\\.webmanifest(?:/)?$"
+    },
+    {
       "page": "/marco-teorico",
       "regex": "^/marco\\-teorico(?:/)?$",
       "routeKeys": {},

@@ -1,4 +1,4 @@
-// Sistema de iconos del Protocolo (DGE Mendoza): ejes, módulos y secciones.
+// Sistema de iconos del Protocolo (DGE Mendoza): ejes y secciones.
 
 export const SECTION_COLORS = {
   red: "#BC4749",
@@ -9,33 +9,50 @@ export const SECTION_COLORS = {
 };
 
 export const EJE_BRAND = {
-  1: { color: "#BB4748", modulo: 1, corto: "Violencias" },
-  2: { color: "#A7C958", modulo: 2, corto: "Consumos" },
-  3: { color: "#6A984D", modulo: 2, corto: "Suicidio" },
-  4: { color: "#03045E", modulo: 3, corto: "Trabajo Infantil" },
-  5: { color: "#0077B7", modulo: 3, corto: "Ausentismos" },
-  6: { color: "#00B4D7", modulo: 3, corto: "Desc. de paradero" },
-  7: { color: "#91E0EF", modulo: 3, corto: "Retraso en el retiro" },
-  8: { color: "#386640", modulo: 2, corto: "Crisis emocional" },
-  9: { color: "#593BB2", modulo: 4, corto: "Fallec. de estudiante" },
-  10: { color: "#7E6BFE", modulo: 4, corto: "Armas, explosivos (...)" },
-  11: { color: "#B8B0FE", modulo: 4, corto: "Com. Institucional" },
+  1: { color: "#BB4748", corto: "Violencias" },
+  2: { color: "#A7C958", corto: "Consumos" },
+  3: { color: "#6A984D", corto: "Suicidio" },
+  4: { color: "#03045E", corto: "Trabajo Infantil" },
+  5: { color: "#0077B7", corto: "Ausentismos" },
+  6: { color: "#00B4D7", corto: "Desc. de paradero" },
+  7: { color: "#91E0EF", corto: "Retraso en el retiro" },
+  8: { color: "#386640", corto: "Crisis emocional" },
+  9: { color: "#593BB2", corto: "Fallec. de estudiante" },
+  10: { color: "#7E6BFE", corto: "Armas, explosivos (...)" },
+  11: { color: "#B8B0FE", corto: "Com. Institucional" },
 };
 
-// Orden de ejes dentro de cada módulo según el sistema de iconos
-export const MODULOS = [
-  { numero: 1, color: "#BB4748", ejes: [1] },
-  { numero: 2, color: "#A7C958", ejes: [2, 3, 8] },
-  { numero: 3, color: "#0077B7", ejes: [4, 5, 6, 7] },
-  { numero: 4, color: "#7E6BFE", ejes: [9, 10, 11] },
-];
+// Iconos de "Palabras" del home (Actuar, Comprender, Recursos)
+export const PALABRA_COLORS = {
+  A: "#F13D4B",
+  C: "#FFAE00",
+  R: "#00BE6E",
+};
+
+export function PalabraIcon({ letra, className = "h-12 w-12", ...props }) {
+  const color = PALABRA_COLORS[letra];
+  if (!color) return null;
+
+  return (
+    <svg viewBox="0 0 24 24" className={`shrink-0 ${className}`} aria-hidden="true" {...props}>
+      <circle cx="12" cy="12" r="11.5" fill={color} />
+      <text
+        x="12"
+        y="16.8"
+        textAnchor="middle"
+        fontSize="13.5"
+        fontWeight="800"
+        fill="white"
+        fontFamily='"Helvetica Neue", Helvetica, Arial, sans-serif'
+      >
+        {letra}
+      </text>
+    </svg>
+  );
+}
 
 export function getEjeBrand(numero) {
   return EJE_BRAND[Number.parseInt(String(numero ?? ""), 10)] ?? null;
-}
-
-export function getModulo(numero) {
-  return MODULOS.find((modulo) => modulo.numero === numero) ?? null;
 }
 
 function starPoints() {
@@ -116,31 +133,8 @@ export function EjeIcon({ numero, className = "h-10 w-10", title, ...props }) {
       {...props}
     >
       {title ? <title>{title}</title> : null}
-      <circle cx="12" cy="12" r="12" fill={brand.color} />
+      <circle cx="12" cy="12" r="11.5" fill={brand.color} />
       {EJE_GLYPHS[key]}
-    </svg>
-  );
-}
-
-export function ModuloBadge({ numero, className = "h-8 w-8", ...props }) {
-  const modulo = getModulo(numero);
-  if (!modulo) return null;
-
-  return (
-    <svg viewBox="0 0 24 24" className={`shrink-0 ${className}`} aria-hidden="true" {...props}>
-      <circle cx="12" cy="12" r="11.25" fill="white" stroke={modulo.color} strokeWidth="1.5" />
-      <circle cx="12" cy="12" r="9.5" fill={modulo.color} />
-      <text
-        x="12"
-        y="16.6"
-        textAnchor="middle"
-        fontSize="13.5"
-        fontWeight="800"
-        fill="white"
-        fontFamily="Helvetica, Arial, sans-serif"
-      >
-        {modulo.numero}
-      </text>
     </svg>
   );
 }
@@ -148,7 +142,7 @@ export function ModuloBadge({ numero, className = "h-8 w-8", ...props }) {
 const ACTIVITY_SEGMENTS = ["#A7C958", "#2E8B6F", "#00ADD2", "#E53935", "#F88338", "#FFCD37"];
 
 function ActivitiesGlyph() {
-  const radius = 9.6;
+  const radius = 9.1;
   const circumference = 2 * Math.PI * radius;
   const segment = circumference / ACTIVITY_SEGMENTS.length;
 
@@ -168,7 +162,7 @@ function ActivitiesGlyph() {
           transform="rotate(-90 12 12)"
         />
       ))}
-      <circle cx="12" cy="12" r="7.2" fill="white" />
+      <circle cx="12" cy="12" r="6.7" fill="white" />
       <g fill="#1E293B">
         <rect x="8.4" y="9" width="1.5" height="1.5" rx="0.4" />
         <rect x="8.4" y="11.25" width="1.5" height="1.5" rx="0.4" />
@@ -184,7 +178,7 @@ function ActivitiesGlyph() {
 const SECTION_ICONS = {
   presentacion: {
     background: SECTION_COLORS.yellow,
-    glyph: <path d="M9.6 7.4 16.6 12 9.6 16.6Z" fill={SECTION_COLORS.red} />,
+    glyph: <path d="M8.7 7 16.7 12 8.7 17Z" fill={SECTION_COLORS.red} />,
   },
   "hoja-de-ruta": {
     background: SECTION_COLORS.cyan,
@@ -207,7 +201,7 @@ export function SectionIcon({ type, className = "h-8 w-8", ...props }) {
 
   return (
     <svg viewBox="0 0 24 24" className={`shrink-0 ${className}`} aria-hidden="true" {...props}>
-      {icon.background ? <circle cx="12" cy="12" r="12" fill={icon.background} /> : null}
+      {icon.background ? <circle cx="12" cy="12" r="11.5" fill={icon.background} /> : null}
       {icon.glyph}
     </svg>
   );

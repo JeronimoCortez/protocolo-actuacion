@@ -18,7 +18,7 @@ import ejeUno from "../data/ejes/ejeUno.json";
 import introduccion from "../data/ejes/introduccion.json";
 import FloatingEmergencyFab from "../components/FloatingEmergencyFab";
 import ProtocolStepsPdfActions from "../components/ProtocolStepsPdfActions";
-import { EjeIcon, MODULOS, ModuloBadge, SECTION_COLORS, SectionIcon, getEjeBrand } from "../components/brandIcons";
+import { EjeIcon, SECTION_COLORS, SectionIcon, getEjeBrand } from "../components/brandIcons";
 import {
   buildSearchKeywords,
   prepareFlexibleSearchIndex,
@@ -585,58 +585,7 @@ function ProtocolIntroduction({ data }) {
           ) : null}
         </div>
       ) : null}
-
-      {data.aclaracion ? (
-        <p className="rounded-md border border-amber-200 bg-amber-50 p-3 text-sm text-amber-900" style={{ borderLeftColor: SECTION_COLORS.yellow, borderLeftWidth: 6 }}>{data.aclaracion}</p>
-      ) : null}
     </section>
-  );
-}
-
-function EjePicker({ ejes, selectedEjeId, onSelect }) {
-  const ejesByNumero = new Map(ejes.map((eje) => [Number.parseInt(String(eje.numero), 10), eje]));
-
-  return (
-    <div role="group" aria-labelledby="eje-selector-label" className="mt-2 grid gap-3 md:grid-cols-2">
-      {MODULOS.map((modulo) => (
-        <div
-          key={modulo.numero}
-          className="rounded-xl border border-slate-200 bg-slate-50/60 p-3"
-          style={{ borderTopColor: modulo.color, borderTopWidth: 4 }}
-        >
-          <p className="flex items-center gap-2 text-sm font-bold tracking-tight text-[var(--heading)]">
-            <ModuloBadge numero={modulo.numero} className="h-7 w-7" />
-            Módulo {modulo.numero}
-          </p>
-          <div className="mt-2 space-y-1.5">
-            {modulo.ejes.map((numero) => {
-              const eje = ejesByNumero.get(numero);
-              if (!eje) return null;
-              const isActive = eje.id === selectedEjeId;
-              const color = getEjeBrand(numero)?.color;
-              return (
-                <button
-                  key={eje.id}
-                  type="button"
-                  aria-pressed={isActive}
-                  onClick={() => onSelect(eje.id)}
-                  className={`flex w-full items-center gap-3 rounded-lg border bg-white px-2.5 py-2 text-left text-sm font-medium tracking-tight text-slate-800 transition hover:border-slate-400 hover:shadow-sm ${
-                    isActive ? "shadow-sm ring-2" : "border-slate-200"
-                  }`}
-                  style={isActive ? { borderColor: color, "--tw-ring-color": `${color}55` } : undefined}
-                >
-                  <EjeIcon numero={numero} className="h-8 w-8" />
-                  <span>
-                    <span className="block text-xs font-semibold text-slate-500">Eje {eje.numero}</span>
-                    <span className="block leading-snug">{eje.nombre}</span>
-                  </span>
-                </button>
-              );
-            })}
-          </div>
-        </div>
-      ))}
-    </div>
   );
 }
 
@@ -978,7 +927,12 @@ function ProtocolosPageContent() {
   const selectedEje = useMemo(() => ejes.find((eje) => eje.id === selectedEjeId) ?? null, [ejes, selectedEjeId]);
   const subejes = selectedEje?.subejes ?? [];
   const showSubejeSelector = Boolean(selectedEje?.hasRealSubejes && subejes.length);
-  const selectedSubeje = useMemo(() => (selectedEje ? subejes.find((subeje) => subeje.id === selectedSubejeId) ?? subejes[0] ?? null : null), [selectedEje, subejes, selectedSubejeId]);
+  const selectedSubeje = useMemo(() => {
+    if (!selectedEje) return null;
+    const matched = subejes.find((subeje) => subeje.id === selectedSubejeId);
+    if (matched) return matched;
+    return showSubejeSelector ? null : subejes[0] ?? null;
+  }, [selectedEje, subejes, selectedSubejeId, showSubejeSelector]);
 
   const categoryOptions = useMemo(() => (selectedSubeje ? extractChildren(selectedSubeje) : []), [selectedSubeje]);
   const categoryScopeKey = selectedSubeje?.id ?? "";
@@ -1121,7 +1075,7 @@ function ProtocolosPageContent() {
   const handleSelectEje = (ejeId) => {
     const nextEje = ejes.find((item) => item.id === ejeId);
     setSelectedEjeId(ejeId);
-    setSelectedSubejeId(nextEje?.subejes?.[0]?.id ?? "");
+    setSelectedSubejeId(nextEje?.hasRealSubejes ? "" : nextEje?.subejes?.[0]?.id ?? "");
     setConditionSelections({});
   };
 
@@ -1321,20 +1275,31 @@ function ProtocolosPageContent() {
               )}
             </div>
 
-            <p id="eje-selector-label" className="label-text">
+            <label htmlFor="eje-selector" className="label-text">
               Eje principal
-            </p>
-            <EjePicker ejes={ejes} selectedEjeId={selectedEjeId} onSelect={handleSelectEje} />
+            </label>
+            <StyledSelect id="eje-selector" value={selectedEjeId} onChange={(event) => handleSelectEje(event.target.value)} >
+              <option value="">Debes seleccionar un eje</option>
+              {ejes.map((eje) => (
+                <option key={eje.id} value={eje.id} >
+                  Eje {eje.numero}: {eje.nombre}
+                </option>
+              ))}
+            </StyledSelect>
 
             {selectedEje && showSubejeSelector ? (
               <div className="mt-2 w-full">
                 <StyledSelect id="subeje-selector" value={selectedSubeje?.id ?? ""} onChange={(event) => handleSelectSubeje(event.target.value)}>
+                  <option value="">Debes seleccionar un subeje</option>
                   {subejes.map((subeje) => (
                     <option key={`select-${subeje.id}`} value={subeje.id}>
                       {subeje.numero ?? "S/N"} - {subeje.nombre}
                     </option>
                   ))}
                 </StyledSelect>
+                {!selectedSubeje ? (
+                  <p className="supporting-copy mt-3">Debes seleccionar un subeje para ver los titulos y pasos del protocolo.</p>
+                ) : null}
               </div>
             ) : !selectedEje ? (
               <p className="supporting-copy mt-3">Debes seleccionar un eje para ver los titulos y pasos del protocolo.</p>

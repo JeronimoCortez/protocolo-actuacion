@@ -3,6 +3,7 @@
   "/_not-found/page": "/_not-found",
   "/api/descargas/route": "/api/descargas",
   "/favicon.ico/route": "/favicon.ico",
+  "/manifest.webmanifest/route": "/manifest.webmanifest",
   "/marco-teorico/[slug]/page": "/marco-teorico/[slug]",
   "/marco-teorico/page": "/marco-teorico",
   "/page": "/",

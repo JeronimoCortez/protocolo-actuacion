@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { useMemo, useState } from "react";
 import { matchHeaderSearchEntries } from "../data/headerSearchIndex";
 import { MenuIcon, SearchIcon, XIcon } from "./icons";
+import InstallAppButton from "./InstallAppButton";
 
 export default function Header({ navItems }) {
   const router = useRouter();
@@ -101,6 +102,8 @@ export default function Header({ navItems }) {
               </div>
             ) : null}
           </div>
+
+          <InstallAppButton variant="header" className="hidden md:inline-flex" />
 
           <button
             type="button"

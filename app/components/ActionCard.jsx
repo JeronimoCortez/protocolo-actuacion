@@ -1,22 +1,20 @@
 import { ArrowRightIcon } from "./icons";
+import { PALABRA_COLORS, PalabraIcon } from "./brandIcons";
 
 const cardStyles = {
   red: {
     container:
       "border-[oklch(0.88_0.05_25)] bg-[oklch(0.97_0.01_25)] hover:-translate-y-0.5 hover:border-[oklch(0.7_0.15_25)] hover:shadow-action-red",
-    iconBg: "bg-[oklch(0.55_0.22_25)]",
     label: "text-[oklch(0.55_0.22_25)]",
   },
-  blue: {
+  yellow: {
     container:
-      "border-[oklch(0.88_0.04_250)] bg-[oklch(0.97_0.01_250)] hover:-translate-y-0.5 hover:border-[oklch(0.6_0.1_250)] hover:shadow-action-blue",
-    iconBg: "bg-[var(--primary)]",
-    label: "text-[var(--primary)]",
+      "border-[oklch(0.9_0.06_80)] bg-[oklch(0.98_0.02_85)] hover:-translate-y-0.5 hover:border-[oklch(0.8_0.15_75)] hover:shadow-action-yellow",
+    label: "text-[oklch(0.6_0.14_70)]",
   },
   green: {
     container:
       "border-[oklch(0.88_0.05_150)] bg-[oklch(0.97_0.01_150)] hover:-translate-y-0.5 hover:border-[oklch(0.6_0.12_150)] hover:shadow-action-green",
-    iconBg: "bg-[oklch(0.45_0.18_150)]",
     label: "text-[oklch(0.45_0.18_150)]",
   },
 };
@@ -32,18 +30,20 @@ export default function ActionCard({ card }) {
         card.disabled ? "cursor-not-allowed opacity-90" : "cursor-pointer"
       }`}
     >
-      <span
-        className={`flex h-14 w-14 shrink-0 items-center justify-center rounded-xl ${styles.iconBg}`}
-      >
-        <ArrowRightIcon className="h-6 w-6 text-white" />
-      </span>
+      {card.icon && PALABRA_COLORS[card.icon] ? (
+        <PalabraIcon letra={card.icon} className="h-14 w-14" />
+      ) : (
+        <span className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-slate-700">
+          <ArrowRightIcon className="h-6 w-6 text-white" />
+        </span>
+      )}
       <span>
         <span
           className={`label-text mb-1 block ${styles.label}`}
         >
           {card.label}
         </span>
-        <span className="card-title mb-0.5 block">
+        <span className="card-title mb-0.5 block text-lg italic">
           {card.title}
         </span>
         <span className="supporting-copy block">
